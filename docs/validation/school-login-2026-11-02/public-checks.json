@@ -8,7 +8,7 @@
       "liveDataMode": true,
       "demoPreview": false,
       "legacyDemoRoutesBlocked": true,
-      "testedBundleSha256": "2811c562b67901f5976d74af074e9aba85645606d5bad8f651d8961bebe8c82a"
+      "testedBundleSha256": "c8b90bfd674b38e4e50dd918e6dfc862152cf8e2696aa3b33bc35666f24d6eb9"
     },
     {
       "site": "https://ganit-safar-dashboard.vercel.app",
@@ -18,7 +18,7 @@
       "liveDataMode": true,
       "demoPreview": true,
       "legacyDemoRoutesBlocked": true,
-      "testedBundleSha256": "2811c562b67901f5976d74af074e9aba85645606d5bad8f651d8961bebe8c82a"
+      "testedBundleSha256": "c8b90bfd674b38e4e50dd918e6dfc862152cf8e2696aa3b33bc35666f24d6eb9"
     }
   ]
 }

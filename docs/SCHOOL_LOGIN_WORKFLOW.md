@@ -5,7 +5,7 @@
 1. The central administrator opens **Dashboard → Schools → Add school**.
 2. Saving generates one School ID and a random password for that school. Copy/save the credentials from the one-time dialog.
 3. The school uses those same credentials on the dashboard and classroom application.
-4. On each smartboard, sign in, select an existing classroom or tap **Add classroom**, then **Register and open learning**. The board name is optional and defaults to the classroom name.
+4. On each smartboard, sign in, select an existing classroom or tap **Add classroom**, then **Register and open learning**. The board name is optional under **Board details** and defaults to the classroom name. Device IDs are also kept inside that optional section.
 5. The school's dashboard shows only its own classrooms, connected boards and activity. Separate teacher, student and classroom passwords are not required.
 
 For a school created before this update, the central administrator opens its details and chooses **Generate school login**. The school ID remains visible in school details; the password cannot be read back after the one-time dialog is dismissed. Existing password-reset tools remain available to the central administrator. Existing users and assignments are preserved.
@@ -19,6 +19,7 @@ For a school created before this update, the central administrator opens its det
 - School users can create and manage their own classrooms and enroll boards without individual teacher assignments. Cross-school creation and enrollment are rejected by the API.
 - The classroom app takes an unconnected school login directly to board setup. Mathematics opens after successful enrollment. The central super administrator retains unlinked learning access.
 - School dashboard guidance presents classroom creation and the learning-app link. Separate teacher-account administration is omitted from the school sidebar; central administrator tools remain available.
+- Activity charts describe active accounts and account activity. A shared school account is not presented as individual teacher attendance; classroom/board activity remains separate.
 - All new interface instructions and labels support English, Marathi and combined modes. Existing language switching, lesson content and quiz behaviour are preserved.
 - The admin-only dashboard demo preview remains unchanged and is unavailable to generated school accounts. No demo mode is added to the learning app.
 - Existing signed offline classroom grants, HTTPS, school isolation and session-only quiz-score behaviour remain in place. Monitoring requires a network connection; offline learning follows the existing grant policy.

@@ -25,4 +25,4 @@ Got dependencies!
 21 packages have newer versions incompatible with dependency constraints.
 Try `flutter pub outdated` for more information.
 Analyzing CEP-Quiz...                                           
-No issues found! (ran in 3.0s)
+No issues found! (ran in 2.9s)

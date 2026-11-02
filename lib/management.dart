@@ -594,23 +594,20 @@ class _EnrollmentState extends State<ClassroomEnrollmentPage> {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 const CentralLanguageSelector(),
-                Text(
-                  '${tr('Device ID', 'साधन क्रमांक')}: ${account.installation}',
-                ),
-                Text(
-                  tr(
-                    'Use the same school login on each smartboard. Select this board’s classroom or add a classroom below. Each board connects to one classroom.',
-                    'प्रत्येक स्मार्ट फळ्यावर हाच शाळेचा आयडी वापरा. या फळ्याचा वर्ग निवडा किंवा खाली नवीन वर्ग जोडा. प्रत्येक फळा एका वर्गाला जोडला जातो.',
-                  ),
-                ),
-                if (kIsWeb)
-                  TextButton.icon(
-                    onPressed: () => browserPortal(true, false),
-                    icon: const Icon(Icons.dashboard_outlined),
-                    label: Text(
-                      tr('Open monitoring dashboard', 'निरीक्षण फलक उघडा'),
+                if (account.schools.length == 1)
+                  Text(
+                    account.schools.single['name'].toString(),
+                    style: const TextStyle(
+                      fontSize: 22,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
+                Text(
+                  tr(
+                    'Use the same school login on every board. Select or add this board’s classroom.',
+                    'प्रत्येक फळ्यावर शाळेचा हाच आयडी वापरा. या फळ्याचा वर्ग निवडा किंवा जोडा.',
+                  ),
+                ),
                 if (account.isClassroomAdministrator &&
                     account.schools
                             .where((s) => s['status'] == 'active')
@@ -621,6 +618,7 @@ class _EnrollmentState extends State<ClassroomEnrollmentPage> {
                     icon: const Icon(Icons.add),
                     label: Text(tr('Add classroom', 'वर्ग जोडा')),
                   ),
+                const SizedBox(height: 16),
                 if (account.classrooms.isEmpty)
                   Text(
                     tr(
@@ -656,15 +654,6 @@ class _EnrollmentState extends State<ClassroomEnrollmentPage> {
                     onChanged: (value) => setState(() => classroomId = value),
                   ),
                 const SizedBox(height: 16),
-                TextField(
-                  controller: name,
-                  decoration: InputDecoration(
-                    labelText: tr(
-                      'Whiteboard name (optional)',
-                      'फळ्याचे नाव (ऐच्छिक)',
-                    ),
-                  ),
-                ),
                 if (error.isNotEmpty) Text(error),
                 FilledButton(
                   onPressed:
@@ -699,6 +688,33 @@ class _EnrollmentState extends State<ClassroomEnrollmentPage> {
                     tr('Register and open learning', 'नोंदणी करून अभ्यास उघडा'),
                   ),
                 ),
+                ExpansionTile(
+                  title: Text(
+                    tr('Board details (optional)', 'फळ्याची माहिती (ऐच्छिक)'),
+                  ),
+                  children: [
+                    TextField(
+                      controller: name,
+                      decoration: InputDecoration(
+                        labelText: tr(
+                          'Whiteboard name (optional)',
+                          'फळ्याचे नाव (ऐच्छिक)',
+                        ),
+                      ),
+                    ),
+                    SelectableText(
+                      '${tr('Device ID', 'साधन क्रमांक')}: ${account.installation}',
+                    ),
+                  ],
+                ),
+                if (kIsWeb)
+                  TextButton.icon(
+                    onPressed: () => browserPortal(true, false),
+                    icon: const Icon(Icons.dashboard_outlined),
+                    label: Text(
+                      tr('Open monitoring dashboard', 'निरीक्षण फलक उघडा'),
+                    ),
+                  ),
               ],
             ),
           ),
@@ -2208,7 +2224,7 @@ class _ManagementPageState extends State<ManagementPage> {
           'अलीकडे सक्रिय वर्ग',
           o['recentlyActiveClassrooms'],
         ),
-        ('Active teachers', 'सक्रिय शिक्षक', o['activeTeachers']),
+        ('Active accounts', 'सक्रिय खाती', o['activeTeachers']),
         ('Active lessons', 'सुरू धडे', o['activeLessons']),
         ('Active practice sessions', 'सुरू सराव सत्रे', o['activePractice']),
         ('Active quizzes', 'सुरू प्रश्नमंजुषा', o['activeQuizzes']),
@@ -2462,9 +2478,10 @@ class _ManagementPageState extends State<ManagementPage> {
         Text(
           '${tr('Class', 'इयत्ता')} ${room['grade']} • ${room['section']} • ${room['status'] == 'active' ? tr('Active', 'सक्रिय') : tr('Disabled / archived', 'बंद / संग्रहित')}',
         ),
-        Text(
-          '${tr('Assigned teachers', 'नेमलेले शिक्षक')}: ${(room['teacher_ids'] as List).map((id) => nameOf('users', id)).join(', ')}',
-        ),
+        if (monitor.isSuperAdmin || (room['teacher_ids'] as List).isNotEmpty)
+          Text(
+            '${tr('Assigned teachers', 'नेमलेले शिक्षक')}: ${(room['teacher_ids'] as List).map((id) => nameOf('users', id)).join(', ')}',
+          ),
         Text(
           '${tr('Current activity', 'चालू कृती')}: ${(room['current_activities'] as List).map((item) => '${modeLabel(item['mode'])} ${chapterLabel(item['chapter'])}').join(' • ')}',
         ),
@@ -2872,7 +2889,7 @@ class _ManagementPageState extends State<ManagementPage> {
       for (final metric in [
         ('practiceByClass', 'Practice by class', 'इयत्तेनुसार सराव'),
         ('quizByClass', 'Quiz by class', 'इयत्तेनुसार प्रश्नमंजुषा'),
-        ('teacherActivity', 'Teacher activity', 'शिक्षकांच्या कृती'),
+        ('teacherActivity', 'Account activity', 'खात्यांच्या कृती'),
         ('versionDistribution', 'Version distribution', 'आवृत्ती वितरण'),
         ('errorFrequency', 'Error frequency', 'त्रुटींची वारंवारता'),
       ])

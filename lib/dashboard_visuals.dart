@@ -893,8 +893,8 @@ class DashboardOverview extends StatelessWidget {
                   : tr('Last known activity', 'शेवटची मिळालेली कृती'),
               value: '$active',
               note: tr(
-                '${_dashInt(o['activeTeachers'])} active teachers',
-                '${_dashInt(o['activeTeachers'])} सक्रिय शिक्षक',
+                '${_dashInt(o['activeTeachers'])} active accounts',
+                '${_dashInt(o['activeTeachers'])} सक्रिय खाती',
               ),
               icon: Icons.auto_stories_rounded,
               color: _dashTeal,
@@ -1443,7 +1443,7 @@ class DashboardAnalytics extends StatelessWidget {
         const SizedBox(height: 22),
         DashboardColumns(
           left: DashboardPanel(
-            title: tr('Teacher activity', 'शिक्षकांच्या कृती'),
+            title: tr('Account activity', 'खात्यांच्या कृती'),
             subtitle: tr(
               'Classroom session starts',
               'वर्गात सुरू झालेली सत्रे',

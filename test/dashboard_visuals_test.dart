@@ -298,7 +298,8 @@ void main() {
       );
       await tester.tap(find.text('Mango classroom'));
       await tester.pump(const Duration(milliseconds: 600));
-      expect(find.textContaining('Assigned teachers'), findsOneWidget);
+      expect(find.textContaining('Current activity:'), findsOneWidget);
+      expect(find.textContaining('Assigned teachers'), findsNothing);
       expect(find.text('Edit classroom'), findsNothing);
       expect(find.text('Assign teachers'), findsNothing);
       expect(tester.takeException(), isNull);
