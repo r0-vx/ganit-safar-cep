@@ -1,0 +1,12 @@
+{
+  "classroom": {
+    "url": "https://ganit-safar-smartboard.vercel.app",
+    "deployment": "3k4cthzxXf1oQrX25FQxq2XkbYfL",
+    "status": "ready"
+  },
+  "dashboard": {
+    "url": "https://ganit-safar-dashboard.vercel.app",
+    "deployment": "6BWM9Ze6BRmxktBkrA1f6s5vhFUC",
+    "status": "ready"
+  }
+}

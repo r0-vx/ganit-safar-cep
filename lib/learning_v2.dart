@@ -11,164 +11,319 @@ class ResponsiveHome extends StatelessWidget {
   });
   @override
   Widget build(BuildContext context) => LayoutBuilder(
-    builder: (context, c) => SingleChildScrollView(
-      padding: EdgeInsets.all(c.maxWidth < 500 ? 16 : 32),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Panel(
-            color: const Color(0xFFDBEAFE),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const Text(
-                  'Ganit Safar / गणित सफर',
-                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w900),
-                ),
-                const SizedBox(height: 10),
-                Text(
-                  tr(
-                    'Big adventures.\nLittle numbers.',
-                    'मोठी सफर.\nछोट्या संख्या.',
-                  ),
-                  style: TextStyle(
-                    fontSize: c.maxWidth < 500 ? 32 : 48,
-                    fontWeight: FontWeight.w900,
-                    color: green,
-                  ),
-                ),
-                const SizedBox(height: 12),
-                Text(
-                  tr(
-                    'Meet Mira and Ravi. Count, play and learn together.',
-                    'मीरा आणि रवीसोबत मोजा, खेळा आणि शिका.',
-                  ),
-                ),
-                const SizedBox(height: 16),
-                const Text('🧒  🥭  📚  🐢', style: TextStyle(fontSize: 40)),
-                const SizedBox(height: 16),
-                FilledButton.icon(
-                  onPressed: () => onGo('learn'),
-                  icon: const Icon(Icons.explore_outlined),
-                  label: Text(tr('Let’s explore', 'चला शिकूया')),
-                ),
-              ],
-            ),
-          ),
-          const SizedBox(height: 24),
-          Panel(
-            color: const Color(0xFFFEF3C7),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const Icon(Icons.menu_book_rounded, size: 40, color: green),
-                const SizedBox(height: 12),
-                Text(
-                  tr('Teach by chapter', 'पाठानुसार शिकवा'),
-                  style: const TextStyle(
-                    fontSize: 28,
-                    fontWeight: FontWeight.w900,
-                  ),
-                ),
-                const SizedBox(height: 8),
-                Text(
-                  tr(
-                    'Choose your class and open a familiar textbook chapter. All 79 chapter names are ready to browse.',
-                    'इयत्ता निवडा आणि पाठ्यपुस्तकातील परिचित पाठ उघडा. सर्व ७९ पाठांची नावे पाहा.',
-                  ),
-                ),
-                const SizedBox(height: 16),
-                FilledButton.icon(
-                  onPressed: () => onGo('chapters'),
-                  icon: const Icon(Icons.library_books),
-                  label: Text(
-                    tr('Open chapter directory', 'पाठांची यादी उघडा'),
-                  ),
-                ),
-              ],
-            ),
-          ),
-          const SizedBox(height: 24),
-          Text(
-            tr('Pick your learning path', 'तुमचा शिकण्याचा मार्ग निवडा'),
-            style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w800),
-          ),
-          const SizedBox(height: 16),
-          Wrap(
-            spacing: 16,
-            runSpacing: 16,
+    builder: (context, constraints) => SingleChildScrollView(
+      padding: EdgeInsets.all(constraints.maxWidth < 600 ? 16 : 30),
+      child: Center(
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(maxWidth: 1280),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              for (final x in [
-                ('learn', Icons.auto_stories, 'Learn', 'शिका'),
-                ('practice', Icons.gesture, 'Practice', 'सराव'),
-                ('quiz', Icons.extension, 'Quiz', 'प्रश्नमंजुषा'),
-              ])
-                SizedBox(
-                  width: c.maxWidth < 500
-                      ? c.maxWidth - 32
-                      : (c.maxWidth - 96) / 3,
-                  child: Panel(
-                    child: Column(
+              LearningSurface(
+                padding: EdgeInsets.zero,
+                child: LayoutBuilder(
+                  builder: (context, c) {
+                    final wide = c.maxWidth >= 850;
+                    final copy = Padding(
+                      padding: EdgeInsets.all(wide ? 36 : 22),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              Container(
+                                width: 28,
+                                height: 3,
+                                color: LearningPalette.clay,
+                              ),
+                              const SizedBox(width: 10),
+                              Flexible(
+                                child: Text(
+                                  tr(
+                                    'OUR MATHEMATICS CLASSROOM',
+                                    'आपला गणित वर्ग',
+                                  ),
+                                  style: const TextStyle(
+                                    fontSize: 12,
+                                    letterSpacing: 1.2,
+                                    fontWeight: FontWeight.w800,
+                                    color: LearningPalette.clay,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                          const SizedBox(height: 22),
+                          Text(
+                            tr(
+                              'Big adventures.\nLittle numbers.',
+                              'मोठी सफर.\nछोट्या संख्या.',
+                            ),
+                            style: TextStyle(
+                              fontSize: wide ? 43 : 30,
+                              height: 1.2,
+                              fontWeight: FontWeight.w900,
+                              color: store.contrast
+                                  ? Colors.black
+                                  : LearningPalette.ink,
+                            ),
+                          ),
+                          const SizedBox(height: 16),
+                          Text(
+                            tr(
+                              'Meet Mira and Ravi. Count, play and learn together.',
+                              'मीरा आणि रवीसोबत मोजा, खेळा आणि शिका.',
+                            ),
+                            style: const TextStyle(fontSize: 18, height: 1.6),
+                          ),
+                          const SizedBox(height: 24),
+                          FilledButton.icon(
+                            onPressed: () => onGo('learn'),
+                            icon: const Icon(Icons.arrow_forward_rounded),
+                            label: Text(tr('Let’s explore', 'चला शिकूया')),
+                          ),
+                        ],
+                      ),
+                    );
+                    final artwork = ClipRRect(
+                      borderRadius: BorderRadius.circular(19),
+                      child: LearningArtwork(
+                        asset: 'assets/art/classroom_story.png',
+                        height: wide ? 365 : 200,
+                        width: double.infinity,
+                        fit: BoxFit.cover,
+                      ),
+                    );
+                    return wide
+                        ? Row(
+                            children: [
+                              Expanded(child: copy),
+                              Expanded(child: artwork),
+                            ],
+                          )
+                        : Column(
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            children: [copy, artwork],
+                          );
+                  },
+                ),
+              ),
+              const SizedBox(height: 26),
+              LearningModeHeader(
+                title: tr('A little maths, every day.', 'दररोज थोडे गणित.'),
+                subtitle: tr(
+                  'Choose how you would like to begin.',
+                  'आज कशी सुरुवात करायची ते निवडा.',
+                ),
+              ),
+              const SizedBox(height: 14),
+              LayoutBuilder(
+                builder: (context, c) {
+                  final columns = c.maxWidth >= 720 ? 3 : 1;
+                  final width = (c.maxWidth - (columns - 1) * 16) / columns;
+                  final paths = [
+                    (
+                      'learn',
+                      Icons.auto_stories_outlined,
+                      'Learn',
+                      'शिका',
+                      'See it. Move it. Understand it.',
+                      'पाहा. हाताळा. समजून घ्या.',
+                      LearningPalette.teal,
+                    ),
+                    (
+                      'practice',
+                      Icons.edit_outlined,
+                      'Practice',
+                      'सराव',
+                      'A little help, then a fresh try.',
+                      'थोडी मदत, मग नवा प्रयत्न.',
+                      LearningPalette.blue,
+                    ),
+                    (
+                      'quiz',
+                      Icons.flag_outlined,
+                      'Quiz',
+                      'प्रश्नमंजुषा',
+                      'Put your ideas to the test.',
+                      'शिकलेले वापरून पाहा.',
+                      LearningPalette.clay,
+                    ),
+                  ];
+                  return Wrap(
+                    spacing: 16,
+                    runSpacing: 16,
+                    children: [
+                      for (var i = 0; i < paths.length; i++)
+                        SizedBox(
+                          width: width,
+                          child: LearningSurface(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Row(
+                                  children: [
+                                    Icon(
+                                      paths[i].$2,
+                                      size: 30,
+                                      color: paths[i].$7,
+                                    ),
+                                    const Spacer(),
+                                    Text(
+                                      '0${i + 1}',
+                                      style: TextStyle(
+                                        color: paths[i].$7,
+                                        fontSize: 18,
+                                        fontWeight: FontWeight.w800,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                const SizedBox(height: 14),
+                                Text(
+                                  tr(paths[i].$5, paths[i].$6),
+                                  style: const TextStyle(
+                                    fontSize: 16,
+                                    height: 1.5,
+                                  ),
+                                ),
+                                const SizedBox(height: 16),
+                                OutlinedButton.icon(
+                                  onPressed: () => onGo(paths[i].$1),
+                                  icon: const Icon(
+                                    Icons.arrow_forward,
+                                    size: 20,
+                                  ),
+                                  label: Text(tr(paths[i].$3, paths[i].$4)),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                    ],
+                  );
+                },
+              ),
+              const SizedBox(height: 24),
+              LearningSurface(
+                color: const Color(0xFFE8EDDF),
+                child: LayoutBuilder(
+                  builder: (context, c) {
+                    final text = Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Icon(x.$2, size: 36, color: green),
-                        const SizedBox(height: 16),
-                        FilledButton(
-                          onPressed: () => onGo(x.$1),
-                          child: Text(tr(x.$3, x.$4)),
+                        Text(
+                          tr('Teach by chapter', 'पाठानुसार शिकवा'),
+                          style: const TextStyle(
+                            fontSize: 26,
+                            fontWeight: FontWeight.w900,
+                            color: LearningPalette.ink,
+                          ),
+                        ),
+                        const SizedBox(height: 8),
+                        Text(
+                          tr(
+                            'Choose your class and open a familiar textbook chapter. All 79 chapter names are ready to browse.',
+                            'इयत्ता निवडा आणि पाठ्यपुस्तकातील परिचित पाठ उघडा. सर्व ७९ पाठांची नावे पाहा.',
+                          ),
+                          style: const TextStyle(height: 1.6, fontSize: 17),
+                        ),
+                      ],
+                    );
+                    final button = OutlinedButton.icon(
+                      onPressed: () => onGo('chapters'),
+                      icon: const Icon(Icons.library_books_outlined),
+                      label: Text(
+                        tr('Open chapter directory', 'पाठांची यादी उघडा'),
+                      ),
+                    );
+                    return c.maxWidth > 850
+                        ? Row(
+                            children: [
+                              Expanded(child: text),
+                              const SizedBox(width: 24),
+                              button,
+                            ],
+                          )
+                        : Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              text,
+                              const SizedBox(height: 16),
+                              button,
+                            ],
+                          );
+                  },
+                ),
+              ),
+              const SizedBox(height: 24),
+              LearningSurface(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Icon(
+                          Icons.spa_outlined,
+                          color: LearningPalette.teal,
+                          size: 30,
+                        ),
+                        const SizedBox(width: 14),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                tr('Your learning garden', 'तुमची अभ्यासबाग'),
+                                style: const TextStyle(
+                                  fontSize: 23,
+                                  fontWeight: FontWeight.w800,
+                                ),
+                              ),
+                              const SizedBox(height: 8),
+                              Text(
+                                tr(
+                                  '${store.stars} stars • ${store.completed.length + store.completedChapters.length} lessons',
+                                  '${store.stars} तारे • ${store.completed.length + store.completedChapters.length} धडे',
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
                       ],
                     ),
-                  ),
-                ),
-            ],
-          ),
-          const SizedBox(height: 24),
-          Panel(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  tr('Your learning garden', 'तुमची अभ्यासबाग'),
-                  style: const TextStyle(
-                    fontSize: 22,
-                    fontWeight: FontWeight.w800,
-                  ),
-                ),
-                const SizedBox(height: 12),
-                Text(
-                  tr(
-                    '${store.stars} stars • ${store.completed.length + store.completedChapters.length} lessons',
-                    '${store.stars} तारे • ${store.completed.length + store.completedChapters.length} धडे',
-                  ),
-                ),
-                Wrap(
-                  spacing: 12,
-                  children: [
-                    TextButton.icon(
-                      onPressed: onProgress,
-                      icon: const Icon(Icons.bar_chart),
-                      label: Text(tr('My progress', 'माझी प्रगती')),
-                    ),
-                    TextButton.icon(
-                      onPressed: onTeacher,
-                      icon: const Icon(Icons.school),
-                      label: Text(tr('Teacher mode', 'शिक्षक मोड')),
+                    const SizedBox(height: 12),
+                    Wrap(
+                      spacing: 12,
+                      runSpacing: 8,
+                      children: [
+                        TextButton.icon(
+                          onPressed: onProgress,
+                          icon: const Icon(Icons.bar_chart),
+                          label: Text(tr('My progress', 'माझी प्रगती')),
+                        ),
+                        TextButton.icon(
+                          onPressed: onTeacher,
+                          icon: const Icon(Icons.school_outlined),
+                          label: Text(tr('Teacher mode', 'शिक्षक मोड')),
+                        ),
+                      ],
                     ),
                   ],
                 ),
-              ],
-            ),
+              ),
+              const SizedBox(height: 20),
+              Text(
+                tr(
+                  '79 textbook chapter titles • Original classroom activities',
+                  'पाठ्यपुस्तकातील ७९ पाठांची नावे • मूळ वर्गकृती',
+                ),
+                style: const TextStyle(fontSize: 12),
+              ),
+            ],
           ),
-          const SizedBox(height: 16),
-          Text(
-            tr(
-              '79 textbook chapter titles • Original classroom activities',
-              'पाठ्यपुस्तकातील ७९ पाठांची नावे • मूळ वर्गकृती',
-            ),
-            style: const TextStyle(fontSize: 12),
-          ),
-        ],
+        ),
       ),
     ),
   );

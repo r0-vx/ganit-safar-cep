@@ -25,6 +25,10 @@ part 'account_menu.dart';
 part 'management_forms.dart';
 part 'school_accounts.dart';
 part 'chapter_screens.dart';
+part 'chapter_lessons.dart';
+part 'chapter_sessions.dart';
+part 'learning_design.dart';
+part 'math_scene.dart';
 part 'board_ui.dart';
 
 final store = AppStore();
@@ -82,11 +86,7 @@ class GanitApp extends StatelessWidget {
       navigatorKey: appNavigator,
       title: 'Ganit Safar / गणित सफर',
       debugShowCheckedModeBanner: false,
-      theme: boardTheme(
-        contrast: store.contrast,
-        largeText: store.largeText,
-        smartboard: store.smartboard,
-      ),
+      theme: ganitAppTheme(),
       builder: (context, child) => MediaQuery(
         data: MediaQuery.of(
           context,
@@ -519,7 +519,9 @@ class _ShellState extends State<Shell> {
                     SizedBox(
                       width: 232,
                       child: Material(
-                        color: Colors.white,
+                        color: store.contrast
+                            ? Colors.white
+                            : LearningPalette.surface,
                         child: navigation(false),
                       ),
                     ),
@@ -2850,54 +2852,14 @@ class _QuestionActivityState extends State<QuestionActivity> {
                 )
                 .toList(),
           ),
-        if (correct != null) ...[
-          const SizedBox(height: 20),
-          Container(
-            padding: const EdgeInsets.all(18),
-            decoration: BoxDecoration(
-              color: correct == true
-                  ? const Color(0xFFE4F1DD)
-                  : const Color(0xFFFFF1D8),
-              borderRadius: BorderRadius.circular(16),
-            ),
-            child: Column(
-              children: [
-                if (correct == true)
-                  TweenAnimationBuilder<double>(
-                    tween: Tween(begin: store.reducedMotion ? 1 : .85, end: 1),
-                    duration: Duration(
-                      milliseconds: store.reducedMotion ? 0 : 350,
-                    ),
-                    builder: (c, v, child) =>
-                        Transform.scale(scale: v, child: child),
-                    child: const Text('🧒 ⭐', style: TextStyle(fontSize: 32)),
-                  ),
-                Text(
-                  correct == true
-                      ? tr(
-                          '⭐ Wonderful work, explorer!',
-                          '⭐ शाब्बास, छोट्या शोधका!',
-                        )
-                      : tr(
-                          '🌱 A good try! Let’s look together.',
-                          '🌱 छान प्रयत्न! आपण मिळून पाहूया.',
-                        ),
-                  style: const TextStyle(
-                    fontSize: 19,
-                    fontWeight: FontWeight.w800,
-                    color: green,
-                  ),
-                ),
-                if (correct == false)
-                  Text(
-                    q.explanation.inLanguage(store.language),
-                    textAlign: TextAlign.center,
-                    style: const TextStyle(height: 1.7),
-                  ),
-              ],
-            ),
+        if (correct != null)
+          AnswerFeedback(
+            correct: correct!,
+            playSound: false,
+            explanation: correct == true
+                ? tr('⭐ Wonderful work, explorer!', '⭐ शाब्बास, छोट्या शोधका!')
+                : '${tr('🌱 A good try! Let’s look together.', '🌱 छान प्रयत्न! आपण मिळून पाहूया.')}\n${q.explanation.inLanguage(store.language)}',
           ),
-        ],
         if (widget.practice) ...[
           const SizedBox(height: 12),
           Wrap(

@@ -1,5 +1,7 @@
 # Ganit Safar / गणित सफर
 
+**Immersive classroom frontend (2 November 2026):** the learner site now has original storybook artwork, a six-stage Learn journey, precise topic diagrams, consistent answer appreciation, a compact Practice Help panel and submitted-answer quiz results. School accounts, dashboard design, teacher tools and saved-data formats are preserved. [Feature coverage and verification](docs/IMMERSIVE_UI_FEATURE_AUDIT.md). [Bundled artwork and prompts](assets/art/ARTWORK.md).
+
 **One login per school (2 November 2026):** creating a school now generates a School ID and password. The same login works on both sites; each smartboard can create/select its classroom and connect directly without separate teacher accounts. Existing schools have a **Generate school login** action. [Workflow and verification](docs/SCHOOL_LOGIN_WORKFLOW.md).
 
 **Sign-in and school workflow update (2 November 2026):** both sites use the same live accounts. The classroom app opens the full learning experience and has a right-aligned account avatar with account details, classroom connection and sign-out. School creation validates required fields and generates an optional code; each school has direct classroom creation and scoped monitoring. Demo data is a read-only, authenticated super-administrator preview in the dashboard only. There are no demo sign-in pages or classroom demo mode. [Changes and verification](docs/SIGN_IN_SCHOOL_WORKFLOW_FIX.md).

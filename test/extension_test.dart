@@ -191,6 +191,10 @@ void main() {
       await tester.pump();
       expect(store.stars, 1);
       expect(find.text('⭐ Wonderful work, explorer!'), findsOneWidget);
+      // Re-submitting a solved input must not award the same practice star twice.
+      await tester.testTextInput.receiveAction(TextInputAction.done);
+      await tester.pump();
+      expect(store.stars, 1);
     },
   );
   testWidgets('Sidebar opens as mobile overlay and closes with keyboard', (

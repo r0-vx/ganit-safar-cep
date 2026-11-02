@@ -61,34 +61,39 @@ void main() {
     expect(find.text('Chapter 1 • My village'), findsOneWidget);
     expect(find.text(chapter.lesson.story.en), findsOneWidget);
 
-    for (var i = 0; i < 3; i++) {
-      final next = find.text('Next step');
+    Future<void> nextStage() async {
+      final next = find.byKey(const ValueKey('lesson-next'));
       await tester.ensureVisible(next);
       await tester.tap(next);
       await tester.pumpAndSettle();
     }
+
+    await nextStage();
+    expect(find.byType(MathScene), findsOneWidget);
     expect(
-      find.textContaining('Touch the objects to explore the idea'),
-      findsOneWidget,
+      tester.widget<MathScene>(find.byType(MathScene)).interactive,
+      isTrue,
     );
+    expect(find.textContaining('Step 2 of 6'), findsOneWidget);
+    await nextStage();
+    expect(find.text(chapter.lesson.concept.en), findsOneWidget);
+    await nextStage();
+    expect(find.textContaining('Step 4 of 6'), findsOneWidget);
 
-    final checkQuestion = chapter.questions(count: 5).first;
-    final nextToCheck = find.text('Next step');
-    await tester.ensureVisible(nextToCheck);
-    await tester.tap(nextToCheck);
-    await tester.pumpAndSettle();
-    final correctOption = find.text(
-      checkQuestion.options[checkQuestion.correctIndex].en,
-    );
-    await tester.ensureVisible(correctOption);
-    await tester.tap(correctOption);
-    await tester.pumpAndSettle();
-    expect(find.text('That’s right. You are ready to recap.'), findsOneWidget);
-
-    final recap = find.text('Continue to recap');
-    await tester.ensureVisible(recap);
-    await tester.tap(recap);
-    await tester.pumpAndSettle();
+    final questions = chapter.questions(count: 5);
+    for (final question in questions.take(2)) {
+      final next = tester.widget<FilledButton>(
+        find.byKey(const ValueKey('lesson-next')),
+      );
+      expect(next.onPressed, isNull, reason: 'A successful check is required');
+      final correctOption = find.text(
+        question.options[question.correctIndex].en,
+      );
+      await tester.ensureVisible(correctOption);
+      await tester.tap(correctOption);
+      await tester.pumpAndSettle();
+      await nextStage();
+    }
     expect(find.text('Chapter lesson complete'), findsOneWidget);
     expect(store.isChapterDone(chapter.id), isTrue);
     expect(store.stars, 3);
@@ -105,13 +110,16 @@ void main() {
     await tester.ensureVisible(next);
     await tester.tap(next);
     await tester.pumpAndSettle();
+    await tester.ensureVisible(next);
+    await tester.tap(next);
+    await tester.pumpAndSettle();
     expect(find.text(chapter.lesson.concept.en), findsOneWidget);
 
     await _switchToMarathi(tester);
 
     expect(store.language, 1);
     expect(find.text(chapter.lesson.concept.mr), findsOneWidget);
-    expect(find.textContaining('टप्पा 2 / 6'), findsOneWidget);
+    expect(find.textContaining('टप्पा 3 / 6'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
 
@@ -132,13 +140,25 @@ void main() {
     await tester.ensureVisible(answer);
     await tester.tap(answer);
     await tester.pumpAndSettle();
-    expect(find.byIcon(Icons.check_circle_rounded), findsOneWidget);
+    expect(
+      find.descendant(
+        of: find.byKey(ValueKey('session-answer-$wrongIndex')),
+        matching: find.byIcon(Icons.check_circle_rounded),
+      ),
+      findsOneWidget,
+    );
 
     await _switchToMarathi(tester);
 
     expect(store.language, 1);
     expect(find.text(wrongOption.mr), findsOneWidget);
-    expect(find.byIcon(Icons.check_circle_rounded), findsOneWidget);
+    expect(
+      find.descendant(
+        of: find.byKey(ValueKey('session-answer-$wrongIndex')),
+        matching: find.byIcon(Icons.check_circle_rounded),
+      ),
+      findsOneWidget,
+    );
     expect(
       find.text('छान प्रयत्न. पुन्हा पाहा आणि उत्तर बदला.'),
       findsOneWidget,
@@ -186,9 +206,13 @@ void main() {
         final index = i == 0
             ? (question.correctIndex + 1) % question.options.length
             : question.correctIndex;
-        final choice = find.text(question.options[index].en);
+        final choice = find.byKey(ValueKey('session-answer-$index'));
         await tester.ensureVisible(choice);
         await tester.tap(choice);
+        await tester.pumpAndSettle();
+        final submit = find.text('Submit answer');
+        await tester.ensureVisible(submit);
+        await tester.tap(submit);
         await tester.pumpAndSettle();
 
         final advance = find.text(

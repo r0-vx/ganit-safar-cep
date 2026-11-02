@@ -1,0 +1,24 @@
+{
+  "checks": [
+    {
+      "site": "https://ganit-safar-smartboard.vercel.app",
+      "surface": "classroom",
+      "sharedAdminLogin": true,
+      "refreshAndLogout": true,
+      "liveDataMode": true,
+      "demoPreview": false,
+      "legacyDemoRoutesBlocked": true,
+      "testedBundleSha256": "30228e16eabacc1d3ce298a3b8c214ddb2f6695cd32339d6c701ec14a83c4464"
+    },
+    {
+      "site": "https://ganit-safar-dashboard.vercel.app",
+      "surface": "dashboard",
+      "sharedAdminLogin": true,
+      "refreshAndLogout": true,
+      "liveDataMode": true,
+      "demoPreview": true,
+      "legacyDemoRoutesBlocked": true,
+      "testedBundleSha256": "30228e16eabacc1d3ce298a3b8c214ddb2f6695cd32339d6c701ec14a83c4464"
+    }
+  ]
+}

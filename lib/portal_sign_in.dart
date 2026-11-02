@@ -16,7 +16,8 @@ class PortalSignInView extends StatelessWidget {
     required this.onContinueOffline,
   });
 
-  Color get accent => dashboard ? const Color(0xFF6D28D9) : green;
+  Color get accent =>
+      dashboard ? const Color(0xFF6D28D9) : LearningPalette.teal;
   String get title => dashboard
       ? tr('Monitoring dashboard sign in', 'निरीक्षण फलकावर प्रवेश')
       : tr('Classroom app sign in', 'गणित अॅपमध्ये प्रवेश');
@@ -24,7 +25,7 @@ class PortalSignInView extends StatelessWidget {
   Widget _hero(bool wide) => Container(
     padding: EdgeInsets.all(wide ? 32 : 20),
     decoration: BoxDecoration(
-      color: dashboard ? const Color(0xFFF1EBFF) : const Color(0xFFE1EDFF),
+      color: dashboard ? const Color(0xFFF1EBFF) : LearningPalette.paper,
       borderRadius: BorderRadius.circular(28),
     ),
     child: Column(
@@ -47,11 +48,22 @@ class PortalSignInView extends StatelessWidget {
           ],
         ),
         const SizedBox(height: 24),
-        Icon(
-          dashboard ? Icons.monitor_heart_outlined : Icons.auto_stories_rounded,
-          size: wide ? 76 : 44,
-          color: accent,
-        ),
+        if (dashboard)
+          Icon(
+            Icons.monitor_heart_outlined,
+            size: wide ? 76 : 44,
+            color: accent,
+          )
+        else
+          ClipRRect(
+            borderRadius: BorderRadius.circular(16),
+            child: LearningArtwork(
+              asset: 'assets/art/classroom_story.png',
+              height: wide ? 200 : 150,
+              width: double.infinity,
+              fit: BoxFit.cover,
+            ),
+          ),
         const SizedBox(height: 20),
         Text(
           dashboard
