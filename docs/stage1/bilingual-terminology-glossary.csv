@@ -1,0 +1,51 @@
+marathi,english,first_class,source_note,review_status
+माझे गाव,my village,1,Class 1 chapter 1,textbook-verified
+आधी-नंतर,before and after,1,Class 1 chapter 3,textbook-verified
+जवळ-दूर,near and far,1,Class 1 chapter 4,textbook-verified
+घरंगळणे-घसरणे,rolling and sliding,1,Class 1 chapter 6,textbook-verified
+संख्या,number,1,Class 1 chapter 7,textbook-verified
+शून्य,zero,1,Class 1 chapter 8 and curriculum table,textbook-verified
+बेरीज,addition,1,Class 1 chapter 10,textbook-verified
+वजाबाकी,subtraction,1,Class 1 chapter 11,textbook-verified
+लगतची पुढची संख्या,next number,1,Class 1 chapter 13,textbook-verified
+लगतची मागची संख्या,previous number,1,Class 1 chapter 13,textbook-verified
+मधली संख्या,number between,1,Class 1 chapter 13,textbook-verified
+चढता क्रम,ascending order,1,Class 1 chapter 15,textbook-verified
+उतरता क्रम,descending order,1,Class 1 chapter 15,textbook-verified
+आकृतिबंध,pattern,1,Class 1 chapter 22,textbook-verified
+मापन,measurement,1,Class 1 chapter 23,textbook-verified
+कालमापन,time measurement,1,Class 1 chapter 24,textbook-verified
+नाणी व नोटा,coins and notes,1,Class 1 chapter 26,textbook-verified
+समान वाटणी,equal sharing,1,Class 1 chapter 28,textbook-verified
+समान गट,equal groups,1,Class 1 chapter 28,textbook-verified
+गणितीय कोडी,mathematical puzzles,1,Class 1 chapter 29,textbook-verified
+भौमितिक आकार,geometric shape,2,Class 2 chapter 1,textbook-verified
+संख्यानामे,number names,2,Class 2 chapter 2,textbook-verified
+एकक,ones unit,2,Class 2 chapter 3,textbook-verified
+दशक,tens unit,2,Class 2 chapter 3,textbook-verified
+दर्शनी किंमत,face value,2,Class 2 chapter 4,textbook-verified
+स्थानिक किंमत,place value,2,Class 2 chapter 4,textbook-verified
+टप्प्याने मोजणी,skip counting,2,Class 2 chapter 7,textbook-verified
+हातच्याची बेरीज,addition with regrouping,2,Class 2 chapter 14,textbook-verified
+दशक मोकळा करून,by unbundling a ten,2,Class 2 chapter 15,textbook-verified
+भागाकार,division,2,Class 2 chapter 21,textbook-verified
+अपूर्णांक,fraction,3,Class 3 chapter 4,textbook-verified
+अर्धा,half,3,Class 3 chapter 4,textbook-verified
+पाव,quarter,3,Class 3 chapter 4,textbook-verified
+पाऊण,three quarters,3,Class 3 chapter 4,textbook-verified
+अंश,numerator,3,Class 3 chapter 4,textbook-verified
+छेद,denominator,3,Class 3 chapter 4,textbook-verified
+छेदाधिक अपूर्णांक,proper fraction,3,Class 3 chapter 4,needs-human-review
+अंशाधिक अपूर्णांक,improper fraction,3,Class 3 chapter 4,needs-human-review
+लांबी,length,3,Class 3 chapter 5,textbook-verified
+वजन,weight,3,Class 3 chapter 5,textbook-verified
+माहितीचे व्यवस्थापन,data organisation,3,Class 3 chapter 6,textbook-verified
+नजरी नकाशा,sketch map,3,Class 3 chapter 7,textbook-verified
+द्विमितीय आकार,two-dimensional shape,3,Class 3 chapter 10,textbook-verified
+सममिती,symmetry,3,Class 3 chapter 11,textbook-verified
+आकारमान,volume,3,Class 3 chapter 12,textbook-verified
+धारकता,capacity,3,Class 3 chapter 12,textbook-verified
+परिमिती,perimeter,4,Class 4 chapter 11,textbook-verified
+क्षेत्रफळ,area,4,Class 4 chapter 11,textbook-verified
+चित्रालेख,pictograph,4,Class 4 chapter 6 and curriculum table,needs-human-review
+प्रतिबिंब,reflection,4,Class 4 chapter 10,needs-human-review

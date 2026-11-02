@@ -1,0 +1,20 @@
+[
+  {
+    "asset": "index.html",
+    "status": 200,
+    "bytes": 1612,
+    "matches_local": true
+  },
+  {
+    "asset": "main.dart.js",
+    "status": 200,
+    "bytes": 3105980,
+    "matches_local": true
+  },
+  {
+    "asset": "canvaskit/canvaskit.wasm",
+    "status": 200,
+    "bytes": 7284602,
+    "matches_local": true
+  }
+]

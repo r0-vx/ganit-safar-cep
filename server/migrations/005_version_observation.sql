@@ -1,0 +1,2 @@
+-- Version 5 adds devices.version_updated_at using the database adapter.
+-- This is the server observation time, not a claimed device installation time.

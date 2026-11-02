@@ -1,0 +1,11 @@
+{
+  "build/monitor-web/main.dart.js": "ec169807a17e4f43289d381119ed157e85c397a285eed7e220f221bfa5c4e885",
+  "server/app.py": "be4de614d9721e924b41c2c58082048c214773a3f183055a3358d850e184ab76",
+  "server/database.py": "af3a518e8c59e1589aa8b5a6ecc546f97f239e4ffd8c0fa7e75bd14a2e20ba15",
+  "server/wsgi.py": "a07a398ea40a5b74ea832d3d0c0df7c73407775828de0c69a6e7cee53eb6f9ef",
+  "server/requirements.lock": "4131c6c2e18803c4044c2dc97b8a2eca690fc2faa5a3c74d4f9a19284bfacfac",
+  "lib/central_client.dart": "2c9041a959ac3592df4f3461396c660429706b8f70938b2f25b93e3cd840ccc2",
+  "lib/management.dart": "dd5fdf64f9e432c21319936cae48b6cb7597aca1bfd9fabe610d3281dc9a73d1",
+  "lib/main.dart": "0ed1172c234d928979bac527fbc71505d4eccffe2662dc86a7c96e3c0d322e85",
+  "lib/store.dart": "33b4304de86c1fba01232a05565d9edae530358aef7afa7e201e14d81060261e"
+}

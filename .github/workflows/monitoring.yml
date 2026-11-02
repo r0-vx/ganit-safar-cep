@@ -1,0 +1,46 @@
+name: Validate central classroom monitoring
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master, 'codex/**']
+  pull_request:
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test
+      - run: flutter test test/managed_gate_test.dart --dart-define=GANIT_API_URL=http://localhost:8789
+      - run: flutter build web --release --no-web-resources-cdn --no-wasm-dry-run --dart-define=GANIT_MANAGED=true --dart-define=GANIT_API_URL=https://example.invalid/api
+  backend:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: ganit_test
+          POSTGRES_DB: ganit_monitor
+          # Disposable isolated CI service only. Production requires managed TLS/auth.
+          POSTGRES_HOST_AUTH_METHOD: trust
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U ganit_test -d ganit_monitor"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r server/requirements.lock
+      - run: python -m unittest -v test_api test_transport test_presentation
+        working-directory: server
+      - run: python -m unittest -v test_api test_presentation
+        working-directory: server
+        env:
+          GANIT_TEST_DATABASE_URL: postgresql://ganit_test@localhost:5432/ganit_monitor

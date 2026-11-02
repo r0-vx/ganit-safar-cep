@@ -1,0 +1,9 @@
+test_01_auth_and_storage (test_api.CentralTests.test_01_auth_and_storage) ... ok
+test_02_devices_roles_and_revocation (test_api.CentralTests.test_02_devices_roles_and_revocation) ... ok
+test_03_classroom_reassignment_and_expired_session (test_api.CentralTests.test_03_classroom_reassignment_and_expired_session) ... ok
+test_04_invalid_requests (test_api.CentralTests.test_04_invalid_requests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.190s
+
+OK

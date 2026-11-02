@@ -1,0 +1,3 @@
+-- Migration 4 in database.py adds devices.connection_state. Snapshot maintenance
+-- records heartbeat expiry as a single device_disconnected audit event, and
+-- logout/revocation no longer present an authenticated classroom as online.

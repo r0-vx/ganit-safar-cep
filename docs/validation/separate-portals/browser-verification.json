@@ -1,0 +1,14 @@
+{
+  "classroomSignIn": "https://ganit-safar-smartboard.vercel.app/sign-in?presentation=1",
+  "dashboardSignIn": "https://ganit-safar-dashboard.vercel.app/sign-in?presentation=1",
+  "verified": [
+    "Distinct classroom and dashboard forms rendered from their separate canonical links.",
+    "The same requested administrator credentials opened classroom Home and administrator monitoring, respectively.",
+    "Classroom administrator opened Class 1, Chapter 10 Addition from the chapter directory.",
+    "Already-open dashboard changed active lessons to one after the lesson started, and back to zero after Back; no dashboard refresh.",
+    "The same account password authenticated online classroom Teacher Mode.",
+    "Teacher Mode was locked and classroom Home restored after verification."
+  ],
+  "presentationDataLabelled": true,
+  "liveDataNotSeeded": true
+}

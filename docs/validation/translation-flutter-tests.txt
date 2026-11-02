@@ -1,0 +1,68 @@
+00:00 +0: loading /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/translation_review_widget_test.dart
+00:00 +0: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/translation_review_widget_test.dart: mango teaching uses the reviewed classroom wording
+00:01 +1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 375.0 settings, records, teams and teacher tools fit large bilingual text
+00:01 +2: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 375.0 settings, records, teams and teacher tools fit large bilingual text
+00:02 +3: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/translation_review_widget_test.dart: teacher can save separate draft, classroom wording and review notes
+00:03 +4: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/translation_review_widget_test.dart: teacher can save separate draft, classroom wording and review notes
+00:03 +5: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 1024.0 settings, records, teams and teacher tools fit large bilingual text
+00:03 +6: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 1440.0 settings, records, teams and teacher tools fit large bilingual text
+00:04 +7: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 1440.0 settings, records, teams and teacher tools fit large bilingual text
+00:04 +8: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 1440.0 settings, records, teams and teacher tools fit large bilingual text
+00:04 +9: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 1440.0 settings, records, teams and teacher tools fit large bilingual text
+00:04 +10: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/translation_review_test.dart: every chapter and supported sample type exports review-ready text
+00:04 +11: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/translation_review_test.dart: every chapter and supported sample type exports review-ready text
+00:04 +12: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/translation_review_test.dart: every chapter and supported sample type exports review-ready text
+00:04 +13: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/translation_review_test.dart: every chapter and supported sample type exports review-ready text
+00:05 +14: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Practice empty selection disables start
+00:05 +15: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Practice empty selection disables start
+00:05 +16: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/content_test.dart: Every class/topic has ten valid bilingual sample questions
+00:05 +17: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/content_test.dart: Mango introduction and arithmetic stay correct
+00:05 +18: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/content_test.dart: Progress persists, badges are idempotent, profiles isolated, backup restores
+00:05 +19: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/content_test.dart: Invalid backup is rejected
+00:05 +20: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/content_test.dart: Each grade/topic bank provides at least ten distinct question variants
+00:06 +21: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: All curriculum rows have bilingual definitions, prerequisites and source status
+00:06 +22: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: All class/topic/type templates validate across 30 numerical variants
+00:06 +23: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Generated sessions have unique questions and repeatable fixed order
+00:06 +24: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Generated sessions have unique questions and repeatable fixed order
+00:06 +25: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_progress_test.dart: old backup defaults board controls and preserves original progress
+00:06 +26: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Old v1 backups preserve progress while defaulting new preferences
+00:06 +27: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Old v1 backups preserve progress while defaulting new preferences
+00:06 +28: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 375.0 supports bilingual larger text across setup and help
+00:08 +29: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 375.0 supports bilingual larger text across setup and help
+00:08 +30: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 375.0 supports bilingual larger text across setup and help
+00:08 +31: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 375.0 supports bilingual larger text across setup and help
+00:08 +32: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 768.0 supports bilingual larger text across setup and help
+00:09 +33: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: directory exposes the approved chapter count for each class
+00:10 +34: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: directory exposes the approved chapter count for each class
+00:10 +35: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 1440.0 supports bilingual larger text across setup and help
+00:10 +36: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: touching a chapter opens the lesson and completes its stages
+00:11 +37: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: touching a chapter opens the lesson and completes its stages
+00:11 +38: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: touching a chapter opens the lesson and completes its stages
+00:11 +39: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: touching a chapter opens the lesson and completes its stages
+00:12 +40: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: touching a chapter opens the lesson and completes its stages
+00:12 +41: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: clock interaction validates a meaningful student action
+00:12 +42: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: switching language keeps the current lesson stage
+00:12 +43: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: switching language keeps the current lesson stage
+00:12 +44: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: switching language keeps the current lesson stage
+00:12 +45: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: switching language keeps the current lesson stage
+00:12 +46: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: switching language keeps the current lesson stage
+00:12 +47: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Central sign-in is explicit, localized and offers offline fallback
+00:12 +48: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: switching language preserves the selected practice answer
+00:12 +49: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: quiz result stays in the session and does not change saved history
+00:13 +50: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:14 +51: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:15 +52: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:15 +53: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:15 +54: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:15 +55: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:15 +56: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:16 +57: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:16 +58: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Drag activity also accepts a tap and gives gentle feedback
+00:16 +59: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Short story lesson completes and updates saved progress
+00:16 +60: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Landscape whiteboard layout supports bilingual larger text
+00:16 +61: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Quiz scores once and keeps reviewable mistakes in session only
+00:17 +62: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Teacher access requires a valid local PIN
+00:18 +63: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Teacher creates a bilingual quiz and saves it locally
+00:18 +64: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Team turns award positive scores and move to the next team
+00:19 +65: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Compact web landscape has no layout overflows
+00:19 +66: All tests passed!

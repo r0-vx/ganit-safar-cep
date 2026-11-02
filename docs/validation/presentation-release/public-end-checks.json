@@ -1,0 +1,7 @@
+{
+  "passed": [
+    "Ending the lesson changes active lessons from one to zero and records its completion.",
+    "Signing out marks the verification board offline.",
+    "Live school records and usage remain empty after all presentation activity."
+  ]
+}

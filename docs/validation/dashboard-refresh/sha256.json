@@ -1,0 +1,10 @@
+{
+  "lib/dashboard_visuals.dart": "680c4ee8f1aea4e3e7ada276e4d2ff1b3af8d7fbaa52d2f3ac00fb22204ea25f",
+  "lib/management.dart": "34c2af1c58f0c5d76c788d49ab365a33e0cedc37b2192866c1499252124b3e0a",
+  "lib/main.dart": "9dd1dc6a3b623d341e03183072a1b93c20156fdd7af80249be497c06bcbf4c2f",
+  "test/dashboard_visuals_test.dart": "4c1965cc4fbd1235c2e42743ce918340a3b3d5178fe0b5799106ad31675f05a2",
+  "test/management_widget_test.dart": "4fdb3e0ad76c9ddc098037ebe5ad2ef46e35873ebab9e5df4d9afcd92895d29f",
+  "build/monitor-web/main.dart.js": "7a5ae77e5e04f2d6e8ec480768ef0b1ef3c76747045f81ffc5bb3bf38376ebfc",
+  "docs/dashboard-screenshots/overview-desktop.png": "a8a1052e69f895c82f264762921e4701ca5768542a4bcf1149a66d74217f954b",
+  "docs/dashboard-screenshots/classroom-table.png": "2342e880f81e82c0d1b4eb4f7663057d4a4d3200a27457d68d664ffb23a2088d"
+}

@@ -1,0 +1,23 @@
+{
+  "publicKey": "A6EHv_POEL4dcN0Y50vAmWfk1jCbpQ1fHdyGZBJVMbg",
+  "offlineLease": "eyJjbGFzc3Jvb21JZCI6ImNsYXNzcm9vbS10ZXN0LWlkIiwiY2xhc3Nyb29tTmFtZSI6IlRlc3QgY2xhc3Nyb29tIiwiZGV2aWNlSWQiOiJ0ZXN0LWJvYXJkLWlkZW50aXR5LTEyMzQ1NiIsImV4cGlyZXNBdCI6MTc5NDA5NjAwMC4wLCJncmFkZSI6MSwiaXNzdWVkQXQiOjE3OTM0OTEyMDAuMCwicGVybWlzc2lvbnMiOlsibGVhcm4iLCJwcmFjdGljZSIsInF1aXoiLCJsb2NhbF90ZWFjaGVyIl0sInJvbGUiOiJ0ZWFjaGVyIiwic2Nob29sTmFtZSI6IlRlc3Qgc2Nob29sIiwidGVhY2hlck5hbWUiOiJUZXN0IHRlYWNoZXIiLCJ1c2VySWQiOiJ0ZWFjaGVyLXRlc3QtaWQifQ.Pee0h2-7Wz3Xi0UhTQkdvcVynJHVAxLVMsTpJr5mWzyuTrhZAVDhwvvdIfB_1FoLjdj9D869WrmXaRce1KL5AQ",
+  "serverTime": 1793491200.0,
+  "payload": {
+    "deviceId": "test-board-identity-123456",
+    "userId": "teacher-test-id",
+    "role": "teacher",
+    "teacherName": "Test teacher",
+    "classroomId": "classroom-test-id",
+    "classroomName": "Test classroom",
+    "schoolName": "Test school",
+    "grade": 1,
+    "issuedAt": 1793491200.0,
+    "expiresAt": 1794096000.0,
+    "permissions": [
+      "learn",
+      "practice",
+      "quiz",
+      "local_teacher"
+    ]
+  }
+}

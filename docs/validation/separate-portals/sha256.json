@@ -1,0 +1,12 @@
+{
+  "lib/management.dart": "2b5529797fb907e41cfa5bb23d51312f75d131556debc8c43514636b30ab4a95",
+  "lib/central_client.dart": "c1161970d8bd2ecf09412ed2a777ad698404a17cf1cae9be642eb5bd1c9d5629",
+  "lib/portal_sign_in.dart": "d0d12db72b7353f889d8e9e5f7eadb00e7ad668b82131c796ce3828eb8ddbf7d",
+  "lib/main.dart": "c712f1b5ee9d9150c6cd08eccebd28b0fe1dd499154c87c54f5c9b34dbf7bedf",
+  "lib/platform/fullscreen_web.dart": "4f5d8e5fcdc1797f7b710ea2acc7286c8613dfe54d476293ea984550dafaad88",
+  "server/app.py": "5fe7154f814d475670f72f00506b2e81f45370fce35595beffaaafdf25e09cb4",
+  "server/test_presentation.py": "af17db5a1e7cf69d149febe22bd672f5853ae68d061e21e3b9656c760a5fcc90",
+  "test/portal_sign_in_test.dart": "be84ac68b4066e257d58adcceb83af7f8e111953106e7b24bd182ac8051d695b",
+  "test/extension_test.dart": "14be3a31641969887141e0675254385edcdbed2bc90114d9dccbd4cdc4d20805",
+  "build/production-web/main.dart.js": "b28a3097cb616191221d5eb420b2dc245f8ac1fef8e2d7254caefecfab51f9c8"
+}

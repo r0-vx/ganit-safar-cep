@@ -1,0 +1,11 @@
+# Proposed current-session quiz result specification
+
+This is Stage 1 design. No app state or storage has been changed.
+
+The quiz owns an in-memory `QuizSession` with `sessionId`, optional display name, selected class, verified chapter/subtopics, language-independent question IDs, question order, answers, correctness, mistakes, elapsed time, topic counters and current screen. Question text is looked up separately in English and Marathi. Switching language re-renders the same IDs and answer state; it does not start a new session. Bilingual mode presents both reviewed versions.
+
+On final answer, display **Current Session Result / सध्याच्या सत्राचा निकाल** with the optional name, quiz title, class, topics attempted, answered/correct/incorrect counts, score, accuracy percentage, stars earned **in this session**, optional elapsed time, topic-wise correct/attempted, mistake question IDs, and a gentle final message. “Try Again” starts a fresh session with the same settings and clears the old result. “Review Mistakes” reads only this session's missed IDs and explanations. “Go to Practice” opens the weak verified topics while closing and clearing the quiz session.
+
+Starting a different quiz, explicit reset, exiting/dismissing the result, or losing the browser session discards the temporary result. A browser refresh may clear it under the current app behavior. No `SharedPreferences` key, classroom progress record, backup payload, central API record or new permanent student profile may contain the current quiz's score, result, per-question answers or mistake list. Lesson completion can remain a separate progress event; the quiz must not increase permanent stars or score history.
+
+The current implementation calls `store.record(topic, score, total, mistakes)` at quiz completion. That method adds correct answers to persistent stars and appends a persistent result. Stage 2 must remove this write from the new quiz flow and keep existing historical data non-destructively pending an agreed migration or export policy. Tests must prove that a finished quiz does not change the store snapshot, that leaving clears the result, and that language switching keeps the temporary result intact.

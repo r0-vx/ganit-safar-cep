@@ -1,0 +1,44 @@
+[
+  {
+    "host": "ganit-safar-smartboard.vercel.app",
+    "asset": "index.html",
+    "status": 200,
+    "sha256": "384c346ee70692616ebb0c2bbee3b07cd90685832683203b71503c4f50152adf",
+    "matchesLocalBuild": true
+  },
+  {
+    "host": "ganit-safar-smartboard.vercel.app",
+    "asset": "main.dart.js",
+    "status": 200,
+    "sha256": "47642bdfc52dcaefa3d46f48e39a482adf229a612e1d48064f3a2cf1963a679c",
+    "matchesLocalBuild": true
+  },
+  {
+    "host": "ganit-safar-smartboard.vercel.app",
+    "asset": "canvaskit/canvaskit.wasm",
+    "status": 200,
+    "sha256": "fbed517a43e82452404446683f00f2e876d835aed84410695759e67b6bb01cd3",
+    "matchesLocalBuild": true
+  },
+  {
+    "host": "ganit-safar-dashboard.vercel.app",
+    "asset": "index.html",
+    "status": 200,
+    "sha256": "384c346ee70692616ebb0c2bbee3b07cd90685832683203b71503c4f50152adf",
+    "matchesLocalBuild": true
+  },
+  {
+    "host": "ganit-safar-dashboard.vercel.app",
+    "asset": "main.dart.js",
+    "status": 200,
+    "sha256": "47642bdfc52dcaefa3d46f48e39a482adf229a612e1d48064f3a2cf1963a679c",
+    "matchesLocalBuild": true
+  },
+  {
+    "host": "ganit-safar-dashboard.vercel.app",
+    "asset": "canvaskit/canvaskit.wasm",
+    "status": 200,
+    "sha256": "fbed517a43e82452404446683f00f2e876d835aed84410695759e67b6bb01cd3",
+    "matchesLocalBuild": true
+  }
+]

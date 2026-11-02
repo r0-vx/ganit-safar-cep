@@ -1,0 +1,24 @@
+[
+  {
+    "id": "dpl_tqUdLdhX1rHmRzF3JHqfUri7qSYD",
+    "name": "ganit-safar-smartboard",
+    "readyState": "READY",
+    "errorCode": null,
+    "errorMessage": null,
+    "alias": [
+      "ganit-safar-smartboard.vercel.app",
+      "ganit-safar-smartboard-rohitmoris854-6348s-projects.vercel.app"
+    ]
+  },
+  {
+    "id": "dpl_A7cS5B2zaoenR8LojKfnpvBm4jcU",
+    "name": "ganit-safar-dashboard",
+    "readyState": "READY",
+    "errorCode": null,
+    "errorMessage": null,
+    "alias": [
+      "ganit-safar-dashboard.vercel.app",
+      "ganit-safar-dashboard-rohitmoris854-6348s-projects.vercel.app"
+    ]
+  }
+]

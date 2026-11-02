@@ -1,0 +1,58 @@
+[
+  {
+    "host": "ganit-safar-smartboard.vercel.app",
+    "path": "/api/health",
+    "status": 200,
+    "data": {
+      "ok": true,
+      "mode": "production",
+      "database": "postgresql",
+      "schemaVersion": 5,
+      "leasePublicKey": "-9C02eIZowJzAbHPJ7iOuGMeYd0pvYFgeCD5Q8glCXs",
+      "dataMode": "live"
+    },
+    "cacheControl": "no-store"
+  },
+  {
+    "host": "ganit-safar-smartboard.vercel.app",
+    "path": "/api/presentation/health",
+    "status": 200,
+    "data": {
+      "ok": true,
+      "mode": "production",
+      "database": "postgresql",
+      "schemaVersion": 5,
+      "leasePublicKey": "-9C02eIZowJzAbHPJ7iOuGMeYd0pvYFgeCD5Q8glCXs",
+      "dataMode": "presentation"
+    },
+    "cacheControl": "no-store"
+  },
+  {
+    "host": "ganit-safar-dashboard.vercel.app",
+    "path": "/api/health",
+    "status": 200,
+    "data": {
+      "ok": true,
+      "mode": "production",
+      "database": "postgresql",
+      "schemaVersion": 5,
+      "leasePublicKey": "-9C02eIZowJzAbHPJ7iOuGMeYd0pvYFgeCD5Q8glCXs",
+      "dataMode": "live"
+    },
+    "cacheControl": "no-store"
+  },
+  {
+    "host": "ganit-safar-dashboard.vercel.app",
+    "path": "/api/presentation/health",
+    "status": 200,
+    "data": {
+      "ok": true,
+      "mode": "production",
+      "database": "postgresql",
+      "schemaVersion": 5,
+      "leasePublicKey": "-9C02eIZowJzAbHPJ7iOuGMeYd0pvYFgeCD5Q8glCXs",
+      "dataMode": "presentation"
+    },
+    "cacheControl": "no-store"
+  }
+]

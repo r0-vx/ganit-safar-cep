@@ -1,0 +1,19 @@
+{$GANIT_DOMAIN} {
+    encode zstd gzip
+    header {
+        X-Content-Type-Options nosniff
+        Referrer-Policy same-origin
+        Permissions-Policy "camera=(), microphone=(), geolocation=()"
+        Strict-Transport-Security "max-age=31536000"
+    }
+    handle_path /api/* {
+        reverse_proxy backend:8000 {
+            flush_interval -1
+        }
+    }
+    handle {
+        root * /srv/ganit
+        try_files {path} /index.html
+        file_server
+    }
+}

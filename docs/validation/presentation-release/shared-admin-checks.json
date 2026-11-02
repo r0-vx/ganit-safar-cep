@@ -1,0 +1,34 @@
+[
+  {
+    "site": "ganit-safar-smartboard.vercel.app",
+    "mode": "live",
+    "loginStatus": 200,
+    "dashboardStatus": 200,
+    "role": "super_admin",
+    "classrooms": 0
+  },
+  {
+    "site": "ganit-safar-smartboard.vercel.app",
+    "mode": "presentation",
+    "loginStatus": 200,
+    "dashboardStatus": 200,
+    "role": "super_admin",
+    "classrooms": 4
+  },
+  {
+    "site": "ganit-safar-dashboard.vercel.app",
+    "mode": "live",
+    "loginStatus": 200,
+    "dashboardStatus": 200,
+    "role": "super_admin",
+    "classrooms": 0
+  },
+  {
+    "site": "ganit-safar-dashboard.vercel.app",
+    "mode": "presentation",
+    "loginStatus": 200,
+    "dashboardStatus": 200,
+    "role": "super_admin",
+    "classrooms": 4
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "site": "ganit-safar-smartboard.vercel.app",
+    "mode": "live",
+    "portal": "classroom",
+    "status": 200
+  },
+  {
+    "site": "ganit-safar-smartboard.vercel.app",
+    "mode": "presentation",
+    "portal": "classroom",
+    "status": 200
+  },
+  {
+    "site": "ganit-safar-smartboard.vercel.app",
+    "path": "/sign-in",
+    "status": 200
+  },
+  {
+    "site": "ganit-safar-smartboard.vercel.app",
+    "path": "/sign-in?presentation=1",
+    "status": 200
+  },
+  {
+    "site": "ganit-safar-smartboard.vercel.app",
+    "path": "/main.dart.js",
+    "status": 200
+  },
+  {
+    "site": "ganit-safar-dashboard.vercel.app",
+    "mode": "live",
+    "portal": "dashboard",
+    "status": 200
+  },
+  {
+    "site": "ganit-safar-dashboard.vercel.app",
+    "mode": "presentation",
+    "portal": "dashboard",
+    "status": 200
+  },
+  {
+    "site": "ganit-safar-dashboard.vercel.app",
+    "path": "/sign-in",
+    "status": 200
+  },
+  {
+    "site": "ganit-safar-dashboard.vercel.app",
+    "path": "/sign-in?presentation=1",
+    "status": 200
+  },
+  {
+    "site": "ganit-safar-dashboard.vercel.app",
+    "path": "/main.dart.js",
+    "status": 200
+  }
+]

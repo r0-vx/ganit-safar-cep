@@ -1,0 +1,32 @@
+test_demo_accounts_history_and_cookies_never_enter_live_database (test_presentation.PresentationTests.test_demo_accounts_history_and_cookies_never_enter_live_database) ... ok
+test_demo_route_disabled_by_configuration (test_presentation.PresentationTests.test_demo_route_disabled_by_configuration) ... ok
+test_seed_is_idempotent_and_demo_does_not_gain_admin_access (test_presentation.PresentationTests.test_seed_is_idempotent_and_demo_does_not_gain_admin_access) ... ok
+test_vercel_host_and_https_are_both_required (test_presentation.PresentationTests.test_vercel_host_and_https_are_both_required) ... ok
+test_vercel_unconfigured_database_never_returns_fake_success (test_presentation.PresentationTests.test_vercel_unconfigured_database_never_returns_fake_success) ... ok
+test_body_limit_and_cors (test_transport.TransportTests.test_body_limit_and_cors) ... ok
+test_development_signing_key_is_atomic_across_workers (test_transport.TransportTests.test_development_signing_key_is_atomic_across_workers) ... ok
+test_production_cookie_flags_and_password_whitespace (test_transport.TransportTests.test_production_cookie_flags_and_password_whitespace) ... ok
+test_production_refuses_sqlite (test_transport.TransportTests.test_production_refuses_sqlite) ... ok
+test_server_failure_is_generic_and_sse_ends_cleanly (test_transport.TransportTests.test_server_failure_is_generic_and_sse_ends_cleanly) ... ok
+test_trusted_tls_proxy_and_no_header_spoofing (test_transport.TransportTests.test_trusted_tls_proxy_and_no_header_spoofing) ... ok
+test_upgrade_preserves_legacy_data_and_retires_unbound_sessions (test_transport.TransportTests.test_upgrade_preserves_legacy_data_and_retires_unbound_sessions) ... ok
+test_account_creation_first_password_change_and_assignments (test_api.CentralTests.test_account_creation_first_password_change_and_assignments) ... ok
+test_auth_password_hash_logout_and_health (test_api.CentralTests.test_auth_password_hash_logout_and_health) ... ok
+test_heartbeat_fields_status_and_multiple_live_sse_sessions (test_api.CentralTests.test_heartbeat_fields_status_and_multiple_live_sse_sessions) ... ok
+test_multiple_teachers_and_no_cross_school_reassignment (test_api.CentralTests.test_multiple_teachers_and_no_cross_school_reassignment) ... ok
+test_offline_event_replay_is_idempotent_and_aggregate_only (test_api.CentralTests.test_offline_event_replay_is_idempotent_and_aggregate_only) ... ok
+test_password_reset_single_use_and_revoked_sessions (test_api.CentralTests.test_password_reset_single_use_and_revoked_sessions) ... ok
+test_privacy_allowlist_rejects_answers_names_and_raw_errors (test_api.CentralTests.test_privacy_allowlist_rejects_answers_names_and_raw_errors) ... ok
+test_reassigned_device_history_and_shared_staff_are_school_scoped (test_api.CentralTests.test_reassigned_device_history_and_shared_staff_are_school_scoped) ... ok
+test_refresh_rotation_cookie_flags_reuse_and_expiry (test_api.CentralTests.test_refresh_rotation_cookie_flags_reuse_and_expiry) ... ok
+test_registration_identity_duplicate_and_unknown_device (test_api.CentralTests.test_registration_identity_duplicate_and_unknown_device) ... ok
+test_required_entities_and_versioned_migrations (test_api.CentralTests.test_required_entities_and_versioned_migrations) ... ok
+test_revocation_forced_logout_disable_teacher_and_classroom (test_api.CentralTests.test_revocation_forced_logout_disable_teacher_and_classroom) ... ok
+test_roles_and_school_isolation (test_api.CentralTests.test_roles_and_school_isolation) ... ok
+test_throttling_audit_invalid_origin_and_unknown_routes (test_api.CentralTests.test_throttling_audit_invalid_origin_and_unknown_routes) ... ok
+test_versions_health_alert_configuration_and_resolution (test_api.CentralTests.test_versions_health_alert_configuration_and_resolution) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 17.772s
+
+OK

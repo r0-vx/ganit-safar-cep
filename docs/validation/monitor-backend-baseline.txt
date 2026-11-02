@@ -1,0 +1,36 @@
+test_01_auth_and_storage (test_api.CentralTests.test_01_auth_and_storage) ... ok
+test_02_devices_roles_and_revocation (test_api.CentralTests.test_02_devices_roles_and_revocation) ... FAIL
+test_03_classroom_reassignment_and_expired_session (test_api.CentralTests.test_03_classroom_reassignment_and_expired_session) ... ERROR
+test_04_invalid_requests (test_api.CentralTests.test_04_invalid_requests) ... FAIL
+
+======================================================================
+ERROR: test_03_classroom_reassignment_and_expired_session (test_api.CentralTests.test_03_classroom_reassignment_and_expired_session)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ubuntu/Documents/ChatGPT/CEP-Quiz/server/test_api.py", line 62, in test_03_classroom_reassignment_and_expired_session
+    self.assertTrue(any(r['id']==room['id'] for r in self.call('/dashboard',token=other)[1]['classrooms']))
+                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'classrooms'
+
+======================================================================
+FAIL: test_02_devices_roles_and_revocation (test_api.CentralTests.test_02_devices_roles_and_revocation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ubuntu/Documents/ChatGPT/CEP-Quiz/server/test_api.py", line 39, in test_02_devices_roles_and_revocation
+    self.assertEqual(self.call('/devices/register',body,other)[0],400)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 403 != 400
+
+======================================================================
+FAIL: test_04_invalid_requests (test_api.CentralTests.test_04_invalid_requests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ubuntu/Documents/ChatGPT/CEP-Quiz/server/test_api.py", line 68, in test_04_invalid_requests
+    self.assertEqual(self.call('/classrooms',{'name':'','grade':9},admin)[0],400)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 403 != 400
+
+----------------------------------------------------------------------
+Ran 4 tests in 1.071s
+
+FAILED (failures=2, errors=1)

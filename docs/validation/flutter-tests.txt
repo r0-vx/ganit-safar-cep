@@ -1,0 +1,42 @@
+00:00 +0: loading /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart
+00:00 +0: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/content_test.dart: Every class/topic has ten valid bilingual sample questions
+00:00 +1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 375.0 settings, records, teams and teacher tools fit large bilingual text
+00:00 +2: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 375.0 settings, records, teams and teacher tools fit large bilingual text
+00:00 +3: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 375.0 settings, records, teams and teacher tools fit large bilingual text
+00:00 +4: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 375.0 settings, records, teams and teacher tools fit large bilingual text
+00:00 +5: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 375.0 settings, records, teams and teacher tools fit large bilingual text
+00:01 +6: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 375.0 settings, records, teams and teacher tools fit large bilingual text
+00:01 +7: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 375.0 settings, records, teams and teacher tools fit large bilingual text
+00:01 +8: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 375.0 settings, records, teams and teacher tools fit large bilingual text
+00:01 +9: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 375.0 settings, records, teams and teacher tools fit large bilingual text
+00:02 +10: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 375.0 supports bilingual larger text across setup and help
+00:02 +11: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 375.0 supports bilingual larger text across setup and help
+00:03 +12: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 375.0 supports bilingual larger text across setup and help
+00:04 +13: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 1440.0 settings, records, teams and teacher tools fit large bilingual text
+00:04 +14: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 768.0 supports bilingual larger text across setup and help
+00:04 +15: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 768.0 supports bilingual larger text across setup and help
+00:04 +16: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 768.0 supports bilingual larger text across setup and help
+00:04 +17: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 768.0 supports bilingual larger text across setup and help
+00:05 +18: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Practice empty selection disables start
+00:05 +19: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 1024.0 supports bilingual larger text across setup and help
+00:06 +20: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 1440.0 supports bilingual larger text across setup and help
+00:06 +21: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:07 +22: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:07 +23: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:07 +24: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:07 +25: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:07 +26: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:08 +27: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:08 +28: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:08 +29: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:08 +30: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+00:08 +31: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Central sign-in is explicit, localized and offers offline fallback
+00:08 +32: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Drag activity also accepts a tap and gives gentle feedback
+00:08 +33: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Short story lesson completes and updates saved progress
+00:09 +34: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Landscape whiteboard layout supports bilingual larger text
+00:09 +35: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Quiz scores once and records reviewable mistakes
+00:09 +36: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Teacher access requires a valid local PIN
+00:10 +37: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Teacher creates a bilingual quiz and saves it locally
+00:10 +38: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Team turns award positive scores and move to the next team
+00:11 +39: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Compact web landscape has no layout overflows
+00:11 +40: All tests passed!

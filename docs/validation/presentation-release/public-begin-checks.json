@@ -1,0 +1,7 @@
+{
+  "passed": [
+    "Live dashboard starts empty; no demo schools, classrooms, devices or usage.",
+    "Presentation token cannot read live dashboard.",
+    "Classroom-origin heartbeat and lesson event appear in dashboard-origin authenticated data."
+  ]
+}

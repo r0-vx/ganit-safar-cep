@@ -1,0 +1,7 @@
+00:00 +0: loading /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/central_client_test.dart
+00:00 +0: Python Ed25519 offline authorization verifies in Dart; tampering/expiry fail
+00:00 +1: offline learning queues anonymous events and reconnect retries exactly the same IDs
+00:00 +2: revocation locks learning and clears the offline authorization
+00:00 +3: access/password are memory-only and private offline PIN is salted, not universal
+00:02 +4: viewer SSE snapshots update automatically and teacher cannot start a monitor
+00:02 +5: All tests passed!

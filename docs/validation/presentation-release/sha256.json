@@ -1,0 +1,18 @@
+{
+  "lib/central_client.dart": "b01a93d03c6c6eb1fa3066b8905c82418c29223df991babe415637181743344b",
+  "lib/management.dart": "e3c02b1bc7a80fa9a7242525eb2fedde72cb411f942071bf2ddd3038beed5060",
+  "lib/main.dart": "041e2b9a6216a13378cb54a6839f321b559fed4b253fd5c44a0d18c384f6b710",
+  "lib/presentation_ui.dart": "223cf276abdfcfa91e91eeef5854c282f15336c7df7df13b9523ed086f021179",
+  "lib/dashboard_visuals.dart": "e6373d9fe7c997d02f52d4890d2f2f451be1f7ed4037e7e85dc54115757db69a",
+  "lib/platform/fullscreen_web.dart": "3e368fdacaf41123ee1361d09e5b48454404db43ccb909aadf201db9ad46cc46",
+  "server/app.py": "0a7b4f212eb4c6975f72ad4b5ebed2a5b621096500ee73be7342821263953b58",
+  "server/database.py": "4664de4c69ab76828943c592b13da3720735ec7da745b9917154d73fb5ce1c7c",
+  "server/wsgi.py": "344b004c6d38becdc7dc83e57dfaa5e059bcba87e2954656ef40cf1f54f12222",
+  "server/presentation.py": "ca80ce30fc7d3a89c1c14e5a7244a2b7fe7fa48bbdb41a65df3154217d3d4be8",
+  "server/ca-certificates.crt": "0e4c9a8eb123513b1c131c0aec2d3f9ddaad02b77b8af53bff30e1e7fc3c6b71",
+  "server/test_presentation.py": "f98119b415e77aad7a2d18a91278d41ae1a2208750f2a4257ddc79c949f690bc",
+  "test/presentation_mode_test.dart": "941381fdc6efa5fa6fbd896fabc711417ba006d6eb1efe38e22a2cae837a0f82",
+  "scripts/package-monitoring-vercel.py": "d31ec06bd859ec64aec858174c276e0bf89a8538b28a467e119f8308127dca0c",
+  "scripts/build-monitoring-web.sh": "473b348ded3eedeacbf55066f3f955e3fa9c6c319107dc86f705f3bb0dff7775",
+  "build/production-web/main.dart.js": "47642bdfc52dcaefa3d46f48e39a482adf229a612e1d48064f3a2cf1963a679c"
+}

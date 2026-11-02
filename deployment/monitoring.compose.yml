@@ -1,0 +1,36 @@
+# Run from repository root with --env-file server/.env.production.
+services:
+  backend:
+    build:
+      context: ..
+      dockerfile: server/Dockerfile
+    env_file: ../server/.env.production
+    restart: unless-stopped
+    read_only: true
+    tmpfs: [/tmp]
+    networks:
+      central:
+        ipv4_address: 172.31.98.3
+    # No host port: only Caddy can reach this service.
+  proxy:
+    image: caddy:2
+    restart: unless-stopped
+    ports: ["80:80", "443:443"]
+    environment:
+      GANIT_DOMAIN: ${GANIT_DOMAIN:?Set a real public DNS hostname}
+    volumes:
+      - ./monitoring.Caddyfile:/etc/caddy/Caddyfile:ro
+      - ../build/production-web:/srv/ganit:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      central:
+        ipv4_address: 172.31.98.2
+networks:
+  central:
+    ipam:
+      config:
+        - subnet: 172.31.98.0/24
+volumes:
+  caddy_data:
+  caddy_config:

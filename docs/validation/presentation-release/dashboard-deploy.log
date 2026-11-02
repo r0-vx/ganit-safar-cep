@@ -1,0 +1,41 @@
+Vercel CLI 65.9.0
+  Inspect         https://vercel.com/rohitmoris854-6348s-projects/ganit-safar-dashboard/A7cS5B2zaoenR8LojKfnpvBm4jcU
+  Production      https://ganit-safar-dashboard-rb77krguf-rohitmoris854-6348s-projects.vercel.app
+▲ Aliased         https://ganit-safar-dashboard.vercel.app
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_A7cS5B2zaoenR8LojKfnpvBm4jcU",
+    "url": "https://ganit-safar-dashboard-rb77krguf-rohitmoris854-6348s-projects.vercel.app",
+    "productionUrl": "https://ganit-safar-dashboard.vercel.app",
+    "inspectorUrl": "https://vercel.com/rohitmoris854-6348s-projects/ganit-safar-dashboard/A7cS5B2zaoenR8LojKfnpvBm4jcU",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_A7cS5B2zaoenR8LojKfnpvBm4jcU",
+    "buildMachine": {
+      "cores": 2,
+      "memory": 8192,
+      "machine": "basic",
+      "selectionType": "fixed",
+      "selectionSource": "plan-default"
+    },
+    "deploymentProtection": [
+      "vercel_authentication"
+    ]
+  },
+  "message": "Deployment ganit-safar-dashboard-rb77krguf-rohitmoris854-6348s-projects.vercel.app ready. Production URL: https://ganit-safar-dashboard.vercel.app",
+  "next": [
+    {
+      "command": "vercel curl https://ganit-safar-dashboard.vercel.app",
+      "when": "Verify deployment, including when Deployment Protection is enabled"
+    },
+    {
+      "command": "vercel inspect ganit-safar-dashboard-rb77krguf-rohitmoris854-6348s-projects.vercel.app --scope rohitmoris854-6348s-projects --global-config /tmp/ganit-vercel-auth",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod --scope rohitmoris854-6348s-projects --global-config /tmp/ganit-vercel-auth",
+      "when": "Promote to production"
+    }
+  ]
+}

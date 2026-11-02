@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-01",
+  "configuredClassrooms": 15,
+  "registeredDevices": 2,
+  "eventsStored": 7,
+  "uniqueDeviceSessionTypeKeys": 7,
+  "quizStarted": 1,
+  "quizCompleted": 1,
+  "individualAnswerOrScoreFields": false,
+  "containerHealth": {
+    "ok": true,
+    "database": "postgresql",
+    "schemaVersion": 5
+  },
+  "deploymentPerformed": false
+}

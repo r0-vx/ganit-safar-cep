@@ -1,0 +1,10 @@
+test_demo_accounts_history_and_cookies_never_enter_live_database (test_presentation.PresentationTests.test_demo_accounts_history_and_cookies_never_enter_live_database) ... ok
+test_demo_route_disabled_by_configuration (test_presentation.PresentationTests.test_demo_route_disabled_by_configuration) ... ok
+test_seed_is_idempotent_and_demo_does_not_gain_admin_access (test_presentation.PresentationTests.test_seed_is_idempotent_and_demo_does_not_gain_admin_access) ... ok
+test_vercel_host_and_https_are_both_required (test_presentation.PresentationTests.test_vercel_host_and_https_are_both_required) ... ok
+test_vercel_unconfigured_database_never_returns_fake_success (test_presentation.PresentationTests.test_vercel_unconfigured_database_never_returns_fake_success) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.417s
+
+OK

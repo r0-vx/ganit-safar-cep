@@ -1,0 +1,1 @@
+9872 translation records validated: {needs-review: 9871, editor-reviewed: 1}. Written to build/translation-review.json.

@@ -1,0 +1,4 @@
+-- PostgreSQL REAL is float4; SQLite REAL is float8. Migration 3 in database.py
+-- introspects this application's timestamp/measurement columns and converts any
+-- PostgreSQL float4 columns to DOUBLE PRECISION. Fresh PostgreSQL schemas use
+-- DOUBLE PRECISION from migration 1 onward. SQLite needs no type conversion.

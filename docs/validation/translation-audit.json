@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "recordCount": 9872,
+  "reviewStatuses": {
+    "needs-review": 9871,
+    "editor-reviewed": 1
+  },
+  "chapterCount": 79,
+  "chapterQuestionVariants": 790,
+  "sampleVariantsPerType": 1,
+  "externalTranslationRequests": 0,
+  "notes": [
+    "Existing text is needs-review, not automatically editor-reviewed.",
+    "Source templates retain {Dart expression} placeholders for editorial review; they are not executable translation templates.",
+    "One sample numerical variant per supported legacy type is exported; all generated variants use the same rich Words model.",
+    "The mango provider/review metadata was supplied by the user; no provider was called or independently attested."
+  ]
+}

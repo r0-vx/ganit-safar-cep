@@ -1,0 +1,80 @@
+class	chapter	page_start	page_end	marathi_title	english_title	strand	subtopics_to_verify
+1	1	1	1	माझे गाव	My village	spatial	above/below; inside/outside; front/behind
+1	2	2	2	कोंबडा कोठे?	Where is the rooster?	spatial	position words; object location
+1	3	3	3	आधी-नंतर	Before and after	sequence	order of two events
+1	4	4	4	जवळ-दूर	Near and far	spatial	distance comparison
+1	5	5	5	माझा आकार	My shape	shape	match everyday objects to shapes
+1	6	6	8	घरंगळणे-घसरणे	Rolling and sliding	shape	roll/slide; properties of objects
+1	7	9	15	१ ते ९ची ओळख	Recognising 1 to 9	number	one-to-one counting; numeral formation; number names
+1	8	16	16	०ची ओळख	Recognising zero	number	empty set; zero numeral
+1	9	17	18	१०ची ओळख	Recognising ten	number	making ten; numeral 10
+1	10	19	24	बेरीज (उत्तर ९पर्यंत)	Addition (answers to 9)	addition	join sets; count all; sums to nine
+1	11	25	29	वजाबाकी	Subtraction	subtraction	take away; count remaining
+1	12	30	32	११ ते २०ची ओळख	Recognising 11 to 20	number	ten and ones; number names
+1	13	33	33	लगतची पुढची, लगतची मागची व मधली संख्या	Next, previous and between	number	predecessor; successor; missing middle number
+1	14	34	36	संख्यांचा लहान-मोठेपणा	Comparing numbers	number	greater; smaller; equal
+1	15	37	41	चढता क्रम-उतरता क्रम	Ascending and descending order	number	order small sets of numbers
+1	16	42	44	माहिती समजून घेऊ	Understanding information	data	picture evidence; simple comparisons
+1	17	45	47	बेरीज (पुढे मोजून)	Addition by counting on	addition	start from first number; count forward
+1	18	48	49	वजाबाकी (मागे मोजून)	Subtraction by counting back	subtraction	start from first number; count backward
+1	19	50	52	२१ ते ३०ची ओळख	Recognising 21 to 30	number	tens/ones; reading numerals
+1	20	53	61	३१ ते ९९ची ओळख	Recognising 31 to 99	number	tens/ones; number names; numeral sequence
+1	21	62	63	संख्यांचे गाणे	Number song	sequence	number sequence and rhythm
+1	22	64	67	आकृतिबंध	Patterns	pattern	repeat; extend; create patterns
+1	23	68	71	मापन	Measurement	measurement	measure length with fingers/spans/steps; compare weight informally
+1	24	72	78	कालमापन	Time measurement	time	sequence daily events; duration; weekdays
+1	25	79	86	बेरीज (उत्तर १८पर्यंत)	Addition (answers to 18)	addition	combinations with total at most eighteen
+1	26	87	92	नाणी व नोटा	Coins and notes	money	recognise rupees; compose amounts
+1	27	93	95	गुणाकार पूर्वतयारी	Preparation for multiplication	multiplication	equal groups; repeated addition
+1	28	96	98	समान वाटणी, समान गट	Equal sharing and equal groups	division	equal sharing; fair groups
+1	29	99	105	गणितीय कोडी	Mathematical puzzles	puzzle	visual reasoning; number puzzles
+2	1	1	4	भौमितिक आकार समजून घेऊ - भाग १	Understanding geometric shapes, part 1	shape	recognise solids; properties of shapes
+2	2	5	7	संख्या व संख्यानामे	Numbers and number names	number	read and write 0–99; Marathi number names
+2	3	8	10	एकक व दशक	Ones and tens	place	group tens and ones
+2	4	11	13	दर्शनी किंमत व स्थानिक किंमत	Face value and place value	place	face value; tens/ones position
+2	5	14	18	संख्यांचा लहान-मोठेपणा	Comparing numbers	number	compare two-digit numbers
+2	6	19	21	तीन संख्यांचा चढता व उतरता क्रम	Ordering three numbers	number	ascending; descending
+2	7	22	23	टप्प्याने मोजणी	Skip counting	sequence	step counting; number sequence
+2	8	24	28	बेरीज	Addition	addition	join; column addition
+2	9	29	33	वजाबाकी	Subtraction	subtraction	take away; difference
+2	10	34	35	बेरीज-वजाबाकी : सहसंबंध	Addition and subtraction relationship	operations	inverse relation; fact families
+2	11	36	44	गुणाकार	Multiplication	multiplication	equal groups; repeated addition; tables
+2	12	45	52	मापन	Measurement	measurement	length; weight; capacity
+2	13	53	59	भौमितिक आकार समजून घेऊ - भाग २	Understanding geometric shapes, part 2	shape	shape properties; lines and flat shapes
+2	14	60	67	बेरीज (हातच्याची)	Addition with regrouping	addition	make a ten; carry to tens
+2	15	68	75	वजाबाकी (दशक मोकळा करून, मागे मोजून)	Subtraction by opening a ten and counting back	subtraction	unbundle a ten; count back
+2	16	76	77	माहिती समजून घेऊ	Understanding information	data	read pictures; compare categories
+2	17	78	81	आकृतिबंध	Patterns	pattern	repeating and growing patterns
+2	18	82	91	कालमापन	Time measurement	time	months; calendar dates; hours and days
+2	19	92	96	बालआनंद मेळावा	Children's fair	application	contextual mathematics; purchase and count
+2	20	97	99	उपयोग गुणाकाराचा	Using multiplication	multiplication	apply equal groups to situations
+2	21	100	103	भागाकार	Division	division	equal sharing; groups
+2	22	104	112	गणितीय कोडी	Mathematical puzzles	puzzle	number and shape reasoning
+3	1	1	6	सभोवताली शोधू आकार	Find shapes around us	shape	shapes in surroundings; properties
+3	2	7	24	संख्यांशी खेळू या	Let's play with numbers	number	counting history; hundreds to 999; place and face value; ordering; ordinal positions
+3	3	25	36	बेरीज व वजाबाकी	Addition and subtraction	operations	three-digit operations; word situations
+3	4	37	46	अपूर्णांक	Fractions	fraction	equal halves/quarters/three-quarters; fractions of sets; numerator/denominator; proper/improper
+3	5	47	53	लांबी व वजन	Length and weight	measurement	informal/standard units; metres and centimetres; kilograms; estimate and check
+3	6	54	58	माहितीचे व्यवस्थापन	Organising information	data	collect; tabulate; interpret
+3	7	59	65	नजरी नकाशा	Sketch map	map	front/side/top views; symbols; positions; route reading
+3	8	66	79	गुणाकार	Multiplication	multiplication	equal rows; tables; two-digit products; three-digit by one-digit
+3	9	80	91	भागाकार	Division	division	sharing; grouping; remainders
+3	10	92	102	आकारांची गंमत भारी (द्विमितीय आकार)	Fun with two-dimensional shapes	shape	flat faces of solids; sides/corners; geoboard construction; compare angles to square corner
+3	11	103	106	सममिती	Symmetry	symmetry	mirror halves; line of symmetry
+3	12	107	110	आकारमान व धारकता	Volume and capacity	capacity	container capacity; litre; half/quarter/three-quarter litre
+3	13	111	118	कालमापन	Time measurement	time	hour/minute hands; quarter/half/three-quarter hour; calendar
+3	14	119	126	आकृतिबंध	Patterns	pattern	visual and numeric sequences
+4	1	1	17	संख्यांशी खेळू या	Let's play with numbers	number	place value to 9999; expanded form; comparison; even/odd; Indian number system
+4	2	18	26	आकारांची गंमत भारी	Fun with shapes	shape	angles; right-angle comparison; triangle/square/rectangle; circles and compass-like drawing
+4	3	27	36	बेरीज व वजाबाकी	Addition and subtraction	operations	larger-number operations; situations
+4	4	37	42	अपूर्णांक	Fractions	fraction	tangram partitions; mixed-number language; fractions of shapes and sets
+4	5	43	56	लांबी व वजन	Length and weight	measurement	millimetre/centimetre/metre/kilometre; length conservation; grams/kilograms; estimate and check
+4	6	57	61	माहितीचे व्यवस्थापन	Organising information	data	picture tables; pictograph scale; interpret categories
+4	7	62	67	नजरी नकाशा	Sketch map	map	front/side/top views; grid location; symbols; directions
+4	8	68	74	गुणाकार	Multiplication	multiplication	multi-digit multiplication; contexts
+4	9	75	86	भागाकार	Division	division	sharing; long division; remainders
+4	10	87	91	सममिती	Symmetry	symmetry	folding; mirror and water reflections; symmetry axes
+4	11	92	100	परिमिती व क्षेत्रफळ	Perimeter and area	area	boundary length; square units
+4	12	101	106	आकारमान व धारकता	Volume and capacity	capacity	unit cubes; cubic volume; litre/millilitre; conservation on pouring
+4	13	107	109	कालमापन	Time measurement	time	analogue/digital clock; 15/30/45-minute intervals; elapsed time
+4	14	110	126	आकृतिबंध	Patterns	pattern	growing visual and numeric sequences

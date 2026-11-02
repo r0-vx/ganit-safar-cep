@@ -1,0 +1,57 @@
+Vercel CLI 64.7.0 (Node.js 22.22.1)
+Retrieving project…
+Deploying rohitmoris854-6348s-projects/ganit-safar-smartboard
+Uploading [--------------------] (0.0B/4.3MB)
+Uploading [=====---------------] (1.1MB/4.3MB)
+Uploading [==========----------] (2.1MB/4.3MB)
+Uploading [===============-----] (3.2MB/4.3MB)
+Uploading [====================] (4.3MB/4.3MB)
+  Inspect         https://vercel.com/rohitmoris854-6348s-projects/ganit-safar-smartboard/WgSKBuVeifT1n4KfgrYuz2W5rT2h
+  Production      https://ganit-safar-smartboard-1r8jdbl5p-rohitmoris854-6348s-projects.vercel.app
+Building…
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Previous build caches not available.
+Downloading 47 deployment files...
+[2K[1A[2K[G  Production      https://ganit-safar-smartboard-1r8jdbl5p-rohitmoris854-6348s-projects.vercel.app
+Completing…
+▲ Aliased         https://ganit-safar-smartboard.vercel.app
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_WgSKBuVeifT1n4KfgrYuz2W5rT2h",
+    "url": "https://ganit-safar-smartboard-1r8jdbl5p-rohitmoris854-6348s-projects.vercel.app",
+    "productionUrl": "https://ganit-safar-smartboard.vercel.app",
+    "inspectorUrl": "https://vercel.com/rohitmoris854-6348s-projects/ganit-safar-smartboard/WgSKBuVeifT1n4KfgrYuz2W5rT2h",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_WgSKBuVeifT1n4KfgrYuz2W5rT2h",
+    "buildMachine": {
+      "cores": 2,
+      "memory": 8192,
+      "machine": "basic",
+      "selectionType": "fixed",
+      "selectionSource": "plan-default"
+    },
+    "deploymentProtection": [
+      "vercel_authentication"
+    ]
+  },
+  "message": "Deployment ganit-safar-smartboard-1r8jdbl5p-rohitmoris854-6348s-projects.vercel.app ready. Production URL: https://ganit-safar-smartboard.vercel.app",
+  "next": [
+    {
+      "command": "vercel curl https://ganit-safar-smartboard.vercel.app",
+      "when": "Verify deployment, including when Deployment Protection is enabled"
+    },
+    {
+      "command": "vercel inspect ganit-safar-smartboard-1r8jdbl5p-rohitmoris854-6348s-projects.vercel.app --scope rohitmoris854-6348s-projects --global-config /tmp/ganit-vercel-auth",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod --scope rohitmoris854-6348s-projects --global-config /tmp/ganit-vercel-auth",
+      "when": "Promote to production"
+    }
+  ]
+}

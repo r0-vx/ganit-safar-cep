@@ -1,0 +1,8 @@
+**
+!server/
+!server/**
+server/__pycache__/
+server/*.sqlite3*
+server/*.key
+server/.env*
+server/test_*.py

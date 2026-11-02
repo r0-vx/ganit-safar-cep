@@ -1,0 +1,13 @@
+test_classroom_administrator_receives_bound_grant_and_refreshes_it (test_presentation.PresentationTests.test_classroom_administrator_receives_bound_grant_and_refreshes_it) ... ok
+test_dashboard_admin_keeps_management_role_without_a_learning_lease (test_presentation.PresentationTests.test_dashboard_admin_keeps_management_role_without_a_learning_lease) ... ok
+test_dashboard_teacher_and_classroom_viewer_use_the_correct_portal (test_presentation.PresentationTests.test_dashboard_teacher_and_classroom_viewer_use_the_correct_portal) ... ok
+test_demo_accounts_history_and_cookies_never_enter_live_database (test_presentation.PresentationTests.test_demo_accounts_history_and_cookies_never_enter_live_database) ... ok
+test_demo_route_disabled_by_configuration (test_presentation.PresentationTests.test_demo_route_disabled_by_configuration) ... ok
+test_seed_is_idempotent_and_demo_does_not_gain_admin_access (test_presentation.PresentationTests.test_seed_is_idempotent_and_demo_does_not_gain_admin_access) ... ok
+test_vercel_host_and_https_are_both_required (test_presentation.PresentationTests.test_vercel_host_and_https_are_both_required) ... ok
+test_vercel_unconfigured_database_never_returns_fake_success (test_presentation.PresentationTests.test_vercel_unconfigured_database_never_returns_fake_success) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 5.167s
+
+OK
