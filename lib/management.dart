@@ -27,6 +27,14 @@ String centralError(Object error) {
       'Check the required names and selected class.',
       'आवश्यक नावे आणि निवडलेली इयत्ता तपासा.',
     ),
+    'school_login_exists' => tr(
+      'This school already has a login. Its School ID is shown in school details.',
+      'या शाळेचा प्रवेश आधीच तयार आहे. शाळेच्या माहितीत आयडी दिसेल.',
+    ),
+    'school_disabled' => tr(
+      'This school is disabled. Contact the administrator.',
+      'ही शाळा बंद केली आहे. प्रशासकाशी संपर्क करा.',
+    ),
     'invalid_credentials' => tr(
       'Check the sign-in details or account status.',
       'प्रवेशाची माहिती किंवा खात्याची स्थिती तपासा.',
@@ -207,6 +215,11 @@ class _ConnectionGateState extends State<ConnectionGate> {
           !central.isClassroomAdministrator &&
           central.connection == 'connected')
         return ClassroomConnectionPage();
+      if (central.session?.teacher.role == 'school_admin' &&
+          central.canUseClassroom &&
+          !central.offlineAuthorized &&
+          !central.locked)
+        return const ClassroomEnrollmentPage();
       if (central.canLearn) return const Shell();
       if (central.canUseClassroom && !central.locked)
         return ClassroomEnrollmentPage();
@@ -508,12 +521,14 @@ class _CentralResetState extends State<CentralResetPage> {
 }
 
 class ClassroomEnrollmentPage extends StatefulWidget {
-  const ClassroomEnrollmentPage({super.key});
+  final CentralClient? client;
+  const ClassroomEnrollmentPage({super.key, this.client});
   @override
   State<ClassroomEnrollmentPage> createState() => _EnrollmentState();
 }
 
 class _EnrollmentState extends State<ClassroomEnrollmentPage> {
+  CentralClient get account => widget.client ?? central;
   String? classroomId;
   final name = TextEditingController();
   String error = '';
@@ -524,13 +539,47 @@ class _EnrollmentState extends State<ClassroomEnrollmentPage> {
     super.dispose();
   }
 
+  Future<void> _addClassroom() async {
+    final school = account.schools.singleWhere((s) => s['status'] == 'active');
+    final value = await showDialog<Map<String, String>>(
+      context: context,
+      builder: (_) => ManagementRecordDialog(
+        title: tr('Add classroom', 'वर्ग जोडा'),
+        fields: const [
+          ('name', 'Classroom name', 'वर्गाचे नाव'),
+          ('grade', 'Grade (1–4)', 'इयत्ता (१–४)'),
+          ('section', 'Section', 'तुकडी'),
+        ],
+        values: const {'grade': '1'},
+      ),
+    );
+    if (value == null || !mounted) return;
+    setState(() {
+      busy = true;
+      error = '';
+    });
+    try {
+      final result = await account.request('POST', '/classrooms', {
+        ...value,
+        'school_id': school['id'],
+        'grade': int.parse(value['grade']!),
+      });
+      await account.reloadClassrooms();
+      if (mounted) setState(() => classroomId = result['id'].toString());
+    } catch (exception) {
+      if (mounted) setState(() => error = centralError(exception));
+    } finally {
+      if (mounted) setState(() => busy = false);
+    }
+  }
+
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(
       title: Text(tr('Assign this whiteboard', 'हा फळा वर्गाला जोडा')),
       actions: [
         TextButton(
-          onPressed: central.logout,
+          onPressed: account.logout,
           child: Text(tr('Sign out', 'बाहेर पडा')),
         ),
       ],
@@ -546,12 +595,12 @@ class _EnrollmentState extends State<ClassroomEnrollmentPage> {
               children: [
                 const CentralLanguageSelector(),
                 Text(
-                  '${tr('Device ID', 'साधन क्रमांक')}: ${central.installation}',
+                  '${tr('Device ID', 'साधन क्रमांक')}: ${account.installation}',
                 ),
                 Text(
                   tr(
-                    'Select only a classroom assigned by your administrator. No student accounts are needed.',
-                    'प्रशासकाने नेमलेला वर्ग निवडा. विद्यार्थ्यांची खाती आवश्यक नाहीत.',
+                    'Use the same school login on each smartboard. Select this board’s classroom or add a classroom below. Each board connects to one classroom.',
+                    'प्रत्येक स्मार्ट फळ्यावर हाच शाळेचा आयडी वापरा. या फळ्याचा वर्ग निवडा किंवा खाली नवीन वर्ग जोडा. प्रत्येक फळा एका वर्गाला जोडला जातो.',
                   ),
                 ),
                 if (kIsWeb)
@@ -562,14 +611,24 @@ class _EnrollmentState extends State<ClassroomEnrollmentPage> {
                       tr('Open monitoring dashboard', 'निरीक्षण फलक उघडा'),
                     ),
                   ),
-                if (central.classrooms.isEmpty)
+                if (account.isClassroomAdministrator &&
+                    account.schools
+                            .where((s) => s['status'] == 'active')
+                            .length ==
+                        1)
+                  OutlinedButton.icon(
+                    onPressed: busy ? null : _addClassroom,
+                    icon: const Icon(Icons.add),
+                    label: Text(tr('Add classroom', 'वर्ग जोडा')),
+                  ),
+                if (account.classrooms.isEmpty)
                   Text(
                     tr(
-                      central.isClassroomAdministrator
-                          ? 'Create your school and classroom in the monitoring dashboard, then connect this board.'
+                      account.isClassroomAdministrator
+                          ? 'Add your classroom, then connect this board. No separate classroom password is needed.'
                           : 'No active classroom is assigned. Contact your administrator.',
-                      central.isClassroomAdministrator
-                          ? 'निरीक्षण फलकावर शाळा व वर्ग तयार करा, नंतर हा फळा जोडा.'
+                      account.isClassroomAdministrator
+                          ? 'तुमचा वर्ग जोडा, नंतर हा फळा जोडा. वर्गासाठी वेगळा संकेतशब्द आवश्यक नाही.'
                           : 'सक्रिय वर्ग नेमलेला नाही. प्रशासकाशी संपर्क करा.',
                     ),
                   )
@@ -579,10 +638,13 @@ class _EnrollmentState extends State<ClassroomEnrollmentPage> {
                     isExpanded: true,
                     itemHeight: 88,
                     decoration: InputDecoration(
-                      labelText: tr('Assigned classroom', 'नेमलेला वर्ग'),
+                      labelText: tr(
+                        'Classroom for this board',
+                        'या फळ्याचा वर्ग',
+                      ),
                     ),
                     items: [
-                      for (final room in central.classrooms)
+                      for (final room in account.classrooms)
                         DropdownMenuItem(
                           value: room['id'] as String,
                           child: Text(
@@ -597,13 +659,16 @@ class _EnrollmentState extends State<ClassroomEnrollmentPage> {
                 TextField(
                   controller: name,
                   decoration: InputDecoration(
-                    labelText: tr('Whiteboard name', 'फळ्याचे नाव'),
+                    labelText: tr(
+                      'Whiteboard name (optional)',
+                      'फळ्याचे नाव (ऐच्छिक)',
+                    ),
                   ),
                 ),
                 if (error.isNotEmpty) Text(error),
                 FilledButton(
                   onPressed:
-                      busy || classroomId == null || central.classrooms.isEmpty
+                      busy || classroomId == null || account.classrooms.isEmpty
                       ? null
                       : () async {
                           setState(() {
@@ -611,10 +676,18 @@ class _EnrollmentState extends State<ClassroomEnrollmentPage> {
                             error = '';
                           });
                           try {
-                            await central.enroll(
+                            await account.enroll(
                               classroomId!,
-                              name.text.trim(),
+                              name.text.trim().isEmpty
+                                  ? account.classrooms
+                                        .firstWhere(
+                                          (r) => r['id'] == classroomId,
+                                        )['name']
+                                        .toString()
+                                  : name.text.trim(),
                             );
+                            if (mounted && Navigator.canPop(context))
+                              Navigator.pop(context);
                           } catch (exception) {
                             if (mounted)
                               setState(() => error = centralError(exception));
@@ -1037,6 +1110,11 @@ class _ManagementPageState extends State<ManagementPage> {
     if (result != null && mounted) {
       _navigate('schools', entity: (result['id'] ?? school?['id']).toString());
       _revealEntity();
+      if (result['login'] is Map)
+        await showSchoolLogin(
+          context,
+          Map<String, dynamic>.from(result['login']),
+        );
     }
   }
 
@@ -1065,12 +1143,14 @@ class _ManagementPageState extends State<ManagementPage> {
           );
         return;
       }
-      final chosen = await choose(
-        tr('Select school', 'शाळा निवडा'),
-        schools,
-        [],
-        single: true,
-      );
+      final chosen = schools.length == 1
+          ? [schools.single['id'].toString()]
+          : await choose(
+              tr('Select school', 'शाळा निवडा'),
+              schools,
+              [],
+              single: true,
+            );
       if (chosen == null || chosen.isEmpty || !mounted) return;
       selectedSchool = chosen.single;
     }
@@ -1233,7 +1313,7 @@ class _ManagementPageState extends State<ManagementPage> {
     ('overview', 'Overview', 'आढावा', Icons.space_dashboard_outlined),
     ('schools', 'Schools', 'शाळा', Icons.school_outlined),
     ('classrooms', 'Classrooms', 'वर्ग', Icons.meeting_room_outlined),
-    if (monitor.canAdminister)
+    if (monitor.canAdminister && monitor.isSuperAdmin)
       (
         'users',
         'Teacher accounts',
@@ -1341,6 +1421,55 @@ class _ManagementPageState extends State<ManagementPage> {
                                 children: [
                                   _dashboardHeader(wide),
                                   const SizedBox(height: 24),
+                                  if (monitor.session?.teacher.role ==
+                                      'school_admin') ...[
+                                    DashboardPanel(
+                                      child: Column(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            tr(
+                                              'One school login. All your classrooms.',
+                                              'शाळेचा एकच आयडी. तुमचे सर्व वर्ग.',
+                                            ),
+                                            style: const TextStyle(
+                                              fontSize: 22,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                          Text(
+                                            tr(
+                                              'Add classrooms in your school. On each smartboard, open the learning app, sign in with this same school ID and select its classroom. Separate teacher accounts are not needed.',
+                                              'तुमच्या शाळेत वर्ग जोडा. प्रत्येक स्मार्ट फळ्यावर गणित अॅप उघडा, हाच शाळेचा आयडी वापरा आणि त्या फळ्याचा वर्ग निवडा. वेगळी शिक्षक खाती आवश्यक नाहीत.',
+                                            ),
+                                          ),
+                                          const SizedBox(height: 12),
+                                          Wrap(
+                                            spacing: 12,
+                                            runSpacing: 12,
+                                            children: [
+                                              _button(
+                                                'Add classroom',
+                                                'वर्ग जोडा',
+                                                () => classroomForm(),
+                                              ),
+                                              if (kIsWeb)
+                                                _button(
+                                                  'Open learning app',
+                                                  'गणित अॅप उघडा',
+                                                  () => browserPortal(
+                                                    false,
+                                                    false,
+                                                  ),
+                                                ),
+                                            ],
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                    const SizedBox(height: 20),
+                                  ],
                                   if (monitor.presentation) ...[
                                     DashboardPanel(
                                       padding: const EdgeInsets.all(16),
@@ -2178,6 +2307,30 @@ class _ManagementPageState extends State<ManagementPage> {
     ).where((r) => !_usesTable || _selectedEntity == r['id']))
       _entityCard(school['id'].toString(), '${school['name']} • ${school['code']}', [
         Text('${school['location']} • ${school['admin_contact']}'),
+        if (school['login_id'] != null)
+          SelectableText(
+            '${tr('School ID', 'शाळेचा आयडी')}: ${school['login_id']}',
+          ),
+        if (monitor.isSuperAdmin &&
+            !monitor.presentation &&
+            school['status'] == 'active' &&
+            school['login_id'] == null)
+          _button(
+            'Generate school login',
+            'शाळेचा आयडी व संकेतशब्द तयार करा',
+            () async {
+              final result = await action(
+                'POST',
+                '/schools/${school['id']}/login',
+                {},
+              );
+              if (result?['login'] is Map && mounted)
+                await showSchoolLogin(
+                  context,
+                  Map<String, dynamic>.from(result!['login']),
+                );
+            },
+          ),
         Text(
           '${tr('Created', 'निर्मिती')}: ${monitorTime(school['created_at'])}',
         ),
@@ -2328,22 +2481,23 @@ class _ManagementPageState extends State<ManagementPage> {
                 'वर्गाची माहिती बदला',
                 () => classroomForm(room: room),
               ),
-              _button('Assign teachers', 'शिक्षक नेमा', () async {
-                final selected = await choose(
-                  tr('Assigned teachers', 'नेमलेले शिक्षक'),
-                  rows('users')
-                      .where(
-                        (u) =>
-                            u['role'] == 'teacher' && u['status'] == 'active',
-                      )
-                      .toList(),
-                  List<String>.from(room['teacher_ids']),
-                );
-                if (selected != null)
-                  await action('PATCH', '/classrooms/${room['id']}', {
-                    'teacher_ids': selected,
-                  });
-              }),
+              if (monitor.isSuperAdmin)
+                _button('Assign teachers', 'शिक्षक नेमा', () async {
+                  final selected = await choose(
+                    tr('Assigned teachers', 'नेमलेले शिक्षक'),
+                    rows('users')
+                        .where(
+                          (u) =>
+                              u['role'] == 'teacher' && u['status'] == 'active',
+                        )
+                        .toList(),
+                    List<String>.from(room['teacher_ids']),
+                  );
+                  if (selected != null)
+                    await action('PATCH', '/classrooms/${room['id']}', {
+                      'teacher_ids': selected,
+                    });
+                }),
               _button(
                 room['status'] == 'active'
                     ? 'Disable classroom'

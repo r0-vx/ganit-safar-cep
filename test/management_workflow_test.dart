@@ -64,6 +64,12 @@ void main() {
             });
           return jsonResponse({
             'id': r.url.path == '/schools' ? 'new-school' : 'new-room',
+            if (r.url.path == '/schools')
+              'login': {
+                'schoolName': 'Workflow school',
+                'username': 'school-test',
+                'password': 'test-only-generated-password',
+              },
           }, 201);
         }),
       );
@@ -89,6 +95,9 @@ void main() {
       await tester.pump(const Duration(milliseconds: 500));
       expect(writes.single['name'], 'Workflow school');
       expect(tester.takeException(), isNull);
+      expect(find.text('School login is ready'), findsOneWidget);
+      await tester.tap(find.text('I have saved it'));
+      await tester.pump(const Duration(milliseconds: 300));
       await tester.ensureVisible(find.text('Add classroom'));
       await tester.tap(find.text('Add classroom'));
       await tester.pump(const Duration(milliseconds: 300));

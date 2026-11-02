@@ -73,7 +73,7 @@ class CentralClient extends ChangeNotifier {
   SharedPreferences? prefs;
   CentralSession? session;
   Map<String, dynamic>? device, lease;
-  List<Map<String, dynamic>> classrooms = [];
+  List<Map<String, dynamic>> classrooms = [], schools = [];
   String installation = '',
       connection = 'disconnected',
       error = '',
@@ -149,6 +149,7 @@ class CentralClient extends ChangeNotifier {
       (lease!['expiresAt'] as num) > _trustedSeconds;
   bool get onlineAdministratorAccess =>
       isClassroomAdministrator &&
+      session?.teacher.role != 'school_admin' &&
       !locked &&
       !mustChangePassword &&
       connection == 'connected' &&
@@ -392,6 +393,9 @@ class CentralClient extends ChangeNotifier {
     classrooms = (value['classrooms'] as List? ?? [])
         .map((r) => Map<String, dynamic>.from(r))
         .toList();
+    schools = (value['schools'] as List? ?? [])
+        .map((r) => Map<String, dynamic>.from(r))
+        .toList();
     expiresAt = DateTime.fromMillisecondsSinceEpoch(
       ((value['expiresAt'] as num) * 1000).round(),
     );
@@ -477,6 +481,9 @@ class CentralClient extends ChangeNotifier {
     classrooms = (value['classrooms'] as List? ?? [])
         .map((r) => Map<String, dynamic>.from(r))
         .toList();
+    schools = (value['schools'] as List? ?? [])
+        .map((r) => Map<String, dynamic>.from(r))
+        .toList();
     notifyListeners();
   }
 
@@ -552,6 +559,8 @@ class CentralClient extends ChangeNotifier {
   Future<void> _lock(String reason) async {
     _demoPreview = false;
     session = null;
+    classrooms = [];
+    schools = [];
     lease = null;
     device = null;
     locked = true;

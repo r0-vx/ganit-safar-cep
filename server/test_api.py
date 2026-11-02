@@ -64,6 +64,73 @@ def read_snapshot(stream, predicate=lambda value: True):
 
 
 class CentralTests(unittest.TestCase):
+    def test_generated_school_login_owns_classrooms_and_independent_boards(self):
+        code, created = self.admin.call('/schools', {'name': 'Shared-login school'})
+        self.assertEqual(code, 201)
+        credentials = created['login']
+        self.assertGreaterEqual(len(credentials['password']), 16)
+        dashboard = Client(self.base)
+        board_a, board_b = Client(self.base), Client(self.base)
+        from unittest.mock import patch
+        with patch.dict(os.environ, {'GANIT_APP_SURFACE': 'dashboard'}):
+            code, signed = dashboard.login(credentials['username'], credentials['password'])
+        self.assertEqual(code, 200)
+        self.assertEqual(signed['user']['must_change_password'], 0)
+        self.assertEqual([s['id'] for s in signed['schools']], [created['id']])
+        rooms = []
+        for grade in (1, 2):
+            code, room = dashboard.call('/classrooms', {'name': f'Class {grade}', 'grade': grade, 'school_id': created['id']})
+            self.assertEqual(code, 201)
+            rooms.append(room['id'])
+        self.assertEqual(dashboard.call('/classrooms', {'name': 'Forbidden', 'grade': 1, 'school_id': self.other_sid})[0], 403)
+        self.assertEqual(dashboard.call('/schools', {'name': 'Forbidden'})[0], 403)
+        self.assertEqual(dashboard.call('/dashboard/demo')[0], 403)
+        with patch.dict(os.environ, {'GANIT_APP_SURFACE': 'classroom'}):
+            for board, room in zip((board_a, board_b), rooms):
+                self.assertEqual(board.login(credentials['username'], credentials['password'])[0], 200)
+                code, enrolled = board.call('/devices/register', {'id': board.installation, 'name': 'School board', 'classroom_id': room})
+                self.assertEqual(code, 201)
+                board.token = enrolled['token']
+                self.assertIn('offlineLease', enrolled)
+                self.assertEqual(board.call('/devices/' + board.installation + '/heartbeat', {'classroomId': room, 'grade': 1, 'mode': 'learn', 'chapterId': 'G1-C10', 'version': '1.2.0'})[0], 200)
+                refreshed = board.call('/auth/refresh', {'installationId': board.installation})
+                self.assertEqual(refreshed[0], 200)
+                board.token = refreshed[1]['token']
+        code, view = dashboard.call('/dashboard')
+        self.assertEqual(code, 200)
+        self.assertEqual({s['id'] for s in view['schools']}, {created['id']})
+        self.assertEqual({r['id'] for r in view['classrooms']}, set(rooms))
+        self.assertEqual(view['overview']['onlineClassrooms'], 2)
+        self.assertEqual(board_a.call('/devices/' + board_a.installation + '/events', {'events': [{'id': app.uid(), 'type': 'lesson_started', 'sessionId': app.uid(), 'mode': 'learn', 'grade': 1, 'chapterId': 'G1-C10', 'occurredAt': time.time(), 'classroomId': rooms[0]}]})[0], 200)
+        self.assertGreaterEqual(len(dashboard.call('/dashboard')[1]['events']), 1)
+        self.assertEqual(board_a.call('/auth/logout', {'installationId': board_a.installation})[0], 200)
+        view = dashboard.call('/dashboard')[1]
+        self.assertEqual(view['overview']['onlineClassrooms'], 1)
+        self.assertEqual(board_b.call('/me')[0], 200)
+        self.assertEqual(dashboard.call('/me')[0], 200)
+        outsider = Client(self.base)
+        outsider.login(credentials['username'], credentials['password'])
+        self.assertEqual(outsider.call('/devices/register', {'id': outsider.installation, 'name': 'Forbidden', 'classroom_id': self.other_cid})[0], 403)
+        self.assertEqual(self.admin.call('/schools/' + created['id'] + '/login', {})[0], 409)
+        with app.connection() as c:
+            self.assertEqual(c.execute('SELECT COUNT(*) AS n FROM school_logins WHERE school_id=?', (created['id'],)).fetchone()['n'], 1)
+            account = c.execute('SELECT password_hash FROM users WHERE email=?', (credentials['username'],)).fetchone()
+            self.assertNotEqual(account['password_hash'], credentials['password'])
+        self.assertNotIn(credentials['password'], json.dumps(view))
+
+    def test_existing_school_can_generate_only_one_login_and_disabled_school_is_blocked(self):
+        # Upgrade an existing school; never silently replace its existing users.
+        with app.connection() as c:
+            c.execute('INSERT INTO schools(id,name,code,created_at) VALUES(?,?,?,?)', ('legacy-school', 'Existing school', 'LEGACY', time.time()))
+        code, value = self.admin.call('/schools/legacy-school/login', {})
+        self.assertEqual(code, 201)
+        school = Client(self.base)
+        self.assertEqual(school.login(value['login']['username'], value['login']['password'])[0], 200)
+        self.assertEqual(school.call('/schools/legacy-school/login', {})[0], 403)
+        self.assertEqual(self.admin.call('/schools/legacy-school/login', {})[0], 409)
+        self.assertEqual(self.admin.call('/schools/legacy-school', {'status': 'disabled'}, method='PATCH')[0], 200)
+        self.assertEqual(school.login(value['login']['username'], value['login']['password'])[0], 403)
+
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.schema = None
@@ -148,7 +215,7 @@ class CentralTests(unittest.TestCase):
         guest = Client(self.base)
         self.assertEqual(guest.call('/dashboard')[0], 401)
         self.assertEqual(guest.login('admin@test.local', 'wrong')[0], 401)
-        self.assertEqual(guest.call('/health')[1]['schemaVersion'], 5)
+        self.assertEqual(guest.call('/health')[1]['schemaVersion'], 6)
         with app.connection() as c:
             user = c.execute('SELECT * FROM users WHERE id=?', (self.super_id,)).fetchone()
             self.assertNotEqual(user['password_hash'], PASSWORD)
@@ -375,7 +442,7 @@ class CentralTests(unittest.TestCase):
             else:
                 names = {r['name'] for r in c.execute("SELECT name FROM sqlite_master WHERE type='table'")}
             self.assertTrue(expected <= names)
-            self.assertEqual([r['version'] for r in c.execute('SELECT version FROM schema_migrations ORDER BY version')], [1,2,3,4,5])
+            self.assertEqual([r['version'] for r in c.execute('SELECT version FROM schema_migrations ORDER BY version')], [1,2,3,4,5,6])
         app.init()  # migration re-entry is idempotent
 
 

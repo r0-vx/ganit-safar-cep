@@ -141,12 +141,12 @@ class PortalSignInView extends StatelessWidget {
         Text(
           dashboard
               ? tr(
-                  'Use your administrator or viewer account to open school monitoring.',
-                  'शाळेचे निरीक्षण पाहण्यासाठी प्रशासक किंवा निरीक्षक खात्याने प्रवेश करा.',
+                  'Use your school ID and password to monitor your classrooms. Administrators can also sign in here.',
+                  'तुमच्या वर्गांचे निरीक्षण पाहण्यासाठी शाळेचा आयडी व संकेतशब्द वापरा. प्रशासकही येथे प्रवेश करू शकतात.',
                 )
               : tr(
-                  'Use your teacher or administrator account to open lessons, practice and quizzes.',
-                  'धडे, सराव आणि प्रश्नमंजुषा उघडण्यासाठी शिक्षक किंवा प्रशासक खात्याने प्रवेश करा.',
+                  'Use your school ID and password, then connect this smartboard to its classroom.',
+                  'शाळेचा आयडी व संकेतशब्द वापरा, नंतर हा स्मार्ट फळा त्याच्या वर्गाला जोडा.',
                 ),
           style: const TextStyle(fontSize: 15, height: 1.5, color: _dashMuted),
         ),

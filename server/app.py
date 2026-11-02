@@ -221,6 +221,27 @@ def school_scope(c, user):
     return {r['school_id'] for r in c.execute('SELECT school_id FROM user_schools WHERE user_id=?', (user['id'],))}
 
 
+def schools_for(c, user):
+    scopes = school_scope(c, user)
+    return [dict(r) for r in c.execute('SELECT id,name,status FROM schools ORDER BY name') if r['id'] in scopes]
+
+
+def create_school_login(c, actor, school):
+    # The unique mapping makes this a single school account, never one account
+    # per classroom. The password is returned once and only a salted hash stays.
+    if c.execute('SELECT user_id FROM school_logins WHERE school_id=?', (school['id'],)).fetchone():
+        reject(409, 'school_login_exists', 'This school already has a login')
+    user_id, salt = uid(), secrets.token_hex(16)
+    username = 'school-' + uid()[:12]
+    password = secrets.token_urlsafe(15)
+    c.execute('INSERT INTO users(id,email,name,role,salt,password_hash,created_at) VALUES(?,?,?,?,?,?,?)',
+              (user_id, username, school['name'], 'school_admin', salt, password_hash(password, salt), time.time()))
+    c.execute('INSERT INTO user_schools VALUES(?,?)', (user_id, school['id']))
+    c.execute('INSERT INTO school_logins VALUES(?,?,?)', (school['id'], user_id, time.time()))
+    audit(c, actor['id'], 'school_login_created', user_id, school['id'])
+    return {'username': username, 'password': password, 'schoolName': school['name']}
+
+
 def rooms_for(c, user, active_only=False):
     rows = list(c.execute('SELECT c.*,s.name AS school_name,s.status AS school_status FROM classrooms c JOIN schools s ON s.id=c.school_id ORDER BY c.name'))
     if user['role'] == 'teacher':
@@ -379,11 +400,14 @@ def issue_session(c, user, installation, headers, device_id=None, family=None):
     surface = os.environ.get('GANIT_APP_SURFACE', 'auto')
     if (surface == 'dashboard' and user['role'] == 'teacher') or (surface == 'classroom' and not classroom_user(user)):
         reject(403, 'wrong_portal', 'Use the correct sign-in page for this account')
+    school_login = c.execute('SELECT s.status FROM school_logins l JOIN schools s ON s.id=l.school_id WHERE l.user_id=?', (user['id'],)).fetchone()
+    if school_login and school_login['status'] != 'active':
+        reject(403, 'school_disabled', 'This school is disabled')
     now, access, refresh = time.time(), secrets.token_urlsafe(40), secrets.token_urlsafe(48)
     family = family or uid()
     c.execute('INSERT INTO sessions(token_hash,user_id,expires,device_id,install_id,family_id,created_at) VALUES(?,?,?,?,?,?,?)', (digest(access), user['id'], now + ACCESS_TTL, device_id, installation, family, now))
     c.execute('INSERT INTO refresh_tokens(token_hash,user_id,install_id,device_id,family_id,expires,created_at) VALUES(?,?,?,?,?,?,?)', (digest(refresh), user['id'], installation, device_id, family, now + REFRESH_TTL, now))
-    body = {'token': access, 'expiresAt': now + ACCESS_TTL, 'user': public_user(user), 'classrooms': rooms_for(c, user, True), 'leasePublicKey': public_key(), 'serverTime': now}
+    body = {'token': access, 'expiresAt': now + ACCESS_TTL, 'user': public_user(user), 'classrooms': rooms_for(c, user, True), 'schools': schools_for(c, user), 'leasePublicKey': public_key(), 'serverTime': now}
     if device_id and classroom_user(user) and not user['must_change_password']:
         device, room = check_device(c, user, device_id, headers)
         payload = {'deviceId': device_id, 'userId': user['id'], 'role': 'teacher', 'teacherName': user['name'], 'classroomId': room['id'], 'classroomName': room['name'], 'schoolName': room['school_name'], 'grade': room['grade'], 'issuedAt': now, 'expiresAt': now + OFFLINE_TTL, 'permissions': ['learn', 'practice', 'quiz', 'local_teacher']}
@@ -451,6 +475,9 @@ def snapshot(c, user):
     rooms = rooms_for(c, user)
     allowed = {room['id'] for room in rooms}
     schools = [dict(r) for r in c.execute('SELECT * FROM schools ORDER BY name') if r['id'] in scopes]
+    school_logins = {r['school_id']: r['email'] for r in c.execute('SELECT l.school_id,u.email FROM school_logins l JOIN users u ON u.id=l.user_id')}
+    for school in schools:
+        school['login_id'] = school_logins.get(school['id'])
     devices = []
     now = time.time()
     version_rows = [dict(r) for r in c.execute('SELECT * FROM app_versions')]
@@ -559,7 +586,7 @@ def execute(method, target, headers, body):
             c.execute('INSERT INTO login_attempts VALUES(?,?,?) ON CONFLICT(identity) DO UPDATE SET count=login_attempts.count+1', (ip_key, time.time(), ip_count + 1))
         if path == '/health' and method == 'GET':
             c.execute('SELECT 1')
-            return 200, {'ok': True, 'mode': ENV, 'database': 'postgresql' if DATABASE_URL else 'sqlite-development', 'schemaVersion': 5, 'leasePublicKey': public_key(), 'dataMode': 'presentation' if is_presentation() else 'live', 'portal': os.environ.get('GANIT_APP_SURFACE', 'auto')}, []
+            return 200, {'ok': True, 'mode': ENV, 'database': 'postgresql' if DATABASE_URL else 'sqlite-development', 'schemaVersion': 6, 'leasePublicKey': public_key(), 'dataMode': 'presentation' if is_presentation() else 'live', 'portal': os.environ.get('GANIT_APP_SURFACE', 'auto')}, []
         if path == '/login' and method == 'POST':
             email = required(body, 'email', 254).lower()
             password = body.get('password', '')
@@ -675,7 +702,7 @@ def execute(method, target, headers, body):
             c.execute('DELETE FROM login_attempts WHERE identity=?', (identity,))
             return 200, {'ok': True}, []
         if path in ('/me', '/me/classrooms') and method == 'GET':
-            return 200, {'user': public_user(user), 'classrooms': rooms_for(c, user, True)}, []
+            return 200, {'user': public_user(user), 'classrooms': rooms_for(c, user, True), 'schools': schools_for(c, user)}, []
         if path == '/dashboard/demo' and method == 'GET':
             require_admin(user, True)
             if os.environ.get('GANIT_APP_SURFACE') == 'classroom':
@@ -690,8 +717,17 @@ def execute(method, target, headers, body):
             require_admin(user, True)
             school_id = uid()
             c.execute('INSERT INTO schools(id,name,location,code,admin_contact,created_at) VALUES(?,?,?,?,?,?)', (school_id, required(body, 'name'), str(body.get('location', ''))[:200], (str(body.get('code','')).strip() or 'SCH-' + school_id[:8].upper())[:60], str(body.get('admin_contact', ''))[:254], time.time()))
+            login = create_school_login(c, user, {'id': school_id, 'name': required(body, 'name')})
             audit(c, user['id'], 'school_created', school_id, school_id)
-            return 201, {'id': school_id}, []
+            return 201, {'id': school_id, 'login': login}, []
+        if re.fullmatch(r'/schools/[^/]+/login', path) and method == 'POST':
+            require_admin(user, True)
+            school = c.execute('SELECT id,name,status FROM schools WHERE id=?', (path.split('/')[2],)).fetchone()
+            if not school:
+                reject(404, 'not_found', 'Unknown school')
+            if school['status'] != 'active':
+                reject(400, 'invalid_request', 'Choose an active school')
+            return 201, {'login': create_school_login(c, user, school)}, []
         if path.startswith('/schools/') and method == 'PATCH':
             school_id = path.split('/')[2]
             require_admin(user, True)
@@ -791,6 +827,9 @@ def execute(method, target, headers, body):
                 if 'school_ids' in body:
                     require_admin(user, True)
                     schools = body['school_ids']
+                    school_login = c.execute('SELECT school_id FROM school_logins WHERE user_id=?', (target_id,)).fetchone()
+                    if school_login and (not isinstance(schools, list) or set(schools) != {school_login['school_id']}):
+                        reject(400, 'invalid_request', 'A school login belongs to its original school')
                     if not isinstance(schools, list) or not set(schools) <= school_scope(c, user):
                         reject(400, 'invalid_request', 'Invalid schools')
                     c.execute('DELETE FROM user_schools WHERE user_id=?', (target_id,))

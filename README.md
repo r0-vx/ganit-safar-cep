@@ -1,5 +1,7 @@
 # Ganit Safar / गणित सफर
 
+**One login per school (2 November 2026):** creating a school now generates a School ID and password. The same login works on both sites; each smartboard can create/select its classroom and connect directly without separate teacher accounts. Existing schools have a **Generate school login** action. [Workflow and verification](docs/SCHOOL_LOGIN_WORKFLOW.md).
+
 **Sign-in and school workflow update (2 November 2026):** both sites use the same live accounts. The classroom app opens the full learning experience and has a right-aligned account avatar with account details, classroom connection and sign-out. School creation validates required fields and generates an optional code; each school has direct classroom creation and scoped monitoring. Demo data is a read-only, authenticated super-administrator preview in the dashboard only. There are no demo sign-in pages or classroom demo mode. [Changes and verification](docs/SIGN_IN_SCHOOL_WORKFLOW_FIX.md).
 
 **Separate sign-in pages:** [Classroom app](https://ganit-safar-smartboard.vercel.app/sign-in) and [monitoring dashboard](https://ganit-safar-dashboard.vercel.app/sign-in) now open their respective workspaces with the same administrator credentials. [Presentation links and verification](docs/SEPARATE_SIGN_IN_PAGES.md).

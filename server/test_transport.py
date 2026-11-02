@@ -83,7 +83,7 @@ class TransportTests(unittest.TestCase):
             self.assertEqual(db.execute('SELECT COUNT(*) AS n FROM classroom_assignments').fetchone()['n'], 1)
             self.assertEqual(db.execute('SELECT COUNT(*) AS n FROM sessions').fetchone()['n'], 0)
             self.assertEqual(db.execute('SELECT must_change_password FROM users').fetchone()['must_change_password'], 1)
-            self.assertEqual(db.execute('SELECT MAX(version) AS v FROM schema_migrations').fetchone()['v'], 5)
+            self.assertEqual(db.execute('SELECT MAX(version) AS v FROM schema_migrations').fetchone()['v'], 6)
 
 
 if __name__ == '__main__':

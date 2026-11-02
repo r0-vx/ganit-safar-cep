@@ -23,6 +23,7 @@ part 'presentation_ui.dart';
 part 'portal_sign_in.dart';
 part 'account_menu.dart';
 part 'management_forms.dart';
+part 'school_accounts.dart';
 part 'chapter_screens.dart';
 part 'board_ui.dart';
 

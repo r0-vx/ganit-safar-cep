@@ -1,0 +1,10 @@
+{
+  "schoolLogin": true,
+  "classroomCreationFromBoardUi": true,
+  "boardConnected": true,
+  "onlineClassrooms": 1,
+  "activeLessons": 1,
+  "chapter": "G1-C10",
+  "liveLessonRecorded": true,
+  "scope": "isolated local PostgreSQL schema; no production records created"
+}

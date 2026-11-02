@@ -144,3 +144,7 @@ def migrate(db):
         if 'version_updated_at' not in present:
             db.execute('ALTER TABLE devices ADD COLUMN version_updated_at REAL')
         db.execute('INSERT INTO schema_migrations VALUES(?,?)', (5, time.time()))
+
+    if 6 not in versions:
+        db.executescript(Path(__file__).with_name('migrations').joinpath('006_school_logins.sql').read_text())
+        db.execute('INSERT INTO schema_migrations VALUES(?,?)', (6, time.time()))
