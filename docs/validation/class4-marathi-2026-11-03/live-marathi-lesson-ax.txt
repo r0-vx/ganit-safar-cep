@@ -1,0 +1,30 @@
+Browser tab: 22, Title: "Ganit Safar / गणित सफर", URL: "https://ganit-safar-smartboard.vercel.app/".
+1 AXWebArea Ganit Safar / गणित सफर, URL: ganit-safar-smartboard.vercel.app/
+	2 container
+		3 container flt-semantic-node-79
+			4 button मागे, ID: flt-semantic-node-80
+			5 text धड्याचा अभ्यास
+			6 button (collapsed) मराठी, ID: flt-semantic-node-82, Secondary Actions: Expand
+			7 text वर्ग जोडलेला नाही • अभ्यास उपलब्ध
+			8 text सर्व्हरशी जोडलेले
+			9 container flt-semantic-node-85
+				10 text धडा 4 • अपूर्णांक
+				11 text इयत्ता 4 • पाने 37–42
+				12 container flt-semantic-node-88
+					13 text 1. गोष्ट
+					14 text 2. करून पाहा
+					15 text 3. गणित
+					16 text 4. मिळून सोडवूया
+					17 text 5. आता स्वतः सोडव
+					18 text 6. उजळणी
+				28 text टप्पा ३ / ६
+				20 progress indicator Description: 50, ID: flt-semantic-node-96
+				29 text गणित कसे होते ते समजून घे
+				30 text पूर्ण आकाराचे समान भाग करूया. रंगवलेले भाग आणि एका पूर्ण आकारातील समान भाग यांवरून अपूर्णांक लिहूया. एक पूर्ण आणि उरलेला अपूर्णांक मिळून मिश्र संख्या कशी बनते, ते पाहूया.
+				31 text हा प्रश्न समजण्यासाठी गणिती चित्र प्रत्येक पूर्ण आकाराचे २ समान भाग केले आहेत. रंग दिलेले भाग मोज. १/२
+				32 text एका पूर्ण आकाराचे २ समान भाग केले आहेत, म्हणून छेद २. रंगवलेले भाग १, म्हणून अंश १. अपूर्णांक १/२.
+			25 button मागे, ID: flt-semantic-node-104
+			26 button हा टप्पा पुन्हा पाहा, ID: flt-semantic-node-105
+			27 button पुढचा टप्पा, ID: flt-semantic-node-106
+
+The focused UI element is 27 button पुढचा टप्पा, ID: flt-semantic-node-106

@@ -387,7 +387,7 @@ class _StoryLessonState extends State<StoryLessonPage> {
       children: [
         Heading(
           '${tr('Class', 'इयत्ता')} $grade • ${widget.topic.name.inLanguage(store.language)}',
-          lessonStory(widget.topic.id).inLanguage(store.language),
+          lessonStory(widget.topic.id, grade: grade).inLanguage(store.language),
         ),
         const SizedBox(height: 16),
         Panel(
@@ -889,7 +889,7 @@ class _PracticeSessionPageState extends State<PracticeSessionPage> {
             children: [
               for (final type in questionTypes)
                 FilterChip(
-                  label: Text(typeNames[type]!.inLanguage(store.language)),
+                  label: Text(classUiText(typeNames[type]!)),
                   selected: types.contains(type),
                   onSelected: (v) => setState(() {
                     v ? types.add(type) : types.remove(type);

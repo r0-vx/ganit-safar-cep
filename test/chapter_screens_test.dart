@@ -250,8 +250,13 @@ void main() {
           find.textContaining('Textbook chapter directory'),
           findsOneWidget,
         );
-        expect(find.textContaining('धड्यांची सूची'), findsOneWidget);
-        expect(find.textContaining('इयत्ता 4 चे धडे'), findsOneWidget);
+        expect(
+          find.text(
+            'Textbook chapter directory\nपाठ्यपुस्तकातील धड्यांची यादी',
+          ),
+          findsOneWidget,
+        );
+        expect(find.textContaining('इयत्ता ४ चे धडे'), findsOneWidget);
         expect(tester.takeException(), isNull, reason: 'viewport width $width');
       }
 

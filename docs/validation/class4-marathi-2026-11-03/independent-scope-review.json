@@ -1,0 +1,15 @@
+{
+  "classes1to3ExactUnchanged": {
+    "chapters": 65,
+    "legacy": 42
+  },
+  "allQuestionIdsAnswersOptionsObjectsTypesAndVisualKindsUnchanged": true,
+  "englishChanges": 26,
+  "englishChangesScopedToApprovedMathCorrections": [
+    "G4-C04 improper fraction descriptions across identical wholes",
+    "G4-C11 linear-length units and derived lesson story"
+  ],
+  "unexpectedEnglishChanges": 0,
+  "sourceBaseline": "/tmp/ganit-class4-before.json",
+  "after": "/tmp/ganit-class4-independent-after.json"
+}

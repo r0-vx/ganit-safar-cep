@@ -312,11 +312,14 @@ class _ChapterDirectoryCard extends StatelessWidget {
       children: [
         _ChapterMetaChip(
           icon: Icons.menu_book_rounded,
-          text: _chapterPageRange(chapter).inLanguage(store.language),
+          text: classUiText(_chapterPageRange(chapter), grade: chapter.grade),
         ),
         _ChapterMetaChip(
           icon: Icons.category_rounded,
-          text: _chapterStrandWords(chapter.strand).inLanguage(store.language),
+          text: classUiText(
+            _chapterStrandWords(chapter.strand),
+            grade: chapter.grade,
+          ),
         ),
         if (done)
           _ChapterMetaChip(

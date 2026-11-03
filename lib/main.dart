@@ -30,6 +30,7 @@ part 'chapter_sessions.dart';
 part 'learning_design.dart';
 part 'math_scene.dart';
 part 'board_ui.dart';
+part 'class4_interface_marathi.dart';
 
 final store = AppStore();
 final appNavigator = GlobalKey<NavigatorState>();
@@ -43,7 +44,19 @@ const gradeColors = [
   Color(0xFF9866B5),
   Color(0xFFD0783D),
 ];
-String tr(String en, String mr) => Words(en, mr).inLanguage(store.language);
+String tr(String en, String mr) => Words(
+  en,
+  store.grade == 4 && portalSurface != 'dashboard'
+      ? class4UiMarathi(en, mr)
+      : mr,
+).inLanguage(store.language);
+
+String classUiText(Words words, {int? grade}) => Words(
+  words.en,
+  (grade ?? store.grade) == 4 && portalSurface != 'dashboard'
+      ? class4UiMarathi(words.en, words.mr)
+      : words.mr,
+).inLanguage(store.language);
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   if (kIsWeb) browserCleanLegacyMode();
@@ -1628,7 +1641,10 @@ class _LessonState extends State<LessonPage> {
           children: [
             Expanded(
               child: Heading(
-                lessonStory(widget.topic.id).inLanguage(store.language),
+                lessonStory(
+                  widget.topic.id,
+                  grade: store.grade,
+                ).inLanguage(store.language),
                 tr(
                   'Class ${store.grade} • ${widget.topic.name.en}',
                   'इयत्ता ${store.grade} • ${widget.topic.name.mr}',
@@ -1653,7 +1669,7 @@ class _LessonState extends State<LessonPage> {
                   ? const Color(0xFFE3EFDE)
                   : Colors.white,
               label: Text(
-                '${i + 1}. ${stages[i].inLanguage(store.language)}',
+                '${i + 1}. ${classUiText(stages[i])}',
                 style: TextStyle(
                   fontSize: 11,
                   color: i == step ? green : const Color(0xFF8A978D),
@@ -2940,7 +2956,7 @@ class _PracticePageState extends State<PracticePage> {
           children: questionTypes
               .map(
                 (t) => ChoiceChip(
-                  label: Text(typeNames[t]!.inLanguage(store.language)),
+                  label: Text(classUiText(typeNames[t]!)),
                   selected: type == t,
                   onSelected: (_) => setState(() {
                     type = t;
@@ -3142,7 +3158,7 @@ class _QuizSetupState extends State<QuizSetup> {
                     .where((t) => supportsType(widget.topic.id, t))
                     .map(
                       (t) => FilterChip(
-                        label: Text(typeNames[t]!.inLanguage(store.language)),
+                        label: Text(classUiText(typeNames[t]!)),
                         selected: types.contains(t),
                         onSelected: (v) => setState(() {
                           if (v) {

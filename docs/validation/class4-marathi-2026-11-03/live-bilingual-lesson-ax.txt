@@ -1,0 +1,30 @@
+Browser tab: 22, Title: "Ganit Safar / गणित सफर", URL: "https://ganit-safar-smartboard.vercel.app/".
+1 AXWebArea Ganit Safar / गणित सफर, URL: ganit-safar-smartboard.vercel.app/
+	2 container
+		3 container flt-semantic-node-79
+			4 button Back मागे, ID: flt-semantic-node-80
+			9 text Chapter lesson धड्याचा अभ्यास
+			5 button (collapsed) English + मराठी, ID: flt-semantic-node-82, Secondary Actions: Expand
+			10 text No classroom linked • Learning available वर्ग जोडलेला नाही • अभ्यास उपलब्ध
+			11 text Connected सर्व्हरशी जोडलेले
+			12 container flt-semantic-node-85
+				13 text Chapter 4 • Fractions धडा 4 • अपूर्णांक
+				14 text Class 4 • Pages 37–42 इयत्ता 4 • पाने 37–42
+				15 container flt-semantic-node-88
+					16 text 1. Story गोष्ट
+					17 text 2. Explore करून पाहा
+					18 text 3. Maths गणित
+					19 text 4. Together मिळून सोडवूया
+					20 text 5. Your try आता स्वतः सोडव
+					21 text 6. Recap उजळणी
+				22 text Step 3 of 6 टप्पा ३ / ६
+				23 progress indicator Description: 50, ID: flt-semantic-node-96
+				24 text See the Maths गणित कसे होते ते समजून घे
+				25 text Partition shapes into equal parts and connect improper fractions with mixed-number language. पूर्ण आकाराचे समान भाग करूया. रंगवलेले भाग आणि एका पूर्ण आकारातील समान भाग यांवरून अपूर्णांक लिहूया. एक पूर्ण आणि उरलेला अपूर्णांक मिळून मिश्र संख्या कशी बनते, ते पाहूया.
+				26 text Mathematical model for this question हा प्रश्न समजण्यासाठी गणिती चित्र Each whole has 2 equal parts. The coloured parts are shaded. प्रत्येक पूर्ण आकाराचे २ समान भाग केले आहेत. रंग दिलेले भाग मोज. 1/2
+				27 text The numerator counts shaded parts and the denominator counts all equal parts: 1/2. एका पूर्ण आकाराचे २ समान भाग केले आहेत, म्हणून छेद २. रंगवलेले भाग १, म्हणून अंश १. अपूर्णांक १/२.
+			6 button Back मागे, ID: flt-semantic-node-104
+			7 button Replay this step हा टप्पा पुन्हा पाहा, ID: flt-semantic-node-105
+			8 button Next step पुढचा टप्पा, ID: flt-semantic-node-106
+
+The focused UI element is 5 button (collapsed) English + मराठी, ID: flt-semantic-node-82, Secondary Actions: Expand

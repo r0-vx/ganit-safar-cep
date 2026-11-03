@@ -208,7 +208,7 @@ class _ChapterLessonPageState extends State<ChapterLessonPage> {
                               crossAxisAlignment: CrossAxisAlignment.stretch,
                               children: [
                                 Text(
-                                  stageTitle.inLanguage(store.language),
+                                  classUiText(stageTitle, grade: chapter.grade),
                                   style: TextStyle(
                                     fontSize: 25,
                                     fontWeight: FontWeight.w900,

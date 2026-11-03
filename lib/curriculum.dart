@@ -18,24 +18,40 @@ class CurriculumOutcome {
     this._hint,
     this._commonMistake,
   );
-  Words get objective => _objective.identified(
-    '$id.objective',
-    glossaryTerms: glossaryTermsFor(topic),
+  Words _classWording(String field, Words text) =>
+      grade == 4 ? class4LearningHelp(topic, field, text) : text;
+  Words get objective => _classWording(
+    'objective',
+    _objective.identified(
+      '$id.objective',
+      glossaryTerms: glossaryTermsFor(topic),
+    ),
   );
-  Words get definition => _definition.identified(
-    '$id.definition',
-    glossaryTerms: glossaryTermsFor(topic),
+  Words get definition => _classWording(
+    'definition',
+    _definition.identified(
+      '$id.definition',
+      glossaryTerms: glossaryTermsFor(topic),
+    ),
   );
-  Words get hint =>
-      _hint.identified('$id.hint', glossaryTerms: glossaryTermsFor(topic));
-  Words get commonMistake => _commonMistake.identified(
-    '$id.commonMistake',
-    glossaryTerms: glossaryTermsFor(topic),
+  Words get hint => _classWording(
+    'hint',
+    _hint.identified('$id.hint', glossaryTerms: glossaryTermsFor(topic)),
   );
-  Words get vocabularyText => Words(
-    vocabulary.split(' / ').first,
-    vocabulary.split(' / ').last,
-  ).identified('$id.vocabulary', glossaryTerms: glossaryTermsFor(topic));
+  Words get commonMistake => _classWording(
+    'commonMistake',
+    _commonMistake.identified(
+      '$id.commonMistake',
+      glossaryTerms: glossaryTermsFor(topic),
+    ),
+  );
+  Words get vocabularyText => _classWording(
+    'vocabulary',
+    Words(
+      vocabulary.split(' / ').first,
+      vocabulary.split(' / ').last,
+    ).identified('$id.vocabulary', glossaryTerms: glossaryTermsFor(topic)),
+  );
 }
 
 final curriculum = <CurriculumOutcome>[
@@ -1138,6 +1154,6 @@ const classPlans = [
   ),
   Words(
     'Explain multi-step reasoning with number sentences; connect equal sharing and fractions. Apply money, measurement and data to village and school situations. Revise skills from mistakes.',
-    'संख्यावाक्यांनी अनेक पायऱ्यांचे विचार समजावून सांगा; समान वाटणी आणि अपूर्णांक जोडा. गाव व शाळेतील उदाहरणांत पैसे, मोजमाप व माहिती वापरा. चुकांवरून उजळणी करा.',
+    'उदाहरण टप्प्याटप्प्याने सोडवा आणि प्रत्येक टप्प्याचे गणित लिहा. समान वाटणीचा अपूर्णांकाशी असलेला संबंध समजून घ्या. शाळा आणि गावातील प्रसंगांत पैसे, मोजमापे आणि तक्त्यांतील माहिती वापरून प्रश्न सोडवा. चुकलेली उदाहरणे पुन्हा सोडवून पाहा.',
   ),
 ];

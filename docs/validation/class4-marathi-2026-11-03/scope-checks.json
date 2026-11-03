@@ -1,0 +1,23 @@
+{
+  "beforeCommit": "b24f5038afa205680cbbbd2d4599fe21fea23b46",
+  "class4Chapters": 14,
+  "chapterQuestionVariants": 140,
+  "chapterQuestionTextRecords": 980,
+  "lessonTextRecords": 70,
+  "legacyTopicFamilies": 14,
+  "legacySampleVariants": 1890,
+  "learningHelpTextRecords": 70,
+  "unchangedClasses": [
+    1,
+    2,
+    3
+  ],
+  "englishClarificationFields": 26,
+  "externalTranslationCalls": 0,
+  "humanEducatorApproval": false,
+  "translationStatus": "draft",
+  "class4InterfaceLabels": 412,
+  "flutterTestsPassed": 138,
+  "managedSignInTestsPassed": 1,
+  "analyzeIssues": 0
+}

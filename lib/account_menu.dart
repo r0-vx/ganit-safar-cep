@@ -61,7 +61,7 @@ class AccountMenuButton extends StatelessWidget {
   );
   @override
   Widget build(BuildContext context) => ListenableBuilder(
-    listenable: account,
+    listenable: Listenable.merge([account, store]),
     builder: (context, _) => PopupMenuButton<String>(
       tooltip: tr('Account', 'खाते'),
       position: PopupMenuPosition.under,

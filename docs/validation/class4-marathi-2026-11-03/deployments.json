@@ -1,0 +1,14 @@
+[
+  {
+    "surface": "classroom",
+    "deployment": "https://ganit-safar-smartboard-22f8xx6yx-rohitmoris854-6348s-projects.vercel.app",
+    "alias": "https://ganit-safar-smartboard.vercel.app",
+    "status": "ready"
+  },
+  {
+    "surface": "dashboard",
+    "deployment": "https://ganit-safar-dashboard-2bx1ck11e-rohitmoris854-6348s-projects.vercel.app",
+    "alias": "https://ganit-safar-dashboard.vercel.app",
+    "status": "ready"
+  }
+]

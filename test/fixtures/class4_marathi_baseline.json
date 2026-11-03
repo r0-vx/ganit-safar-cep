@@ -1,0 +1,6005 @@
+{
+  "schemaVersion": 1,
+  "beforeCommit": "b24f5038afa205680cbbbd2d4599fe21fea23b46",
+  "unchangedGrades": {
+    "1": "fc0022489320e85c788217b756111e52b9a79df3eb65b2d973fd616740f69f25",
+    "2": "1228e471f4931fc2f84c1dcfbd14691dd583aba8a5384b2a604ba98f0c682149",
+    "3": "05708688b641a84ace4a3772517e0666b25ec5f58168c0fd6f8dec79594814b3"
+  },
+  "chapterSemantics": {
+    "G4-C01": "c823382d7adc8eeba02f3b0544fbf6df92545502a836ad6622c8e15c380d6384",
+    "G4-C02": "7f2ed798406c3fadcb48e3616062d047107a953badf2f54250ea9407163387a1",
+    "G4-C03": "f2a6ac20bb212f9b0f20a31eb9344d3844baee4087ede2852b2b3823f46489b7",
+    "G4-C04": "d90bbc752afb664f5d243a761178b317b521300d114b1fe0db9fffb752e92752",
+    "G4-C05": "248a5ba9a9fb6a84becd8b8cfa42dc02a42e6956c778af7eff4be69198d7888f",
+    "G4-C06": "9ef323c2ca08145cf0dc3ac2cc33bd66aa156c606dccec6be1ee3e85c29b4c19",
+    "G4-C07": "75b38bc80e467c4d3dab2c72cb7a9ba83a40699a0a17b3ad7e14d82117e572e3",
+    "G4-C08": "869a355ef7e92306cf563d65aa4a77ef60e275de1bb9a2c874f97e9b29168296",
+    "G4-C09": "dc5fa49075aeefcf52415d3f3eb388ea71a6d714179543d05623d33da083fde3",
+    "G4-C10": "67cb38ff532f6d66d93475c4bcecaac8beffeda1d8208b4d6ecbc66928c62ffd",
+    "G4-C11": "e27e168ef45334eab284ab82e19758b8cd232918b8734259563e6339314d2207",
+    "G4-C12": "9a40e295a825f90a3343d947c0ded7b59681f25ae2548ccb1d449afe60142b33",
+    "G4-C13": "41a3f463d2b950b1db25ae2f97bc1781536445863f1697cb7aa510609c3261e8",
+    "G4-C14": "e3bd0f909e6eb8fb7f544baf9b2375c13a2fd43a76fe803aabf601aaeef6ae2f"
+  },
+  "legacySemantics": {
+    "mh-g4-count-v1": "e3bc2cf6183e7067d255906b6a4c8cbe8fd031de19f454cb5814cec28d630370",
+    "mh-g4-place-v1": "d23603666880527d6703678a8f77357214e2e06cb09dd6809fad0cf7e3f309b6",
+    "mh-g4-add-v1": "79043ee8ada130701546ae20e5468ce8968e1388c636194d9de82fff667601f1",
+    "mh-g4-subtract-v1": "ffbb5501f59644dfc4ac9dc80c88cbde8ae357180daf5943e17cc57481b17bda",
+    "mh-g4-multiply-v1": "a186a34af640c487feb2ff49ae3089e09180b2be7e6960d95c1246205318d012",
+    "mh-g4-divide-v1": "8acdac486bad3b4e23b68d8f3217f3282dd68f73089fdd26bbc0794b7635d6b3",
+    "mh-g4-fraction-v1": "05d272bd966e76024cbb397d8f8143ac507d7acc7cda46c736cf279ac9f8bb14",
+    "mh-g4-shape-v1": "2de3661cc9b24ee37ccf113fe0c7ba87d9a673b7612249a82a98273e5bf55878",
+    "mh-g4-measure-v1": "6718980ffcfc3deb85f3bc39ea3bb89e1c5ec5220cedfc1ccb534259568d707d",
+    "mh-g4-time-v1": "c8b45616b02f2e6465ff3c301a2269492da48630ef414bf4e28e6c94bebccd3a",
+    "mh-g4-money-v1": "ab0b78ddd9663a8cec77927d44da05a975c5980810e19fc2116e1fe91ba82870",
+    "mh-g4-pattern-v1": "bf5660f51ef49701d432c91c673025f9b70b04b386c677ab31e4c1b62ff0dbaa",
+    "mh-g4-data-v1": "c6e696c99e61b28c0ae126260529fda46636a9fe33cf9e94c8c62cd5a731056b",
+    "mh-g4-word-v1": "4d8fe5bab6e087490fb534643ce16b6998e22308a5f29c2cb99a781564edcd33"
+  },
+  "class4Before": {
+    "G4-C01": {
+      "id": "G4-C01",
+      "grade": 4,
+      "title": {
+        "id": "G4-C01.title",
+        "english": "Let's play with numbers"
+      },
+      "lesson": {
+        "story": {
+          "id": "G4-C01.lesson.story",
+          "english": "Mira and Ravi explore: Choose the number with 1 thousands, 0 hundreds, 0 tens, and 0 ones."
+        },
+        "concept": {
+          "id": "G4-C01.lesson.concept",
+          "english": "Read, expand, compare, and classify numbers through 9,999 using place value."
+        },
+        "workedExample": {
+          "id": "G4-C01-q1.explanation",
+          "english": "1000 + 0 + 0 + 0 builds 1000 from its place values."
+        },
+        "hint": {
+          "id": "G4-C01-q1.hint",
+          "english": "Keep each digit in its place-value column."
+        },
+        "recap": {
+          "id": "G4-C01.lesson.recap",
+          "english": "Remember: Read, expand, compare, and classify numbers through 9,999 using place value."
+        }
+      },
+      "questions": [
+        {
+          "id": "G4-C01-q1",
+          "correctIndex": 3,
+          "visualKind": "baseTen",
+          "objects": [
+            "🔢",
+            "🟡"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C01-q1.prompt",
+              "english": "Choose the number with 1 thousands, 0 hundreds, 0 tens, and 0 ones."
+            },
+            "explanation": {
+              "id": "G4-C01-q1.explanation",
+              "english": "1000 + 0 + 0 + 0 builds 1000 from its place values."
+            },
+            "hint": {
+              "id": "G4-C01-q1.hint",
+              "english": "Keep each digit in its place-value column."
+            },
+            "option.0": {
+              "id": "G4-C01-q1.option.0",
+              "english": "1001"
+            },
+            "option.1": {
+              "id": "G4-C01-q1.option.1",
+              "english": "999"
+            },
+            "option.2": {
+              "id": "G4-C01-q1.option.2",
+              "english": "1002"
+            },
+            "option.3": {
+              "id": "G4-C01-q1.option.3",
+              "english": "1000"
+            }
+          }
+        },
+        {
+          "id": "G4-C01-q2",
+          "correctIndex": 0,
+          "visualKind": "placeValue",
+          "objects": [
+            "🔢"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C01-q2.prompt",
+              "english": "Is 2357 even or odd?"
+            },
+            "explanation": {
+              "id": "G4-C01-q2.explanation",
+              "english": "The ones digit is 7. This number is odd."
+            },
+            "hint": {
+              "id": "G4-C01-q2.hint",
+              "english": "Check the ones digit."
+            },
+            "option.0": {
+              "id": "G4-C01-q2.option.0",
+              "english": "odd"
+            },
+            "option.1": {
+              "id": "G4-C01-q2.option.1",
+              "english": "even"
+            },
+            "option.2": {
+              "id": "G4-C01-q2.option.2",
+              "english": "neither"
+            },
+            "option.3": {
+              "id": "G4-C01-q2.option.3",
+              "english": "both"
+            }
+          }
+        },
+        {
+          "id": "G4-C01-q3",
+          "correctIndex": 1,
+          "visualKind": "placeValue",
+          "objects": [
+            "🔢"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C01-q3.prompt",
+              "english": "Is 3604 even or odd?"
+            },
+            "explanation": {
+              "id": "G4-C01-q3.explanation",
+              "english": "The ones digit is 4. This number is even."
+            },
+            "hint": {
+              "id": "G4-C01-q3.hint",
+              "english": "Check the ones digit."
+            },
+            "option.0": {
+              "id": "G4-C01-q3.option.0",
+              "english": "odd"
+            },
+            "option.1": {
+              "id": "G4-C01-q3.option.1",
+              "english": "even"
+            },
+            "option.2": {
+              "id": "G4-C01-q3.option.2",
+              "english": "neither"
+            },
+            "option.3": {
+              "id": "G4-C01-q3.option.3",
+              "english": "both"
+            }
+          }
+        },
+        {
+          "id": "G4-C01-q4",
+          "correctIndex": 2,
+          "visualKind": "baseTen",
+          "objects": [
+            "🔢",
+            "🟡"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C01-q4.prompt",
+              "english": "Choose the number with 4 thousands, 9 hundreds, 5 tens, and 1 ones."
+            },
+            "explanation": {
+              "id": "G4-C01-q4.explanation",
+              "english": "4000 + 900 + 50 + 1 builds 4951 from its place values."
+            },
+            "hint": {
+              "id": "G4-C01-q4.hint",
+              "english": "Keep each digit in its place-value column."
+            },
+            "option.0": {
+              "id": "G4-C01-q4.option.0",
+              "english": "4952"
+            },
+            "option.1": {
+              "id": "G4-C01-q4.option.1",
+              "english": "4950"
+            },
+            "option.2": {
+              "id": "G4-C01-q4.option.2",
+              "english": "4951"
+            },
+            "option.3": {
+              "id": "G4-C01-q4.option.3",
+              "english": "4953"
+            }
+          }
+        },
+        {
+          "id": "G4-C01-q5",
+          "correctIndex": 3,
+          "visualKind": "placeValue",
+          "objects": [
+            "🔢"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C01-q5.prompt",
+              "english": "Is 5208 even or odd?"
+            },
+            "explanation": {
+              "id": "G4-C01-q5.explanation",
+              "english": "The ones digit is 8. This number is even."
+            },
+            "hint": {
+              "id": "G4-C01-q5.hint",
+              "english": "Check the ones digit."
+            },
+            "option.0": {
+              "id": "G4-C01-q5.option.0",
+              "english": "odd"
+            },
+            "option.1": {
+              "id": "G4-C01-q5.option.1",
+              "english": "neither"
+            },
+            "option.2": {
+              "id": "G4-C01-q5.option.2",
+              "english": "both"
+            },
+            "option.3": {
+              "id": "G4-C01-q5.option.3",
+              "english": "even"
+            }
+          }
+        },
+        {
+          "id": "G4-C01-q6",
+          "correctIndex": 0,
+          "visualKind": "placeValue",
+          "objects": [
+            "🔢"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C01-q6.prompt",
+              "english": "Is 6555 even or odd?"
+            },
+            "explanation": {
+              "id": "G4-C01-q6.explanation",
+              "english": "The ones digit is 5. This number is odd."
+            },
+            "hint": {
+              "id": "G4-C01-q6.hint",
+              "english": "Check the ones digit."
+            },
+            "option.0": {
+              "id": "G4-C01-q6.option.0",
+              "english": "odd"
+            },
+            "option.1": {
+              "id": "G4-C01-q6.option.1",
+              "english": "even"
+            },
+            "option.2": {
+              "id": "G4-C01-q6.option.2",
+              "english": "neither"
+            },
+            "option.3": {
+              "id": "G4-C01-q6.option.3",
+              "english": "both"
+            }
+          }
+        },
+        {
+          "id": "G4-C01-q7",
+          "correctIndex": 1,
+          "visualKind": "baseTen",
+          "objects": [
+            "🔢",
+            "🟡"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C01-q7.prompt",
+              "english": "Choose the number with 7 thousands, 8 hundreds, 0 tens, and 2 ones."
+            },
+            "explanation": {
+              "id": "G4-C01-q7.explanation",
+              "english": "7000 + 800 + 0 + 2 builds 7802 from its place values."
+            },
+            "hint": {
+              "id": "G4-C01-q7.hint",
+              "english": "Keep each digit in its place-value column."
+            },
+            "option.0": {
+              "id": "G4-C01-q7.option.0",
+              "english": "7803"
+            },
+            "option.1": {
+              "id": "G4-C01-q7.option.1",
+              "english": "7802"
+            },
+            "option.2": {
+              "id": "G4-C01-q7.option.2",
+              "english": "7801"
+            },
+            "option.3": {
+              "id": "G4-C01-q7.option.3",
+              "english": "7804"
+            }
+          }
+        },
+        {
+          "id": "G4-C01-q8",
+          "correctIndex": 2,
+          "visualKind": "placeValue",
+          "objects": [
+            "🔢"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C01-q8.prompt",
+              "english": "Is 8159 even or odd?"
+            },
+            "explanation": {
+              "id": "G4-C01-q8.explanation",
+              "english": "The ones digit is 9. This number is odd."
+            },
+            "hint": {
+              "id": "G4-C01-q8.hint",
+              "english": "Check the ones digit."
+            },
+            "option.0": {
+              "id": "G4-C01-q8.option.0",
+              "english": "even"
+            },
+            "option.1": {
+              "id": "G4-C01-q8.option.1",
+              "english": "neither"
+            },
+            "option.2": {
+              "id": "G4-C01-q8.option.2",
+              "english": "odd"
+            },
+            "option.3": {
+              "id": "G4-C01-q8.option.3",
+              "english": "both"
+            }
+          }
+        },
+        {
+          "id": "G4-C01-q9",
+          "correctIndex": 3,
+          "visualKind": "placeValue",
+          "objects": [
+            "🔢"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C01-q9.prompt",
+              "english": "Is 1406 even or odd?"
+            },
+            "explanation": {
+              "id": "G4-C01-q9.explanation",
+              "english": "The ones digit is 6. This number is even."
+            },
+            "hint": {
+              "id": "G4-C01-q9.hint",
+              "english": "Check the ones digit."
+            },
+            "option.0": {
+              "id": "G4-C01-q9.option.0",
+              "english": "odd"
+            },
+            "option.1": {
+              "id": "G4-C01-q9.option.1",
+              "english": "neither"
+            },
+            "option.2": {
+              "id": "G4-C01-q9.option.2",
+              "english": "both"
+            },
+            "option.3": {
+              "id": "G4-C01-q9.option.3",
+              "english": "even"
+            }
+          }
+        },
+        {
+          "id": "G4-C01-q10",
+          "correctIndex": 0,
+          "visualKind": "baseTen",
+          "objects": [
+            "🔢",
+            "🟡"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C01-q10.prompt",
+              "english": "Choose the number with 2 thousands, 7 hundreds, 5 tens, and 3 ones."
+            },
+            "explanation": {
+              "id": "G4-C01-q10.explanation",
+              "english": "2000 + 700 + 50 + 3 builds 2753 from its place values."
+            },
+            "hint": {
+              "id": "G4-C01-q10.hint",
+              "english": "Keep each digit in its place-value column."
+            },
+            "option.0": {
+              "id": "G4-C01-q10.option.0",
+              "english": "2753"
+            },
+            "option.1": {
+              "id": "G4-C01-q10.option.1",
+              "english": "2754"
+            },
+            "option.2": {
+              "id": "G4-C01-q10.option.2",
+              "english": "2752"
+            },
+            "option.3": {
+              "id": "G4-C01-q10.option.3",
+              "english": "2755"
+            }
+          }
+        }
+      ]
+    },
+    "G4-C02": {
+      "id": "G4-C02",
+      "grade": 4,
+      "title": {
+        "id": "G4-C02.title",
+        "english": "Fun with shapes"
+      },
+      "lesson": {
+        "story": {
+          "id": "G4-C02.lesson.story",
+          "english": "Mira and Ravi explore: The corner of a notebook. Is its angle smaller than, the same as, or larger than a square corner?"
+        },
+        "concept": {
+          "id": "G4-C02.lesson.concept",
+          "english": "Compare angles with a right angle and classify triangles and four-sided shapes."
+        },
+        "workedExample": {
+          "id": "G4-C02-q1.explanation",
+          "english": "Compare the corner of a notebook with a paper square corner: it is the same as a square corner."
+        },
+        "hint": {
+          "id": "G4-C02-q1.hint",
+          "english": "Use the corner of a paper square as your reference."
+        },
+        "recap": {
+          "id": "G4-C02.lesson.recap",
+          "english": "Remember: Compare angles with a right angle and classify triangles and four-sided shapes."
+        }
+      },
+      "questions": [
+        {
+          "id": "G4-C02-q1",
+          "correctIndex": 2,
+          "visualKind": "angles",
+          "objects": [
+            "📐",
+            "📄"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C02-q1.prompt",
+              "english": "The corner of a notebook. Is its angle smaller than, the same as, or larger than a square corner?"
+            },
+            "explanation": {
+              "id": "G4-C02-q1.explanation",
+              "english": "Compare the corner of a notebook with a paper square corner: it is the same as a square corner."
+            },
+            "hint": {
+              "id": "G4-C02-q1.hint",
+              "english": "Use the corner of a paper square as your reference."
+            },
+            "option.0": {
+              "id": "G4-C02-q1.option.0",
+              "english": "smaller than a square corner"
+            },
+            "option.1": {
+              "id": "G4-C02-q1.option.1",
+              "english": "larger than a square corner"
+            },
+            "option.2": {
+              "id": "G4-C02-q1.option.2",
+              "english": "the same as a square corner"
+            },
+            "option.3": {
+              "id": "G4-C02-q1.option.3",
+              "english": "a curved line, not an angle"
+            }
+          }
+        },
+        {
+          "id": "G4-C02-q2",
+          "correctIndex": 3,
+          "visualKind": "angles",
+          "objects": [
+            "📐",
+            "📄"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C02-q2.prompt",
+              "english": "The narrow opening of scissors. Is its angle smaller than, the same as, or larger than a square corner?"
+            },
+            "explanation": {
+              "id": "G4-C02-q2.explanation",
+              "english": "Compare the narrow opening of scissors with a paper square corner: it is smaller than a square corner."
+            },
+            "hint": {
+              "id": "G4-C02-q2.hint",
+              "english": "Use the corner of a paper square as your reference."
+            },
+            "option.0": {
+              "id": "G4-C02-q2.option.0",
+              "english": "the same as a square corner"
+            },
+            "option.1": {
+              "id": "G4-C02-q2.option.1",
+              "english": "larger than a square corner"
+            },
+            "option.2": {
+              "id": "G4-C02-q2.option.2",
+              "english": "a curved line, not an angle"
+            },
+            "option.3": {
+              "id": "G4-C02-q2.option.3",
+              "english": "smaller than a square corner"
+            }
+          }
+        },
+        {
+          "id": "G4-C02-q3",
+          "correctIndex": 0,
+          "visualKind": "angles",
+          "objects": [
+            "📐",
+            "📄"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C02-q3.prompt",
+              "english": "A barn door opened wide. Is its angle smaller than, the same as, or larger than a square corner?"
+            },
+            "explanation": {
+              "id": "G4-C02-q3.explanation",
+              "english": "Compare a barn door opened wide with a paper square corner: it is larger than a square corner."
+            },
+            "hint": {
+              "id": "G4-C02-q3.hint",
+              "english": "Use the corner of a paper square as your reference."
+            },
+            "option.0": {
+              "id": "G4-C02-q3.option.0",
+              "english": "larger than a square corner"
+            },
+            "option.1": {
+              "id": "G4-C02-q3.option.1",
+              "english": "smaller than a square corner"
+            },
+            "option.2": {
+              "id": "G4-C02-q3.option.2",
+              "english": "the same as a square corner"
+            },
+            "option.3": {
+              "id": "G4-C02-q3.option.3",
+              "english": "a curved line, not an angle"
+            }
+          }
+        },
+        {
+          "id": "G4-C02-q4",
+          "correctIndex": 1,
+          "visualKind": "angles",
+          "objects": [
+            "📐",
+            "📄"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C02-q4.prompt",
+              "english": "The corner of a square tile. Is its angle smaller than, the same as, or larger than a square corner?"
+            },
+            "explanation": {
+              "id": "G4-C02-q4.explanation",
+              "english": "Compare the corner of a square tile with a paper square corner: it is the same as a square corner."
+            },
+            "hint": {
+              "id": "G4-C02-q4.hint",
+              "english": "Use the corner of a paper square as your reference."
+            },
+            "option.0": {
+              "id": "G4-C02-q4.option.0",
+              "english": "smaller than a square corner"
+            },
+            "option.1": {
+              "id": "G4-C02-q4.option.1",
+              "english": "the same as a square corner"
+            },
+            "option.2": {
+              "id": "G4-C02-q4.option.2",
+              "english": "larger than a square corner"
+            },
+            "option.3": {
+              "id": "G4-C02-q4.option.3",
+              "english": "a curved line, not an angle"
+            }
+          }
+        },
+        {
+          "id": "G4-C02-q5",
+          "correctIndex": 2,
+          "visualKind": "angles",
+          "objects": [
+            "📐",
+            "📄"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C02-q5.prompt",
+              "english": "The sharp tip of a paper triangle. Is its angle smaller than, the same as, or larger than a square corner?"
+            },
+            "explanation": {
+              "id": "G4-C02-q5.explanation",
+              "english": "Compare the sharp tip of a paper triangle with a paper square corner: it is smaller than a square corner."
+            },
+            "hint": {
+              "id": "G4-C02-q5.hint",
+              "english": "Use the corner of a paper square as your reference."
+            },
+            "option.0": {
+              "id": "G4-C02-q5.option.0",
+              "english": "the same as a square corner"
+            },
+            "option.1": {
+              "id": "G4-C02-q5.option.1",
+              "english": "larger than a square corner"
+            },
+            "option.2": {
+              "id": "G4-C02-q5.option.2",
+              "english": "smaller than a square corner"
+            },
+            "option.3": {
+              "id": "G4-C02-q5.option.3",
+              "english": "a curved line, not an angle"
+            }
+          }
+        },
+        {
+          "id": "G4-C02-q6",
+          "correctIndex": 3,
+          "visualKind": "angles",
+          "objects": [
+            "📐",
+            "📄"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C02-q6.prompt",
+              "english": "The corner of a square window frame. Is its angle smaller than, the same as, or larger than a square corner?"
+            },
+            "explanation": {
+              "id": "G4-C02-q6.explanation",
+              "english": "Compare the corner of a square window frame with a paper square corner: it is the same as a square corner."
+            },
+            "hint": {
+              "id": "G4-C02-q6.hint",
+              "english": "Use the corner of a paper square as your reference."
+            },
+            "option.0": {
+              "id": "G4-C02-q6.option.0",
+              "english": "smaller than a square corner"
+            },
+            "option.1": {
+              "id": "G4-C02-q6.option.1",
+              "english": "larger than a square corner"
+            },
+            "option.2": {
+              "id": "G4-C02-q6.option.2",
+              "english": "a curved line, not an angle"
+            },
+            "option.3": {
+              "id": "G4-C02-q6.option.3",
+              "english": "the same as a square corner"
+            }
+          }
+        },
+        {
+          "id": "G4-C02-q7",
+          "correctIndex": 0,
+          "visualKind": "angles",
+          "objects": [
+            "📐",
+            "📄"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C02-q7.prompt",
+              "english": "Two narrow paths meeting. Is its angle smaller than, the same as, or larger than a square corner?"
+            },
+            "explanation": {
+              "id": "G4-C02-q7.explanation",
+              "english": "Compare two narrow paths meeting with a paper square corner: it is smaller than a square corner."
+            },
+            "hint": {
+              "id": "G4-C02-q7.hint",
+              "english": "Use the corner of a paper square as your reference."
+            },
+            "option.0": {
+              "id": "G4-C02-q7.option.0",
+              "english": "smaller than a square corner"
+            },
+            "option.1": {
+              "id": "G4-C02-q7.option.1",
+              "english": "the same as a square corner"
+            },
+            "option.2": {
+              "id": "G4-C02-q7.option.2",
+              "english": "larger than a square corner"
+            },
+            "option.3": {
+              "id": "G4-C02-q7.option.3",
+              "english": "a curved line, not an angle"
+            }
+          }
+        },
+        {
+          "id": "G4-C02-q8",
+          "correctIndex": 1,
+          "visualKind": "angles",
+          "objects": [
+            "📐",
+            "📄"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C02-q8.prompt",
+              "english": "A gate swung open beyond a quarter turn. Is its angle smaller than, the same as, or larger than a square corner?"
+            },
+            "explanation": {
+              "id": "G4-C02-q8.explanation",
+              "english": "Compare a gate swung open beyond a quarter turn with a paper square corner: it is larger than a square corner."
+            },
+            "hint": {
+              "id": "G4-C02-q8.hint",
+              "english": "Use the corner of a paper square as your reference."
+            },
+            "option.0": {
+              "id": "G4-C02-q8.option.0",
+              "english": "smaller than a square corner"
+            },
+            "option.1": {
+              "id": "G4-C02-q8.option.1",
+              "english": "larger than a square corner"
+            },
+            "option.2": {
+              "id": "G4-C02-q8.option.2",
+              "english": "the same as a square corner"
+            },
+            "option.3": {
+              "id": "G4-C02-q8.option.3",
+              "english": "a curved line, not an angle"
+            }
+          }
+        },
+        {
+          "id": "G4-C02-q9",
+          "correctIndex": 2,
+          "visualKind": "angles",
+          "objects": [
+            "📐",
+            "📄"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C02-q9.prompt",
+              "english": "The corner of a square picture frame. Is its angle smaller than, the same as, or larger than a square corner?"
+            },
+            "explanation": {
+              "id": "G4-C02-q9.explanation",
+              "english": "Compare the corner of a square picture frame with a paper square corner: it is the same as a square corner."
+            },
+            "hint": {
+              "id": "G4-C02-q9.hint",
+              "english": "Use the corner of a paper square as your reference."
+            },
+            "option.0": {
+              "id": "G4-C02-q9.option.0",
+              "english": "smaller than a square corner"
+            },
+            "option.1": {
+              "id": "G4-C02-q9.option.1",
+              "english": "larger than a square corner"
+            },
+            "option.2": {
+              "id": "G4-C02-q9.option.2",
+              "english": "the same as a square corner"
+            },
+            "option.3": {
+              "id": "G4-C02-q9.option.3",
+              "english": "a curved line, not an angle"
+            }
+          }
+        },
+        {
+          "id": "G4-C02-q10",
+          "correctIndex": 3,
+          "visualKind": "angles",
+          "objects": [
+            "📐",
+            "📄"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C02-q10.prompt",
+              "english": "The narrow point of a folded paper fan. Is its angle smaller than, the same as, or larger than a square corner?"
+            },
+            "explanation": {
+              "id": "G4-C02-q10.explanation",
+              "english": "Compare the narrow point of a folded paper fan with a paper square corner: it is smaller than a square corner."
+            },
+            "hint": {
+              "id": "G4-C02-q10.hint",
+              "english": "Use the corner of a paper square as your reference."
+            },
+            "option.0": {
+              "id": "G4-C02-q10.option.0",
+              "english": "the same as a square corner"
+            },
+            "option.1": {
+              "id": "G4-C02-q10.option.1",
+              "english": "larger than a square corner"
+            },
+            "option.2": {
+              "id": "G4-C02-q10.option.2",
+              "english": "a curved line, not an angle"
+            },
+            "option.3": {
+              "id": "G4-C02-q10.option.3",
+              "english": "smaller than a square corner"
+            }
+          }
+        }
+      ]
+    },
+    "G4-C03": {
+      "id": "G4-C03",
+      "grade": 4,
+      "title": {
+        "id": "G4-C03.title",
+        "english": "Addition and subtraction"
+      },
+      "lesson": {
+        "story": {
+          "id": "G4-C03.lesson.story",
+          "english": "Mira and Ravi explore: A class collects 1240 leaves, then 357 more. How many altogether?"
+        },
+        "concept": {
+          "id": "G4-C03.lesson.concept",
+          "english": "Select an operation and calculate a larger-number situation, checking with its inverse."
+        },
+        "workedExample": {
+          "id": "G4-C03-q1.explanation",
+          "english": "1240 + 357 = 1597."
+        },
+        "hint": {
+          "id": "G4-C03-q1.hint",
+          "english": "Put both groups together, then count or add their totals."
+        },
+        "recap": {
+          "id": "G4-C03.lesson.recap",
+          "english": "Remember: Select an operation and calculate a larger-number situation, checking with its inverse."
+        }
+      },
+      "questions": [
+        {
+          "id": "G4-C03-q1",
+          "correctIndex": 1,
+          "visualKind": "addition",
+          "objects": [
+            "🍃",
+            "➕",
+            "🧺"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C03-q1.prompt",
+              "english": "A class collects 1240 leaves, then 357 more. How many altogether?"
+            },
+            "explanation": {
+              "id": "G4-C03-q1.explanation",
+              "english": "1240 + 357 = 1597."
+            },
+            "hint": {
+              "id": "G4-C03-q1.hint",
+              "english": "Put both groups together, then count or add their totals."
+            },
+            "option.0": {
+              "id": "G4-C03-q1.option.0",
+              "english": "1598"
+            },
+            "option.1": {
+              "id": "G4-C03-q1.option.1",
+              "english": "1597"
+            },
+            "option.2": {
+              "id": "G4-C03-q1.option.2",
+              "english": "1596"
+            },
+            "option.3": {
+              "id": "G4-C03-q1.option.3",
+              "english": "1599"
+            }
+          }
+        },
+        {
+          "id": "G4-C03-q2",
+          "correctIndex": 2,
+          "visualKind": "addition",
+          "objects": [
+            "🍃",
+            "➕",
+            "🧺"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C03-q2.prompt",
+              "english": "A class collects 1353 mangoes, then 398 more. How many altogether?"
+            },
+            "explanation": {
+              "id": "G4-C03-q2.explanation",
+              "english": "1353 + 398 = 1751."
+            },
+            "hint": {
+              "id": "G4-C03-q2.hint",
+              "english": "Put both groups together, then count or add their totals."
+            },
+            "option.0": {
+              "id": "G4-C03-q2.option.0",
+              "english": "1752"
+            },
+            "option.1": {
+              "id": "G4-C03-q2.option.1",
+              "english": "1750"
+            },
+            "option.2": {
+              "id": "G4-C03-q2.option.2",
+              "english": "1751"
+            },
+            "option.3": {
+              "id": "G4-C03-q2.option.3",
+              "english": "1753"
+            }
+          }
+        },
+        {
+          "id": "G4-C03-q3",
+          "correctIndex": 3,
+          "visualKind": "addition",
+          "objects": [
+            "🍃",
+            "➕",
+            "🧺"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C03-q3.prompt",
+              "english": "A class collects 1466 marbles, then 439 more. How many altogether?"
+            },
+            "explanation": {
+              "id": "G4-C03-q3.explanation",
+              "english": "1466 + 439 = 1905."
+            },
+            "hint": {
+              "id": "G4-C03-q3.hint",
+              "english": "Put both groups together, then count or add their totals."
+            },
+            "option.0": {
+              "id": "G4-C03-q3.option.0",
+              "english": "1906"
+            },
+            "option.1": {
+              "id": "G4-C03-q3.option.1",
+              "english": "1904"
+            },
+            "option.2": {
+              "id": "G4-C03-q3.option.2",
+              "english": "1907"
+            },
+            "option.3": {
+              "id": "G4-C03-q3.option.3",
+              "english": "1905"
+            }
+          }
+        },
+        {
+          "id": "G4-C03-q4",
+          "correctIndex": 0,
+          "visualKind": "addition",
+          "objects": [
+            "🍃",
+            "➕",
+            "🧺"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C03-q4.prompt",
+              "english": "A class collects 1579 flowers, then 480 more. How many altogether?"
+            },
+            "explanation": {
+              "id": "G4-C03-q4.explanation",
+              "english": "1579 + 480 = 2059."
+            },
+            "hint": {
+              "id": "G4-C03-q4.hint",
+              "english": "Put both groups together, then count or add their totals."
+            },
+            "option.0": {
+              "id": "G4-C03-q4.option.0",
+              "english": "2059"
+            },
+            "option.1": {
+              "id": "G4-C03-q4.option.1",
+              "english": "2060"
+            },
+            "option.2": {
+              "id": "G4-C03-q4.option.2",
+              "english": "2058"
+            },
+            "option.3": {
+              "id": "G4-C03-q4.option.3",
+              "english": "2061"
+            }
+          }
+        },
+        {
+          "id": "G4-C03-q5",
+          "correctIndex": 1,
+          "visualKind": "addition",
+          "objects": [
+            "🍃",
+            "➕",
+            "🧺"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C03-q5.prompt",
+              "english": "A class collects 1692 shells, then 521 more. How many altogether?"
+            },
+            "explanation": {
+              "id": "G4-C03-q5.explanation",
+              "english": "1692 + 521 = 2213."
+            },
+            "hint": {
+              "id": "G4-C03-q5.hint",
+              "english": "Put both groups together, then count or add their totals."
+            },
+            "option.0": {
+              "id": "G4-C03-q5.option.0",
+              "english": "2214"
+            },
+            "option.1": {
+              "id": "G4-C03-q5.option.1",
+              "english": "2213"
+            },
+            "option.2": {
+              "id": "G4-C03-q5.option.2",
+              "english": "2212"
+            },
+            "option.3": {
+              "id": "G4-C03-q5.option.3",
+              "english": "2215"
+            }
+          }
+        },
+        {
+          "id": "G4-C03-q6",
+          "correctIndex": 2,
+          "visualKind": "addition",
+          "objects": [
+            "🍃",
+            "➕",
+            "🧺"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C03-q6.prompt",
+              "english": "A class collects 1805 seeds, then 562 more. How many altogether?"
+            },
+            "explanation": {
+              "id": "G4-C03-q6.explanation",
+              "english": "1805 + 562 = 2367."
+            },
+            "hint": {
+              "id": "G4-C03-q6.hint",
+              "english": "Put both groups together, then count or add their totals."
+            },
+            "option.0": {
+              "id": "G4-C03-q6.option.0",
+              "english": "2368"
+            },
+            "option.1": {
+              "id": "G4-C03-q6.option.1",
+              "english": "2366"
+            },
+            "option.2": {
+              "id": "G4-C03-q6.option.2",
+              "english": "2367"
+            },
+            "option.3": {
+              "id": "G4-C03-q6.option.3",
+              "english": "2369"
+            }
+          }
+        },
+        {
+          "id": "G4-C03-q7",
+          "correctIndex": 3,
+          "visualKind": "addition",
+          "objects": [
+            "🍃",
+            "➕",
+            "🧺"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C03-q7.prompt",
+              "english": "A class collects 1918 buttons, then 603 more. How many altogether?"
+            },
+            "explanation": {
+              "id": "G4-C03-q7.explanation",
+              "english": "1918 + 603 = 2521."
+            },
+            "hint": {
+              "id": "G4-C03-q7.hint",
+              "english": "Put both groups together, then count or add their totals."
+            },
+            "option.0": {
+              "id": "G4-C03-q7.option.0",
+              "english": "2522"
+            },
+            "option.1": {
+              "id": "G4-C03-q7.option.1",
+              "english": "2520"
+            },
+            "option.2": {
+              "id": "G4-C03-q7.option.2",
+              "english": "2523"
+            },
+            "option.3": {
+              "id": "G4-C03-q7.option.3",
+              "english": "2521"
+            }
+          }
+        },
+        {
+          "id": "G4-C03-q8",
+          "correctIndex": 0,
+          "visualKind": "addition",
+          "objects": [
+            "🍃",
+            "➕",
+            "🧺"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C03-q8.prompt",
+              "english": "A class collects 2031 kites, then 644 more. How many altogether?"
+            },
+            "explanation": {
+              "id": "G4-C03-q8.explanation",
+              "english": "2031 + 644 = 2675."
+            },
+            "hint": {
+              "id": "G4-C03-q8.hint",
+              "english": "Put both groups together, then count or add their totals."
+            },
+            "option.0": {
+              "id": "G4-C03-q8.option.0",
+              "english": "2675"
+            },
+            "option.1": {
+              "id": "G4-C03-q8.option.1",
+              "english": "2676"
+            },
+            "option.2": {
+              "id": "G4-C03-q8.option.2",
+              "english": "2674"
+            },
+            "option.3": {
+              "id": "G4-C03-q8.option.3",
+              "english": "2677"
+            }
+          }
+        },
+        {
+          "id": "G4-C03-q9",
+          "correctIndex": 1,
+          "visualKind": "addition",
+          "objects": [
+            "🍃",
+            "➕",
+            "🧺"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C03-q9.prompt",
+              "english": "A class collects 2144 books, then 685 more. How many altogether?"
+            },
+            "explanation": {
+              "id": "G4-C03-q9.explanation",
+              "english": "2144 + 685 = 2829."
+            },
+            "hint": {
+              "id": "G4-C03-q9.hint",
+              "english": "Put both groups together, then count or add their totals."
+            },
+            "option.0": {
+              "id": "G4-C03-q9.option.0",
+              "english": "2830"
+            },
+            "option.1": {
+              "id": "G4-C03-q9.option.1",
+              "english": "2829"
+            },
+            "option.2": {
+              "id": "G4-C03-q9.option.2",
+              "english": "2828"
+            },
+            "option.3": {
+              "id": "G4-C03-q9.option.3",
+              "english": "2831"
+            }
+          }
+        },
+        {
+          "id": "G4-C03-q10",
+          "correctIndex": 2,
+          "visualKind": "addition",
+          "objects": [
+            "🍃",
+            "➕",
+            "🧺"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C03-q10.prompt",
+              "english": "A class collects 2257 guavas, then 726 more. How many altogether?"
+            },
+            "explanation": {
+              "id": "G4-C03-q10.explanation",
+              "english": "2257 + 726 = 2983."
+            },
+            "hint": {
+              "id": "G4-C03-q10.hint",
+              "english": "Put both groups together, then count or add their totals."
+            },
+            "option.0": {
+              "id": "G4-C03-q10.option.0",
+              "english": "2984"
+            },
+            "option.1": {
+              "id": "G4-C03-q10.option.1",
+              "english": "2982"
+            },
+            "option.2": {
+              "id": "G4-C03-q10.option.2",
+              "english": "2983"
+            },
+            "option.3": {
+              "id": "G4-C03-q10.option.3",
+              "english": "2985"
+            }
+          }
+        }
+      ]
+    },
+    "G4-C04": {
+      "id": "G4-C04",
+      "grade": 4,
+      "title": {
+        "id": "G4-C04.title",
+        "english": "Fractions"
+      },
+      "lesson": {
+        "story": {
+          "id": "G4-C04.lesson.story",
+          "english": "Mira and Ravi explore: A paper roti is cut into 2 equal parts. 1 parts are shaded. Which fraction is shaded?"
+        },
+        "concept": {
+          "id": "G4-C04.lesson.concept",
+          "english": "Partition shapes into equal parts and connect improper fractions with mixed-number language."
+        },
+        "workedExample": {
+          "id": "G4-C04-q1.explanation",
+          "english": "The numerator counts shaded parts and the denominator counts all equal parts: 1/2."
+        },
+        "hint": {
+          "id": "G4-C04-q1.hint",
+          "english": "Count shaded parts for the top number and all equal parts for the bottom number."
+        },
+        "recap": {
+          "id": "G4-C04.lesson.recap",
+          "english": "Remember: Partition shapes into equal parts and connect improper fractions with mixed-number language."
+        }
+      },
+      "questions": [
+        {
+          "id": "G4-C04-q1",
+          "correctIndex": 0,
+          "visualKind": "fraction",
+          "objects": [
+            "🫓",
+            "◩",
+            "🎨"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C04-q1.prompt",
+              "english": "A paper roti is cut into 2 equal parts. 1 parts are shaded. Which fraction is shaded?"
+            },
+            "explanation": {
+              "id": "G4-C04-q1.explanation",
+              "english": "The numerator counts shaded parts and the denominator counts all equal parts: 1/2."
+            },
+            "hint": {
+              "id": "G4-C04-q1.hint",
+              "english": "Count shaded parts for the top number and all equal parts for the bottom number."
+            },
+            "option.0": {
+              "id": "G4-C04-q1.option.0",
+              "english": "1/2"
+            },
+            "option.1": {
+              "id": "G4-C04-q1.option.1",
+              "english": "2/2"
+            },
+            "option.2": {
+              "id": "G4-C04-q1.option.2",
+              "english": "1/3"
+            },
+            "option.3": {
+              "id": "G4-C04-q1.option.3",
+              "english": "2/1"
+            }
+          }
+        },
+        {
+          "id": "G4-C04-q2",
+          "correctIndex": 1,
+          "visualKind": "fraction",
+          "objects": [
+            "🫓",
+            "◩",
+            "🎨"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C04-q2.prompt",
+              "english": "A fruit bar is cut into 3 equal parts. 4 parts are shaded. Which fraction is shaded?"
+            },
+            "explanation": {
+              "id": "G4-C04-q2.explanation",
+              "english": "The numerator counts shaded parts and the denominator counts all equal parts: 4/3."
+            },
+            "hint": {
+              "id": "G4-C04-q2.hint",
+              "english": "Count shaded parts for the top number and all equal parts for the bottom number."
+            },
+            "option.0": {
+              "id": "G4-C04-q2.option.0",
+              "english": "5/3"
+            },
+            "option.1": {
+              "id": "G4-C04-q2.option.1",
+              "english": "4/3"
+            },
+            "option.2": {
+              "id": "G4-C04-q2.option.2",
+              "english": "4/4"
+            },
+            "option.3": {
+              "id": "G4-C04-q2.option.3",
+              "english": "3/4"
+            }
+          }
+        },
+        {
+          "id": "G4-C04-q3",
+          "correctIndex": 2,
+          "visualKind": "fraction",
+          "objects": [
+            "🫓",
+            "◩",
+            "🎨"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C04-q3.prompt",
+              "english": "A garden patch is cut into 4 equal parts. 3 parts are shaded. Which fraction is shaded?"
+            },
+            "explanation": {
+              "id": "G4-C04-q3.explanation",
+              "english": "The numerator counts shaded parts and the denominator counts all equal parts: 3/4."
+            },
+            "hint": {
+              "id": "G4-C04-q3.hint",
+              "english": "Count shaded parts for the top number and all equal parts for the bottom number."
+            },
+            "option.0": {
+              "id": "G4-C04-q3.option.0",
+              "english": "4/4"
+            },
+            "option.1": {
+              "id": "G4-C04-q3.option.1",
+              "english": "3/5"
+            },
+            "option.2": {
+              "id": "G4-C04-q3.option.2",
+              "english": "3/4"
+            },
+            "option.3": {
+              "id": "G4-C04-q3.option.3",
+              "english": "4/3"
+            }
+          }
+        },
+        {
+          "id": "G4-C04-q4",
+          "correctIndex": 3,
+          "visualKind": "fraction",
+          "objects": [
+            "🫓",
+            "◩",
+            "🎨"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C04-q4.prompt",
+              "english": "A rangoli tile is cut into 5 equal parts. 6 parts are shaded. Which fraction is shaded?"
+            },
+            "explanation": {
+              "id": "G4-C04-q4.explanation",
+              "english": "The numerator counts shaded parts and the denominator counts all equal parts: 6/5."
+            },
+            "hint": {
+              "id": "G4-C04-q4.hint",
+              "english": "Count shaded parts for the top number and all equal parts for the bottom number."
+            },
+            "option.0": {
+              "id": "G4-C04-q4.option.0",
+              "english": "7/5"
+            },
+            "option.1": {
+              "id": "G4-C04-q4.option.1",
+              "english": "6/6"
+            },
+            "option.2": {
+              "id": "G4-C04-q4.option.2",
+              "english": "5/6"
+            },
+            "option.3": {
+              "id": "G4-C04-q4.option.3",
+              "english": "6/5"
+            }
+          }
+        },
+        {
+          "id": "G4-C04-q5",
+          "correctIndex": 0,
+          "visualKind": "fraction",
+          "objects": [
+            "🫓",
+            "◩",
+            "🎨"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C04-q5.prompt",
+              "english": "A sharing plate is cut into 2 equal parts. 1 parts are shaded. Which fraction is shaded?"
+            },
+            "explanation": {
+              "id": "G4-C04-q5.explanation",
+              "english": "The numerator counts shaded parts and the denominator counts all equal parts: 1/2."
+            },
+            "hint": {
+              "id": "G4-C04-q5.hint",
+              "english": "Count shaded parts for the top number and all equal parts for the bottom number."
+            },
+            "option.0": {
+              "id": "G4-C04-q5.option.0",
+              "english": "1/2"
+            },
+            "option.1": {
+              "id": "G4-C04-q5.option.1",
+              "english": "2/2"
+            },
+            "option.2": {
+              "id": "G4-C04-q5.option.2",
+              "english": "1/3"
+            },
+            "option.3": {
+              "id": "G4-C04-q5.option.3",
+              "english": "2/1"
+            }
+          }
+        },
+        {
+          "id": "G4-C04-q6",
+          "correctIndex": 1,
+          "visualKind": "fraction",
+          "objects": [
+            "🫓",
+            "◩",
+            "🎨"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C04-q6.prompt",
+              "english": "A paper kite is cut into 2 equal parts. 3 parts are shaded. Which fraction is shaded?"
+            },
+            "explanation": {
+              "id": "G4-C04-q6.explanation",
+              "english": "The numerator counts shaded parts and the denominator counts all equal parts: 3/2."
+            },
+            "hint": {
+              "id": "G4-C04-q6.hint",
+              "english": "Count shaded parts for the top number and all equal parts for the bottom number."
+            },
+            "option.0": {
+              "id": "G4-C04-q6.option.0",
+              "english": "4/2"
+            },
+            "option.1": {
+              "id": "G4-C04-q6.option.1",
+              "english": "3/2"
+            },
+            "option.2": {
+              "id": "G4-C04-q6.option.2",
+              "english": "3/3"
+            },
+            "option.3": {
+              "id": "G4-C04-q6.option.3",
+              "english": "2/3"
+            }
+          }
+        },
+        {
+          "id": "G4-C04-q7",
+          "correctIndex": 2,
+          "visualKind": "fraction",
+          "objects": [
+            "🫓",
+            "◩",
+            "🎨"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C04-q7.prompt",
+              "english": "A sandwich square is cut into 3 equal parts. 1 parts are shaded. Which fraction is shaded?"
+            },
+            "explanation": {
+              "id": "G4-C04-q7.explanation",
+              "english": "The numerator counts shaded parts and the denominator counts all equal parts: 1/3."
+            },
+            "hint": {
+              "id": "G4-C04-q7.hint",
+              "english": "Count shaded parts for the top number and all equal parts for the bottom number."
+            },
+            "option.0": {
+              "id": "G4-C04-q7.option.0",
+              "english": "2/3"
+            },
+            "option.1": {
+              "id": "G4-C04-q7.option.1",
+              "english": "1/4"
+            },
+            "option.2": {
+              "id": "G4-C04-q7.option.2",
+              "english": "1/3"
+            },
+            "option.3": {
+              "id": "G4-C04-q7.option.3",
+              "english": "3/1"
+            }
+          }
+        },
+        {
+          "id": "G4-C04-q8",
+          "correctIndex": 3,
+          "visualKind": "fraction",
+          "objects": [
+            "🫓",
+            "◩",
+            "🎨"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C04-q8.prompt",
+              "english": "A flower bed is cut into 4 equal parts. 5 parts are shaded. Which fraction is shaded?"
+            },
+            "explanation": {
+              "id": "G4-C04-q8.explanation",
+              "english": "The numerator counts shaded parts and the denominator counts all equal parts: 5/4."
+            },
+            "hint": {
+              "id": "G4-C04-q8.hint",
+              "english": "Count shaded parts for the top number and all equal parts for the bottom number."
+            },
+            "option.0": {
+              "id": "G4-C04-q8.option.0",
+              "english": "6/4"
+            },
+            "option.1": {
+              "id": "G4-C04-q8.option.1",
+              "english": "5/5"
+            },
+            "option.2": {
+              "id": "G4-C04-q8.option.2",
+              "english": "4/5"
+            },
+            "option.3": {
+              "id": "G4-C04-q8.option.3",
+              "english": "5/4"
+            }
+          }
+        },
+        {
+          "id": "G4-C04-q9",
+          "correctIndex": 0,
+          "visualKind": "fraction",
+          "objects": [
+            "🫓",
+            "◩",
+            "🎨"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C04-q9.prompt",
+              "english": "A painted wall panel is cut into 5 equal parts. 2 parts are shaded. Which fraction is shaded?"
+            },
+            "explanation": {
+              "id": "G4-C04-q9.explanation",
+              "english": "The numerator counts shaded parts and the denominator counts all equal parts: 2/5."
+            },
+            "hint": {
+              "id": "G4-C04-q9.hint",
+              "english": "Count shaded parts for the top number and all equal parts for the bottom number."
+            },
+            "option.0": {
+              "id": "G4-C04-q9.option.0",
+              "english": "2/5"
+            },
+            "option.1": {
+              "id": "G4-C04-q9.option.1",
+              "english": "3/5"
+            },
+            "option.2": {
+              "id": "G4-C04-q9.option.2",
+              "english": "2/6"
+            },
+            "option.3": {
+              "id": "G4-C04-q9.option.3",
+              "english": "5/2"
+            }
+          }
+        },
+        {
+          "id": "G4-C04-q10",
+          "correctIndex": 1,
+          "visualKind": "fraction",
+          "objects": [
+            "🫓",
+            "◩",
+            "🎨"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C04-q10.prompt",
+              "english": "A garden flag is cut into 2 equal parts. 3 parts are shaded. Which fraction is shaded?"
+            },
+            "explanation": {
+              "id": "G4-C04-q10.explanation",
+              "english": "The numerator counts shaded parts and the denominator counts all equal parts: 3/2."
+            },
+            "hint": {
+              "id": "G4-C04-q10.hint",
+              "english": "Count shaded parts for the top number and all equal parts for the bottom number."
+            },
+            "option.0": {
+              "id": "G4-C04-q10.option.0",
+              "english": "4/2"
+            },
+            "option.1": {
+              "id": "G4-C04-q10.option.1",
+              "english": "3/2"
+            },
+            "option.2": {
+              "id": "G4-C04-q10.option.2",
+              "english": "3/3"
+            },
+            "option.3": {
+              "id": "G4-C04-q10.option.3",
+              "english": "2/3"
+            }
+          }
+        }
+      ]
+    },
+    "G4-C05": {
+      "id": "G4-C05",
+      "grade": 4,
+      "title": {
+        "id": "G4-C05.title",
+        "english": "Length and weight"
+      },
+      "lesson": {
+        "story": {
+          "id": "G4-C05.lesson.story",
+          "english": "Mira and Ravi explore: How many centimetres are in 2 metres?"
+        },
+        "concept": {
+          "id": "G4-C05.lesson.concept",
+          "english": "Convert and compare lengths from millimetres to kilometres and masses in grams or kilograms."
+        },
+        "workedExample": {
+          "id": "G4-C05-q1.explanation",
+          "english": "1 metre = 100 centimetres, so 2 m = 200 cm."
+        },
+        "hint": {
+          "id": "G4-C05-q1.hint",
+          "english": "Use the unit relationship before changing the number."
+        },
+        "recap": {
+          "id": "G4-C05.lesson.recap",
+          "english": "Remember: Convert and compare lengths from millimetres to kilometres and masses in grams or kilograms."
+        }
+      },
+      "questions": [
+        {
+          "id": "G4-C05-q1",
+          "correctIndex": 3,
+          "visualKind": "measurement",
+          "objects": [
+            "📏",
+            "⚖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C05-q1.prompt",
+              "english": "How many centimetres are in 2 metres?"
+            },
+            "explanation": {
+              "id": "G4-C05-q1.explanation",
+              "english": "1 metre = 100 centimetres, so 2 m = 200 cm."
+            },
+            "hint": {
+              "id": "G4-C05-q1.hint",
+              "english": "Use the unit relationship before changing the number."
+            },
+            "option.0": {
+              "id": "G4-C05-q1.option.0",
+              "english": "201"
+            },
+            "option.1": {
+              "id": "G4-C05-q1.option.1",
+              "english": "199"
+            },
+            "option.2": {
+              "id": "G4-C05-q1.option.2",
+              "english": "202"
+            },
+            "option.3": {
+              "id": "G4-C05-q1.option.3",
+              "english": "200"
+            }
+          }
+        },
+        {
+          "id": "G4-C05-q2",
+          "correctIndex": 0,
+          "visualKind": "measurement",
+          "objects": [
+            "📏",
+            "⚖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C05-q2.prompt",
+              "english": "How many millimetres are in 4 centimetres?"
+            },
+            "explanation": {
+              "id": "G4-C05-q2.explanation",
+              "english": "1 centimetre = 10 millimetres, so 4 cm = 40 mm."
+            },
+            "hint": {
+              "id": "G4-C05-q2.hint",
+              "english": "Use the unit relationship before changing the number."
+            },
+            "option.0": {
+              "id": "G4-C05-q2.option.0",
+              "english": "40"
+            },
+            "option.1": {
+              "id": "G4-C05-q2.option.1",
+              "english": "41"
+            },
+            "option.2": {
+              "id": "G4-C05-q2.option.2",
+              "english": "39"
+            },
+            "option.3": {
+              "id": "G4-C05-q2.option.3",
+              "english": "42"
+            }
+          }
+        },
+        {
+          "id": "G4-C05-q3",
+          "correctIndex": 1,
+          "visualKind": "measurement",
+          "objects": [
+            "📏",
+            "⚖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C05-q3.prompt",
+              "english": "How many grams are in 4 kilograms?"
+            },
+            "explanation": {
+              "id": "G4-C05-q3.explanation",
+              "english": "1 kilogram = 1,000 grams, so 4 kg = 4000 g."
+            },
+            "hint": {
+              "id": "G4-C05-q3.hint",
+              "english": "Use the unit relationship before changing the number."
+            },
+            "option.0": {
+              "id": "G4-C05-q3.option.0",
+              "english": "4001"
+            },
+            "option.1": {
+              "id": "G4-C05-q3.option.1",
+              "english": "4000"
+            },
+            "option.2": {
+              "id": "G4-C05-q3.option.2",
+              "english": "3999"
+            },
+            "option.3": {
+              "id": "G4-C05-q3.option.3",
+              "english": "4002"
+            }
+          }
+        },
+        {
+          "id": "G4-C05-q4",
+          "correctIndex": 2,
+          "visualKind": "measurement",
+          "objects": [
+            "📏",
+            "⚖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C05-q4.prompt",
+              "english": "How many centimetres are in 5 metres?"
+            },
+            "explanation": {
+              "id": "G4-C05-q4.explanation",
+              "english": "1 metre = 100 centimetres, so 5 m = 500 cm."
+            },
+            "hint": {
+              "id": "G4-C05-q4.hint",
+              "english": "Use the unit relationship before changing the number."
+            },
+            "option.0": {
+              "id": "G4-C05-q4.option.0",
+              "english": "501"
+            },
+            "option.1": {
+              "id": "G4-C05-q4.option.1",
+              "english": "499"
+            },
+            "option.2": {
+              "id": "G4-C05-q4.option.2",
+              "english": "500"
+            },
+            "option.3": {
+              "id": "G4-C05-q4.option.3",
+              "english": "502"
+            }
+          }
+        },
+        {
+          "id": "G4-C05-q5",
+          "correctIndex": 3,
+          "visualKind": "measurement",
+          "objects": [
+            "📏",
+            "⚖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C05-q5.prompt",
+              "english": "How many millimetres are in 7 centimetres?"
+            },
+            "explanation": {
+              "id": "G4-C05-q5.explanation",
+              "english": "1 centimetre = 10 millimetres, so 7 cm = 70 mm."
+            },
+            "hint": {
+              "id": "G4-C05-q5.hint",
+              "english": "Use the unit relationship before changing the number."
+            },
+            "option.0": {
+              "id": "G4-C05-q5.option.0",
+              "english": "71"
+            },
+            "option.1": {
+              "id": "G4-C05-q5.option.1",
+              "english": "69"
+            },
+            "option.2": {
+              "id": "G4-C05-q5.option.2",
+              "english": "72"
+            },
+            "option.3": {
+              "id": "G4-C05-q5.option.3",
+              "english": "70"
+            }
+          }
+        },
+        {
+          "id": "G4-C05-q6",
+          "correctIndex": 0,
+          "visualKind": "measurement",
+          "objects": [
+            "📏",
+            "⚖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C05-q6.prompt",
+              "english": "How many grams are in 7 kilograms?"
+            },
+            "explanation": {
+              "id": "G4-C05-q6.explanation",
+              "english": "1 kilogram = 1,000 grams, so 7 kg = 7000 g."
+            },
+            "hint": {
+              "id": "G4-C05-q6.hint",
+              "english": "Use the unit relationship before changing the number."
+            },
+            "option.0": {
+              "id": "G4-C05-q6.option.0",
+              "english": "7000"
+            },
+            "option.1": {
+              "id": "G4-C05-q6.option.1",
+              "english": "7001"
+            },
+            "option.2": {
+              "id": "G4-C05-q6.option.2",
+              "english": "6999"
+            },
+            "option.3": {
+              "id": "G4-C05-q6.option.3",
+              "english": "7002"
+            }
+          }
+        },
+        {
+          "id": "G4-C05-q7",
+          "correctIndex": 1,
+          "visualKind": "measurement",
+          "objects": [
+            "📏",
+            "⚖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C05-q7.prompt",
+              "english": "How many centimetres are in 8 metres?"
+            },
+            "explanation": {
+              "id": "G4-C05-q7.explanation",
+              "english": "1 metre = 100 centimetres, so 8 m = 800 cm."
+            },
+            "hint": {
+              "id": "G4-C05-q7.hint",
+              "english": "Use the unit relationship before changing the number."
+            },
+            "option.0": {
+              "id": "G4-C05-q7.option.0",
+              "english": "801"
+            },
+            "option.1": {
+              "id": "G4-C05-q7.option.1",
+              "english": "800"
+            },
+            "option.2": {
+              "id": "G4-C05-q7.option.2",
+              "english": "799"
+            },
+            "option.3": {
+              "id": "G4-C05-q7.option.3",
+              "english": "802"
+            }
+          }
+        },
+        {
+          "id": "G4-C05-q8",
+          "correctIndex": 2,
+          "visualKind": "measurement",
+          "objects": [
+            "📏",
+            "⚖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C05-q8.prompt",
+              "english": "How many millimetres are in 10 centimetres?"
+            },
+            "explanation": {
+              "id": "G4-C05-q8.explanation",
+              "english": "1 centimetre = 10 millimetres, so 10 cm = 100 mm."
+            },
+            "hint": {
+              "id": "G4-C05-q8.hint",
+              "english": "Use the unit relationship before changing the number."
+            },
+            "option.0": {
+              "id": "G4-C05-q8.option.0",
+              "english": "101"
+            },
+            "option.1": {
+              "id": "G4-C05-q8.option.1",
+              "english": "99"
+            },
+            "option.2": {
+              "id": "G4-C05-q8.option.2",
+              "english": "100"
+            },
+            "option.3": {
+              "id": "G4-C05-q8.option.3",
+              "english": "102"
+            }
+          }
+        },
+        {
+          "id": "G4-C05-q9",
+          "correctIndex": 3,
+          "visualKind": "measurement",
+          "objects": [
+            "📏",
+            "⚖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C05-q9.prompt",
+              "english": "How many grams are in 10 kilograms?"
+            },
+            "explanation": {
+              "id": "G4-C05-q9.explanation",
+              "english": "1 kilogram = 1,000 grams, so 10 kg = 10000 g."
+            },
+            "hint": {
+              "id": "G4-C05-q9.hint",
+              "english": "Use the unit relationship before changing the number."
+            },
+            "option.0": {
+              "id": "G4-C05-q9.option.0",
+              "english": "9999"
+            },
+            "option.1": {
+              "id": "G4-C05-q9.option.1",
+              "english": "9998"
+            },
+            "option.2": {
+              "id": "G4-C05-q9.option.2",
+              "english": "9997"
+            },
+            "option.3": {
+              "id": "G4-C05-q9.option.3",
+              "english": "10000"
+            }
+          }
+        },
+        {
+          "id": "G4-C05-q10",
+          "correctIndex": 0,
+          "visualKind": "measurement",
+          "objects": [
+            "📏",
+            "⚖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C05-q10.prompt",
+              "english": "How many centimetres are in 11 metres?"
+            },
+            "explanation": {
+              "id": "G4-C05-q10.explanation",
+              "english": "1 metre = 100 centimetres, so 11 m = 1100 cm."
+            },
+            "hint": {
+              "id": "G4-C05-q10.hint",
+              "english": "Use the unit relationship before changing the number."
+            },
+            "option.0": {
+              "id": "G4-C05-q10.option.0",
+              "english": "1100"
+            },
+            "option.1": {
+              "id": "G4-C05-q10.option.1",
+              "english": "1101"
+            },
+            "option.2": {
+              "id": "G4-C05-q10.option.2",
+              "english": "1099"
+            },
+            "option.3": {
+              "id": "G4-C05-q10.option.3",
+              "english": "1102"
+            }
+          }
+        }
+      ]
+    },
+    "G4-C06": {
+      "id": "G4-C06",
+      "grade": 4,
+      "title": {
+        "id": "G4-C06.title",
+        "english": "Organising information"
+      },
+      "lesson": {
+        "story": {
+          "id": "G4-C06.lesson.story",
+          "english": "Mira and Ravi explore: A class chart shows 2 sun symbols for red kites. Each sun stands for 2 kites. How many red kites?"
+        },
+        "concept": {
+          "id": "G4-C06.lesson.concept",
+          "english": "Use the key on a pictograph to count a category and compare scaled totals."
+        },
+        "workedExample": {
+          "id": "G4-C06-q1.explanation",
+          "english": "2 × 2 = 4 red kites."
+        },
+        "hint": {
+          "id": "G4-C06-q1.hint",
+          "english": "Read the chart key first. One symbol may stand for more than one item."
+        },
+        "recap": {
+          "id": "G4-C06.lesson.recap",
+          "english": "Remember: Use the key on a pictograph to count a category and compare scaled totals."
+        }
+      },
+      "questions": [
+        {
+          "id": "G4-C06-q1",
+          "correctIndex": 2,
+          "visualKind": "barChart",
+          "objects": [
+            "📊",
+            "☀️",
+            "🪁"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C06-q1.prompt",
+              "english": "A class chart shows 2 sun symbols for red kites. Each sun stands for 2 kites. How many red kites?"
+            },
+            "explanation": {
+              "id": "G4-C06-q1.explanation",
+              "english": "2 × 2 = 4 red kites."
+            },
+            "hint": {
+              "id": "G4-C06-q1.hint",
+              "english": "Read the chart key first. One symbol may stand for more than one item."
+            },
+            "option.0": {
+              "id": "G4-C06-q1.option.0",
+              "english": "5"
+            },
+            "option.1": {
+              "id": "G4-C06-q1.option.1",
+              "english": "3"
+            },
+            "option.2": {
+              "id": "G4-C06-q1.option.2",
+              "english": "4"
+            },
+            "option.3": {
+              "id": "G4-C06-q1.option.3",
+              "english": "6"
+            }
+          }
+        },
+        {
+          "id": "G4-C06-q2",
+          "correctIndex": 3,
+          "visualKind": "barChart",
+          "objects": [
+            "📊",
+            "☀️",
+            "🪁"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C06-q2.prompt",
+              "english": "A class chart shows 3 sun symbols for red kites. Each sun stands for 2 kites. How many red kites?"
+            },
+            "explanation": {
+              "id": "G4-C06-q2.explanation",
+              "english": "3 × 2 = 6 red kites."
+            },
+            "hint": {
+              "id": "G4-C06-q2.hint",
+              "english": "Read the chart key first. One symbol may stand for more than one item."
+            },
+            "option.0": {
+              "id": "G4-C06-q2.option.0",
+              "english": "7"
+            },
+            "option.1": {
+              "id": "G4-C06-q2.option.1",
+              "english": "5"
+            },
+            "option.2": {
+              "id": "G4-C06-q2.option.2",
+              "english": "8"
+            },
+            "option.3": {
+              "id": "G4-C06-q2.option.3",
+              "english": "6"
+            }
+          }
+        },
+        {
+          "id": "G4-C06-q3",
+          "correctIndex": 0,
+          "visualKind": "barChart",
+          "objects": [
+            "📊",
+            "☀️",
+            "🪁"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C06-q3.prompt",
+              "english": "A class chart shows 4 sun symbols for red kites. Each sun stands for 2 kites. How many red kites?"
+            },
+            "explanation": {
+              "id": "G4-C06-q3.explanation",
+              "english": "4 × 2 = 8 red kites."
+            },
+            "hint": {
+              "id": "G4-C06-q3.hint",
+              "english": "Read the chart key first. One symbol may stand for more than one item."
+            },
+            "option.0": {
+              "id": "G4-C06-q3.option.0",
+              "english": "8"
+            },
+            "option.1": {
+              "id": "G4-C06-q3.option.1",
+              "english": "9"
+            },
+            "option.2": {
+              "id": "G4-C06-q3.option.2",
+              "english": "7"
+            },
+            "option.3": {
+              "id": "G4-C06-q3.option.3",
+              "english": "10"
+            }
+          }
+        },
+        {
+          "id": "G4-C06-q4",
+          "correctIndex": 1,
+          "visualKind": "barChart",
+          "objects": [
+            "📊",
+            "☀️",
+            "🪁"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C06-q4.prompt",
+              "english": "A class chart shows 5 sun symbols for red kites. Each sun stands for 2 kites. How many red kites?"
+            },
+            "explanation": {
+              "id": "G4-C06-q4.explanation",
+              "english": "5 × 2 = 10 red kites."
+            },
+            "hint": {
+              "id": "G4-C06-q4.hint",
+              "english": "Read the chart key first. One symbol may stand for more than one item."
+            },
+            "option.0": {
+              "id": "G4-C06-q4.option.0",
+              "english": "11"
+            },
+            "option.1": {
+              "id": "G4-C06-q4.option.1",
+              "english": "10"
+            },
+            "option.2": {
+              "id": "G4-C06-q4.option.2",
+              "english": "9"
+            },
+            "option.3": {
+              "id": "G4-C06-q4.option.3",
+              "english": "12"
+            }
+          }
+        },
+        {
+          "id": "G4-C06-q5",
+          "correctIndex": 2,
+          "visualKind": "barChart",
+          "objects": [
+            "📊",
+            "☀️",
+            "🪁"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C06-q5.prompt",
+              "english": "A class chart shows 6 sun symbols for red kites. Each sun stands for 2 kites. How many red kites?"
+            },
+            "explanation": {
+              "id": "G4-C06-q5.explanation",
+              "english": "6 × 2 = 12 red kites."
+            },
+            "hint": {
+              "id": "G4-C06-q5.hint",
+              "english": "Read the chart key first. One symbol may stand for more than one item."
+            },
+            "option.0": {
+              "id": "G4-C06-q5.option.0",
+              "english": "13"
+            },
+            "option.1": {
+              "id": "G4-C06-q5.option.1",
+              "english": "11"
+            },
+            "option.2": {
+              "id": "G4-C06-q5.option.2",
+              "english": "12"
+            },
+            "option.3": {
+              "id": "G4-C06-q5.option.3",
+              "english": "14"
+            }
+          }
+        },
+        {
+          "id": "G4-C06-q6",
+          "correctIndex": 3,
+          "visualKind": "barChart",
+          "objects": [
+            "📊",
+            "☀️",
+            "🪁"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C06-q6.prompt",
+              "english": "A class chart shows 7 sun symbols for red kites. Each sun stands for 2 kites. How many red kites?"
+            },
+            "explanation": {
+              "id": "G4-C06-q6.explanation",
+              "english": "7 × 2 = 14 red kites."
+            },
+            "hint": {
+              "id": "G4-C06-q6.hint",
+              "english": "Read the chart key first. One symbol may stand for more than one item."
+            },
+            "option.0": {
+              "id": "G4-C06-q6.option.0",
+              "english": "15"
+            },
+            "option.1": {
+              "id": "G4-C06-q6.option.1",
+              "english": "13"
+            },
+            "option.2": {
+              "id": "G4-C06-q6.option.2",
+              "english": "16"
+            },
+            "option.3": {
+              "id": "G4-C06-q6.option.3",
+              "english": "14"
+            }
+          }
+        },
+        {
+          "id": "G4-C06-q7",
+          "correctIndex": 0,
+          "visualKind": "barChart",
+          "objects": [
+            "📊",
+            "☀️",
+            "🪁"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C06-q7.prompt",
+              "english": "A class chart shows 8 sun symbols for red kites. Each sun stands for 2 kites. How many red kites?"
+            },
+            "explanation": {
+              "id": "G4-C06-q7.explanation",
+              "english": "8 × 2 = 16 red kites."
+            },
+            "hint": {
+              "id": "G4-C06-q7.hint",
+              "english": "Read the chart key first. One symbol may stand for more than one item."
+            },
+            "option.0": {
+              "id": "G4-C06-q7.option.0",
+              "english": "16"
+            },
+            "option.1": {
+              "id": "G4-C06-q7.option.1",
+              "english": "17"
+            },
+            "option.2": {
+              "id": "G4-C06-q7.option.2",
+              "english": "15"
+            },
+            "option.3": {
+              "id": "G4-C06-q7.option.3",
+              "english": "18"
+            }
+          }
+        },
+        {
+          "id": "G4-C06-q8",
+          "correctIndex": 1,
+          "visualKind": "barChart",
+          "objects": [
+            "📊",
+            "☀️",
+            "🪁"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C06-q8.prompt",
+              "english": "A class chart shows 9 sun symbols for red kites. Each sun stands for 2 kites. How many red kites?"
+            },
+            "explanation": {
+              "id": "G4-C06-q8.explanation",
+              "english": "9 × 2 = 18 red kites."
+            },
+            "hint": {
+              "id": "G4-C06-q8.hint",
+              "english": "Read the chart key first. One symbol may stand for more than one item."
+            },
+            "option.0": {
+              "id": "G4-C06-q8.option.0",
+              "english": "19"
+            },
+            "option.1": {
+              "id": "G4-C06-q8.option.1",
+              "english": "18"
+            },
+            "option.2": {
+              "id": "G4-C06-q8.option.2",
+              "english": "17"
+            },
+            "option.3": {
+              "id": "G4-C06-q8.option.3",
+              "english": "20"
+            }
+          }
+        },
+        {
+          "id": "G4-C06-q9",
+          "correctIndex": 2,
+          "visualKind": "barChart",
+          "objects": [
+            "📊",
+            "☀️",
+            "🪁"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C06-q9.prompt",
+              "english": "A class chart shows 10 sun symbols for red kites. Each sun stands for 2 kites. How many red kites?"
+            },
+            "explanation": {
+              "id": "G4-C06-q9.explanation",
+              "english": "10 × 2 = 20 red kites."
+            },
+            "hint": {
+              "id": "G4-C06-q9.hint",
+              "english": "Read the chart key first. One symbol may stand for more than one item."
+            },
+            "option.0": {
+              "id": "G4-C06-q9.option.0",
+              "english": "21"
+            },
+            "option.1": {
+              "id": "G4-C06-q9.option.1",
+              "english": "19"
+            },
+            "option.2": {
+              "id": "G4-C06-q9.option.2",
+              "english": "20"
+            },
+            "option.3": {
+              "id": "G4-C06-q9.option.3",
+              "english": "22"
+            }
+          }
+        },
+        {
+          "id": "G4-C06-q10",
+          "correctIndex": 3,
+          "visualKind": "barChart",
+          "objects": [
+            "📊",
+            "☀️",
+            "🪁"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C06-q10.prompt",
+              "english": "A class chart shows 11 sun symbols for red kites. Each sun stands for 2 kites. How many red kites?"
+            },
+            "explanation": {
+              "id": "G4-C06-q10.explanation",
+              "english": "11 × 2 = 22 red kites."
+            },
+            "hint": {
+              "id": "G4-C06-q10.hint",
+              "english": "Read the chart key first. One symbol may stand for more than one item."
+            },
+            "option.0": {
+              "id": "G4-C06-q10.option.0",
+              "english": "23"
+            },
+            "option.1": {
+              "id": "G4-C06-q10.option.1",
+              "english": "21"
+            },
+            "option.2": {
+              "id": "G4-C06-q10.option.2",
+              "english": "24"
+            },
+            "option.3": {
+              "id": "G4-C06-q10.option.3",
+              "english": "22"
+            }
+          }
+        }
+      ]
+    },
+    "G4-C07": {
+      "id": "G4-C07",
+      "grade": 4,
+      "title": {
+        "id": "G4-C07.title",
+        "english": "Sketch map"
+      },
+      "lesson": {
+        "story": {
+          "id": "G4-C07.lesson.story",
+          "english": "Mira and Ravi explore: A map shows the library at east of the pond. Which direction should you travel from the pond?"
+        },
+        "concept": {
+          "id": "G4-C07.lesson.concept",
+          "english": "Read a grid location, symbol, direction, or view to trace a route on a map."
+        },
+        "workedExample": {
+          "id": "G4-C07-q1.explanation",
+          "english": "The map symbol is east of the pond."
+        },
+        "hint": {
+          "id": "G4-C07-q1.hint",
+          "english": "Use the compass rose: north is up, south down, east right, and west left."
+        },
+        "recap": {
+          "id": "G4-C07.lesson.recap",
+          "english": "Remember: Read a grid location, symbol, direction, or view to trace a route on a map."
+        }
+      },
+      "questions": [
+        {
+          "id": "G4-C07-q1",
+          "correctIndex": 1,
+          "visualKind": "map",
+          "objects": [
+            "🗺️",
+            "🧭",
+            "💧"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C07-q1.prompt",
+              "english": "A map shows the library at east of the pond. Which direction should you travel from the pond?"
+            },
+            "explanation": {
+              "id": "G4-C07-q1.explanation",
+              "english": "The map symbol is east of the pond."
+            },
+            "hint": {
+              "id": "G4-C07-q1.hint",
+              "english": "Use the compass rose: north is up, south down, east right, and west left."
+            },
+            "option.0": {
+              "id": "G4-C07-q1.option.0",
+              "english": "west"
+            },
+            "option.1": {
+              "id": "G4-C07-q1.option.1",
+              "english": "east"
+            },
+            "option.2": {
+              "id": "G4-C07-q1.option.2",
+              "english": "north"
+            },
+            "option.3": {
+              "id": "G4-C07-q1.option.3",
+              "english": "south"
+            }
+          }
+        },
+        {
+          "id": "G4-C07-q2",
+          "correctIndex": 2,
+          "visualKind": "map",
+          "objects": [
+            "🗺️",
+            "🧭",
+            "💧"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C07-q2.prompt",
+              "english": "A map shows the well at west of the pond. Which direction should you travel from the pond?"
+            },
+            "explanation": {
+              "id": "G4-C07-q2.explanation",
+              "english": "The map symbol is west of the pond."
+            },
+            "hint": {
+              "id": "G4-C07-q2.hint",
+              "english": "Use the compass rose: north is up, south down, east right, and west left."
+            },
+            "option.0": {
+              "id": "G4-C07-q2.option.0",
+              "english": "east"
+            },
+            "option.1": {
+              "id": "G4-C07-q2.option.1",
+              "english": "north"
+            },
+            "option.2": {
+              "id": "G4-C07-q2.option.2",
+              "english": "west"
+            },
+            "option.3": {
+              "id": "G4-C07-q2.option.3",
+              "english": "south"
+            }
+          }
+        },
+        {
+          "id": "G4-C07-q3",
+          "correctIndex": 3,
+          "visualKind": "map",
+          "objects": [
+            "🗺️",
+            "🧭",
+            "💧"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C07-q3.prompt",
+              "english": "A map shows the garden at north of the pond. Which direction should you travel from the pond?"
+            },
+            "explanation": {
+              "id": "G4-C07-q3.explanation",
+              "english": "The map symbol is north of the pond."
+            },
+            "hint": {
+              "id": "G4-C07-q3.hint",
+              "english": "Use the compass rose: north is up, south down, east right, and west left."
+            },
+            "option.0": {
+              "id": "G4-C07-q3.option.0",
+              "english": "east"
+            },
+            "option.1": {
+              "id": "G4-C07-q3.option.1",
+              "english": "west"
+            },
+            "option.2": {
+              "id": "G4-C07-q3.option.2",
+              "english": "south"
+            },
+            "option.3": {
+              "id": "G4-C07-q3.option.3",
+              "english": "north"
+            }
+          }
+        },
+        {
+          "id": "G4-C07-q4",
+          "correctIndex": 0,
+          "visualKind": "map",
+          "objects": [
+            "🗺️",
+            "🧭",
+            "💧"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C07-q4.prompt",
+              "english": "A map shows the school at south of the pond. Which direction should you travel from the pond?"
+            },
+            "explanation": {
+              "id": "G4-C07-q4.explanation",
+              "english": "The map symbol is south of the pond."
+            },
+            "hint": {
+              "id": "G4-C07-q4.hint",
+              "english": "Use the compass rose: north is up, south down, east right, and west left."
+            },
+            "option.0": {
+              "id": "G4-C07-q4.option.0",
+              "english": "south"
+            },
+            "option.1": {
+              "id": "G4-C07-q4.option.1",
+              "english": "east"
+            },
+            "option.2": {
+              "id": "G4-C07-q4.option.2",
+              "english": "west"
+            },
+            "option.3": {
+              "id": "G4-C07-q4.option.3",
+              "english": "north"
+            }
+          }
+        },
+        {
+          "id": "G4-C07-q5",
+          "correctIndex": 1,
+          "visualKind": "map",
+          "objects": [
+            "🗺️",
+            "🧭",
+            "💧"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C07-q5.prompt",
+              "english": "A map shows the bridge at east of the pond. Which direction should you travel from the pond?"
+            },
+            "explanation": {
+              "id": "G4-C07-q5.explanation",
+              "english": "The map symbol is east of the pond."
+            },
+            "hint": {
+              "id": "G4-C07-q5.hint",
+              "english": "Use the compass rose: north is up, south down, east right, and west left."
+            },
+            "option.0": {
+              "id": "G4-C07-q5.option.0",
+              "english": "west"
+            },
+            "option.1": {
+              "id": "G4-C07-q5.option.1",
+              "english": "east"
+            },
+            "option.2": {
+              "id": "G4-C07-q5.option.2",
+              "english": "north"
+            },
+            "option.3": {
+              "id": "G4-C07-q5.option.3",
+              "english": "south"
+            }
+          }
+        },
+        {
+          "id": "G4-C07-q6",
+          "correctIndex": 2,
+          "visualKind": "map",
+          "objects": [
+            "🗺️",
+            "🧭",
+            "💧"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C07-q6.prompt",
+              "english": "A map shows the library at west of the pond. Which direction should you travel from the pond?"
+            },
+            "explanation": {
+              "id": "G4-C07-q6.explanation",
+              "english": "The map symbol is west of the pond."
+            },
+            "hint": {
+              "id": "G4-C07-q6.hint",
+              "english": "Use the compass rose: north is up, south down, east right, and west left."
+            },
+            "option.0": {
+              "id": "G4-C07-q6.option.0",
+              "english": "east"
+            },
+            "option.1": {
+              "id": "G4-C07-q6.option.1",
+              "english": "north"
+            },
+            "option.2": {
+              "id": "G4-C07-q6.option.2",
+              "english": "west"
+            },
+            "option.3": {
+              "id": "G4-C07-q6.option.3",
+              "english": "south"
+            }
+          }
+        },
+        {
+          "id": "G4-C07-q7",
+          "correctIndex": 3,
+          "visualKind": "map",
+          "objects": [
+            "🗺️",
+            "🧭",
+            "💧"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C07-q7.prompt",
+              "english": "A map shows the well at north of the pond. Which direction should you travel from the pond?"
+            },
+            "explanation": {
+              "id": "G4-C07-q7.explanation",
+              "english": "The map symbol is north of the pond."
+            },
+            "hint": {
+              "id": "G4-C07-q7.hint",
+              "english": "Use the compass rose: north is up, south down, east right, and west left."
+            },
+            "option.0": {
+              "id": "G4-C07-q7.option.0",
+              "english": "east"
+            },
+            "option.1": {
+              "id": "G4-C07-q7.option.1",
+              "english": "west"
+            },
+            "option.2": {
+              "id": "G4-C07-q7.option.2",
+              "english": "south"
+            },
+            "option.3": {
+              "id": "G4-C07-q7.option.3",
+              "english": "north"
+            }
+          }
+        },
+        {
+          "id": "G4-C07-q8",
+          "correctIndex": 0,
+          "visualKind": "map",
+          "objects": [
+            "🗺️",
+            "🧭",
+            "💧"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C07-q8.prompt",
+              "english": "A map shows the garden at south of the pond. Which direction should you travel from the pond?"
+            },
+            "explanation": {
+              "id": "G4-C07-q8.explanation",
+              "english": "The map symbol is south of the pond."
+            },
+            "hint": {
+              "id": "G4-C07-q8.hint",
+              "english": "Use the compass rose: north is up, south down, east right, and west left."
+            },
+            "option.0": {
+              "id": "G4-C07-q8.option.0",
+              "english": "south"
+            },
+            "option.1": {
+              "id": "G4-C07-q8.option.1",
+              "english": "east"
+            },
+            "option.2": {
+              "id": "G4-C07-q8.option.2",
+              "english": "west"
+            },
+            "option.3": {
+              "id": "G4-C07-q8.option.3",
+              "english": "north"
+            }
+          }
+        },
+        {
+          "id": "G4-C07-q9",
+          "correctIndex": 1,
+          "visualKind": "map",
+          "objects": [
+            "🗺️",
+            "🧭",
+            "💧"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C07-q9.prompt",
+              "english": "A map shows the school at east of the pond. Which direction should you travel from the pond?"
+            },
+            "explanation": {
+              "id": "G4-C07-q9.explanation",
+              "english": "The map symbol is east of the pond."
+            },
+            "hint": {
+              "id": "G4-C07-q9.hint",
+              "english": "Use the compass rose: north is up, south down, east right, and west left."
+            },
+            "option.0": {
+              "id": "G4-C07-q9.option.0",
+              "english": "west"
+            },
+            "option.1": {
+              "id": "G4-C07-q9.option.1",
+              "english": "east"
+            },
+            "option.2": {
+              "id": "G4-C07-q9.option.2",
+              "english": "north"
+            },
+            "option.3": {
+              "id": "G4-C07-q9.option.3",
+              "english": "south"
+            }
+          }
+        },
+        {
+          "id": "G4-C07-q10",
+          "correctIndex": 2,
+          "visualKind": "map",
+          "objects": [
+            "🗺️",
+            "🧭",
+            "💧"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C07-q10.prompt",
+              "english": "A map shows the bridge at west of the pond. Which direction should you travel from the pond?"
+            },
+            "explanation": {
+              "id": "G4-C07-q10.explanation",
+              "english": "The map symbol is west of the pond."
+            },
+            "hint": {
+              "id": "G4-C07-q10.hint",
+              "english": "Use the compass rose: north is up, south down, east right, and west left."
+            },
+            "option.0": {
+              "id": "G4-C07-q10.option.0",
+              "english": "east"
+            },
+            "option.1": {
+              "id": "G4-C07-q10.option.1",
+              "english": "north"
+            },
+            "option.2": {
+              "id": "G4-C07-q10.option.2",
+              "english": "west"
+            },
+            "option.3": {
+              "id": "G4-C07-q10.option.3",
+              "english": "south"
+            }
+          }
+        }
+      ]
+    },
+    "G4-C08": {
+      "id": "G4-C08",
+      "grade": 4,
+      "title": {
+        "id": "G4-C08.title",
+        "english": "Multiplication"
+      },
+      "lesson": {
+        "story": {
+          "id": "G4-C08.lesson.story",
+          "english": "Mira and Ravi explore: A garden has 21 rows with 3 seedlings in each row. How many seedlings?"
+        },
+        "concept": {
+          "id": "G4-C08.lesson.concept",
+          "english": "Multiply multi-digit quantities by organising partial products by place value."
+        },
+        "workedExample": {
+          "id": "G4-C08-q1.explanation",
+          "english": "Add 3 for each of 21 equal groups: 21 × 3 = 63."
+        },
+        "hint": {
+          "id": "G4-C08-q1.hint",
+          "english": "Count the same number in each row, or multiply number of groups by items per group."
+        },
+        "recap": {
+          "id": "G4-C08.lesson.recap",
+          "english": "Remember: Multiply multi-digit quantities by organising partial products by place value."
+        }
+      },
+      "questions": [
+        {
+          "id": "G4-C08-q1",
+          "correctIndex": 0,
+          "visualKind": "equalGroups",
+          "objects": [
+            "🌱",
+            "🧺",
+            "✖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C08-q1.prompt",
+              "english": "A garden has 21 rows with 3 seedlings in each row. How many seedlings?"
+            },
+            "explanation": {
+              "id": "G4-C08-q1.explanation",
+              "english": "Add 3 for each of 21 equal groups: 21 × 3 = 63."
+            },
+            "hint": {
+              "id": "G4-C08-q1.hint",
+              "english": "Count the same number in each row, or multiply number of groups by items per group."
+            },
+            "option.0": {
+              "id": "G4-C08-q1.option.0",
+              "english": "63"
+            },
+            "option.1": {
+              "id": "G4-C08-q1.option.1",
+              "english": "64"
+            },
+            "option.2": {
+              "id": "G4-C08-q1.option.2",
+              "english": "62"
+            },
+            "option.3": {
+              "id": "G4-C08-q1.option.3",
+              "english": "65"
+            }
+          }
+        },
+        {
+          "id": "G4-C08-q2",
+          "correctIndex": 1,
+          "visualKind": "equalGroups",
+          "objects": [
+            "🌱",
+            "🧺",
+            "✖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C08-q2.prompt",
+              "english": "A garden has 28 rows with 4 seedlings in each row. How many seedlings?"
+            },
+            "explanation": {
+              "id": "G4-C08-q2.explanation",
+              "english": "Add 4 for each of 28 equal groups: 28 × 4 = 112."
+            },
+            "hint": {
+              "id": "G4-C08-q2.hint",
+              "english": "Count the same number in each row, or multiply number of groups by items per group."
+            },
+            "option.0": {
+              "id": "G4-C08-q2.option.0",
+              "english": "113"
+            },
+            "option.1": {
+              "id": "G4-C08-q2.option.1",
+              "english": "112"
+            },
+            "option.2": {
+              "id": "G4-C08-q2.option.2",
+              "english": "111"
+            },
+            "option.3": {
+              "id": "G4-C08-q2.option.3",
+              "english": "114"
+            }
+          }
+        },
+        {
+          "id": "G4-C08-q3",
+          "correctIndex": 2,
+          "visualKind": "equalGroups",
+          "objects": [
+            "🌱",
+            "🧺",
+            "✖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C08-q3.prompt",
+              "english": "A garden has 35 rows with 5 seedlings in each row. How many seedlings?"
+            },
+            "explanation": {
+              "id": "G4-C08-q3.explanation",
+              "english": "Add 5 for each of 35 equal groups: 35 × 5 = 175."
+            },
+            "hint": {
+              "id": "G4-C08-q3.hint",
+              "english": "Count the same number in each row, or multiply number of groups by items per group."
+            },
+            "option.0": {
+              "id": "G4-C08-q3.option.0",
+              "english": "176"
+            },
+            "option.1": {
+              "id": "G4-C08-q3.option.1",
+              "english": "174"
+            },
+            "option.2": {
+              "id": "G4-C08-q3.option.2",
+              "english": "175"
+            },
+            "option.3": {
+              "id": "G4-C08-q3.option.3",
+              "english": "177"
+            }
+          }
+        },
+        {
+          "id": "G4-C08-q4",
+          "correctIndex": 3,
+          "visualKind": "equalGroups",
+          "objects": [
+            "🌱",
+            "🧺",
+            "✖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C08-q4.prompt",
+              "english": "A garden has 42 rows with 6 seedlings in each row. How many seedlings?"
+            },
+            "explanation": {
+              "id": "G4-C08-q4.explanation",
+              "english": "Add 6 for each of 42 equal groups: 42 × 6 = 252."
+            },
+            "hint": {
+              "id": "G4-C08-q4.hint",
+              "english": "Count the same number in each row, or multiply number of groups by items per group."
+            },
+            "option.0": {
+              "id": "G4-C08-q4.option.0",
+              "english": "253"
+            },
+            "option.1": {
+              "id": "G4-C08-q4.option.1",
+              "english": "251"
+            },
+            "option.2": {
+              "id": "G4-C08-q4.option.2",
+              "english": "254"
+            },
+            "option.3": {
+              "id": "G4-C08-q4.option.3",
+              "english": "252"
+            }
+          }
+        },
+        {
+          "id": "G4-C08-q5",
+          "correctIndex": 0,
+          "visualKind": "equalGroups",
+          "objects": [
+            "🌱",
+            "🧺",
+            "✖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C08-q5.prompt",
+              "english": "A garden has 49 rows with 3 seedlings in each row. How many seedlings?"
+            },
+            "explanation": {
+              "id": "G4-C08-q5.explanation",
+              "english": "Add 3 for each of 49 equal groups: 49 × 3 = 147."
+            },
+            "hint": {
+              "id": "G4-C08-q5.hint",
+              "english": "Count the same number in each row, or multiply number of groups by items per group."
+            },
+            "option.0": {
+              "id": "G4-C08-q5.option.0",
+              "english": "147"
+            },
+            "option.1": {
+              "id": "G4-C08-q5.option.1",
+              "english": "148"
+            },
+            "option.2": {
+              "id": "G4-C08-q5.option.2",
+              "english": "146"
+            },
+            "option.3": {
+              "id": "G4-C08-q5.option.3",
+              "english": "149"
+            }
+          }
+        },
+        {
+          "id": "G4-C08-q6",
+          "correctIndex": 1,
+          "visualKind": "equalGroups",
+          "objects": [
+            "🌱",
+            "🧺",
+            "✖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C08-q6.prompt",
+              "english": "A garden has 56 rows with 4 seedlings in each row. How many seedlings?"
+            },
+            "explanation": {
+              "id": "G4-C08-q6.explanation",
+              "english": "Add 4 for each of 56 equal groups: 56 × 4 = 224."
+            },
+            "hint": {
+              "id": "G4-C08-q6.hint",
+              "english": "Count the same number in each row, or multiply number of groups by items per group."
+            },
+            "option.0": {
+              "id": "G4-C08-q6.option.0",
+              "english": "225"
+            },
+            "option.1": {
+              "id": "G4-C08-q6.option.1",
+              "english": "224"
+            },
+            "option.2": {
+              "id": "G4-C08-q6.option.2",
+              "english": "223"
+            },
+            "option.3": {
+              "id": "G4-C08-q6.option.3",
+              "english": "226"
+            }
+          }
+        },
+        {
+          "id": "G4-C08-q7",
+          "correctIndex": 2,
+          "visualKind": "equalGroups",
+          "objects": [
+            "🌱",
+            "🧺",
+            "✖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C08-q7.prompt",
+              "english": "A garden has 63 rows with 5 seedlings in each row. How many seedlings?"
+            },
+            "explanation": {
+              "id": "G4-C08-q7.explanation",
+              "english": "Add 5 for each of 63 equal groups: 63 × 5 = 315."
+            },
+            "hint": {
+              "id": "G4-C08-q7.hint",
+              "english": "Count the same number in each row, or multiply number of groups by items per group."
+            },
+            "option.0": {
+              "id": "G4-C08-q7.option.0",
+              "english": "316"
+            },
+            "option.1": {
+              "id": "G4-C08-q7.option.1",
+              "english": "314"
+            },
+            "option.2": {
+              "id": "G4-C08-q7.option.2",
+              "english": "315"
+            },
+            "option.3": {
+              "id": "G4-C08-q7.option.3",
+              "english": "317"
+            }
+          }
+        },
+        {
+          "id": "G4-C08-q8",
+          "correctIndex": 3,
+          "visualKind": "equalGroups",
+          "objects": [
+            "🌱",
+            "🧺",
+            "✖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C08-q8.prompt",
+              "english": "A garden has 70 rows with 6 seedlings in each row. How many seedlings?"
+            },
+            "explanation": {
+              "id": "G4-C08-q8.explanation",
+              "english": "Add 6 for each of 70 equal groups: 70 × 6 = 420."
+            },
+            "hint": {
+              "id": "G4-C08-q8.hint",
+              "english": "Count the same number in each row, or multiply number of groups by items per group."
+            },
+            "option.0": {
+              "id": "G4-C08-q8.option.0",
+              "english": "421"
+            },
+            "option.1": {
+              "id": "G4-C08-q8.option.1",
+              "english": "419"
+            },
+            "option.2": {
+              "id": "G4-C08-q8.option.2",
+              "english": "422"
+            },
+            "option.3": {
+              "id": "G4-C08-q8.option.3",
+              "english": "420"
+            }
+          }
+        },
+        {
+          "id": "G4-C08-q9",
+          "correctIndex": 0,
+          "visualKind": "equalGroups",
+          "objects": [
+            "🌱",
+            "🧺",
+            "✖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C08-q9.prompt",
+              "english": "A garden has 77 rows with 3 seedlings in each row. How many seedlings?"
+            },
+            "explanation": {
+              "id": "G4-C08-q9.explanation",
+              "english": "Add 3 for each of 77 equal groups: 77 × 3 = 231."
+            },
+            "hint": {
+              "id": "G4-C08-q9.hint",
+              "english": "Count the same number in each row, or multiply number of groups by items per group."
+            },
+            "option.0": {
+              "id": "G4-C08-q9.option.0",
+              "english": "231"
+            },
+            "option.1": {
+              "id": "G4-C08-q9.option.1",
+              "english": "232"
+            },
+            "option.2": {
+              "id": "G4-C08-q9.option.2",
+              "english": "230"
+            },
+            "option.3": {
+              "id": "G4-C08-q9.option.3",
+              "english": "233"
+            }
+          }
+        },
+        {
+          "id": "G4-C08-q10",
+          "correctIndex": 1,
+          "visualKind": "equalGroups",
+          "objects": [
+            "🌱",
+            "🧺",
+            "✖️"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C08-q10.prompt",
+              "english": "A garden has 84 rows with 4 seedlings in each row. How many seedlings?"
+            },
+            "explanation": {
+              "id": "G4-C08-q10.explanation",
+              "english": "Add 4 for each of 84 equal groups: 84 × 4 = 336."
+            },
+            "hint": {
+              "id": "G4-C08-q10.hint",
+              "english": "Count the same number in each row, or multiply number of groups by items per group."
+            },
+            "option.0": {
+              "id": "G4-C08-q10.option.0",
+              "english": "337"
+            },
+            "option.1": {
+              "id": "G4-C08-q10.option.1",
+              "english": "336"
+            },
+            "option.2": {
+              "id": "G4-C08-q10.option.2",
+              "english": "335"
+            },
+            "option.3": {
+              "id": "G4-C08-q10.option.3",
+              "english": "338"
+            }
+          }
+        }
+      ]
+    },
+    "G4-C09": {
+      "id": "G4-C09",
+      "grade": 4,
+      "title": {
+        "id": "G4-C09.title",
+        "english": "Division"
+      },
+      "lesson": {
+        "story": {
+          "id": "G4-C09.lesson.story",
+          "english": "Mira and Ravi explore: Share 6 picture cards equally among 2 friends. How many does each friend get?"
+        },
+        "concept": {
+          "id": "G4-C09.lesson.concept",
+          "english": "Divide with place-value steps and check the quotient and remainder by multiplication."
+        },
+        "workedExample": {
+          "id": "G4-C09-q1.explanation",
+          "english": "6 = 2 × 3. Each group gets 3."
+        },
+        "hint": {
+          "id": "G4-C09-q1.hint",
+          "english": "Make equal groups first. Check the total by multiplying the group size and number of groups."
+        },
+        "recap": {
+          "id": "G4-C09.lesson.recap",
+          "english": "Remember: Divide with place-value steps and check the quotient and remainder by multiplication."
+        }
+      },
+      "questions": [
+        {
+          "id": "G4-C09-q1",
+          "correctIndex": 3,
+          "visualKind": "sharing",
+          "objects": [
+            "🫐",
+            "🧺",
+            "➗"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C09-q1.prompt",
+              "english": "Share 6 picture cards equally among 2 friends. How many does each friend get?"
+            },
+            "explanation": {
+              "id": "G4-C09-q1.explanation",
+              "english": "6 = 2 × 3. Each group gets 3."
+            },
+            "hint": {
+              "id": "G4-C09-q1.hint",
+              "english": "Make equal groups first. Check the total by multiplying the group size and number of groups."
+            },
+            "option.0": {
+              "id": "G4-C09-q1.option.0",
+              "english": "4"
+            },
+            "option.1": {
+              "id": "G4-C09-q1.option.1",
+              "english": "2"
+            },
+            "option.2": {
+              "id": "G4-C09-q1.option.2",
+              "english": "5"
+            },
+            "option.3": {
+              "id": "G4-C09-q1.option.3",
+              "english": "3"
+            }
+          }
+        },
+        {
+          "id": "G4-C09-q2",
+          "correctIndex": 0,
+          "visualKind": "sharing",
+          "objects": [
+            "🫐",
+            "🧺",
+            "➗"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C09-q2.prompt",
+              "english": "Share 12 picture cards equally among 3 friends. How many does each friend get?"
+            },
+            "explanation": {
+              "id": "G4-C09-q2.explanation",
+              "english": "12 = 3 × 4. Each group gets 4."
+            },
+            "hint": {
+              "id": "G4-C09-q2.hint",
+              "english": "Make equal groups first. Check the total by multiplying the group size and number of groups."
+            },
+            "option.0": {
+              "id": "G4-C09-q2.option.0",
+              "english": "4"
+            },
+            "option.1": {
+              "id": "G4-C09-q2.option.1",
+              "english": "5"
+            },
+            "option.2": {
+              "id": "G4-C09-q2.option.2",
+              "english": "3"
+            },
+            "option.3": {
+              "id": "G4-C09-q2.option.3",
+              "english": "6"
+            }
+          }
+        },
+        {
+          "id": "G4-C09-q3",
+          "correctIndex": 1,
+          "visualKind": "sharing",
+          "objects": [
+            "🫐",
+            "🧺",
+            "➗"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C09-q3.prompt",
+              "english": "Share 20 picture cards equally among 4 friends. How many does each friend get?"
+            },
+            "explanation": {
+              "id": "G4-C09-q3.explanation",
+              "english": "20 = 4 × 5. Each group gets 5."
+            },
+            "hint": {
+              "id": "G4-C09-q3.hint",
+              "english": "Make equal groups first. Check the total by multiplying the group size and number of groups."
+            },
+            "option.0": {
+              "id": "G4-C09-q3.option.0",
+              "english": "6"
+            },
+            "option.1": {
+              "id": "G4-C09-q3.option.1",
+              "english": "5"
+            },
+            "option.2": {
+              "id": "G4-C09-q3.option.2",
+              "english": "4"
+            },
+            "option.3": {
+              "id": "G4-C09-q3.option.3",
+              "english": "7"
+            }
+          }
+        },
+        {
+          "id": "G4-C09-q4",
+          "correctIndex": 2,
+          "visualKind": "sharing",
+          "objects": [
+            "🫐",
+            "🧺",
+            "➗"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C09-q4.prompt",
+              "english": "Share 30 picture cards equally among 5 friends. How many does each friend get?"
+            },
+            "explanation": {
+              "id": "G4-C09-q4.explanation",
+              "english": "30 = 5 × 6. Each group gets 6."
+            },
+            "hint": {
+              "id": "G4-C09-q4.hint",
+              "english": "Make equal groups first. Check the total by multiplying the group size and number of groups."
+            },
+            "option.0": {
+              "id": "G4-C09-q4.option.0",
+              "english": "7"
+            },
+            "option.1": {
+              "id": "G4-C09-q4.option.1",
+              "english": "5"
+            },
+            "option.2": {
+              "id": "G4-C09-q4.option.2",
+              "english": "6"
+            },
+            "option.3": {
+              "id": "G4-C09-q4.option.3",
+              "english": "8"
+            }
+          }
+        },
+        {
+          "id": "G4-C09-q5",
+          "correctIndex": 3,
+          "visualKind": "sharing",
+          "objects": [
+            "🫐",
+            "🧺",
+            "➗"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C09-q5.prompt",
+              "english": "Share 14 picture cards equally among 2 friends. How many does each friend get?"
+            },
+            "explanation": {
+              "id": "G4-C09-q5.explanation",
+              "english": "14 = 2 × 7. Each group gets 7."
+            },
+            "hint": {
+              "id": "G4-C09-q5.hint",
+              "english": "Make equal groups first. Check the total by multiplying the group size and number of groups."
+            },
+            "option.0": {
+              "id": "G4-C09-q5.option.0",
+              "english": "8"
+            },
+            "option.1": {
+              "id": "G4-C09-q5.option.1",
+              "english": "6"
+            },
+            "option.2": {
+              "id": "G4-C09-q5.option.2",
+              "english": "9"
+            },
+            "option.3": {
+              "id": "G4-C09-q5.option.3",
+              "english": "7"
+            }
+          }
+        },
+        {
+          "id": "G4-C09-q6",
+          "correctIndex": 0,
+          "visualKind": "sharing",
+          "objects": [
+            "🫐",
+            "🧺",
+            "➗"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C09-q6.prompt",
+              "english": "Share 24 picture cards equally among 3 friends. How many does each friend get?"
+            },
+            "explanation": {
+              "id": "G4-C09-q6.explanation",
+              "english": "24 = 3 × 8. Each group gets 8."
+            },
+            "hint": {
+              "id": "G4-C09-q6.hint",
+              "english": "Make equal groups first. Check the total by multiplying the group size and number of groups."
+            },
+            "option.0": {
+              "id": "G4-C09-q6.option.0",
+              "english": "8"
+            },
+            "option.1": {
+              "id": "G4-C09-q6.option.1",
+              "english": "9"
+            },
+            "option.2": {
+              "id": "G4-C09-q6.option.2",
+              "english": "7"
+            },
+            "option.3": {
+              "id": "G4-C09-q6.option.3",
+              "english": "10"
+            }
+          }
+        },
+        {
+          "id": "G4-C09-q7",
+          "correctIndex": 1,
+          "visualKind": "sharing",
+          "objects": [
+            "🫐",
+            "🧺",
+            "➗"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C09-q7.prompt",
+              "english": "Share 12 picture cards equally among 4 friends. How many does each friend get?"
+            },
+            "explanation": {
+              "id": "G4-C09-q7.explanation",
+              "english": "12 = 4 × 3. Each group gets 3."
+            },
+            "hint": {
+              "id": "G4-C09-q7.hint",
+              "english": "Make equal groups first. Check the total by multiplying the group size and number of groups."
+            },
+            "option.0": {
+              "id": "G4-C09-q7.option.0",
+              "english": "4"
+            },
+            "option.1": {
+              "id": "G4-C09-q7.option.1",
+              "english": "3"
+            },
+            "option.2": {
+              "id": "G4-C09-q7.option.2",
+              "english": "2"
+            },
+            "option.3": {
+              "id": "G4-C09-q7.option.3",
+              "english": "5"
+            }
+          }
+        },
+        {
+          "id": "G4-C09-q8",
+          "correctIndex": 2,
+          "visualKind": "sharing",
+          "objects": [
+            "🫐",
+            "🧺",
+            "➗"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C09-q8.prompt",
+              "english": "Share 20 picture cards equally among 5 friends. How many does each friend get?"
+            },
+            "explanation": {
+              "id": "G4-C09-q8.explanation",
+              "english": "20 = 5 × 4. Each group gets 4."
+            },
+            "hint": {
+              "id": "G4-C09-q8.hint",
+              "english": "Make equal groups first. Check the total by multiplying the group size and number of groups."
+            },
+            "option.0": {
+              "id": "G4-C09-q8.option.0",
+              "english": "5"
+            },
+            "option.1": {
+              "id": "G4-C09-q8.option.1",
+              "english": "3"
+            },
+            "option.2": {
+              "id": "G4-C09-q8.option.2",
+              "english": "4"
+            },
+            "option.3": {
+              "id": "G4-C09-q8.option.3",
+              "english": "6"
+            }
+          }
+        },
+        {
+          "id": "G4-C09-q9",
+          "correctIndex": 3,
+          "visualKind": "sharing",
+          "objects": [
+            "🫐",
+            "🧺",
+            "➗"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C09-q9.prompt",
+              "english": "Share 10 picture cards equally among 2 friends. How many does each friend get?"
+            },
+            "explanation": {
+              "id": "G4-C09-q9.explanation",
+              "english": "10 = 2 × 5. Each group gets 5."
+            },
+            "hint": {
+              "id": "G4-C09-q9.hint",
+              "english": "Make equal groups first. Check the total by multiplying the group size and number of groups."
+            },
+            "option.0": {
+              "id": "G4-C09-q9.option.0",
+              "english": "6"
+            },
+            "option.1": {
+              "id": "G4-C09-q9.option.1",
+              "english": "4"
+            },
+            "option.2": {
+              "id": "G4-C09-q9.option.2",
+              "english": "7"
+            },
+            "option.3": {
+              "id": "G4-C09-q9.option.3",
+              "english": "5"
+            }
+          }
+        },
+        {
+          "id": "G4-C09-q10",
+          "correctIndex": 0,
+          "visualKind": "sharing",
+          "objects": [
+            "🫐",
+            "🧺",
+            "➗"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C09-q10.prompt",
+              "english": "Share 18 picture cards equally among 3 friends. How many does each friend get?"
+            },
+            "explanation": {
+              "id": "G4-C09-q10.explanation",
+              "english": "18 = 3 × 6. Each group gets 6."
+            },
+            "hint": {
+              "id": "G4-C09-q10.hint",
+              "english": "Make equal groups first. Check the total by multiplying the group size and number of groups."
+            },
+            "option.0": {
+              "id": "G4-C09-q10.option.0",
+              "english": "6"
+            },
+            "option.1": {
+              "id": "G4-C09-q10.option.1",
+              "english": "7"
+            },
+            "option.2": {
+              "id": "G4-C09-q10.option.2",
+              "english": "5"
+            },
+            "option.3": {
+              "id": "G4-C09-q10.option.3",
+              "english": "8"
+            }
+          }
+        }
+      ]
+    },
+    "G4-C10": {
+      "id": "G4-C10",
+      "grade": 4,
+      "title": {
+        "id": "G4-C10.title",
+        "english": "Symmetry"
+      },
+      "lesson": {
+        "story": {
+          "id": "G4-C10.lesson.story",
+          "english": "Mira and Ravi explore: How many lines of symmetry does a isosceles triangle have?"
+        },
+        "concept": {
+          "id": "G4-C10.lesson.concept",
+          "english": "Count lines that divide a shape into matching mirror halves."
+        },
+        "workedExample": {
+          "id": "G4-C10-q1.explanation",
+          "english": "A isosceles triangle has 1 line of symmetry."
+        },
+        "hint": {
+          "id": "G4-C10-q1.hint",
+          "english": "Imagine folding along a line. Count the folds that make two matching halves."
+        },
+        "recap": {
+          "id": "G4-C10.lesson.recap",
+          "english": "Remember: Count lines that divide a shape into matching mirror halves."
+        }
+      },
+      "questions": [
+        {
+          "id": "G4-C10-q1",
+          "correctIndex": 2,
+          "visualKind": "symmetry",
+          "objects": [
+            "🔷",
+            "🪞"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C10-q1.prompt",
+              "english": "How many lines of symmetry does a isosceles triangle have?"
+            },
+            "explanation": {
+              "id": "G4-C10-q1.explanation",
+              "english": "A isosceles triangle has 1 line of symmetry."
+            },
+            "hint": {
+              "id": "G4-C10-q1.hint",
+              "english": "Imagine folding along a line. Count the folds that make two matching halves."
+            },
+            "option.0": {
+              "id": "G4-C10-q1.option.0",
+              "english": "2"
+            },
+            "option.1": {
+              "id": "G4-C10-q1.option.1",
+              "english": "0"
+            },
+            "option.2": {
+              "id": "G4-C10-q1.option.2",
+              "english": "1"
+            },
+            "option.3": {
+              "id": "G4-C10-q1.option.3",
+              "english": "3"
+            }
+          }
+        },
+        {
+          "id": "G4-C10-q2",
+          "correctIndex": 3,
+          "visualKind": "symmetry",
+          "objects": [
+            "🔷",
+            "🪞"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C10-q2.prompt",
+              "english": "How many lines of symmetry does a rectangle have?"
+            },
+            "explanation": {
+              "id": "G4-C10-q2.explanation",
+              "english": "A rectangle has 2 lines of symmetry."
+            },
+            "hint": {
+              "id": "G4-C10-q2.hint",
+              "english": "Imagine folding along a line. Count the folds that make two matching halves."
+            },
+            "option.0": {
+              "id": "G4-C10-q2.option.0",
+              "english": "3"
+            },
+            "option.1": {
+              "id": "G4-C10-q2.option.1",
+              "english": "1"
+            },
+            "option.2": {
+              "id": "G4-C10-q2.option.2",
+              "english": "4"
+            },
+            "option.3": {
+              "id": "G4-C10-q2.option.3",
+              "english": "2"
+            }
+          }
+        },
+        {
+          "id": "G4-C10-q3",
+          "correctIndex": 0,
+          "visualKind": "symmetry",
+          "objects": [
+            "🔷",
+            "🪞"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C10-q3.prompt",
+              "english": "How many lines of symmetry does a square have?"
+            },
+            "explanation": {
+              "id": "G4-C10-q3.explanation",
+              "english": "A square has 4 lines of symmetry."
+            },
+            "hint": {
+              "id": "G4-C10-q3.hint",
+              "english": "Imagine folding along a line. Count the folds that make two matching halves."
+            },
+            "option.0": {
+              "id": "G4-C10-q3.option.0",
+              "english": "4"
+            },
+            "option.1": {
+              "id": "G4-C10-q3.option.1",
+              "english": "5"
+            },
+            "option.2": {
+              "id": "G4-C10-q3.option.2",
+              "english": "3"
+            },
+            "option.3": {
+              "id": "G4-C10-q3.option.3",
+              "english": "6"
+            }
+          }
+        },
+        {
+          "id": "G4-C10-q4",
+          "correctIndex": 1,
+          "visualKind": "symmetry",
+          "objects": [
+            "🔷",
+            "🪞"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C10-q4.prompt",
+              "english": "How many lines of symmetry does a scalene triangle have?"
+            },
+            "explanation": {
+              "id": "G4-C10-q4.explanation",
+              "english": "A scalene triangle has 0 lines of symmetry."
+            },
+            "hint": {
+              "id": "G4-C10-q4.hint",
+              "english": "Imagine folding along a line. Count the folds that make two matching halves."
+            },
+            "option.0": {
+              "id": "G4-C10-q4.option.0",
+              "english": "1"
+            },
+            "option.1": {
+              "id": "G4-C10-q4.option.1",
+              "english": "0"
+            },
+            "option.2": {
+              "id": "G4-C10-q4.option.2",
+              "english": "2"
+            },
+            "option.3": {
+              "id": "G4-C10-q4.option.3",
+              "english": "3"
+            }
+          }
+        },
+        {
+          "id": "G4-C10-q5",
+          "correctIndex": 2,
+          "visualKind": "symmetry",
+          "objects": [
+            "🔷",
+            "🪞"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C10-q5.prompt",
+              "english": "How many lines of symmetry does a non-square rhombus have?"
+            },
+            "explanation": {
+              "id": "G4-C10-q5.explanation",
+              "english": "A non-square rhombus has 2 lines of symmetry."
+            },
+            "hint": {
+              "id": "G4-C10-q5.hint",
+              "english": "Imagine folding along a line. Count the folds that make two matching halves."
+            },
+            "option.0": {
+              "id": "G4-C10-q5.option.0",
+              "english": "3"
+            },
+            "option.1": {
+              "id": "G4-C10-q5.option.1",
+              "english": "1"
+            },
+            "option.2": {
+              "id": "G4-C10-q5.option.2",
+              "english": "2"
+            },
+            "option.3": {
+              "id": "G4-C10-q5.option.3",
+              "english": "4"
+            }
+          }
+        },
+        {
+          "id": "G4-C10-q6",
+          "correctIndex": 3,
+          "visualKind": "symmetry",
+          "objects": [
+            "🔷",
+            "🪞"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C10-q6.prompt",
+              "english": "How many lines of symmetry does a equilateral triangle have?"
+            },
+            "explanation": {
+              "id": "G4-C10-q6.explanation",
+              "english": "A equilateral triangle has 3 lines of symmetry."
+            },
+            "hint": {
+              "id": "G4-C10-q6.hint",
+              "english": "Imagine folding along a line. Count the folds that make two matching halves."
+            },
+            "option.0": {
+              "id": "G4-C10-q6.option.0",
+              "english": "4"
+            },
+            "option.1": {
+              "id": "G4-C10-q6.option.1",
+              "english": "2"
+            },
+            "option.2": {
+              "id": "G4-C10-q6.option.2",
+              "english": "5"
+            },
+            "option.3": {
+              "id": "G4-C10-q6.option.3",
+              "english": "3"
+            }
+          }
+        },
+        {
+          "id": "G4-C10-q7",
+          "correctIndex": 0,
+          "visualKind": "symmetry",
+          "objects": [
+            "🔷",
+            "🪞"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C10-q7.prompt",
+              "english": "How many lines of symmetry does a regular pentagon have?"
+            },
+            "explanation": {
+              "id": "G4-C10-q7.explanation",
+              "english": "A regular pentagon has 5 lines of symmetry."
+            },
+            "hint": {
+              "id": "G4-C10-q7.hint",
+              "english": "Imagine folding along a line. Count the folds that make two matching halves."
+            },
+            "option.0": {
+              "id": "G4-C10-q7.option.0",
+              "english": "5"
+            },
+            "option.1": {
+              "id": "G4-C10-q7.option.1",
+              "english": "6"
+            },
+            "option.2": {
+              "id": "G4-C10-q7.option.2",
+              "english": "4"
+            },
+            "option.3": {
+              "id": "G4-C10-q7.option.3",
+              "english": "7"
+            }
+          }
+        },
+        {
+          "id": "G4-C10-q8",
+          "correctIndex": 1,
+          "visualKind": "symmetry",
+          "objects": [
+            "🔷",
+            "🪞"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C10-q8.prompt",
+              "english": "How many lines of symmetry does a regular hexagon have?"
+            },
+            "explanation": {
+              "id": "G4-C10-q8.explanation",
+              "english": "A regular hexagon has 6 lines of symmetry."
+            },
+            "hint": {
+              "id": "G4-C10-q8.hint",
+              "english": "Imagine folding along a line. Count the folds that make two matching halves."
+            },
+            "option.0": {
+              "id": "G4-C10-q8.option.0",
+              "english": "7"
+            },
+            "option.1": {
+              "id": "G4-C10-q8.option.1",
+              "english": "6"
+            },
+            "option.2": {
+              "id": "G4-C10-q8.option.2",
+              "english": "5"
+            },
+            "option.3": {
+              "id": "G4-C10-q8.option.3",
+              "english": "8"
+            }
+          }
+        },
+        {
+          "id": "G4-C10-q9",
+          "correctIndex": 2,
+          "visualKind": "symmetry",
+          "objects": [
+            "🔷",
+            "🪞"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C10-q9.prompt",
+              "english": "How many lines of symmetry does a slanted parallelogram have?"
+            },
+            "explanation": {
+              "id": "G4-C10-q9.explanation",
+              "english": "A slanted parallelogram has 0 lines of symmetry."
+            },
+            "hint": {
+              "id": "G4-C10-q9.hint",
+              "english": "Imagine folding along a line. Count the folds that make two matching halves."
+            },
+            "option.0": {
+              "id": "G4-C10-q9.option.0",
+              "english": "1"
+            },
+            "option.1": {
+              "id": "G4-C10-q9.option.1",
+              "english": "2"
+            },
+            "option.2": {
+              "id": "G4-C10-q9.option.2",
+              "english": "0"
+            },
+            "option.3": {
+              "id": "G4-C10-q9.option.3",
+              "english": "3"
+            }
+          }
+        },
+        {
+          "id": "G4-C10-q10",
+          "correctIndex": 3,
+          "visualKind": "symmetry",
+          "objects": [
+            "🔷",
+            "🪞"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C10-q10.prompt",
+              "english": "How many lines of symmetry does a regular octagon have?"
+            },
+            "explanation": {
+              "id": "G4-C10-q10.explanation",
+              "english": "A regular octagon has 8 lines of symmetry."
+            },
+            "hint": {
+              "id": "G4-C10-q10.hint",
+              "english": "Imagine folding along a line. Count the folds that make two matching halves."
+            },
+            "option.0": {
+              "id": "G4-C10-q10.option.0",
+              "english": "9"
+            },
+            "option.1": {
+              "id": "G4-C10-q10.option.1",
+              "english": "7"
+            },
+            "option.2": {
+              "id": "G4-C10-q10.option.2",
+              "english": "10"
+            },
+            "option.3": {
+              "id": "G4-C10-q10.option.3",
+              "english": "8"
+            }
+          }
+        }
+      ]
+    },
+    "G4-C11": {
+      "id": "G4-C11",
+      "grade": 4,
+      "title": {
+        "id": "G4-C11.title",
+        "english": "Perimeter and area"
+      },
+      "lesson": {
+        "story": {
+          "id": "G4-C11.lesson.story",
+          "english": "Mira and Ravi explore: A rectangle is 3 square units long and 2 units wide. Find its area in square units."
+        },
+        "concept": {
+          "id": "G4-C11.lesson.concept",
+          "english": "Find boundary length by perimeter and count square units to compare area."
+        },
+        "workedExample": {
+          "id": "G4-C11-q1.explanation",
+          "english": "Area = 3 rows × 2 squares = 6 square units."
+        },
+        "hint": {
+          "id": "G4-C11-q1.hint",
+          "english": "Count the square units inside: rows times squares in each row."
+        },
+        "recap": {
+          "id": "G4-C11.lesson.recap",
+          "english": "Remember: Find boundary length by perimeter and count square units to compare area."
+        }
+      },
+      "questions": [
+        {
+          "id": "G4-C11-q1",
+          "correctIndex": 1,
+          "visualKind": "area",
+          "objects": [
+            "▦",
+            "📐"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C11-q1.prompt",
+              "english": "A rectangle is 3 square units long and 2 units wide. Find its area in square units."
+            },
+            "explanation": {
+              "id": "G4-C11-q1.explanation",
+              "english": "Area = 3 rows × 2 squares = 6 square units."
+            },
+            "hint": {
+              "id": "G4-C11-q1.hint",
+              "english": "Count the square units inside: rows times squares in each row."
+            },
+            "option.0": {
+              "id": "G4-C11-q1.option.0",
+              "english": "7"
+            },
+            "option.1": {
+              "id": "G4-C11-q1.option.1",
+              "english": "6"
+            },
+            "option.2": {
+              "id": "G4-C11-q1.option.2",
+              "english": "5"
+            },
+            "option.3": {
+              "id": "G4-C11-q1.option.3",
+              "english": "8"
+            }
+          }
+        },
+        {
+          "id": "G4-C11-q2",
+          "correctIndex": 2,
+          "visualKind": "area",
+          "objects": [
+            "▦",
+            "📐"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C11-q2.prompt",
+              "english": "A rectangle is 4 square units long and 3 units wide. Find its perimeter in units."
+            },
+            "explanation": {
+              "id": "G4-C11-q2.explanation",
+              "english": "Perimeter = 2 × (4 + 3) = 14 units."
+            },
+            "hint": {
+              "id": "G4-C11-q2.hint",
+              "english": "Add the four boundary sides."
+            },
+            "option.0": {
+              "id": "G4-C11-q2.option.0",
+              "english": "15"
+            },
+            "option.1": {
+              "id": "G4-C11-q2.option.1",
+              "english": "13"
+            },
+            "option.2": {
+              "id": "G4-C11-q2.option.2",
+              "english": "14"
+            },
+            "option.3": {
+              "id": "G4-C11-q2.option.3",
+              "english": "16"
+            }
+          }
+        },
+        {
+          "id": "G4-C11-q3",
+          "correctIndex": 3,
+          "visualKind": "area",
+          "objects": [
+            "▦",
+            "📐"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C11-q3.prompt",
+              "english": "A rectangle is 5 square units long and 4 units wide. Find its area in square units."
+            },
+            "explanation": {
+              "id": "G4-C11-q3.explanation",
+              "english": "Area = 5 rows × 4 squares = 20 square units."
+            },
+            "hint": {
+              "id": "G4-C11-q3.hint",
+              "english": "Count the square units inside: rows times squares in each row."
+            },
+            "option.0": {
+              "id": "G4-C11-q3.option.0",
+              "english": "21"
+            },
+            "option.1": {
+              "id": "G4-C11-q3.option.1",
+              "english": "19"
+            },
+            "option.2": {
+              "id": "G4-C11-q3.option.2",
+              "english": "22"
+            },
+            "option.3": {
+              "id": "G4-C11-q3.option.3",
+              "english": "20"
+            }
+          }
+        },
+        {
+          "id": "G4-C11-q4",
+          "correctIndex": 0,
+          "visualKind": "area",
+          "objects": [
+            "▦",
+            "📐"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C11-q4.prompt",
+              "english": "A rectangle is 6 square units long and 2 units wide. Find its perimeter in units."
+            },
+            "explanation": {
+              "id": "G4-C11-q4.explanation",
+              "english": "Perimeter = 2 × (6 + 2) = 16 units."
+            },
+            "hint": {
+              "id": "G4-C11-q4.hint",
+              "english": "Add the four boundary sides."
+            },
+            "option.0": {
+              "id": "G4-C11-q4.option.0",
+              "english": "16"
+            },
+            "option.1": {
+              "id": "G4-C11-q4.option.1",
+              "english": "17"
+            },
+            "option.2": {
+              "id": "G4-C11-q4.option.2",
+              "english": "15"
+            },
+            "option.3": {
+              "id": "G4-C11-q4.option.3",
+              "english": "18"
+            }
+          }
+        },
+        {
+          "id": "G4-C11-q5",
+          "correctIndex": 1,
+          "visualKind": "area",
+          "objects": [
+            "▦",
+            "📐"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C11-q5.prompt",
+              "english": "A rectangle is 3 square units long and 3 units wide. Find its area in square units."
+            },
+            "explanation": {
+              "id": "G4-C11-q5.explanation",
+              "english": "Area = 3 rows × 3 squares = 9 square units."
+            },
+            "hint": {
+              "id": "G4-C11-q5.hint",
+              "english": "Count the square units inside: rows times squares in each row."
+            },
+            "option.0": {
+              "id": "G4-C11-q5.option.0",
+              "english": "10"
+            },
+            "option.1": {
+              "id": "G4-C11-q5.option.1",
+              "english": "9"
+            },
+            "option.2": {
+              "id": "G4-C11-q5.option.2",
+              "english": "8"
+            },
+            "option.3": {
+              "id": "G4-C11-q5.option.3",
+              "english": "11"
+            }
+          }
+        },
+        {
+          "id": "G4-C11-q6",
+          "correctIndex": 2,
+          "visualKind": "area",
+          "objects": [
+            "▦",
+            "📐"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C11-q6.prompt",
+              "english": "A rectangle is 4 square units long and 4 units wide. Find its perimeter in units."
+            },
+            "explanation": {
+              "id": "G4-C11-q6.explanation",
+              "english": "Perimeter = 2 × (4 + 4) = 16 units."
+            },
+            "hint": {
+              "id": "G4-C11-q6.hint",
+              "english": "Add the four boundary sides."
+            },
+            "option.0": {
+              "id": "G4-C11-q6.option.0",
+              "english": "17"
+            },
+            "option.1": {
+              "id": "G4-C11-q6.option.1",
+              "english": "15"
+            },
+            "option.2": {
+              "id": "G4-C11-q6.option.2",
+              "english": "16"
+            },
+            "option.3": {
+              "id": "G4-C11-q6.option.3",
+              "english": "18"
+            }
+          }
+        },
+        {
+          "id": "G4-C11-q7",
+          "correctIndex": 3,
+          "visualKind": "area",
+          "objects": [
+            "▦",
+            "📐"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C11-q7.prompt",
+              "english": "A rectangle is 5 square units long and 2 units wide. Find its area in square units."
+            },
+            "explanation": {
+              "id": "G4-C11-q7.explanation",
+              "english": "Area = 5 rows × 2 squares = 10 square units."
+            },
+            "hint": {
+              "id": "G4-C11-q7.hint",
+              "english": "Count the square units inside: rows times squares in each row."
+            },
+            "option.0": {
+              "id": "G4-C11-q7.option.0",
+              "english": "11"
+            },
+            "option.1": {
+              "id": "G4-C11-q7.option.1",
+              "english": "9"
+            },
+            "option.2": {
+              "id": "G4-C11-q7.option.2",
+              "english": "12"
+            },
+            "option.3": {
+              "id": "G4-C11-q7.option.3",
+              "english": "10"
+            }
+          }
+        },
+        {
+          "id": "G4-C11-q8",
+          "correctIndex": 0,
+          "visualKind": "area",
+          "objects": [
+            "▦",
+            "📐"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C11-q8.prompt",
+              "english": "A rectangle is 6 square units long and 3 units wide. Find its perimeter in units."
+            },
+            "explanation": {
+              "id": "G4-C11-q8.explanation",
+              "english": "Perimeter = 2 × (6 + 3) = 18 units."
+            },
+            "hint": {
+              "id": "G4-C11-q8.hint",
+              "english": "Add the four boundary sides."
+            },
+            "option.0": {
+              "id": "G4-C11-q8.option.0",
+              "english": "18"
+            },
+            "option.1": {
+              "id": "G4-C11-q8.option.1",
+              "english": "19"
+            },
+            "option.2": {
+              "id": "G4-C11-q8.option.2",
+              "english": "17"
+            },
+            "option.3": {
+              "id": "G4-C11-q8.option.3",
+              "english": "20"
+            }
+          }
+        },
+        {
+          "id": "G4-C11-q9",
+          "correctIndex": 1,
+          "visualKind": "area",
+          "objects": [
+            "▦",
+            "📐"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C11-q9.prompt",
+              "english": "A rectangle is 3 square units long and 4 units wide. Find its area in square units."
+            },
+            "explanation": {
+              "id": "G4-C11-q9.explanation",
+              "english": "Area = 3 rows × 4 squares = 12 square units."
+            },
+            "hint": {
+              "id": "G4-C11-q9.hint",
+              "english": "Count the square units inside: rows times squares in each row."
+            },
+            "option.0": {
+              "id": "G4-C11-q9.option.0",
+              "english": "13"
+            },
+            "option.1": {
+              "id": "G4-C11-q9.option.1",
+              "english": "12"
+            },
+            "option.2": {
+              "id": "G4-C11-q9.option.2",
+              "english": "11"
+            },
+            "option.3": {
+              "id": "G4-C11-q9.option.3",
+              "english": "14"
+            }
+          }
+        },
+        {
+          "id": "G4-C11-q10",
+          "correctIndex": 2,
+          "visualKind": "area",
+          "objects": [
+            "▦",
+            "📐"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C11-q10.prompt",
+              "english": "A rectangle is 4 square units long and 2 units wide. Find its perimeter in units."
+            },
+            "explanation": {
+              "id": "G4-C11-q10.explanation",
+              "english": "Perimeter = 2 × (4 + 2) = 12 units."
+            },
+            "hint": {
+              "id": "G4-C11-q10.hint",
+              "english": "Add the four boundary sides."
+            },
+            "option.0": {
+              "id": "G4-C11-q10.option.0",
+              "english": "13"
+            },
+            "option.1": {
+              "id": "G4-C11-q10.option.1",
+              "english": "11"
+            },
+            "option.2": {
+              "id": "G4-C11-q10.option.2",
+              "english": "12"
+            },
+            "option.3": {
+              "id": "G4-C11-q10.option.3",
+              "english": "14"
+            }
+          }
+        }
+      ]
+    },
+    "G4-C12": {
+      "id": "G4-C12",
+      "grade": 4,
+      "title": {
+        "id": "G4-C12.title",
+        "english": "Volume and capacity"
+      },
+      "lesson": {
+        "story": {
+          "id": "G4-C12.lesson.story",
+          "english": "Mira and Ravi explore: A box is packed with 2 unit cubes. What is its volume in cubic units?"
+        },
+        "concept": {
+          "id": "G4-C12.lesson.concept",
+          "english": "Count unit cubes for volume and compare liquid capacity in litres or millilitres."
+        },
+        "workedExample": {
+          "id": "G4-C12-q1.explanation",
+          "english": "Count each unit cube once: the volume is 2 cubic units."
+        },
+        "hint": {
+          "id": "G4-C12-q1.hint",
+          "english": "Volume counts the unit cubes that fill the solid."
+        },
+        "recap": {
+          "id": "G4-C12.lesson.recap",
+          "english": "Remember: Count unit cubes for volume and compare liquid capacity in litres or millilitres."
+        }
+      },
+      "questions": [
+        {
+          "id": "G4-C12-q1",
+          "correctIndex": 0,
+          "visualKind": "unitCubes",
+          "objects": [
+            "🧊",
+            "📦"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C12-q1.prompt",
+              "english": "A box is packed with 2 unit cubes. What is its volume in cubic units?"
+            },
+            "explanation": {
+              "id": "G4-C12-q1.explanation",
+              "english": "Count each unit cube once: the volume is 2 cubic units."
+            },
+            "hint": {
+              "id": "G4-C12-q1.hint",
+              "english": "Volume counts the unit cubes that fill the solid."
+            },
+            "option.0": {
+              "id": "G4-C12-q1.option.0",
+              "english": "2"
+            },
+            "option.1": {
+              "id": "G4-C12-q1.option.1",
+              "english": "3"
+            },
+            "option.2": {
+              "id": "G4-C12-q1.option.2",
+              "english": "1"
+            },
+            "option.3": {
+              "id": "G4-C12-q1.option.3",
+              "english": "4"
+            }
+          }
+        },
+        {
+          "id": "G4-C12-q2",
+          "correctIndex": 1,
+          "visualKind": "unitCubes",
+          "objects": [
+            "🧊",
+            "📦"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C12-q2.prompt",
+              "english": "A box is packed with 3 unit cubes. What is its volume in cubic units?"
+            },
+            "explanation": {
+              "id": "G4-C12-q2.explanation",
+              "english": "Count each unit cube once: the volume is 3 cubic units."
+            },
+            "hint": {
+              "id": "G4-C12-q2.hint",
+              "english": "Volume counts the unit cubes that fill the solid."
+            },
+            "option.0": {
+              "id": "G4-C12-q2.option.0",
+              "english": "4"
+            },
+            "option.1": {
+              "id": "G4-C12-q2.option.1",
+              "english": "3"
+            },
+            "option.2": {
+              "id": "G4-C12-q2.option.2",
+              "english": "2"
+            },
+            "option.3": {
+              "id": "G4-C12-q2.option.3",
+              "english": "5"
+            }
+          }
+        },
+        {
+          "id": "G4-C12-q3",
+          "correctIndex": 2,
+          "visualKind": "unitCubes",
+          "objects": [
+            "🧊",
+            "📦"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C12-q3.prompt",
+              "english": "A box is packed with 4 unit cubes. What is its volume in cubic units?"
+            },
+            "explanation": {
+              "id": "G4-C12-q3.explanation",
+              "english": "Count each unit cube once: the volume is 4 cubic units."
+            },
+            "hint": {
+              "id": "G4-C12-q3.hint",
+              "english": "Volume counts the unit cubes that fill the solid."
+            },
+            "option.0": {
+              "id": "G4-C12-q3.option.0",
+              "english": "5"
+            },
+            "option.1": {
+              "id": "G4-C12-q3.option.1",
+              "english": "3"
+            },
+            "option.2": {
+              "id": "G4-C12-q3.option.2",
+              "english": "4"
+            },
+            "option.3": {
+              "id": "G4-C12-q3.option.3",
+              "english": "6"
+            }
+          }
+        },
+        {
+          "id": "G4-C12-q4",
+          "correctIndex": 3,
+          "visualKind": "unitCubes",
+          "objects": [
+            "🧊",
+            "📦"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C12-q4.prompt",
+              "english": "A box is packed with 5 unit cubes. What is its volume in cubic units?"
+            },
+            "explanation": {
+              "id": "G4-C12-q4.explanation",
+              "english": "Count each unit cube once: the volume is 5 cubic units."
+            },
+            "hint": {
+              "id": "G4-C12-q4.hint",
+              "english": "Volume counts the unit cubes that fill the solid."
+            },
+            "option.0": {
+              "id": "G4-C12-q4.option.0",
+              "english": "6"
+            },
+            "option.1": {
+              "id": "G4-C12-q4.option.1",
+              "english": "4"
+            },
+            "option.2": {
+              "id": "G4-C12-q4.option.2",
+              "english": "7"
+            },
+            "option.3": {
+              "id": "G4-C12-q4.option.3",
+              "english": "5"
+            }
+          }
+        },
+        {
+          "id": "G4-C12-q5",
+          "correctIndex": 0,
+          "visualKind": "unitCubes",
+          "objects": [
+            "🧊",
+            "📦"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C12-q5.prompt",
+              "english": "A box is packed with 6 unit cubes. What is its volume in cubic units?"
+            },
+            "explanation": {
+              "id": "G4-C12-q5.explanation",
+              "english": "Count each unit cube once: the volume is 6 cubic units."
+            },
+            "hint": {
+              "id": "G4-C12-q5.hint",
+              "english": "Volume counts the unit cubes that fill the solid."
+            },
+            "option.0": {
+              "id": "G4-C12-q5.option.0",
+              "english": "6"
+            },
+            "option.1": {
+              "id": "G4-C12-q5.option.1",
+              "english": "7"
+            },
+            "option.2": {
+              "id": "G4-C12-q5.option.2",
+              "english": "5"
+            },
+            "option.3": {
+              "id": "G4-C12-q5.option.3",
+              "english": "8"
+            }
+          }
+        },
+        {
+          "id": "G4-C12-q6",
+          "correctIndex": 1,
+          "visualKind": "unitCubes",
+          "objects": [
+            "🧊",
+            "📦"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C12-q6.prompt",
+              "english": "A box is packed with 7 unit cubes. What is its volume in cubic units?"
+            },
+            "explanation": {
+              "id": "G4-C12-q6.explanation",
+              "english": "Count each unit cube once: the volume is 7 cubic units."
+            },
+            "hint": {
+              "id": "G4-C12-q6.hint",
+              "english": "Volume counts the unit cubes that fill the solid."
+            },
+            "option.0": {
+              "id": "G4-C12-q6.option.0",
+              "english": "8"
+            },
+            "option.1": {
+              "id": "G4-C12-q6.option.1",
+              "english": "7"
+            },
+            "option.2": {
+              "id": "G4-C12-q6.option.2",
+              "english": "6"
+            },
+            "option.3": {
+              "id": "G4-C12-q6.option.3",
+              "english": "9"
+            }
+          }
+        },
+        {
+          "id": "G4-C12-q7",
+          "correctIndex": 2,
+          "visualKind": "unitCubes",
+          "objects": [
+            "🧊",
+            "📦"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C12-q7.prompt",
+              "english": "A box is packed with 8 unit cubes. What is its volume in cubic units?"
+            },
+            "explanation": {
+              "id": "G4-C12-q7.explanation",
+              "english": "Count each unit cube once: the volume is 8 cubic units."
+            },
+            "hint": {
+              "id": "G4-C12-q7.hint",
+              "english": "Volume counts the unit cubes that fill the solid."
+            },
+            "option.0": {
+              "id": "G4-C12-q7.option.0",
+              "english": "9"
+            },
+            "option.1": {
+              "id": "G4-C12-q7.option.1",
+              "english": "7"
+            },
+            "option.2": {
+              "id": "G4-C12-q7.option.2",
+              "english": "8"
+            },
+            "option.3": {
+              "id": "G4-C12-q7.option.3",
+              "english": "10"
+            }
+          }
+        },
+        {
+          "id": "G4-C12-q8",
+          "correctIndex": 3,
+          "visualKind": "unitCubes",
+          "objects": [
+            "🧊",
+            "📦"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C12-q8.prompt",
+              "english": "A box is packed with 9 unit cubes. What is its volume in cubic units?"
+            },
+            "explanation": {
+              "id": "G4-C12-q8.explanation",
+              "english": "Count each unit cube once: the volume is 9 cubic units."
+            },
+            "hint": {
+              "id": "G4-C12-q8.hint",
+              "english": "Volume counts the unit cubes that fill the solid."
+            },
+            "option.0": {
+              "id": "G4-C12-q8.option.0",
+              "english": "10"
+            },
+            "option.1": {
+              "id": "G4-C12-q8.option.1",
+              "english": "8"
+            },
+            "option.2": {
+              "id": "G4-C12-q8.option.2",
+              "english": "11"
+            },
+            "option.3": {
+              "id": "G4-C12-q8.option.3",
+              "english": "9"
+            }
+          }
+        },
+        {
+          "id": "G4-C12-q9",
+          "correctIndex": 0,
+          "visualKind": "unitCubes",
+          "objects": [
+            "🧊",
+            "📦"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C12-q9.prompt",
+              "english": "A box is packed with 10 unit cubes. What is its volume in cubic units?"
+            },
+            "explanation": {
+              "id": "G4-C12-q9.explanation",
+              "english": "Count each unit cube once: the volume is 10 cubic units."
+            },
+            "hint": {
+              "id": "G4-C12-q9.hint",
+              "english": "Volume counts the unit cubes that fill the solid."
+            },
+            "option.0": {
+              "id": "G4-C12-q9.option.0",
+              "english": "10"
+            },
+            "option.1": {
+              "id": "G4-C12-q9.option.1",
+              "english": "11"
+            },
+            "option.2": {
+              "id": "G4-C12-q9.option.2",
+              "english": "9"
+            },
+            "option.3": {
+              "id": "G4-C12-q9.option.3",
+              "english": "12"
+            }
+          }
+        },
+        {
+          "id": "G4-C12-q10",
+          "correctIndex": 1,
+          "visualKind": "unitCubes",
+          "objects": [
+            "🧊",
+            "📦"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C12-q10.prompt",
+              "english": "A box is packed with 11 unit cubes. What is its volume in cubic units?"
+            },
+            "explanation": {
+              "id": "G4-C12-q10.explanation",
+              "english": "Count each unit cube once: the volume is 11 cubic units."
+            },
+            "hint": {
+              "id": "G4-C12-q10.hint",
+              "english": "Volume counts the unit cubes that fill the solid."
+            },
+            "option.0": {
+              "id": "G4-C12-q10.option.0",
+              "english": "12"
+            },
+            "option.1": {
+              "id": "G4-C12-q10.option.1",
+              "english": "11"
+            },
+            "option.2": {
+              "id": "G4-C12-q10.option.2",
+              "english": "10"
+            },
+            "option.3": {
+              "id": "G4-C12-q10.option.3",
+              "english": "13"
+            }
+          }
+        }
+      ]
+    },
+    "G4-C13": {
+      "id": "G4-C13",
+      "grade": 4,
+      "title": {
+        "id": "G4-C13.title",
+        "english": "Time measurement"
+      },
+      "lesson": {
+        "story": {
+          "id": "G4-C13.lesson.story",
+          "english": "Mira and Ravi explore: A class starts at 8:00 and lasts 15 minutes. When does it end?"
+        },
+        "concept": {
+          "id": "G4-C13.lesson.concept",
+          "english": "Read an analogue or digital time and find the duration between two times."
+        },
+        "workedExample": {
+          "id": "G4-C13-q1.explanation",
+          "english": "Add 15 minutes to 8:00. The end time is 8:15."
+        },
+        "hint": {
+          "id": "G4-C13-q1.hint",
+          "english": "Count the quarter-hour steps on the clock, regrouping 60 minutes as one hour."
+        },
+        "recap": {
+          "id": "G4-C13.lesson.recap",
+          "english": "Remember: Read an analogue or digital time and find the duration between two times."
+        }
+      },
+      "questions": [
+        {
+          "id": "G4-C13-q1",
+          "correctIndex": 3,
+          "visualKind": "clock",
+          "objects": [
+            "🕰️",
+            "🕒"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C13-q1.prompt",
+              "english": "A class starts at 8:00 and lasts 15 minutes. When does it end?"
+            },
+            "explanation": {
+              "id": "G4-C13-q1.explanation",
+              "english": "Add 15 minutes to 8:00. The end time is 8:15."
+            },
+            "hint": {
+              "id": "G4-C13-q1.hint",
+              "english": "Count the quarter-hour steps on the clock, regrouping 60 minutes as one hour."
+            },
+            "option.0": {
+              "id": "G4-C13-q1.option.0",
+              "english": "8:30"
+            },
+            "option.1": {
+              "id": "G4-C13-q1.option.1",
+              "english": "8:00"
+            },
+            "option.2": {
+              "id": "G4-C13-q1.option.2",
+              "english": "9:15"
+            },
+            "option.3": {
+              "id": "G4-C13-q1.option.3",
+              "english": "8:15"
+            }
+          }
+        },
+        {
+          "id": "G4-C13-q2",
+          "correctIndex": 0,
+          "visualKind": "clock",
+          "objects": [
+            "🕰️",
+            "🕒"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C13-q2.prompt",
+              "english": "A class starts at 9:00 and lasts 30 minutes. When does it end?"
+            },
+            "explanation": {
+              "id": "G4-C13-q2.explanation",
+              "english": "Add 30 minutes to 9:00. The end time is 9:30."
+            },
+            "hint": {
+              "id": "G4-C13-q2.hint",
+              "english": "Count the quarter-hour steps on the clock, regrouping 60 minutes as one hour."
+            },
+            "option.0": {
+              "id": "G4-C13-q2.option.0",
+              "english": "9:30"
+            },
+            "option.1": {
+              "id": "G4-C13-q2.option.1",
+              "english": "9:45"
+            },
+            "option.2": {
+              "id": "G4-C13-q2.option.2",
+              "english": "9:15"
+            },
+            "option.3": {
+              "id": "G4-C13-q2.option.3",
+              "english": "10:30"
+            }
+          }
+        },
+        {
+          "id": "G4-C13-q3",
+          "correctIndex": 1,
+          "visualKind": "clock",
+          "objects": [
+            "🕰️",
+            "🕒"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C13-q3.prompt",
+              "english": "A class starts at 10:00 and lasts 45 minutes. When does it end?"
+            },
+            "explanation": {
+              "id": "G4-C13-q3.explanation",
+              "english": "Add 45 minutes to 10:00. The end time is 10:45."
+            },
+            "hint": {
+              "id": "G4-C13-q3.hint",
+              "english": "Count the quarter-hour steps on the clock, regrouping 60 minutes as one hour."
+            },
+            "option.0": {
+              "id": "G4-C13-q3.option.0",
+              "english": "11:00"
+            },
+            "option.1": {
+              "id": "G4-C13-q3.option.1",
+              "english": "10:45"
+            },
+            "option.2": {
+              "id": "G4-C13-q3.option.2",
+              "english": "10:30"
+            },
+            "option.3": {
+              "id": "G4-C13-q3.option.3",
+              "english": "11:45"
+            }
+          }
+        },
+        {
+          "id": "G4-C13-q4",
+          "correctIndex": 2,
+          "visualKind": "clock",
+          "objects": [
+            "🕰️",
+            "🕒"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C13-q4.prompt",
+              "english": "A class starts at 11:00 and lasts 15 minutes. When does it end?"
+            },
+            "explanation": {
+              "id": "G4-C13-q4.explanation",
+              "english": "Add 15 minutes to 11:00. The end time is 11:15."
+            },
+            "hint": {
+              "id": "G4-C13-q4.hint",
+              "english": "Count the quarter-hour steps on the clock, regrouping 60 minutes as one hour."
+            },
+            "option.0": {
+              "id": "G4-C13-q4.option.0",
+              "english": "11:30"
+            },
+            "option.1": {
+              "id": "G4-C13-q4.option.1",
+              "english": "11:00"
+            },
+            "option.2": {
+              "id": "G4-C13-q4.option.2",
+              "english": "11:15"
+            },
+            "option.3": {
+              "id": "G4-C13-q4.option.3",
+              "english": "12:15"
+            }
+          }
+        },
+        {
+          "id": "G4-C13-q5",
+          "correctIndex": 3,
+          "visualKind": "clock",
+          "objects": [
+            "🕰️",
+            "🕒"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C13-q5.prompt",
+              "english": "A class starts at 8:00 and lasts 30 minutes. When does it end?"
+            },
+            "explanation": {
+              "id": "G4-C13-q5.explanation",
+              "english": "Add 30 minutes to 8:00. The end time is 8:30."
+            },
+            "hint": {
+              "id": "G4-C13-q5.hint",
+              "english": "Count the quarter-hour steps on the clock, regrouping 60 minutes as one hour."
+            },
+            "option.0": {
+              "id": "G4-C13-q5.option.0",
+              "english": "8:45"
+            },
+            "option.1": {
+              "id": "G4-C13-q5.option.1",
+              "english": "8:15"
+            },
+            "option.2": {
+              "id": "G4-C13-q5.option.2",
+              "english": "9:30"
+            },
+            "option.3": {
+              "id": "G4-C13-q5.option.3",
+              "english": "8:30"
+            }
+          }
+        },
+        {
+          "id": "G4-C13-q6",
+          "correctIndex": 0,
+          "visualKind": "clock",
+          "objects": [
+            "🕰️",
+            "🕒"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C13-q6.prompt",
+              "english": "A class starts at 9:00 and lasts 45 minutes. When does it end?"
+            },
+            "explanation": {
+              "id": "G4-C13-q6.explanation",
+              "english": "Add 45 minutes to 9:00. The end time is 9:45."
+            },
+            "hint": {
+              "id": "G4-C13-q6.hint",
+              "english": "Count the quarter-hour steps on the clock, regrouping 60 minutes as one hour."
+            },
+            "option.0": {
+              "id": "G4-C13-q6.option.0",
+              "english": "9:45"
+            },
+            "option.1": {
+              "id": "G4-C13-q6.option.1",
+              "english": "10:00"
+            },
+            "option.2": {
+              "id": "G4-C13-q6.option.2",
+              "english": "9:30"
+            },
+            "option.3": {
+              "id": "G4-C13-q6.option.3",
+              "english": "10:45"
+            }
+          }
+        },
+        {
+          "id": "G4-C13-q7",
+          "correctIndex": 1,
+          "visualKind": "clock",
+          "objects": [
+            "🕰️",
+            "🕒"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C13-q7.prompt",
+              "english": "A class starts at 10:00 and lasts 15 minutes. When does it end?"
+            },
+            "explanation": {
+              "id": "G4-C13-q7.explanation",
+              "english": "Add 15 minutes to 10:00. The end time is 10:15."
+            },
+            "hint": {
+              "id": "G4-C13-q7.hint",
+              "english": "Count the quarter-hour steps on the clock, regrouping 60 minutes as one hour."
+            },
+            "option.0": {
+              "id": "G4-C13-q7.option.0",
+              "english": "10:30"
+            },
+            "option.1": {
+              "id": "G4-C13-q7.option.1",
+              "english": "10:15"
+            },
+            "option.2": {
+              "id": "G4-C13-q7.option.2",
+              "english": "10:00"
+            },
+            "option.3": {
+              "id": "G4-C13-q7.option.3",
+              "english": "11:15"
+            }
+          }
+        },
+        {
+          "id": "G4-C13-q8",
+          "correctIndex": 2,
+          "visualKind": "clock",
+          "objects": [
+            "🕰️",
+            "🕒"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C13-q8.prompt",
+              "english": "A class starts at 11:00 and lasts 30 minutes. When does it end?"
+            },
+            "explanation": {
+              "id": "G4-C13-q8.explanation",
+              "english": "Add 30 minutes to 11:00. The end time is 11:30."
+            },
+            "hint": {
+              "id": "G4-C13-q8.hint",
+              "english": "Count the quarter-hour steps on the clock, regrouping 60 minutes as one hour."
+            },
+            "option.0": {
+              "id": "G4-C13-q8.option.0",
+              "english": "11:45"
+            },
+            "option.1": {
+              "id": "G4-C13-q8.option.1",
+              "english": "11:15"
+            },
+            "option.2": {
+              "id": "G4-C13-q8.option.2",
+              "english": "11:30"
+            },
+            "option.3": {
+              "id": "G4-C13-q8.option.3",
+              "english": "12:30"
+            }
+          }
+        },
+        {
+          "id": "G4-C13-q9",
+          "correctIndex": 3,
+          "visualKind": "clock",
+          "objects": [
+            "🕰️",
+            "🕒"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C13-q9.prompt",
+              "english": "A class starts at 8:00 and lasts 45 minutes. When does it end?"
+            },
+            "explanation": {
+              "id": "G4-C13-q9.explanation",
+              "english": "Add 45 minutes to 8:00. The end time is 8:45."
+            },
+            "hint": {
+              "id": "G4-C13-q9.hint",
+              "english": "Count the quarter-hour steps on the clock, regrouping 60 minutes as one hour."
+            },
+            "option.0": {
+              "id": "G4-C13-q9.option.0",
+              "english": "9:00"
+            },
+            "option.1": {
+              "id": "G4-C13-q9.option.1",
+              "english": "8:30"
+            },
+            "option.2": {
+              "id": "G4-C13-q9.option.2",
+              "english": "9:45"
+            },
+            "option.3": {
+              "id": "G4-C13-q9.option.3",
+              "english": "8:45"
+            }
+          }
+        },
+        {
+          "id": "G4-C13-q10",
+          "correctIndex": 0,
+          "visualKind": "clock",
+          "objects": [
+            "🕰️",
+            "🕒"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C13-q10.prompt",
+              "english": "A class starts at 9:00 and lasts 15 minutes. When does it end?"
+            },
+            "explanation": {
+              "id": "G4-C13-q10.explanation",
+              "english": "Add 15 minutes to 9:00. The end time is 9:15."
+            },
+            "hint": {
+              "id": "G4-C13-q10.hint",
+              "english": "Count the quarter-hour steps on the clock, regrouping 60 minutes as one hour."
+            },
+            "option.0": {
+              "id": "G4-C13-q10.option.0",
+              "english": "9:15"
+            },
+            "option.1": {
+              "id": "G4-C13-q10.option.1",
+              "english": "9:30"
+            },
+            "option.2": {
+              "id": "G4-C13-q10.option.2",
+              "english": "9:00"
+            },
+            "option.3": {
+              "id": "G4-C13-q10.option.3",
+              "english": "10:15"
+            }
+          }
+        }
+      ]
+    },
+    "G4-C14": {
+      "id": "G4-C14",
+      "grade": 4,
+      "title": {
+        "id": "G4-C14.title",
+        "english": "Patterns"
+      },
+      "lesson": {
+        "story": {
+          "id": "G4-C14.lesson.story",
+          "english": "Mira and Ravi explore: 2, 3, 4, __. What comes next?"
+        },
+        "concept": {
+          "id": "G4-C14.lesson.concept",
+          "english": "Compare neighbouring terms to discover the rule that grows the pattern."
+        },
+        "workedExample": {
+          "id": "G4-C14-q1.explanation",
+          "english": "Each step adds 1, so 4 + 1 = 5."
+        },
+        "hint": {
+          "id": "G4-C14-q1.hint",
+          "english": "Compare neighbours to find what changes each time."
+        },
+        "recap": {
+          "id": "G4-C14.lesson.recap",
+          "english": "Remember: Compare neighbouring terms to discover the rule that grows the pattern."
+        }
+      },
+      "questions": [
+        {
+          "id": "G4-C14-q1",
+          "correctIndex": 2,
+          "visualKind": "pattern",
+          "objects": [
+            "🔴",
+            "🔵"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C14-q1.prompt",
+              "english": "2, 3, 4, __. What comes next?"
+            },
+            "explanation": {
+              "id": "G4-C14-q1.explanation",
+              "english": "Each step adds 1, so 4 + 1 = 5."
+            },
+            "hint": {
+              "id": "G4-C14-q1.hint",
+              "english": "Compare neighbours to find what changes each time."
+            },
+            "option.0": {
+              "id": "G4-C14-q1.option.0",
+              "english": "6"
+            },
+            "option.1": {
+              "id": "G4-C14-q1.option.1",
+              "english": "4"
+            },
+            "option.2": {
+              "id": "G4-C14-q1.option.2",
+              "english": "5"
+            },
+            "option.3": {
+              "id": "G4-C14-q1.option.3",
+              "english": "7"
+            }
+          }
+        },
+        {
+          "id": "G4-C14-q2",
+          "correctIndex": 3,
+          "visualKind": "pattern",
+          "objects": [
+            "⭐",
+            "🌙"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C14-q2.prompt",
+              "english": "4, 6, 8, __. What comes next?"
+            },
+            "explanation": {
+              "id": "G4-C14-q2.explanation",
+              "english": "Each step adds 2, so 8 + 2 = 10."
+            },
+            "hint": {
+              "id": "G4-C14-q2.hint",
+              "english": "Compare neighbours to find what changes each time."
+            },
+            "option.0": {
+              "id": "G4-C14-q2.option.0",
+              "english": "11"
+            },
+            "option.1": {
+              "id": "G4-C14-q2.option.1",
+              "english": "9"
+            },
+            "option.2": {
+              "id": "G4-C14-q2.option.2",
+              "english": "12"
+            },
+            "option.3": {
+              "id": "G4-C14-q2.option.3",
+              "english": "10"
+            }
+          }
+        },
+        {
+          "id": "G4-C14-q3",
+          "correctIndex": 0,
+          "visualKind": "pattern",
+          "objects": [
+            "🟩",
+            "🟨"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C14-q3.prompt",
+              "english": "6, 9, 12, __. What comes next?"
+            },
+            "explanation": {
+              "id": "G4-C14-q3.explanation",
+              "english": "Each step adds 3, so 12 + 3 = 15."
+            },
+            "hint": {
+              "id": "G4-C14-q3.hint",
+              "english": "Compare neighbours to find what changes each time."
+            },
+            "option.0": {
+              "id": "G4-C14-q3.option.0",
+              "english": "15"
+            },
+            "option.1": {
+              "id": "G4-C14-q3.option.1",
+              "english": "16"
+            },
+            "option.2": {
+              "id": "G4-C14-q3.option.2",
+              "english": "14"
+            },
+            "option.3": {
+              "id": "G4-C14-q3.option.3",
+              "english": "17"
+            }
+          }
+        },
+        {
+          "id": "G4-C14-q4",
+          "correctIndex": 1,
+          "visualKind": "pattern",
+          "objects": [
+            "🍎",
+            "🍐"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C14-q4.prompt",
+              "english": "8, 12, 16, __. What comes next?"
+            },
+            "explanation": {
+              "id": "G4-C14-q4.explanation",
+              "english": "Each step adds 4, so 16 + 4 = 20."
+            },
+            "hint": {
+              "id": "G4-C14-q4.hint",
+              "english": "Compare neighbours to find what changes each time."
+            },
+            "option.0": {
+              "id": "G4-C14-q4.option.0",
+              "english": "21"
+            },
+            "option.1": {
+              "id": "G4-C14-q4.option.1",
+              "english": "20"
+            },
+            "option.2": {
+              "id": "G4-C14-q4.option.2",
+              "english": "19"
+            },
+            "option.3": {
+              "id": "G4-C14-q4.option.3",
+              "english": "22"
+            }
+          }
+        },
+        {
+          "id": "G4-C14-q5",
+          "correctIndex": 2,
+          "visualKind": "pattern",
+          "objects": [
+            "🔺",
+            "🟣"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C14-q5.prompt",
+              "english": "10, 11, 12, __. What comes next?"
+            },
+            "explanation": {
+              "id": "G4-C14-q5.explanation",
+              "english": "Each step adds 1, so 12 + 1 = 13."
+            },
+            "hint": {
+              "id": "G4-C14-q5.hint",
+              "english": "Compare neighbours to find what changes each time."
+            },
+            "option.0": {
+              "id": "G4-C14-q5.option.0",
+              "english": "14"
+            },
+            "option.1": {
+              "id": "G4-C14-q5.option.1",
+              "english": "12"
+            },
+            "option.2": {
+              "id": "G4-C14-q5.option.2",
+              "english": "13"
+            },
+            "option.3": {
+              "id": "G4-C14-q5.option.3",
+              "english": "15"
+            }
+          }
+        },
+        {
+          "id": "G4-C14-q6",
+          "correctIndex": 3,
+          "visualKind": "pattern",
+          "objects": [
+            "🔴",
+            "🔵"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C14-q6.prompt",
+              "english": "12, 14, 16, __. What comes next?"
+            },
+            "explanation": {
+              "id": "G4-C14-q6.explanation",
+              "english": "Each step adds 2, so 16 + 2 = 18."
+            },
+            "hint": {
+              "id": "G4-C14-q6.hint",
+              "english": "Compare neighbours to find what changes each time."
+            },
+            "option.0": {
+              "id": "G4-C14-q6.option.0",
+              "english": "19"
+            },
+            "option.1": {
+              "id": "G4-C14-q6.option.1",
+              "english": "17"
+            },
+            "option.2": {
+              "id": "G4-C14-q6.option.2",
+              "english": "20"
+            },
+            "option.3": {
+              "id": "G4-C14-q6.option.3",
+              "english": "18"
+            }
+          }
+        },
+        {
+          "id": "G4-C14-q7",
+          "correctIndex": 0,
+          "visualKind": "pattern",
+          "objects": [
+            "⭐",
+            "🌙"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C14-q7.prompt",
+              "english": "14, 17, 20, __. What comes next?"
+            },
+            "explanation": {
+              "id": "G4-C14-q7.explanation",
+              "english": "Each step adds 3, so 20 + 3 = 23."
+            },
+            "hint": {
+              "id": "G4-C14-q7.hint",
+              "english": "Compare neighbours to find what changes each time."
+            },
+            "option.0": {
+              "id": "G4-C14-q7.option.0",
+              "english": "23"
+            },
+            "option.1": {
+              "id": "G4-C14-q7.option.1",
+              "english": "24"
+            },
+            "option.2": {
+              "id": "G4-C14-q7.option.2",
+              "english": "22"
+            },
+            "option.3": {
+              "id": "G4-C14-q7.option.3",
+              "english": "25"
+            }
+          }
+        },
+        {
+          "id": "G4-C14-q8",
+          "correctIndex": 1,
+          "visualKind": "pattern",
+          "objects": [
+            "🟩",
+            "🟨"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C14-q8.prompt",
+              "english": "16, 20, 24, __. What comes next?"
+            },
+            "explanation": {
+              "id": "G4-C14-q8.explanation",
+              "english": "Each step adds 4, so 24 + 4 = 28."
+            },
+            "hint": {
+              "id": "G4-C14-q8.hint",
+              "english": "Compare neighbours to find what changes each time."
+            },
+            "option.0": {
+              "id": "G4-C14-q8.option.0",
+              "english": "29"
+            },
+            "option.1": {
+              "id": "G4-C14-q8.option.1",
+              "english": "28"
+            },
+            "option.2": {
+              "id": "G4-C14-q8.option.2",
+              "english": "27"
+            },
+            "option.3": {
+              "id": "G4-C14-q8.option.3",
+              "english": "30"
+            }
+          }
+        },
+        {
+          "id": "G4-C14-q9",
+          "correctIndex": 2,
+          "visualKind": "pattern",
+          "objects": [
+            "🍎",
+            "🍐"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C14-q9.prompt",
+              "english": "18, 19, 20, __. What comes next?"
+            },
+            "explanation": {
+              "id": "G4-C14-q9.explanation",
+              "english": "Each step adds 1, so 20 + 1 = 21."
+            },
+            "hint": {
+              "id": "G4-C14-q9.hint",
+              "english": "Compare neighbours to find what changes each time."
+            },
+            "option.0": {
+              "id": "G4-C14-q9.option.0",
+              "english": "22"
+            },
+            "option.1": {
+              "id": "G4-C14-q9.option.1",
+              "english": "20"
+            },
+            "option.2": {
+              "id": "G4-C14-q9.option.2",
+              "english": "21"
+            },
+            "option.3": {
+              "id": "G4-C14-q9.option.3",
+              "english": "23"
+            }
+          }
+        },
+        {
+          "id": "G4-C14-q10",
+          "correctIndex": 3,
+          "visualKind": "pattern",
+          "objects": [
+            "🔺",
+            "🟣"
+          ],
+          "text": {
+            "prompt": {
+              "id": "G4-C14-q10.prompt",
+              "english": "20, 22, 24, __. What comes next?"
+            },
+            "explanation": {
+              "id": "G4-C14-q10.explanation",
+              "english": "Each step adds 2, so 24 + 2 = 26."
+            },
+            "hint": {
+              "id": "G4-C14-q10.hint",
+              "english": "Compare neighbours to find what changes each time."
+            },
+            "option.0": {
+              "id": "G4-C14-q10.option.0",
+              "english": "27"
+            },
+            "option.1": {
+              "id": "G4-C14-q10.option.1",
+              "english": "25"
+            },
+            "option.2": {
+              "id": "G4-C14-q10.option.2",
+              "english": "28"
+            },
+            "option.3": {
+              "id": "G4-C14-q10.option.3",
+              "english": "26"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

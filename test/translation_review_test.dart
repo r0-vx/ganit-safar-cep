@@ -86,7 +86,7 @@ void main() {
   });
 
   test('every chapter and supported sample type exports review-ready text', () {
-    var total = 0, reviewed = 0;
+    var total = 0, reviewed = 0, class4Drafts = 0;
     final byId = <String, Map<String, dynamic>>{};
     for (final record in learningTranslationRecords()) {
       final words = Words.fromJson(
@@ -113,6 +113,16 @@ void main() {
       if (words.isEditorReviewed) {
         reviewed++;
         expect(words.id, reviewedMangoCounting.id);
+      } else if (words.translationProvider == 'class4-contextual-edit') {
+        class4Drafts++;
+        expect(words.translationStatus, 'draft');
+        expect(words.reviewNotes, contains('Class 4 contextual Marathi edit'));
+        expect(
+          words.id,
+          matches(RegExp(r'^(G4-C|sample-g4-|mh-g4-)')),
+          reason: 'Contextual edits must remain scoped to Class 4',
+        );
+        expect(words.marathiSpoken, isNotEmpty);
       } else {
         expect(words.translationStatus, 'needs-review');
         expect(words.translationProvider, 'local-authored');
@@ -122,6 +132,7 @@ void main() {
       total++;
     }
     expect(reviewed, 1);
+    expect(class4Drafts, greaterThan(500));
     expect(total, greaterThan(6000));
     expect(
       byId.keys.where((id) => id.endsWith('.title') && id.startsWith('G')),

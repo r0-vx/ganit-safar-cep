@@ -1,7 +1,11 @@
 import 'dart:math';
 import 'models.dart';
 import 'localized_text.dart';
+import 'class4_marathi.dart';
+
 export 'localized_text.dart';
+
+part 'class4_legacy_marathi.dart';
 
 class Topic {
   final String id, icon;
@@ -85,17 +89,40 @@ class Question {
   Map<String, Words> get localizedTexts => {
     'prompt': prompt,
     'explanation': explanation,
-    for (var i = 0; i < options.length; i++)
-      'option.$i': Words(
-        '${options[i]}',
-        '${options[i]}',
-        id: '${prompt.id}.option.$i',
-        mathGlossaryTerms: glossaryTermsFor(metadata?.topic ?? ''),
-      ),
+    for (var i = 0; i < options.length; i++) 'option.$i': _optionWording(i),
   };
+
+  Words _optionWording(int index) {
+    final original = Words(
+      '${options[index]}',
+      '${options[index]}',
+      id: '${prompt.id}.option.$index',
+      mathGlossaryTerms: glossaryTermsFor(metadata?.topic ?? ''),
+    );
+    return metadata?.grade == 4
+        ? class4Wording(original, class4Digits(options[index]))
+        : original;
+  }
 }
 
 Question makeQuestion(
+  String topic,
+  int grade,
+  int index,
+  String type, {
+  int difficulty = 1,
+}) {
+  final original = _baseQuestion(
+    topic,
+    grade,
+    index,
+    type,
+    difficulty: difficulty,
+  );
+  return grade == 4 ? _class4LegacyQuestion(original) : original;
+}
+
+Question _baseQuestion(
   String topic,
   int grade,
   int index,
@@ -368,7 +395,12 @@ Question makeQuestion(
   );
 }
 
-Words lessonStory(String id) => switch (id) {
+Words lessonStory(String id, {int? grade}) {
+  final original = _baseLessonStory(id);
+  return grade == 4 ? class4LegacyStory(id, original) : original;
+}
+
+Words _baseLessonStory(String id) => switch (id) {
   'subtract' => const Words('A banana picnic', 'केळ्यांची सहल'),
   'multiply' => const Words(
     'Flowers in our school garden',

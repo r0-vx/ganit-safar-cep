@@ -1,4 +1,7 @@
 import 'content.dart';
+import 'class4_marathi.dart';
+
+part 'class4_chapter_marathi.dart';
 
 /// One approved chapter in the Maharashtra Balbharati Classes 1–4 sequence.
 class SchoolChapter {
@@ -20,9 +23,11 @@ class SchoolChapter {
 
   ChapterLesson get lesson {
     final objective = _objectiveFor(this);
-    final first = questions(count: 1).first;
+    final first = grade == 4
+        ? _questionFor(this, 0)
+        : questions(count: 1).first;
     final terms = glossaryTermsFor(strand);
-    return ChapterLesson(
+    final original = ChapterLesson(
       story: Words(
         'Mira and Ravi explore: ${first.prompt.en}',
         'मीरा आणि रवी शोध घेतात: ${first.prompt.mr}',
@@ -37,13 +42,17 @@ class SchoolChapter {
       objects: first.objects,
       visualKind: first.visualKind,
     );
+    return grade == 4 ? _class4Lesson(this, original) : original;
   }
 
   /// Builds a stable set of up to ten original, bilingual questions.
   List<ChapterQuestion> questions({int count = 5}) {
     final safeCount = count.clamp(0, 10).toInt();
     return List<ChapterQuestion>.unmodifiable(
-      List.generate(safeCount, (index) => _questionFor(this, index)),
+      List.generate(safeCount, (index) {
+        final original = _questionFor(this, index);
+        return grade == 4 ? _class4Question(this, index, original) : original;
+      }),
     );
   }
 }
