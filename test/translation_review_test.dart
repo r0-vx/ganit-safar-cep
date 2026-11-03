@@ -113,14 +113,20 @@ void main() {
       if (words.isEditorReviewed) {
         reviewed++;
         expect(words.id, reviewedMangoCounting.id);
-      } else if (words.translationProvider == 'class4-contextual-edit') {
+      } else if (RegExp(
+        r'^class[1-4]-contextual-edit$',
+      ).hasMatch(words.translationProvider)) {
         class4Drafts++;
         expect(words.translationStatus, 'draft');
-        expect(words.reviewNotes, contains('Class 4 contextual Marathi edit'));
+        final grade = int.parse(words.translationProvider[5]);
+        expect(
+          words.reviewNotes,
+          contains('Class $grade contextual Marathi edit'),
+        );
         expect(
           words.id,
-          matches(RegExp(r'^(G4-C|sample-g4-|mh-g4-)')),
-          reason: 'Contextual edits must remain scoped to Class 4',
+          matches(RegExp('^(G$grade-C|sample-g$grade-|mh-g$grade-)')),
+          reason: 'Contextual edits must match their own class identity',
         );
         expect(words.marathiSpoken, isNotEmpty);
       } else {

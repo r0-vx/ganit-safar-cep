@@ -18,8 +18,9 @@ class CurriculumOutcome {
     this._hint,
     this._commonMistake,
   );
-  Words _classWording(String field, Words text) =>
-      grade == 4 ? class4LearningHelp(topic, field, text) : text;
+  Words _classWording(String field, Words text) => grade == 4
+      ? class4LearningHelp(topic, field, text)
+      : primaryLearningHelp(grade, topic, field, text);
   Words get objective => _classWording(
     'objective',
     _objective.identified(
@@ -1142,15 +1143,15 @@ const recommendedOrder = [
 const classPlans = [
   Words(
     'Count to 20; compare shapes; combine and remove small groups. Start with objects, then pictures, then numbers. Revisit counting before operations. Advanced topics are exploratory.',
-    '२० पर्यंत मोजा; आकारांची तुलना करा; छोटे गट मिळवा व कमी करा. आधी वस्तू, मग चित्रे, मग संख्या वापरा. गणिती क्रियांपूर्वी मोजणीचा सराव करा. प्रगत विषय फक्त ओळखीसाठी.',
+    '२० पर्यंतच्या वस्तू मोजूया. आकार पाहूया. छोटे गट एकत्र करूया किंवा त्यांतून काही वस्तू बाजूला करूया. आधी प्रत्यक्ष वस्तू, मग चित्रे आणि शेवटी अंक वापरूया. बेरीज-वजाबाकीपूर्वी मोजणी पक्की करूया. पुढच्या पातळीचे विषय फक्त करून पाहण्यासाठी आहेत.',
   ),
   Words(
     'Build tens and ones; practise addition and subtraction; introduce equal groups. Move from pictures to number sentences. Revise place value when regrouping is difficult.',
-    'दशक व एकक तयार करा; बेरीज व वजाबाकीचा सराव करा; समान गटांची ओळख करा. चित्रांकडून संख्यावाक्यांकडे जा. अडचण आल्यास स्थानिक किंमतीची उजळणी करा.',
+    'दहा-दहाचे गट आणि सुट्या वस्तू वापरून दशक व एकक समजून घेऊया. बेरीज-वजाबाकी करूया आणि सारखे गट बनवूया. चित्रातील कृती अंक आणि चिन्हांनी लिहूया. दहाचा गट करताना किंवा सोडवताना अडचण आली, तर स्थानिक किंमत पुन्हा पाहूया.',
   ),
   Words(
     'Use place value to explain operations; build multiplication and sharing strategies. Read simple measures and graphs. Mix direct and visual checks; revisit equal groups before division.',
-    'स्थानिक किंमतीने क्रिया समजावून सांगा; गुणाकार व वाटणीच्या पद्धती वापरा. साधी मोजमापे व आलेख वाचा. थेट व दृश्य प्रश्न वापरा; भागाकारापूर्वी समान गटांची उजळणी करा.',
+    'अंकांची स्थानिक किंमत वापरून बेरीज, वजाबाकी आणि गुणाकार कसा होतो ते समजून घेऊया. वस्तू समान वाटूया. साधी मोजमापे आणि आलेख वाचूया. काही उदाहरणे अंकांनी, तर काही चित्रांच्या मदतीने सोडवूया. भागाकाराआधी सारखे गट बनवण्याचा सराव करूया.',
   ),
   Words(
     'Explain multi-step reasoning with number sentences; connect equal sharing and fractions. Apply money, measurement and data to village and school situations. Revise skills from mistakes.',

@@ -1,0 +1,40 @@
+{
+  "beforeCommit": "23051235a266aef31750cf92af9463c66881c5f1",
+  "classes": [
+    {
+      "class": 1,
+      "chapters": 29,
+      "questionVariants": 290,
+      "questionTextFields": 2030,
+      "lessonFields": 145,
+      "legacyTopics": 14,
+      "helpFields": 70
+    },
+    {
+      "class": 2,
+      "chapters": 22,
+      "questionVariants": 220,
+      "questionTextFields": 1540,
+      "lessonFields": 110,
+      "legacyTopics": 14,
+      "helpFields": 70
+    },
+    {
+      "class": 3,
+      "chapters": 14,
+      "questionVariants": 140,
+      "questionTextFields": 980,
+      "lessonFields": 70,
+      "legacyTopics": 14,
+      "helpFields": 70
+    }
+  ],
+  "class4Unchanged": true,
+  "englishCorrectionFields": 135,
+  "generatedLegacyVariantsTested": 90720,
+  "flutterTestsPassed": 173,
+  "managedGateTestsPassed": 1,
+  "externalTranslationRequests": 0,
+  "translationStatus": "draft",
+  "externalTeacherApproval": false
+}

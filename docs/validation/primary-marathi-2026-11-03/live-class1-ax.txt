@@ -1,0 +1,30 @@
+Browser tab: 22, Title: "Ganit Safar / गणित सफर", URL: "https://ganit-safar-smartboard.vercel.app/".
+1 AXWebArea Ganit Safar / गणित सफर, URL: ganit-safar-smartboard.vercel.app/
+	2 container
+		3 container flt-semantic-node-88
+			4 button मागे, ID: flt-semantic-node-130
+			5 text धड्याचा अभ्यास
+			6 button (collapsed) मराठी, ID: flt-semantic-node-132, Secondary Actions: Expand
+			7 text वर्ग जोडलेला नाही • अभ्यास उपलब्ध
+			8 text सर्व्हरशी जोडलेले
+			9 container flt-semantic-node-94
+				10 text धडा 12 • ११ ते २०ची ओळख
+				11 text इयत्ता 1 • पाने 30–32
+				12 container flt-semantic-node-97
+					13 text 1. गोष्ट
+					14 text 2. करून पाहा
+					15 text 3. गणित
+					16 text 4. मिळून सोडवूया
+					17 text 5. आता स्वतः सोडव
+					18 text 6. उजळणी
+				19 text टप्पा ३ / ६
+				20 progress indicator Description: 50, ID: flt-semantic-node-105
+				21 text गणित कसे होते ते समजून घे
+				22 text दहाचा एक गट आणि काही सुट्या वस्तू घेऊया. त्यातून ११ ते २० मधल्या संख्या बनवूया.
+				23 text हा प्रश्न समजण्यासाठी गणिती चित्र दशके १ × १० एकके १ × १
+				24 text १० + १ = ११. दहात सुट्या वस्तू मिळवल्या की ही संख्या होते.
+			25 button मागे, ID: flt-semantic-node-113
+			26 button हा टप्पा पुन्हा पाहा, ID: flt-semantic-node-114
+			27 button पुढचा टप्पा, ID: flt-semantic-node-115
+
+The focused UI element is 27 button पुढचा टप्पा, ID: flt-semantic-node-115

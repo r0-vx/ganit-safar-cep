@@ -1,0 +1,30 @@
+Browser tab: 22, Title: "Ganit Safar / गणित सफर", URL: "https://ganit-safar-smartboard.vercel.app/".
+1 AXWebArea Ganit Safar / गणित सफर, URL: ganit-safar-smartboard.vercel.app/
+	2 container
+		3 container flt-semantic-node-147
+			4 button मागे, ID: flt-semantic-node-148
+			5 text धड्याचा अभ्यास
+			6 button (collapsed) मराठी, ID: flt-semantic-node-150, Secondary Actions: Expand
+			7 text वर्ग जोडलेला नाही • अभ्यास उपलब्ध
+			8 text सर्व्हरशी जोडलेले
+			9 container flt-semantic-node-153
+				10 text धडा 1 • भौमितिक आकार समजून घेऊ - भाग १
+				11 text इयत्ता 2 • पाने 1–4
+				12 container flt-semantic-node-156
+					13 text 1. गोष्ट
+					14 text 2. करून पाहा
+					15 text 3. गणित
+					16 text 4. मिळून सोडवूया
+					17 text 5. आता स्वतः सोडव
+					18 text 6. उजळणी
+				19 text टप्पा ३ / ६
+				20 progress indicator Description: 50, ID: flt-semantic-node-164
+				21 text गणित कसे होते ते समजून घे
+				22 text वस्तूचे सपाट आणि वक्र पृष्ठभाग पाहून तिचा आकार ओळखता येतो. तिच्या पृष्ठभागांवरून ती रचता येईल, घरंगळेल की घसरेल हे समजते.
+				23 text हा प्रश्न समजण्यासाठी गणिती चित्र गोष्टीतील चिन्ह १ 🧊 गोष्टीतील चिन्ह २ ⚽ गोष्टीतील चिन्ह ३ 🥫 गोष्टीतील चिन्ह ४ 📦 गोष्ट नीट वाच आणि दिलेल्या खुणा पाहा. या चिन्हांमधून गोष्टीतील जागा किंवा वस्तू दाखवल्या आहेत. फाशासारख्या घनाला ६ सपाट पृष्ठभाग असतात. प्रत्येक पृष्ठभाग चौरस आकाराचा असतो.
+				24 text फाशासारख्या घनाला ६ सपाट पृष्ठभाग असतात. प्रत्येक पृष्ठभाग चौरस आकाराचा असतो.
+			25 button मागे, ID: flt-semantic-node-172
+			26 button हा टप्पा पुन्हा पाहा, ID: flt-semantic-node-173
+			27 button पुढचा टप्पा, ID: flt-semantic-node-174
+
+The focused UI element is 27 button पुढचा टप्पा, ID: flt-semantic-node-174

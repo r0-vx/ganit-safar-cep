@@ -1,0 +1,677 @@
+[
+  {
+    "field": "G1-C14/questions/0/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G1-C14/questions/1/text/option.2/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G1-C14/questions/2/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G1-C14/questions/3/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G1-C14/questions/4/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G1-C14/questions/5/text/option.2/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G1-C14/questions/6/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G1-C14/questions/7/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G1-C14/questions/8/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G1-C14/questions/9/text/option.2/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G1-C15/lesson/workedExample/english",
+    "before": "Compare each number, then read the ordered list: 4  <  12  <  21.",
+    "after": "Compare each number, then read the ordered list: 4 → 12 → 21."
+  },
+  {
+    "field": "G1-C15/questions/0/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 4  <  12  <  21.",
+    "after": "Compare each number, then read the ordered list: 4 → 12 → 21."
+  },
+  {
+    "field": "G1-C15/questions/0/text/option.0/english",
+    "before": "21  <  4  <  12",
+    "after": "21 → 4 → 12"
+  },
+  {
+    "field": "G1-C15/questions/0/text/option.1/english",
+    "before": "4  <  12  <  21",
+    "after": "4 → 12 → 21"
+  },
+  {
+    "field": "G1-C15/questions/0/text/option.2/english",
+    "before": "12  <  4  <  21",
+    "after": "12 → 4 → 21"
+  },
+  {
+    "field": "G1-C15/questions/0/text/option.3/english",
+    "before": "21  <  12  <  4",
+    "after": "21 → 12 → 4"
+  },
+  {
+    "field": "G1-C15/questions/1/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 23  <  17  <  7.",
+    "after": "Compare each number, then read the ordered list: 23 → 17 → 7."
+  },
+  {
+    "field": "G1-C15/questions/1/text/option.0/english",
+    "before": "23  <  7  <  17",
+    "after": "23 → 7 → 17"
+  },
+  {
+    "field": "G1-C15/questions/1/text/option.1/english",
+    "before": "17  <  7  <  23",
+    "after": "17 → 7 → 23"
+  },
+  {
+    "field": "G1-C15/questions/1/text/option.2/english",
+    "before": "23  <  17  <  7",
+    "after": "23 → 17 → 7"
+  },
+  {
+    "field": "G1-C15/questions/1/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G1-C15/questions/2/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 10  <  22  <  25.",
+    "after": "Compare each number, then read the ordered list: 10 → 22 → 25."
+  },
+  {
+    "field": "G1-C15/questions/2/text/option.0/english",
+    "before": "25  <  10  <  22",
+    "after": "25 → 10 → 22"
+  },
+  {
+    "field": "G1-C15/questions/2/text/option.1/english",
+    "before": "22  <  10  <  25",
+    "after": "22 → 10 → 25"
+  },
+  {
+    "field": "G1-C15/questions/2/text/option.2/english",
+    "before": "25  <  22  <  10",
+    "after": "25 → 22 → 10"
+  },
+  {
+    "field": "G1-C15/questions/2/text/option.3/english",
+    "before": "10  <  22  <  25",
+    "after": "10 → 22 → 25"
+  },
+  {
+    "field": "G1-C15/questions/3/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 27  <  27  <  13.",
+    "after": "Compare each number, then read the ordered list: 27 → 27 → 13."
+  },
+  {
+    "field": "G1-C15/questions/3/text/option.0/english",
+    "before": "27  <  27  <  13",
+    "after": "27 → 27 → 13"
+  },
+  {
+    "field": "G1-C15/questions/3/text/option.1/english",
+    "before": "27  <  13  <  27",
+    "after": "27 → 13 → 27"
+  },
+  {
+    "field": "G1-C15/questions/3/text/option.2/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G1-C15/questions/3/text/option.3/english",
+    "before": "Option 2",
+    "after": "All numbers are equal"
+  },
+  {
+    "field": "G1-C15/questions/4/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 16  <  29  <  32.",
+    "after": "Compare each number, then read the ordered list: 16 → 29 → 32."
+  },
+  {
+    "field": "G1-C15/questions/4/text/option.0/english",
+    "before": "29  <  16  <  32",
+    "after": "29 → 16 → 32"
+  },
+  {
+    "field": "G1-C15/questions/4/text/option.1/english",
+    "before": "16  <  29  <  32",
+    "after": "16 → 29 → 32"
+  },
+  {
+    "field": "G1-C15/questions/4/text/option.2/english",
+    "before": "32  <  16  <  29",
+    "after": "32 → 16 → 29"
+  },
+  {
+    "field": "G1-C15/questions/4/text/option.3/english",
+    "before": "32  <  29  <  16",
+    "after": "32 → 29 → 16"
+  },
+  {
+    "field": "G1-C15/questions/5/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 37  <  31  <  19.",
+    "after": "Compare each number, then read the ordered list: 37 → 31 → 19."
+  },
+  {
+    "field": "G1-C15/questions/5/text/option.0/english",
+    "before": "31  <  19  <  37",
+    "after": "31 → 19 → 37"
+  },
+  {
+    "field": "G1-C15/questions/5/text/option.1/english",
+    "before": "37  <  19  <  31",
+    "after": "37 → 19 → 31"
+  },
+  {
+    "field": "G1-C15/questions/5/text/option.2/english",
+    "before": "37  <  31  <  19",
+    "after": "37 → 31 → 19"
+  },
+  {
+    "field": "G1-C15/questions/5/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G1-C15/questions/6/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 22  <  33  <  42.",
+    "after": "Compare each number, then read the ordered list: 22 → 33 → 42."
+  },
+  {
+    "field": "G1-C15/questions/6/text/option.0/english",
+    "before": "33  <  22  <  42",
+    "after": "33 → 22 → 42"
+  },
+  {
+    "field": "G1-C15/questions/6/text/option.1/english",
+    "before": "42  <  22  <  33",
+    "after": "42 → 22 → 33"
+  },
+  {
+    "field": "G1-C15/questions/6/text/option.2/english",
+    "before": "42  <  33  <  22",
+    "after": "42 → 33 → 22"
+  },
+  {
+    "field": "G1-C15/questions/6/text/option.3/english",
+    "before": "22  <  33  <  42",
+    "after": "22 → 33 → 42"
+  },
+  {
+    "field": "G1-C15/questions/7/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 47  <  35  <  25.",
+    "after": "Compare each number, then read the ordered list: 47 → 35 → 25."
+  },
+  {
+    "field": "G1-C15/questions/7/text/option.0/english",
+    "before": "47  <  35  <  25",
+    "after": "47 → 35 → 25"
+  },
+  {
+    "field": "G1-C15/questions/7/text/option.1/english",
+    "before": "35  <  25  <  47",
+    "after": "35 → 25 → 47"
+  },
+  {
+    "field": "G1-C15/questions/7/text/option.2/english",
+    "before": "47  <  25  <  35",
+    "after": "47 → 25 → 35"
+  },
+  {
+    "field": "G1-C15/questions/7/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G1-C15/questions/8/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 28  <  37  <  52.",
+    "after": "Compare each number, then read the ordered list: 28 → 37 → 52."
+  },
+  {
+    "field": "G1-C15/questions/8/text/option.0/english",
+    "before": "37  <  28  <  52",
+    "after": "37 → 28 → 52"
+  },
+  {
+    "field": "G1-C15/questions/8/text/option.1/english",
+    "before": "28  <  37  <  52",
+    "after": "28 → 37 → 52"
+  },
+  {
+    "field": "G1-C15/questions/8/text/option.2/english",
+    "before": "52  <  28  <  37",
+    "after": "52 → 28 → 37"
+  },
+  {
+    "field": "G1-C15/questions/8/text/option.3/english",
+    "before": "52  <  37  <  28",
+    "after": "52 → 37 → 28"
+  },
+  {
+    "field": "G1-C15/questions/9/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 57  <  39  <  31.",
+    "after": "Compare each number, then read the ordered list: 57 → 39 → 31."
+  },
+  {
+    "field": "G1-C15/questions/9/text/option.0/english",
+    "before": "39  <  31  <  57",
+    "after": "39 → 31 → 57"
+  },
+  {
+    "field": "G1-C15/questions/9/text/option.1/english",
+    "before": "57  <  31  <  39",
+    "after": "57 → 31 → 39"
+  },
+  {
+    "field": "G1-C15/questions/9/text/option.2/english",
+    "before": "57  <  39  <  31",
+    "after": "57 → 39 → 31"
+  },
+  {
+    "field": "G1-C15/questions/9/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G2-C05/questions/0/text/option.2/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G2-C05/questions/1/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G2-C05/questions/2/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G2-C05/questions/3/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G2-C05/questions/4/text/option.2/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G2-C05/questions/5/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G2-C05/questions/6/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G2-C05/questions/7/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G2-C05/questions/8/text/option.2/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G2-C05/questions/9/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G2-C06/lesson/workedExample/english",
+    "before": "Compare each number, then read the ordered list: 4  <  12  <  21.",
+    "after": "Compare each number, then read the ordered list: 4 → 12 → 21."
+  },
+  {
+    "field": "G2-C06/questions/0/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 4  <  12  <  21.",
+    "after": "Compare each number, then read the ordered list: 4 → 12 → 21."
+  },
+  {
+    "field": "G2-C06/questions/0/text/option.0/english",
+    "before": "21  <  4  <  12",
+    "after": "21 → 4 → 12"
+  },
+  {
+    "field": "G2-C06/questions/0/text/option.1/english",
+    "before": "12  <  4  <  21",
+    "after": "12 → 4 → 21"
+  },
+  {
+    "field": "G2-C06/questions/0/text/option.2/english",
+    "before": "4  <  12  <  21",
+    "after": "4 → 12 → 21"
+  },
+  {
+    "field": "G2-C06/questions/0/text/option.3/english",
+    "before": "21  <  12  <  4",
+    "after": "21 → 12 → 4"
+  },
+  {
+    "field": "G2-C06/questions/1/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 23  <  17  <  7.",
+    "after": "Compare each number, then read the ordered list: 23 → 17 → 7."
+  },
+  {
+    "field": "G2-C06/questions/1/text/option.0/english",
+    "before": "23  <  7  <  17",
+    "after": "23 → 7 → 17"
+  },
+  {
+    "field": "G2-C06/questions/1/text/option.1/english",
+    "before": "17  <  7  <  23",
+    "after": "17 → 7 → 23"
+  },
+  {
+    "field": "G2-C06/questions/1/text/option.2/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G2-C06/questions/1/text/option.3/english",
+    "before": "23  <  17  <  7",
+    "after": "23 → 17 → 7"
+  },
+  {
+    "field": "G2-C06/questions/2/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 10  <  22  <  25.",
+    "after": "Compare each number, then read the ordered list: 10 → 22 → 25."
+  },
+  {
+    "field": "G2-C06/questions/2/text/option.0/english",
+    "before": "10  <  22  <  25",
+    "after": "10 → 22 → 25"
+  },
+  {
+    "field": "G2-C06/questions/2/text/option.1/english",
+    "before": "25  <  10  <  22",
+    "after": "25 → 10 → 22"
+  },
+  {
+    "field": "G2-C06/questions/2/text/option.2/english",
+    "before": "22  <  10  <  25",
+    "after": "22 → 10 → 25"
+  },
+  {
+    "field": "G2-C06/questions/2/text/option.3/english",
+    "before": "25  <  22  <  10",
+    "after": "25 → 22 → 10"
+  },
+  {
+    "field": "G2-C06/questions/3/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 27  <  27  <  13.",
+    "after": "Compare each number, then read the ordered list: 27 → 27 → 13."
+  },
+  {
+    "field": "G2-C06/questions/3/text/option.0/english",
+    "before": "27  <  13  <  27",
+    "after": "27 → 13 → 27"
+  },
+  {
+    "field": "G2-C06/questions/3/text/option.1/english",
+    "before": "27  <  27  <  13",
+    "after": "27 → 27 → 13"
+  },
+  {
+    "field": "G2-C06/questions/3/text/option.2/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G2-C06/questions/3/text/option.3/english",
+    "before": "Option 2",
+    "after": "All numbers are equal"
+  },
+  {
+    "field": "G2-C06/questions/4/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 16  <  29  <  32.",
+    "after": "Compare each number, then read the ordered list: 16 → 29 → 32."
+  },
+  {
+    "field": "G2-C06/questions/4/text/option.0/english",
+    "before": "29  <  16  <  32",
+    "after": "29 → 16 → 32"
+  },
+  {
+    "field": "G2-C06/questions/4/text/option.1/english",
+    "before": "32  <  16  <  29",
+    "after": "32 → 16 → 29"
+  },
+  {
+    "field": "G2-C06/questions/4/text/option.2/english",
+    "before": "16  <  29  <  32",
+    "after": "16 → 29 → 32"
+  },
+  {
+    "field": "G2-C06/questions/4/text/option.3/english",
+    "before": "32  <  29  <  16",
+    "after": "32 → 29 → 16"
+  },
+  {
+    "field": "G2-C06/questions/5/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 37  <  31  <  19.",
+    "after": "Compare each number, then read the ordered list: 37 → 31 → 19."
+  },
+  {
+    "field": "G2-C06/questions/5/text/option.0/english",
+    "before": "31  <  19  <  37",
+    "after": "31 → 19 → 37"
+  },
+  {
+    "field": "G2-C06/questions/5/text/option.1/english",
+    "before": "37  <  19  <  31",
+    "after": "37 → 19 → 31"
+  },
+  {
+    "field": "G2-C06/questions/5/text/option.2/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G2-C06/questions/5/text/option.3/english",
+    "before": "37  <  31  <  19",
+    "after": "37 → 31 → 19"
+  },
+  {
+    "field": "G2-C06/questions/6/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 22  <  33  <  42.",
+    "after": "Compare each number, then read the ordered list: 22 → 33 → 42."
+  },
+  {
+    "field": "G2-C06/questions/6/text/option.0/english",
+    "before": "22  <  33  <  42",
+    "after": "22 → 33 → 42"
+  },
+  {
+    "field": "G2-C06/questions/6/text/option.1/english",
+    "before": "33  <  22  <  42",
+    "after": "33 → 22 → 42"
+  },
+  {
+    "field": "G2-C06/questions/6/text/option.2/english",
+    "before": "42  <  22  <  33",
+    "after": "42 → 22 → 33"
+  },
+  {
+    "field": "G2-C06/questions/6/text/option.3/english",
+    "before": "42  <  33  <  22",
+    "after": "42 → 33 → 22"
+  },
+  {
+    "field": "G2-C06/questions/7/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 47  <  35  <  25.",
+    "after": "Compare each number, then read the ordered list: 47 → 35 → 25."
+  },
+  {
+    "field": "G2-C06/questions/7/text/option.0/english",
+    "before": "35  <  25  <  47",
+    "after": "35 → 25 → 47"
+  },
+  {
+    "field": "G2-C06/questions/7/text/option.1/english",
+    "before": "47  <  35  <  25",
+    "after": "47 → 35 → 25"
+  },
+  {
+    "field": "G2-C06/questions/7/text/option.2/english",
+    "before": "47  <  25  <  35",
+    "after": "47 → 25 → 35"
+  },
+  {
+    "field": "G2-C06/questions/7/text/option.3/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G2-C06/questions/8/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 28  <  37  <  52.",
+    "after": "Compare each number, then read the ordered list: 28 → 37 → 52."
+  },
+  {
+    "field": "G2-C06/questions/8/text/option.0/english",
+    "before": "37  <  28  <  52",
+    "after": "37 → 28 → 52"
+  },
+  {
+    "field": "G2-C06/questions/8/text/option.1/english",
+    "before": "52  <  28  <  37",
+    "after": "52 → 28 → 37"
+  },
+  {
+    "field": "G2-C06/questions/8/text/option.2/english",
+    "before": "28  <  37  <  52",
+    "after": "28 → 37 → 52"
+  },
+  {
+    "field": "G2-C06/questions/8/text/option.3/english",
+    "before": "52  <  37  <  28",
+    "after": "52 → 37 → 28"
+  },
+  {
+    "field": "G2-C06/questions/9/text/explanation/english",
+    "before": "Compare each number, then read the ordered list: 57  <  39  <  31.",
+    "after": "Compare each number, then read the ordered list: 57 → 39 → 31."
+  },
+  {
+    "field": "G2-C06/questions/9/text/option.0/english",
+    "before": "39  <  31  <  57",
+    "after": "39 → 31 → 57"
+  },
+  {
+    "field": "G2-C06/questions/9/text/option.1/english",
+    "before": "57  <  31  <  39",
+    "after": "57 → 31 → 39"
+  },
+  {
+    "field": "G2-C06/questions/9/text/option.2/english",
+    "before": "Option 1",
+    "after": "None of these choices"
+  },
+  {
+    "field": "G2-C06/questions/9/text/option.3/english",
+    "before": "57  <  39  <  31",
+    "after": "57 → 39 → 31"
+  },
+  {
+    "field": "G2-C14/questions/2/text/explanation/english",
+    "before": "Ones: 1 + 0 = 1. Regroup ten ones: 31 + 20 = 51.",
+    "after": "Ones: 1 + 0 = 1. No regrouping is needed because the ones total is less than ten: 31 + 20 = 51."
+  },
+  {
+    "field": "G2-C14/questions/3/text/explanation/english",
+    "before": "Ones: 3 + 2 = 5. Regroup ten ones: 33 + 22 = 55.",
+    "after": "Ones: 3 + 2 = 5. No regrouping is needed because the ones total is less than ten: 33 + 22 = 55."
+  },
+  {
+    "field": "G2-C14/questions/4/text/explanation/english",
+    "before": "Ones: 5 + 4 = 9. Regroup ten ones: 35 + 24 = 59.",
+    "after": "Ones: 5 + 4 = 9. No regrouping is needed because the ones total is less than ten: 35 + 24 = 59."
+  },
+  {
+    "field": "G2-C14/questions/7/text/explanation/english",
+    "before": "Ones: 1 + 0 = 1. Regroup ten ones: 41 + 30 = 71.",
+    "after": "Ones: 1 + 0 = 1. No regrouping is needed because the ones total is less than ten: 41 + 30 = 71."
+  },
+  {
+    "field": "G2-C14/questions/8/text/explanation/english",
+    "before": "Ones: 3 + 2 = 5. Regroup ten ones: 43 + 32 = 75.",
+    "after": "Ones: 3 + 2 = 5. No regrouping is needed because the ones total is less than ten: 43 + 32 = 75."
+  },
+  {
+    "field": "G2-C14/questions/9/text/explanation/english",
+    "before": "Ones: 5 + 4 = 9. Regroup ten ones: 45 + 34 = 79.",
+    "after": "Ones: 5 + 4 = 9. No regrouping is needed because the ones total is less than ten: 45 + 34 = 79."
+  },
+  {
+    "field": "G3-C05/lesson/hint/english",
+    "before": "Choose the unit that measures mass at this scale.",
+    "after": "Choose the unit that measures length at this scale."
+  },
+  {
+    "field": "G3-C05/questions/0/text/hint/english",
+    "before": "Choose the unit that measures mass at this scale.",
+    "after": "Choose the unit that measures length at this scale."
+  },
+  {
+    "field": "G3-C05/questions/2/text/hint/english",
+    "before": "Choose the unit that measures mass at this scale.",
+    "after": "Choose the unit that measures length at this scale."
+  },
+  {
+    "field": "G3-C05/questions/4/text/hint/english",
+    "before": "Choose the unit that measures mass at this scale.",
+    "after": "Choose the unit that measures length at this scale."
+  },
+  {
+    "field": "G3-C05/questions/5/text/hint/english",
+    "before": "Choose the unit that measures mass at this scale.",
+    "after": "Choose the unit that measures length at this scale."
+  },
+  {
+    "field": "G3-C05/questions/7/text/hint/english",
+    "before": "Choose the unit that measures mass at this scale.",
+    "after": "Choose the unit that measures length at this scale."
+  },
+  {
+    "field": "G3-C05/questions/9/text/hint/english",
+    "before": "Choose the unit that measures mass at this scale.",
+    "after": "Choose the unit that measures length at this scale."
+  }
+]

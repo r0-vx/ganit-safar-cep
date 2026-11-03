@@ -1,7 +1,7 @@
 part of 'main.dart';
 
-/// Built-in Class 4 learner-interface wording, reviewed in its screen context.
-/// The caller scopes this mapper to Class 4 and excludes the dashboard.
+/// Built-in learner-interface wording, first reviewed for Class 4 and extended
+/// to Classes 1–3. The caller excludes the dashboard.
 /// This is an editorial draft, not external native-teacher approval. Custom
 /// questions and their translations must never be routed through this mapper.
 const Map<String, String> class4InterfaceMarathi = {

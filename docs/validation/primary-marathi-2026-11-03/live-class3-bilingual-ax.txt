@@ -1,0 +1,30 @@
+Browser tab: 22, Title: "Ganit Safar / गणित सफर", URL: "https://ganit-safar-smartboard.vercel.app/".
+1 AXWebArea Ganit Safar / गणित सफर, URL: ganit-safar-smartboard.vercel.app/
+	2 container
+		3 container flt-semantic-node-182
+			4 button Back मागे, ID: flt-semantic-node-183
+			9 text Chapter lesson धड्याचा अभ्यास
+			5 button (collapsed) English + मराठी, ID: flt-semantic-node-185, Secondary Actions: Expand
+			10 text No classroom linked • Learning available वर्ग जोडलेला नाही • अभ्यास उपलब्ध
+			11 text Connected सर्व्हरशी जोडलेले
+			12 container flt-semantic-node-188
+				13 text Chapter 5 • Length and weight धडा 5 • लांबी व वजन
+				14 text Class 3 • Pages 47–53 इयत्ता 3 • पाने 47–53
+				15 container flt-semantic-node-191
+					16 text 1. Story गोष्ट
+					17 text 2. Explore करून पाहा
+					18 text 3. Maths गणित
+					19 text 4. Together मिळून सोडवूया
+					20 text 5. Your try आता स्वतः सोडव
+					21 text 6. Recap उजळणी
+				22 text Step 3 of 6 टप्पा ३ / ६
+				23 progress indicator Description: 50, ID: flt-semantic-node-199
+				24 text See the Maths गणित कसे होते ते समजून घे
+				25 text Estimate and measure length in centimetres or metres and mass in grams or kilograms. लांबीचा आधी अंदाज करूया आणि मग सेंटीमीटर किंवा मीटरमध्ये मोजूया. वजन ग्राम किंवा किलोग्रॅममध्ये मोजूया.
+				26 text Mathematical model for this question हा प्रश्न समजण्यासाठी गणिती चित्र Story symbol 1 गोष्टीतील चिन्ह १ 🎒 Story symbol 2 गोष्टीतील चिन्ह २ ⚖️ Use the story and its clues. These symbols show the setting. गोष्ट नीट वाच आणि दिलेल्या खुणा पाहा. या चिन्हांमधून गोष्टीतील जागा किंवा वस्तू दाखवल्या आहेत. Use centimetres for a finger length. बोटाची लांबी मोजण्यासाठी सेंटीमीटर हे एकक वापरूया.
+				27 text Use centimetres for a finger length. बोटाची लांबी मोजण्यासाठी सेंटीमीटर हे एकक वापरूया.
+			6 button Back मागे, ID: flt-semantic-node-207
+			7 button Replay this step हा टप्पा पुन्हा पाहा, ID: flt-semantic-node-208
+			8 button Next step पुढचा टप्पा, ID: flt-semantic-node-209
+
+The focused UI element is 5 button (collapsed) English + मराठी, ID: flt-semantic-node-185, Secondary Actions: Expand

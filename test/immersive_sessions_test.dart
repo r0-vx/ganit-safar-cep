@@ -52,10 +52,10 @@ void main() {
       await _tap(tester, find.byType(DropdownButton<int>));
       await _tap(tester, find.text('मराठी').last);
       expect(_selected(wrong), findsOneWidget);
-      expect(find.textContaining('१ वस्तू मोजल्या'), findsOneWidget);
-      await _tap(tester, find.byTooltip('मदत बंद करा'));
+      expect(find.textContaining('मोजलेल्या वस्तू: १'), findsOneWidget);
+      await _tap(tester, find.byTooltip('मदत बंद कर'));
       expect(_selected(wrong), findsOneWidget);
-      expect(find.textContaining('१ वस्तू मोजल्या'), findsOneWidget);
+      expect(find.textContaining('मोजलेल्या वस्तू: १'), findsOneWidget);
       expect(tester.takeException(), isNull);
     },
   );

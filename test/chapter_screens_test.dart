@@ -119,7 +119,7 @@ void main() {
 
     expect(store.language, 1);
     expect(find.text(chapter.lesson.concept.mr), findsOneWidget);
-    expect(find.textContaining('टप्पा 3 / 6'), findsOneWidget);
+    expect(find.textContaining('टप्पा ३ / ६'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
 
@@ -160,7 +160,7 @@ void main() {
       findsOneWidget,
     );
     expect(
-      find.text('छान प्रयत्न. पुन्हा पाहा आणि उत्तर बदला.'),
+      find.text('छान प्रयत्न! पुन्हा नीट पाहा आणि उत्तर निवड.'),
       findsOneWidget,
     );
     expect(tester.takeException(), isNull);

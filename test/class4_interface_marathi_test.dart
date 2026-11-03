@@ -106,16 +106,23 @@ void main() {
   );
 
   test(
-    'Only Class 4 learner interface changes; English, other classes and authored Words stay intact',
+    'All learner grades use contextual labels; English and authored Words stay intact',
     () {
       for (var grade = 1; grade <= 3; grade++) {
         store.grade = grade;
         store.language = 1;
-        expect(tr('Try again', 'पुन्हा प्रयत्न करा'), 'पुन्हा प्रयत्न करा');
+        expect(
+          tr('Try again', 'पुन्हा प्रयत्न करा'),
+          portalSurface == 'dashboard'
+              ? 'पुन्हा प्रयत्न करा'
+              : 'पुन्हा प्रयत्न कर',
+        );
         store.language = 2;
         expect(
           tr('Try again', 'पुन्हा प्रयत्न करा'),
-          'Try again\nपुन्हा प्रयत्न करा',
+          portalSurface == 'dashboard'
+              ? 'Try again\nपुन्हा प्रयत्न करा'
+              : 'Try again\nपुन्हा प्रयत्न कर',
         );
       }
       store.grade = 4;
@@ -143,7 +150,9 @@ void main() {
       );
       expect(
         classUiText(const Words('Try again', 'पुन्हा प्रयत्न करा'), grade: 3),
-        'Try again\nपुन्हा प्रयत्न करा',
+        portalSurface == 'dashboard'
+            ? 'Try again\nपुन्हा प्रयत्न करा'
+            : 'Try again\nपुन्हा प्रयत्न कर',
       );
     },
   );

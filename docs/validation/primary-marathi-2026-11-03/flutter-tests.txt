@@ -1,0 +1,202 @@
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 95.0.0 (111.0.0 available)
+  analyzer 10.1.0 (14.7.0 available)
+  cross_file 0.3.5+5 (0.4.0 available)
+  crypto 3.0.7 (3.0.8 available)
+  cupertino_icons 1.0.9 (2.0.0 available)
+  file_selector_ios 0.5.3+6 (0.5.3+7 available)
+  file_selector_macos 0.9.5+1 (0.9.5+2 available)
+  glob 2.1.3 (2.2.0 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  package_config 2.2.0 (3.0.0 available)
+  pub_semver 2.2.0 (2.2.1 available)
+  screen_retriever 0.2.2 (0.3.1 available)
+  shared_preferences_android 2.4.28 (2.5.4 available)
+  shared_preferences_foundation 2.5.7 (2.6.1 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.4 available)
+  vm_service 15.3.0 (15.4.0 available)
+  web 1.1.1 (1.1.2 available)
+  window_manager 0.5.2 (0.6.0 available)
+  yaml 3.1.3 (3.1.4 available)
+Got dependencies!
+21 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_scope_integrity_test.dart
+00:00 +0: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_scope_integrity_test.dart: All 65 primary chapters preserve every original draft and mathematical model
+00:01 +1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/translation_review_widget_test.dart: mango teaching uses the reviewed classroom wording
+00:02 +2: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 375.0 settings, records, teams and teacher tools fit large bilingual text
+00:02 +3: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 375.0 settings, records, teams and teacher tools fit large bilingual text
+00:05 +4: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/translation_review_widget_test.dart: teacher can save separate draft, classroom wording and review notes
+00:05 +5: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 768.0 settings, records, teams and teacher tools fit large bilingual text
+00:06 +6: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/web_flows_test.dart: Web 1024.0 settings, records, teams and teacher tools fit large bilingual text
+00:06 +7: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/school_accounts_test.dart: School login adds its classroom and connects a board without teacher accounts
+00:07 +8: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/school_accounts_test.dart: School login adds its classroom and connects a board without teacher accounts
+00:07 +9: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/school_accounts_test.dart: School login adds its classroom and connects a board without teacher accounts
+00:08 +10: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/school_accounts_test.dart: School login adds its classroom and connects a board without teacher accounts
+00:08 +11: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/school_accounts_test.dart: School login adds its classroom and connects a board without teacher accounts
+00:08 +12: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/school_accounts_test.dart: School login adds its classroom and connects a board without teacher accounts
+00:09 +13: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/school_accounts_test.dart: Generated school credentials have bilingual instructions and explicit acknowledgement
+00:09 +14: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/presentation_mode_test.dart: Presentation switch round trips in both directions without retaining demo mode
+00:09 +15: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/presentation_mode_test.dart: Classroom rejects legacy demo identity and always uses live authentication
+00:09 +16: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/presentation_mode_test.dart: Verified polling updates automatically and stops on dispose
+00:11 +17: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/presentation_mode_test.dart: Verified polling updates automatically and stops on dispose
+00:11 +18: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/presentation_mode_test.dart: Verified polling updates automatically and stops on dispose
+00:11 +19: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/presentation_mode_test.dart: Verified polling updates automatically and stops on dispose
+00:13 +20: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/presentation_mode_test.dart: Verified polling updates automatically and stops on dispose
+00:14 +21: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/dashboard_visuals_test.dart: Every management section keeps its controls inside the new navigation
+00:14 +22: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/dashboard_visuals_test.dart: Every management section keeps its controls inside the new navigation
+00:15 +23: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/presentation_mode_test.dart: Demo switch defaults off and remains bilingual with large touch text
+00:15 +24: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/dashboard_visuals_test.dart: Bilingual touch menu opens classroom cards on a narrow screen
+00:16 +25: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/dashboard_visuals_test.dart: A silent live stream is marked stale without erasing the last received data
+00:17 +26: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/dashboard_visuals_test.dart: A silent live stream is marked stale without erasing the last received data
+00:17 +27: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/dashboard_visuals_test.dart: A silent live stream is marked stale without erasing the last received data
+00:17 +28: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/dashboard_visuals_test.dart: A silent live stream is marked stale without erasing the last received data
+00:18 +29: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/class4_interface_marathi_test.dart: Account accessibility label follows live language changes
+00:18 +30: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/class4_interface_marathi_test.dart: Account accessibility label follows live language changes
+00:19 +31: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/class4_interface_marathi_test.dart: Class 4 lesson keeps its guided answer and stage when changing Marathi modes
+00:21 +32: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 1 guided lesson retains its answer and stage through Marathi, bilingual and English
+00:22 +33: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 1 guided lesson retains its answer and stage through Marathi, bilingual and English
+00:23 +34: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/class4_interface_marathi_test.dart: Class 4 Marathi and bilingual lesson, Practice and Quiz fit narrow large-text screens
+00:23 +35: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/class4_interface_marathi_test.dart: Class 4 Marathi and bilingual lesson, Practice and Quiz fit narrow large-text screens
+00:24 +36: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 1 typed Practice answer survives Help and language without duplicate rewards
+00:24 +37: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 1 quiz result retains scores across languages, reviews mistakes and resets only the session
+00:25 +38: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 1 quiz result retains scores across languages, reviews mistakes and resets only the session
+00:25 +39: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 1 quiz result retains scores across languages, reviews mistakes and resets only the session
+00:25 +40: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 1 quiz result retains scores across languages, reviews mistakes and resets only the session
+00:26 +41: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 1 quiz result retains scores across languages, reviews mistakes and resets only the session
+00:26 +42: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 1 quiz result retains scores across languages, reviews mistakes and resets only the session
+00:26 +43: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 1 Marathi and bilingual large text fits phone, board and desktop widths
+00:27 +44: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 1 Marathi and bilingual large text fits phone, board and desktop widths
+00:27 +45: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 1 Marathi and bilingual large text fits phone, board and desktop widths
+00:27 +46: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 1 Marathi and bilingual large text fits phone, board and desktop widths
+00:28 +47: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 1 Marathi and bilingual large text fits phone, board and desktop widths
+00:28 +48: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 1 Marathi and bilingual large text fits phone, board and desktop widths
+00:28 +49: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 2 guided lesson retains its answer and stage through Marathi, bilingual and English
+00:29 +50: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/class3_chapter_marathi_test.dart: Class 3 preserves all chapter and question models with only the approved length hint correction
+00:29 +51: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 2 chapter Practice Help retains the selected answer and active question
+00:29 +52: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 2 chapter Practice Help retains the selected answer and active question
+00:29 +53: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 2 chapter Practice Help retains the selected answer and active question
+00:29 +54: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 2 chapter Practice Help retains the selected answer and active question
+00:29 +55: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 2 chapter Practice Help retains the selected answer and active question
+00:30 +56: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 2 typed Practice answer survives Help and language without duplicate rewards
+00:30 +57: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 2 quiz result retains scores across languages, reviews mistakes and resets only the session
+00:30 +57 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 2 quiz result retains scores across languages, reviews mistakes and resets only the session
+00:31 +58 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 2 quiz result retains scores across languages, reviews mistakes and resets only the session
+00:31 +59 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 2 quiz result retains scores across languages, reviews mistakes and resets only the session
+00:31 +60 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 2 quiz result retains scores across languages, reviews mistakes and resets only the session
+00:31 +61 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 2 quiz result retains scores across languages, reviews mistakes and resets only the session
+00:31 +62 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 2 quiz result retains scores across languages, reviews mistakes and resets only the session
+00:31 +63 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 2 quiz result retains scores across languages, reviews mistakes and resets only the session
+00:31 +64 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 2 Marathi and bilingual large text fits phone, board and desktop widths
+00:33 +65 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/management_widget_test.dart: Live dashboard stays usable at 375.0 with bilingual large text
+00:33 +66 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/management_widget_test.dart: Live dashboard stays usable at 375.0 with bilingual large text
+00:34 +67 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/management_widget_test.dart: Live dashboard stays usable at 375.0 with bilingual large text
+00:34 +68 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 3 typed Practice answer survives Help and language without duplicate rewards
+00:34 +69 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/management_widget_test.dart: Live dashboard stays usable at 768.0 with bilingual large text
+00:34 +70 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 3 quiz result retains scores across languages, reviews mistakes and resets only the session
+00:35 +71 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/management_widget_test.dart: Live dashboard stays usable at 1920.0 with bilingual large text
+00:35 +72 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 3 Marathi and bilingual large text fits phone, board and desktop widths
+00:35 +73 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 3 Marathi and bilingual large text fits phone, board and desktop widths
+00:35 +74 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_interface_marathi_test.dart: Class 3 Marathi and bilingual large text fits phone, board and desktop widths
+00:36 +75 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: All class/topic/type templates validate across 30 numerical variants
+00:36 +76 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Generated sessions have unique questions and repeatable fixed order
+00:36 +77 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Old v1 backups preserve progress while defaulting new preferences
+00:36 +78 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 375.0 supports bilingual larger text across setup and help
+00:37 +79 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 375.0 supports bilingual larger text across setup and help
+00:37 +80 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 375.0 supports bilingual larger text across setup and help
+00:37 +81 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 375.0 supports bilingual larger text across setup and help
+00:37 +82 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 375.0 supports bilingual larger text across setup and help
+00:37 +83 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 375.0 supports bilingual larger text across setup and help
+00:38 +84 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 375.0 supports bilingual larger text across setup and help
+00:38 +85 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 375.0 supports bilingual larger text across setup and help
+00:38 +86 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 375.0 supports bilingual larger text across setup and help
+00:38 +87 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/central_client_test.dart: access/password are memory-only and private offline PIN is salted, not universal
+00:39 +88 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/central_client_test.dart: access/password are memory-only and private offline PIN is salted, not universal
+00:40 +89 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/central_client_test.dart: access/password are memory-only and private offline PIN is salted, not universal
+00:40 +90 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 1440.0 supports bilingual larger text across setup and help
+00:40 +91 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 1440.0 supports bilingual larger text across setup and help
+00:40 +92 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 1440.0 supports bilingual larger text across setup and help
+00:40 +93 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Web layout 1440.0 supports bilingual larger text across setup and help
+00:41 +94 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Practice help preserves typed answer, supports retry and saves stars
+00:41 +95 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/extension_test.dart: Practice help preserves typed answer, supports retry and saves stars
+00:41 +96 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:42 +97 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:42 +98 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:42 +99 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:42 +100 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:42 +101 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:42 +102 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:42 +103 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:42 +104 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:43 +105 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:44 +106 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:44 +107 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:44 +108 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:44 +109 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:44 +110 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:44 +111 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:45 +112 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:45 +113 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:45 +114 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: All 79 chapter scenes render in bilingual large-text narrow layout without fabricated fallback answers
+00:45 +115 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: Interactive counters meet touch size and count each object only once across language changes
+00:46 +116 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: Six-stage mango lesson requires guided and independent answers, replays and completes only once
+00:47 +117 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: Six-stage mango lesson requires guided and independent answers, replays and completes only once
+00:47 +118 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: Six-stage mango lesson requires guided and independent answers, replays and completes only once
+00:47 +119 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/board_ui_test.dart: board setting toggles and persists through the app store
+00:48 +120 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: G2-C08 completes six stages in language 0 with hint, replay and completion state preserved
+00:49 +121 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_sessions_test.dart: Practice help and language preserve answer and counted objects
+00:50 +122 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_sessions_test.dart: Practice help and language preserve answer and counted objects
+00:51 +123 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_sessions_test.dart: Practice help and language preserve answer and counted objects
+00:51 +124 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: G3-C04 completes six stages in language 0 with hint, replay and completion state preserved
+00:52 +125 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_sessions_test.dart: Quiz locks submitted choices, defers feedback and keeps scores temporary
+00:53 +126 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_sessions_test.dart: Quiz locks submitted choices, defers feedback and keeps scores temporary
+00:53 +127 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: G3-C04 completes six stages in language 2 with hint, replay and completion state preserved
+00:53 +128 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_sessions_test.dart: Bilingual sessions support large text and reduced motion on phone and board
+00:54 +129 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_sessions_test.dart: Bilingual sessions support large text and reduced motion on phone and board
+00:54 +130 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: G4-C01 completes six stages in language 1 with hint, replay and completion state preserved
+00:54 +131 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/immersive_lessons_test.dart: G4-C01 completes six stages in language 2 with hint, replay and completion state preserved
+00:55 +132 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: directory exposes the approved chapter count for each class
+00:56 +133 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/portal_sign_in_test.dart: Classroom has a distinct bilingual sign-in at 375.0
+00:57 +134 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: touching a chapter opens the lesson and completes its stages
+00:57 +135 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: touching a chapter opens the lesson and completes its stages
+00:57 +136 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: touching a chapter opens the lesson and completes its stages
+00:57 +137 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: touching a chapter opens the lesson and completes its stages
+00:57 +138 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: touching a chapter opens the lesson and completes its stages
+00:57 +139 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: touching a chapter opens the lesson and completes its stages
+00:57 +140 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: switching language keeps the current lesson stage
+00:58 +141 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: switching language preserves the selected practice answer
+00:58 +142 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: quiz result stays in the session and does not change saved history
+00:59 +143 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: quiz result stays in the session and does not change saved history
+00:59 +144 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: quiz result stays in the session and does not change saved history
+00:59 +145 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/class4_scope_integrity_test.dart: Class 4 chapter changes have only the explicit English clarification exceptions
+00:59 +146 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_screens_test.dart: directory fits phone, board, and wide layouts with bilingual large text
+01:00 +147 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_legacy_marathi_test.dart: All 42 legacy topic families retain English, maths, identities and original drafts
+01:01 +148 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Home has working learning navigation and language switching
+01:04 +149 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_legacy_marathi_test.dart: 90,720 numerical variants keep validation and localized classroom wording
+01:04 +150 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_legacy_marathi_test.dart: 90,720 numerical variants keep validation and localized classroom wording
+01:04 +151 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_legacy_marathi_test.dart: 90,720 numerical variants keep validation and localized classroom wording
+01:05 +152 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_legacy_marathi_test.dart: 90,720 numerical variants keep validation and localized classroom wording
+01:05 +153 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/primary_legacy_marathi_test.dart: 90,720 numerical variants keep validation and localized classroom wording
+01:06 +154 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Teacher access requires a valid local PIN
+01:06 +155 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Teacher access requires a valid local PIN
+01:06 +156 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Teacher creates a bilingual quiz and saves it locally
+01:07 +157 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Teacher creates a bilingual quiz and saves it locally
+01:07 +158 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_catalogue_test.dart: school chapter directory every chapter has a stable, distinct five-question bilingual set
+01:07 +159 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Team turns award positive scores and move to the next team
+01:07 +160 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Team turns award positive scores and move to the next team
+01:07 +161 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Team turns award positive scores and move to the next team
+01:07 +162 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/widget_test.dart: Compact web landscape has no layout overflows
+01:08 +163 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_math_audit_test.dart: runtime chapter titles and page references match approved research rows
+01:08 +164 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_math_audit_test.dart: arithmetic audit evaluates complete sums and parenthesized perimeter formulas
+01:08 +165 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/chapter_math_audit_test.dart: worked arithmetic equations agree in English and Marathi variants
+01:09 +166 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/management_workflow_test.dart: Create school, validate fields, then add and monitor its classroom without dialog disposal errors
+01:09 +167 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/management_workflow_test.dart: Create school, validate fields, then add and monitor its classroom without dialog disposal errors
+01:09 +168 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/management_workflow_test.dart: Create school, validate fields, then add and monitor its classroom without dialog disposal errors
+01:09 +169 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/management_workflow_test.dart: Create school, validate fields, then add and monitor its classroom without dialog disposal errors
+01:09 +170 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/management_workflow_test.dart: Create school, validate fields, then add and monitor its classroom without dialog disposal errors
+01:12 +171 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/management_workflow_test.dart: Account avatar shows details and signs out the authenticated user
+01:12 +172 ~1: /home/ubuntu/Documents/ChatGPT/CEP-Quiz/test/management_workflow_test.dart: Classroom toolbar keeps account and controls aligned to the right
+01:12 +173 ~1: All tests passed!

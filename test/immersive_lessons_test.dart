@@ -139,7 +139,7 @@ void main() {
       await tester.pumpWidget(_app(body()));
       await tester.pumpAndSettle();
       expect(touched, 1);
-      expect(find.textContaining('१ वस्तू मोजल्या'), findsOneWidget);
+      expect(find.textContaining('मोजलेल्या वस्तू: १'), findsOneWidget);
       expect(tester.takeException(), isNull);
     },
   );

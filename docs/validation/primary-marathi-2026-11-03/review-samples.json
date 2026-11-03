@@ -1,0 +1,3023 @@
+[
+  {
+    "chapter": "G1-C01",
+    "title": "माझे गाव",
+    "conceptBefore": "खूणवस्तूच्या संदर्भाने गावातील वस्तूचे स्थान सांगा: वर, खाली, शेजारी, आत किंवा बाहेर.",
+    "conceptAfter": "वर, खाली, आत, बाहेर आणि शेजारी हे शब्द वापरून वस्तू कुठे आहे ते सांगूया.",
+    "prompt": {
+      "id": "G1-C01-q1.prompt",
+      "english": "The blue kite is above the well. Where is it?",
+      "marathiDraft": "निळा पतंग विहिरीच्या वर आहे. तो कुठे आहे?",
+      "marathiSpoken": "निळा पतंग विहिरीच्या वर आहे. तो कुठे आहे?",
+      "bilingual": "The blue kite is above the well. Where is it?\nनिळा पतंग विहिरीच्या वर आहे. तो कुठे आहे?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "position"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C01-q1.explanation",
+      "english": "Use the landmark named in the sentence: the kite is above the well.",
+      "marathiDraft": "वाक्यातील खूण लक्षात घ्या: पतंग विहिरीच्या वर आहे.",
+      "marathiSpoken": "पतंग विहिरीच्या वर आहे. जवळची वस्तू पाहून त्याची जागा सांगता येते.",
+      "bilingual": "Use the landmark named in the sentence: the kite is above the well.\nपतंग विहिरीच्या वर आहे. जवळची वस्तू पाहून त्याची जागा सांगता येते.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "position"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C01-q1.hint",
+      "english": "Look at the landmark first, then say where the object is.",
+      "marathiDraft": "आधी खूण पाहा आणि मग वस्तू कुठे आहे ते सांगा.",
+      "marathiSpoken": "आधी जवळची वस्तू पाहा. मग पतंग तिच्या कुठल्या बाजूला आहे ते सांग.",
+      "bilingual": "Look at the landmark first, then say where the object is.\nआधी जवळची वस्तू पाहा. मग पतंग तिच्या कुठल्या बाजूला आहे ते सांग.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "position"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C02",
+    "title": "कोंबडा कोठे?",
+    "conceptBefore": "जवळच्या वस्तूच्या संदर्भाने कोंबडा कुठे आहे ते ओळखा.",
+    "conceptAfter": "जवळची वस्तू पाहून कोंबडा कुठे आहे ते सांगूया.",
+    "prompt": {
+      "id": "G1-C02-q1.prompt",
+      "english": "The rooster is on the roof. Choose its position.",
+      "marathiDraft": "कोंबडा छपरावर आहे. त्याचे स्थान निवडा.",
+      "marathiSpoken": "कोंबडा छपरावर आहे. तो कुठे आहे ते निवड.",
+      "bilingual": "The rooster is on the roof. Choose its position.\nकोंबडा छपरावर आहे. तो कुठे आहे ते निवड.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "position"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C02-q1.explanation",
+      "english": "The position word is “on the roof”.",
+      "marathiDraft": "स्थान दाखवणारा शब्द “छपरावर” आहे.",
+      "marathiSpoken": "कोंबडा छपरावर आहे. हे शब्द त्याची जागा सांगतात.",
+      "bilingual": "The position word is “on the roof”.\nकोंबडा छपरावर आहे. हे शब्द त्याची जागा सांगतात.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "position"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C02-q1.hint",
+      "english": "Compare the rooster with the named nearby object.",
+      "marathiDraft": "कोंबड्याची जवळच्या वस्तूशी तुलना करा.",
+      "marathiSpoken": "कोंबडा आणि त्याच्या जवळची वस्तू पाहा. तो वर, मागे, पुढे की आत आहे?",
+      "bilingual": "Compare the rooster with the named nearby object.\nकोंबडा आणि त्याच्या जवळची वस्तू पाहा. तो वर, मागे, पुढे की आत आहे?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "position"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C03",
+    "title": "आधी-नंतर",
+    "conceptBefore": "दोन परिचित घटना आधी आणि नंतर अशा योग्य क्रमाने मांडा.",
+    "conceptAfter": "आधी कोणते काम होते आणि नंतर कोणते, ते पाहूया.",
+    "prompt": {
+      "id": "G1-C03-q1.prompt",
+      "english": "Wash the fruit happens before Eat the fruit. What happens first?",
+      "marathiDraft": "फळे धुणे हे फळे खाणे आधी होते. आधी काय होते?",
+      "marathiSpoken": "आधी फळे धुवायची, मग खायची. आधी काय करायचे?",
+      "bilingual": "Wash the fruit happens before Eat the fruit. What happens first?\nआधी फळे धुवायची, मग खायची. आधी काय करायचे?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C03-q1.explanation",
+      "english": "The first event is Wash the fruit.",
+      "marathiDraft": "पहिली घटना म्हणजे फळे धुणे.",
+      "marathiSpoken": "आधी फळे धुणे, मग फळे खाणे. म्हणून पहिले काम: फळे धुणे.",
+      "bilingual": "The first event is Wash the fruit.\nआधी फळे धुणे, मग फळे खाणे. म्हणून पहिले काम: फळे धुणे.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C03-q1.hint",
+      "english": "Follow the events from the beginning.",
+      "marathiDraft": "घटनांचा सुरुवातीपासून क्रम लावा.",
+      "marathiSpoken": "दोन्ही कामे मनात करून पाहा. कोणते काम आधी करावे लागेल?",
+      "bilingual": "Follow the events from the beginning.\nदोन्ही कामे मनात करून पाहा. कोणते काम आधी करावे लागेल?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C04",
+    "title": "जवळ-दूर",
+    "conceptBefore": "एकाच ठिकाणाहून दोन वस्तूंची तुलना करून कोणती जवळ किंवा दूर आहे ते ठरवा.",
+    "conceptAfter": "एकाच ठिकाणापासून कोणते ठिकाण जवळ आणि कोणते दूर आहे, ते पाहूया.",
+    "prompt": {
+      "id": "G1-C04-q1.prompt",
+      "english": "From the village gate, the mango tree is 2 steps away and the hill is 7 steps away. Which is nearer?",
+      "marathiDraft": "गावच्या प्रवेशद्वारापासून आंब्याचे झाड २ पावले आणि डोंगर ७ पावले दूर आहे. कोणते जवळ आहे?",
+      "marathiSpoken": "गावच्या फाटकापासून आंब्याचे झाड २ पावले दूर आहे. डोंगर ७ पावले दूर आहे. कोणते जवळ आहे?",
+      "bilingual": "From the village gate, the mango tree is 2 steps away and the hill is 7 steps away. Which is nearer?\nगावच्या फाटकापासून आंब्याचे झाड २ पावले दूर आहे. डोंगर ७ पावले दूर आहे. कोणते जवळ आहे?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "position"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C04-q1.explanation",
+      "english": "The shorter walk to the mango tree means it is nearer.",
+      "marathiDraft": "कमी पावले असलेले आंब्याचे झाड जवळ आहे.",
+      "marathiSpoken": "कमी पावले चालावे लागतात ते ठिकाण जवळ असते. म्हणून आंब्याचे झाड जवळ आहे.",
+      "bilingual": "The shorter walk to the mango tree means it is nearer.\nकमी पावले चालावे लागतात ते ठिकाण जवळ असते. म्हणून आंब्याचे झाड जवळ आहे.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "position"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C04-q1.hint",
+      "english": "Compare the length of the walk from the same gate.",
+      "marathiDraft": "एकाच प्रवेशद्वारापासून चालण्याच्या अंतरांची तुलना करा.",
+      "marathiSpoken": "एकाच फाटकापासून चालायला सुरुवात कर. दोन्ही ठिकाणी पोहोचायला किती पावले लागतात ते पाहा.",
+      "bilingual": "Compare the length of the walk from the same gate.\nएकाच फाटकापासून चालायला सुरुवात कर. दोन्ही ठिकाणी पोहोचायला किती पावले लागतात ते पाहा.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "position"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C05",
+    "title": "माझा आकार",
+    "conceptBefore": "कोपरे आणि सरळ किंवा वक्र कडा पाहून सपाट आकार ओळखा.",
+    "conceptAfter": "आकाराच्या कडेवरून बोट फिरवूया. बाजू आणि कोपरे पाहून आकार ओळखूया.",
+    "prompt": {
+      "id": "G1-C05-q1.prompt",
+      "english": "Which flat shape fits a three-sided sign: three straight sides?",
+      "marathiDraft": "तीन बाजूंची पाटी: तीन सरळ बाजू. कोणता सपाट आकार?",
+      "marathiSpoken": "या फलकाला तीन सरळ बाजू आहेत. हा कोणता आकार?",
+      "bilingual": "Which flat shape fits a three-sided sign: three straight sides?\nया फलकाला तीन सरळ बाजू आहेत. हा कोणता आकार?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C05-q1.explanation",
+      "english": "A triangle has three straight sides.",
+      "marathiDraft": "त्रिकोण या आकाराला तीन सरळ बाजू.",
+      "marathiSpoken": "त्रिकोणाला तीन सरळ बाजू असतात.",
+      "bilingual": "A triangle has three straight sides.\nत्रिकोणाला तीन सरळ बाजू असतात.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C05-q1.hint",
+      "english": "Trace the outline and count its straight sides and corners.",
+      "marathiDraft": "बाह्यरेषेवरून बोट फिरवा आणि सरळ बाजू व कोपरे मोजा.",
+      "marathiSpoken": "कडेवरून बोट फिरव. सरळ बाजू आणि कोपरे मोज.",
+      "bilingual": "Trace the outline and count its straight sides and corners.\nकडेवरून बोट फिरव. सरळ बाजू आणि कोपरे मोज.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C06",
+    "title": "घरंगळणे-घसरणे",
+    "conceptBefore": "घन वस्तूच्या पृष्ठभागांवरून ती घरंगळेल, घसरेल की दोन्ही करेल ते ओळखा.",
+    "conceptAfter": "वस्तूची बाजू गोल आहे की सपाट, ते पाहूया. ती घरंगळेल, घसरेल की दोन्ही करेल, ते सांगूया.",
+    "prompt": {
+      "id": "G1-C06-q1.prompt",
+      "english": "On a gentle ramp, what can A smooth ball do?",
+      "marathiDraft": "हळू उतारावर गुळगुळीत चेंडू काय करू शकते?",
+      "marathiSpoken": "थोडासा उतार असलेल्या फळीवर गुळगुळीत चेंडू काय करू शकेल?",
+      "bilingual": "On a gentle ramp, what can A smooth ball do?\nथोडासा उतार असलेल्या फळीवर गुळगुळीत चेंडू काय करू शकेल?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C06-q1.explanation",
+      "english": "Its curved surface explains why it rolls.",
+      "marathiDraft": "वक्र पृष्ठभागामुळे ती घरंगळतो.",
+      "marathiSpoken": "गोल बाजू असल्यामुळे ही वस्तू घरंगळेल.",
+      "bilingual": "Its curved surface explains why it rolls.\nगोल बाजू असल्यामुळे ही वस्तू घरंगळेल.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C06-q1.hint",
+      "english": "Think about whether the object has a curved surface, a flat face, or both.",
+      "marathiDraft": "वस्तूला वक्र पृष्ठभाग, सपाट बाजू की दोन्ही आहेत ते पाहा.",
+      "marathiSpoken": "वस्तूची बाजू गोल आहे, सपाट आहे की दोन्ही प्रकारच्या बाजू आहेत, ते पाहा.",
+      "bilingual": "Think about whether the object has a curved surface, a flat face, or both.\nवस्तूची बाजू गोल आहे, सपाट आहे की दोन्ही प्रकारच्या बाजू आहेत, ते पाहा.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C07",
+    "title": "१ ते ९ची ओळख",
+    "conceptBefore": "प्रत्येक वस्तू एकदाच मोजून एकूण संख्या १ ते ९ या अंकाशी जोडा.",
+    "conceptAfter": "एकेका वस्तूला बोट लावून मोजूया. एकूण मोजणी १ ते ९ मधल्या योग्य अंकाशी जोडूया.",
+    "prompt": {
+      "id": "G1-C07-q1.prompt",
+      "english": "A basket has 1 mangoes. Choose the numeral for the total.",
+      "marathiDraft": "एका टोपलीत १ आंबे आहेत. एकूण संख्या दाखवणारा अंक निवडा.",
+      "marathiSpoken": "टोपलीत १ आंबा आहे. योग्य अंक निवड.",
+      "bilingual": "A basket has 1 mangoes. Choose the numeral for the total.\nटोपलीत १ आंबा आहे. योग्य अंक निवड.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C07-q1.explanation",
+      "english": "Count each object once: the total is 1.",
+      "marathiDraft": "प्रत्येक वस्तू एकदा मोजा: एकूण १.",
+      "marathiSpoken": "प्रत्येक वस्तू एकदा मोजली. एकूण संख्या १ आहे.",
+      "bilingual": "Count each object once: the total is 1.\nप्रत्येक वस्तू एकदा मोजली. एकूण संख्या १ आहे.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C07-q1.hint",
+      "english": "Touch or point to each object once, then say the last count.",
+      "marathiDraft": "प्रत्येक वस्तूला एकदा स्पर्श करा किंवा दाखवा आणि शेवटची मोजणी सांगा.",
+      "marathiSpoken": "एकेका वस्तूला बोट लावून मोज. शेवटी म्हटलेली संख्या लक्षात ठेव.",
+      "bilingual": "Touch or point to each object once, then say the last count.\nएकेका वस्तूला बोट लावून मोज. शेवटी म्हटलेली संख्या लक्षात ठेव.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C08",
+    "title": "०ची ओळख",
+    "conceptBefore": "गटात एकही वस्तू नसल्याचे शून्याने दाखवा आणि ० हा अंक ओळखा.",
+    "conceptAfter": "एकही वस्तू नाही, हे शून्य दाखवते. शून्याचा अंक ० आहे.",
+    "prompt": {
+      "id": "G1-C08-q1.prompt",
+      "english": "An empty basket has no marbles. How many marbles are in it?",
+      "marathiDraft": "रिकाम्या टोपलीत गोट्या नाहीत. त्यात किती गोट्या आहेत?",
+      "marathiSpoken": "रिकाम्या टोपलीत किती गोट्या आहेत?",
+      "bilingual": "An empty basket has no marbles. How many marbles are in it?\nरिकाम्या टोपलीत किती गोट्या आहेत?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C08-q1.explanation",
+      "english": "The empty set contains 0 objects.",
+      "marathiDraft": "रिकाम्या गटात ० वस्तू असतात.",
+      "marathiSpoken": "टोपली रिकामी आहे. एकही वस्तू नाही, म्हणजे संख्या ०.",
+      "bilingual": "The empty set contains 0 objects.\nटोपली रिकामी आहे. एकही वस्तू नाही, म्हणजे संख्या ०.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C08-q1.hint",
+      "english": "An empty set has no objects. Which numeral means none?",
+      "marathiDraft": "रिकाम्या गटात वस्तू नसतात. काहीच नाही हे कोणता अंक दाखवतो?",
+      "marathiSpoken": "काहीच नाही हे दाखवणारा अंक निवड.",
+      "bilingual": "An empty set has no objects. Which numeral means none?\nकाहीच नाही हे दाखवणारा अंक निवड.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C09",
+    "title": "१०ची ओळख",
+    "conceptBefore": "दोन लहान गट एकत्र करून नेमक्या दहा वस्तू करा.",
+    "conceptAfter": "दोन छोटे गट एकत्र ठेवूया. नेमक्या दहा वस्तू करूया.",
+    "prompt": {
+      "id": "G1-C09-q1.prompt",
+      "english": "There are 4 shells. How many more make 10?",
+      "marathiDraft": "४ शिंपले आहेत. १० पूर्ण करण्यासाठी आणखी किती लागतील?",
+      "marathiSpoken": "४ शिंपले आहेत. १० होण्यासाठी आणखी किती लागतील?",
+      "bilingual": "There are 4 shells. How many more make 10?\n४ शिंपले आहेत. १० होण्यासाठी आणखी किती लागतील?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C09-q1.explanation",
+      "english": "4 + 6 = 10.",
+      "marathiDraft": "4 + 6 = १०.",
+      "marathiSpoken": "४ + ६ = १०. आणखी ६ लागतील.",
+      "bilingual": "4 + 6 = 10.\n४ + ६ = १०. आणखी ६ लागतील.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C09-q1.hint",
+      "english": "Count on from the group you already have until you reach ten.",
+      "marathiDraft": "आधीच्या गटापासून दहापर्यंत पुढे मोजा.",
+      "marathiSpoken": "आधीच्या मोजणीपासून पुढे मोज. दहा होण्यासाठी किती वाढवावे लागले ते पाहा.",
+      "bilingual": "Count on from the group you already have until you reach ten.\nआधीच्या मोजणीपासून पुढे मोज. दहा होण्यासाठी किती वाढवावे लागले ते पाहा.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C10",
+    "title": "बेरीज (उत्तर ९पर्यंत)",
+    "conceptBefore": "दोन गट एकत्र करून नऊपेक्षा मोठी नसलेली बेरीज शोधा.",
+    "conceptAfter": "दोन गट एकत्र करून सगळ्या वस्तू मोजूया. यातली बेरीज ९ पर्यंत असेल.",
+    "prompt": {
+      "id": "G1-C10-q1.prompt",
+      "english": "A class collects 1 leaves, then 1 more. How many altogether?",
+      "marathiDraft": "वर्गाने १ पाने गोळा केली; नंतर आणखी 1 मिळाली. एकूण किती?",
+      "marathiSpoken": "वर्गातील मुलांनी १ पान गोळा केले. आणखी १ पान मिळाले. एकूण किती पाने आहेत?",
+      "bilingual": "A class collects 1 leaves, then 1 more. How many altogether?\nवर्गातील मुलांनी १ पान गोळा केले. आणखी १ पान मिळाले. एकूण किती पाने आहेत?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "counting"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C10-q1.explanation",
+      "english": "1 + 1 = 2.",
+      "marathiDraft": "१ + १ = २.",
+      "marathiSpoken": "१ + १ = २. एकूण २ पाने आहेत.",
+      "bilingual": "1 + 1 = 2.\n१ + १ = २. एकूण २ पाने आहेत.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "counting"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C10-q1.hint",
+      "english": "Put both groups together, then count or add their totals.",
+      "marathiDraft": "दोन्ही गट एकत्र करा आणि त्यांची बेरीज मोजा.",
+      "marathiSpoken": "दोन्ही गट एकत्र ठेव. प्रत्येक वस्तू एकदा मोज.",
+      "bilingual": "Put both groups together, then count or add their totals.\nदोन्ही गट एकत्र ठेव. प्रत्येक वस्तू एकदा मोज.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "counting"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C11",
+    "title": "वजाबाकी",
+    "conceptBefore": "गटातून दिलेल्या वस्तू काढून उरलेल्या वस्तू मोजा.",
+    "conceptAfter": "काही वस्तू बाजूला काढूया. उरलेल्या वस्तू मोजूया.",
+    "prompt": {
+      "id": "G1-C11-q1.prompt",
+      "english": "There are 9 seed pods. 1 are used. How many remain?",
+      "marathiDraft": "९ शेंगा आहेत. त्यांपैकी 1 वापरल्या. किती उरल्या?",
+      "marathiSpoken": "९ शेंगा आहेत. त्यांपैकी १ शेंग वापरली. किती शेंगा उरल्या?",
+      "bilingual": "There are 9 seed pods. 1 are used. How many remain?\n९ शेंगा आहेत. त्यांपैकी १ शेंग वापरली. किती शेंगा उरल्या?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "subtraction"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C11-q1.explanation",
+      "english": "9 − 1 = 8.",
+      "marathiDraft": "९ − १ = ८.",
+      "marathiSpoken": "९ − १ = ८. ८ शेंगा उरल्या.",
+      "bilingual": "9 − 1 = 8.\n९ − १ = ८. ८ शेंगा उरल्या.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "subtraction"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C11-q1.hint",
+      "english": "Count backwards by the number taken away.",
+      "marathiDraft": "वजा केलेल्या संख्येइतके मागे मोजा.",
+      "marathiSpoken": "वापरलेल्या वस्तू बाजूला ठेव. आता उरलेल्या वस्तू मोज.",
+      "bilingual": "Count backwards by the number taken away.\nवापरलेल्या वस्तू बाजूला ठेव. आता उरलेल्या वस्तू मोज.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "subtraction"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C12",
+    "title": "११ ते २०ची ओळख",
+    "conceptBefore": "किशोर संख्या एक दशक आणि काही एकक अशा प्रकारे तयार करा.",
+    "conceptAfter": "दहाचा एक गट आणि काही सुट्या वस्तू घेऊया. त्यातून ११ ते २० मधल्या संख्या बनवूया.",
+    "prompt": {
+      "id": "G1-C12-q1.prompt",
+      "english": "Build a number with 1 ten and 1 ones. What is it?",
+      "marathiDraft": "१ दशक आणि 1 एकक मिळून कोणती संख्या होते?",
+      "marathiSpoken": "दहाचा १ गट आणि १ सुटी वस्तू. एकूण किती?",
+      "bilingual": "Build a number with 1 ten and 1 ones. What is it?\nदहाचा १ गट आणि १ सुटी वस्तू. एकूण किती?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C12-q1.explanation",
+      "english": "10 + 1 = 11.",
+      "marathiDraft": "१० + 1 = 11.",
+      "marathiSpoken": "१० + १ = ११. दहात सुट्या वस्तू मिळवल्या की ही संख्या होते.",
+      "bilingual": "10 + 1 = 11.\n१० + १ = ११. दहात सुट्या वस्तू मिळवल्या की ही संख्या होते.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C12-q1.hint",
+      "english": "A teen number has one group of ten and some ones.",
+      "marathiDraft": "किशोर संख्येत एक दशक आणि काही एकके असतात.",
+      "marathiSpoken": "दहाचा एक गट म्हणजे दहा वस्तू. त्यात सुट्या वस्तू मिळव.",
+      "bilingual": "A teen number has one group of ten and some ones.\nदहाचा एक गट म्हणजे दहा वस्तू. त्यात सुट्या वस्तू मिळव.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C13",
+    "title": "लगतची पुढची, लगतची मागची व मधली संख्या",
+    "conceptBefore": "एखाद्या संख्येच्या आधीची, पुढची किंवा दोन संख्यांमधली संख्या शोधा.",
+    "conceptAfter": "एखाद्या संख्येची आधीची, पुढची आणि दोन संख्यांमधली संख्या शोधूया.",
+    "prompt": {
+      "id": "G1-C13-q1.prompt",
+      "english": "What number comes just before 5?",
+      "marathiDraft": "5 च्या लगेच आधी कोणती संख्या येते?",
+      "marathiSpoken": "५ च्या लगेच आधी कोणती संख्या येते?",
+      "bilingual": "What number comes just before 5?\n५ च्या लगेच आधी कोणती संख्या येते?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C13-q1.explanation",
+      "english": "The neighbouring numbers are 4, 5, 6.",
+      "marathiDraft": "लगतच्या संख्या 4, 5, 6 आहेत.",
+      "marathiSpoken": "क्रमाने मोज: ४, ५, ६. या शेजारी असलेल्या संख्या आहेत.",
+      "bilingual": "The neighbouring numbers are 4, 5, 6.\nक्रमाने मोज: ४, ५, ६. या शेजारी असलेल्या संख्या आहेत.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C13-q1.hint",
+      "english": "Step one number back or forward on the number path.",
+      "marathiDraft": "संख्यापथावर एक पाऊल मागे किंवा पुढे जा.",
+      "marathiSpoken": "एक पाऊल मागे मोज.",
+      "bilingual": "Step one number back or forward on the number path.\nएक पाऊल मागे मोज.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C14",
+    "title": "संख्यांचा लहान-मोठेपणा",
+    "conceptBefore": "संख्यांची तुलना करून मोठे, लहान किंवा समान हे चिन्ह निवडा.",
+    "conceptAfter": "कोणती संख्या लहान, मोठी किंवा समान आहे, ते पाहूया. त्यासाठी योग्य चिन्ह निवडूया.",
+    "prompt": {
+      "id": "G1-C14-q1.prompt",
+      "english": "Choose the correct sign: 3 __ 6.",
+      "marathiDraft": "योग्य चिन्ह निवडा: 3 __ 6.",
+      "marathiSpoken": "योग्य चिन्ह निवड: ३ __ ६.",
+      "bilingual": "Choose the correct sign: 3 __ 6.\nयोग्य चिन्ह निवड: ३ __ ६.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C14-q1.explanation",
+      "english": "3 is less than 6.",
+      "marathiDraft": "3 ही लहान संख्या आहे 6 पेक्षा.",
+      "marathiSpoken": "३ ही ६ पेक्षा लहान संख्या आहे.",
+      "bilingual": "3 is less than 6.\n३ ही ६ पेक्षा लहान संख्या आहे.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C14-q1.hint",
+      "english": "For two-digit numbers, compare tens first, then ones.",
+      "marathiDraft": "दोन अंकी संख्यांत आधी दशके आणि मग एकके तुलना करा.",
+      "marathiSpoken": "आधी दहाचे गट पाहा. ते सारखे असतील तर सुट्या वस्तू पाहा.",
+      "bilingual": "For two-digit numbers, compare tens first, then ones.\nआधी दहाचे गट पाहा. ते सारखे असतील तर सुट्या वस्तू पाहा.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C15",
+    "title": "चढता क्रम-उतरता क्रम",
+    "conceptBefore": "दिलेल्या संख्यांचा चढता किंवा उतरता क्रम लावा.",
+    "conceptAfter": "संख्या लहान ते मोठ्या किंवा मोठ्या ते लहान क्रमाने लावूया. हाच चढता किंवा उतरता क्रम.",
+    "prompt": {
+      "id": "G1-C15-q1.prompt",
+      "english": "Arrange 12, 4, 21 from least to greatest.",
+      "marathiDraft": "या संख्या १२, ४, २१ लहान ते मोठ्या मांडा.",
+      "marathiSpoken": "१२, ४, २१ या संख्या लहान ते मोठ्या क्रमाने लाव.",
+      "bilingual": "Arrange 12, 4, 21 from least to greatest.\n१२, ४, २१ या संख्या लहान ते मोठ्या क्रमाने लाव.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C15-q1.explanation",
+      "english": "Compare each number, then read the ordered list: 4 → 12 → 21.",
+      "marathiDraft": "प्रत्येक संख्या तुलना करा. योग्य क्रम: ४  <  १२  <  २१.",
+      "marathiSpoken": "प्रत्येक संख्या पाहा. योग्य क्रम: ४ → १२ → २१.",
+      "bilingual": "Compare each number, then read the ordered list: 4 → 12 → 21.\nप्रत्येक संख्या पाहा. योग्य क्रम: ४ → १२ → २१.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C15-q1.hint",
+      "english": "Find the smallest (or largest) first, then place the remaining numbers.",
+      "marathiDraft": "सर्वांत लहान (किंवा मोठी) संख्या आधी शोधा आणि उरलेल्या मांडा.",
+      "marathiSpoken": "आधी सर्वांत लहान संख्या शोध. मग उरलेल्या लाव.",
+      "bilingual": "Find the smallest (or largest) first, then place the remaining numbers.\nआधी सर्वांत लहान संख्या शोध. मग उरलेल्या लाव.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C16",
+    "title": "माहिती समजून घेऊ",
+    "conceptBefore": "लहान चित्रमाहितीतील खुणा मोजून गटांची तुलना करा.",
+    "conceptAfter": "चित्रातील खुणा मोजूया. कोणत्या गटात कमी किंवा जास्त आहे, ते पाहूया.",
+    "prompt": {
+      "id": "G1-C16-q1.prompt",
+      "english": "A class chart shows 2 sun symbols for red kites. Each sun stands for 1 kite. How many red kites?",
+      "marathiDraft": "वर्गाच्या तक्त्यात लाल पतंगांसाठी 2 सूर्यचिन्हे आहेत. प्रत्येक सूर्य म्हणजे 1 पतंग. लाल पतंग किती?",
+      "marathiSpoken": "चित्रालेखात सूर्याची २ चिन्हे आहेत. एक चिन्ह म्हणजे १ लाल पतंग. लाल पतंग एकूण किती?",
+      "bilingual": "A class chart shows 2 sun symbols for red kites. Each sun stands for 1 kite. How many red kites?\nचित्रालेखात सूर्याची २ चिन्हे आहेत. एक चिन्ह म्हणजे १ लाल पतंग. लाल पतंग एकूण किती?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "data",
+        "graphs"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C16-q1.explanation",
+      "english": "2 × 1 = 2 red kites.",
+      "marathiDraft": "2 × 1 = 2 लाल पतंग.",
+      "marathiSpoken": "प्रत्येक चिन्ह म्हणजे १ पतंग. २ चिन्हे आहेत, म्हणून २ लाल पतंग आहेत.",
+      "bilingual": "2 × 1 = 2 red kites.\nप्रत्येक चिन्ह म्हणजे १ पतंग. २ चिन्हे आहेत, म्हणून २ लाल पतंग आहेत.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "data",
+        "graphs"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C16-q1.hint",
+      "english": "Read the chart key first. One symbol may stand for more than one item.",
+      "marathiDraft": "आधी तक्त्यातील खूण वाचा. एक चिन्ह एकापेक्षा जास्त वस्तू दाखवू शकते.",
+      "marathiSpoken": "एक चिन्ह किती पतंग दाखवते ते आधी पाहा. मग चिन्हे मोज.",
+      "bilingual": "Read the chart key first. One symbol may stand for more than one item.\nएक चिन्ह किती पतंग दाखवते ते आधी पाहा. मग चिन्हे मोज.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "data",
+        "graphs"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C17",
+    "title": "बेरीज (पुढे मोजून)",
+    "conceptBefore": "पहिल्या संख्येपासून पुढे मोजून दुसरी संख्या मिळवा.",
+    "conceptAfter": "पहिली संख्या लक्षात ठेवूया. तिच्या पुढच्या संख्येपासून मोजून बेरीज करूया.",
+    "prompt": {
+      "id": "G1-C17-q1.prompt",
+      "english": "Begin at 4 and count forward 1 steps. What is the total?",
+      "marathiDraft": "4 पासून सुरुवात करून 1 पावले पुढे मोजा. एकूण किती?",
+      "marathiSpoken": "४ पासून १ पाऊल पुढे मोज. कोणती संख्या येईल?",
+      "bilingual": "Begin at 4 and count forward 1 steps. What is the total?\n४ पासून १ पाऊल पुढे मोज. कोणती संख्या येईल?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "counting"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C17-q1.explanation",
+      "english": "4 + 1 = 5.",
+      "marathiDraft": "४ + १ = ५.",
+      "marathiSpoken": "४ + १ = ५. पुढे मोजल्यावर ५ येते.",
+      "bilingual": "4 + 1 = 5.\n४ + १ = ५. पुढे मोजल्यावर ५ येते.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "counting"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C17-q1.hint",
+      "english": "Keep the first number in mind and make the next count one step at a time.",
+      "marathiDraft": "पहिली संख्या लक्षात ठेवा आणि एकेक पाऊल पुढे मोजा.",
+      "marathiSpoken": "पहिली संख्या लक्षात ठेव. तिच्या पुढच्या संख्येपासून मोजायला सुरुवात कर.",
+      "bilingual": "Keep the first number in mind and make the next count one step at a time.\nपहिली संख्या लक्षात ठेव. तिच्या पुढच्या संख्येपासून मोजायला सुरुवात कर.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "counting"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C18",
+    "title": "वजाबाकी (मागे मोजून)",
+    "conceptBefore": "पहिल्या संख्येपासून मागे मोजून वजाबाकी करा.",
+    "conceptAfter": "पहिल्या संख्येपासून मागे मोजूया. अशी वजाबाकी करून पाहूया.",
+    "prompt": {
+      "id": "G1-C18-q1.prompt",
+      "english": "Start at 9 and count back 1. Where do you land?",
+      "marathiDraft": "9 पासून 1 मागे मोजा. कोणत्या संख्येवर याल?",
+      "marathiSpoken": "९ पासून १ पाऊल मागे मोज. कोणती संख्या येईल?",
+      "bilingual": "Start at 9 and count back 1. Where do you land?\n९ पासून १ पाऊल मागे मोज. कोणती संख्या येईल?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "subtraction"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C18-q1.explanation",
+      "english": "9 − 1 = 8.",
+      "marathiDraft": "९ − १ = ८.",
+      "marathiSpoken": "९ − १ = ८. मागे मोजल्यावर ८ येते.",
+      "bilingual": "9 − 1 = 8.\n९ − १ = ८. मागे मोजल्यावर ८ येते.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "subtraction"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C18-q1.hint",
+      "english": "Count backwards by the number taken away.",
+      "marathiDraft": "वजा केलेल्या संख्येइतके मागे मोजा.",
+      "marathiSpoken": "पहिल्या संख्येच्या मागची संख्या म्हण. मग दिलेल्या पावलांइतके मागे मोज.",
+      "bilingual": "Count backwards by the number taken away.\nपहिल्या संख्येच्या मागची संख्या म्हण. मग दिलेल्या पावलांइतके मागे मोज.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "subtraction"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C19",
+    "title": "२१ ते ३०ची ओळख",
+    "conceptBefore": "दशक आणि एकक वापरून २१ ते ३० मधील संख्या वाचा आणि तयार करा.",
+    "conceptAfter": "दहाचे गट आणि सुट्या वस्तू वापरून २१ ते ३० मधल्या संख्या बनवूया.",
+    "prompt": {
+      "id": "G1-C19-q1.prompt",
+      "english": "Build 2 ten and 1 ones. Which number is it?",
+      "marathiDraft": "२ दशक आणि १ एकके मिळून कोणती संख्या होते?",
+      "marathiSpoken": "दहाचे २ गट आणि १ सुटी वस्तू. ही कोणती संख्या?",
+      "bilingual": "Build 2 ten and 1 ones. Which number is it?\nदहाचे २ गट आणि १ सुटी वस्तू. ही कोणती संख्या?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C19-q1.explanation",
+      "english": "2 tens and 1 ones make 21.",
+      "marathiDraft": "२ दशके आणि १ एकके मिळून २१ होतात.",
+      "marathiSpoken": "२ दशके आणि १ एकक म्हणजे २१.",
+      "bilingual": "2 tens and 1 ones make 21.\n२ दशके आणि १ एकक म्हणजे २१.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C19-q1.hint",
+      "english": "Count the tens first, then attach the ones.",
+      "marathiDraft": "आधी दशके मोजा आणि मग एकके जोडा.",
+      "marathiSpoken": "आधी दहाचे गट मोज. मग सुट्या वस्तू मिळव.",
+      "bilingual": "Count the tens first, then attach the ones.\nआधी दहाचे गट मोज. मग सुट्या वस्तू मिळव.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C20",
+    "title": "३१ ते ९९ची ओळख",
+    "conceptBefore": "३१ ते ९९ मधील दोन अंकी संख्या वाचून दशक आणि एकक वेगळे करा.",
+    "conceptAfter": "३१ ते ९९ मधल्या संख्या वाचूया. दहाचे गट म्हणजे दशके; सुट्या वस्तू म्हणजे एकके.",
+    "prompt": {
+      "id": "G1-C20-q1.prompt",
+      "english": "Which numeral has 3 tens and 1 ones?",
+      "marathiDraft": "३ दशके आणि १ एकके असलेला अंक कोणता?",
+      "marathiSpoken": "दहाचे ३ गट आणि १ सुटी वस्तू मिळून कोणती संख्या होते?",
+      "bilingual": "Which numeral has 3 tens and 1 ones?\nदहाचे ३ गट आणि १ सुटी वस्तू मिळून कोणती संख्या होते?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C20-q1.explanation",
+      "english": "31 is 3 tens and 1 ones.",
+      "marathiDraft": "३१ म्हणजे ३ दशके आणि १ एकके.",
+      "marathiSpoken": "३१ मध्ये ३ दशके आणि १ एकक आहेत.",
+      "bilingual": "31 is 3 tens and 1 ones.\n३१ मध्ये ३ दशके आणि १ एकक आहेत.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C20-q1.hint",
+      "english": "The tens digit gives groups of ten; the ones digit gives leftovers.",
+      "marathiDraft": "दशकाचा अंक दहाचे गट दाखवतो; एककाचा अंक उरलेली एकके दाखवतो.",
+      "marathiSpoken": "दशक म्हणजे दहाचा गट. एकके म्हणजे उरलेल्या सुट्या वस्तू.",
+      "bilingual": "The tens digit gives groups of ten; the ones digit gives leftovers.\nदशक म्हणजे दहाचा गट. एकके म्हणजे उरलेल्या सुट्या वस्तू.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C21",
+    "title": "संख्यांचे गाणे",
+    "conceptBefore": "मोजणीचा ठेका ओळखून बोललेली संख्या-मालिका पुढे चालू ठेवा.",
+    "conceptAfter": "ठेक्यात संख्या म्हणूया. पुढे कोणती संख्या येते, ते ओळखूया.",
+    "prompt": {
+      "id": "G1-C21-q1.prompt",
+      "english": "4, 5, 6, __. What comes next?",
+      "marathiDraft": "४, ५, ६, __. पुढे कोणती संख्या?",
+      "marathiSpoken": "४, ५, ६, __. पुढची संख्या भर.",
+      "bilingual": "4, 5, 6, __. What comes next?\n४, ५, ६, __. पुढची संख्या भर.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C21-q1.explanation",
+      "english": "The pattern adds 1 each time, so the next number is 7.",
+      "marathiDraft": "या मालिकेत प्रत्येक वेळी 1 मिळवतात. पुढची संख्या 7.",
+      "marathiSpoken": "प्रत्येक वेळी १ मिळव. पुढची संख्या ७ आहे.",
+      "bilingual": "The pattern adds 1 each time, so the next number is 7.\nप्रत्येक वेळी १ मिळव. पुढची संख्या ७ आहे.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C21-q1.hint",
+      "english": "Find the jump from one number to the next; repeat the same jump.",
+      "marathiDraft": "एका संख्येपासून पुढच्या संख्येपर्यंतची उडी शोधा आणि तीच पुन्हा घ्या.",
+      "marathiSpoken": "एकेकाने मोजत पुढे जा.",
+      "bilingual": "Find the jump from one number to the next; repeat the same jump.\nएकेकाने मोजत पुढे जा.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C22",
+    "title": "आकृतिबंध",
+    "conceptBefore": "आकृतिबंधातील पुन्हा येणारा भाग शोधून पुढे काय येईल ते सांगा.",
+    "conceptAfter": "नक्षीत किंवा संख्यांत काय पुन्हा येते, ते पाहूया. पुढे काय येईल, ते ठरवूया.",
+    "prompt": {
+      "id": "G1-C22-q1.prompt",
+      "english": "2, 3, 4, __. What comes next?",
+      "marathiDraft": "२, ३, ४, __. पुढे काय येईल?",
+      "marathiSpoken": "२, ३, ४, __. पुढे कोणती संख्या येईल?",
+      "bilingual": "2, 3, 4, __. What comes next?\n२, ३, ४, __. पुढे कोणती संख्या येईल?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C22-q1.explanation",
+      "english": "Each step adds 1, so 4 + 1 = 5.",
+      "marathiDraft": "प्रत्येक वेळी १ मिळवतात. म्हणून ४ + १ = ५.",
+      "marathiSpoken": "प्रत्येक वेळी १ मिळव. ४ + १ = ५.",
+      "bilingual": "Each step adds 1, so 4 + 1 = 5.\nप्रत्येक वेळी १ मिळव. ४ + १ = ५.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C22-q1.hint",
+      "english": "Compare neighbours to find what changes each time.",
+      "marathiDraft": "लगतच्या पदांची तुलना करून प्रत्येक वेळी काय बदलते ते शोधा.",
+      "marathiSpoken": "प्रत्येक वेळी किती वाढते ते पाहा. पुढेही तेवढेच वाढव.",
+      "bilingual": "Compare neighbours to find what changes each time.\nप्रत्येक वेळी किती वाढते ते पाहा. पुढेही तेवढेच वाढव.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C23",
+    "title": "मापन",
+    "conceptBefore": "एकाच वितीने किंवा पावलांनी लांबी मोजा आणि कोणती वस्तू जड आहे ते तुलना करा.",
+    "conceptAfter": "सारख्या वितीने किंवा पावलांनी लांबी मोजूया. हलके-जडही ओळखूया.",
+    "prompt": {
+      "id": "G1-C23-q1.prompt",
+      "english": "A desk is 2 handspans long. How many handspans measure it?",
+      "marathiDraft": "टेबल २ विती लांब आहे. त्याची लांबी किती विती?",
+      "marathiSpoken": "टेबलाची लांबी २ विती आहे. मोजायला किती विती लागल्या?",
+      "bilingual": "A desk is 2 handspans long. How many handspans measure it?\nटेबलाची लांबी २ विती आहे. मोजायला किती विती लागल्या?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "measurement"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C23-q1.explanation",
+      "english": "Count the equal handspans: the desk is 2 handspans long.",
+      "marathiDraft": "समान विती मोजा: टेबल २ विती लांब आहे.",
+      "marathiSpoken": "२ सारख्या विती मोजल्या. म्हणून लांबी २ विती आहे.",
+      "bilingual": "Count the equal handspans: the desk is 2 handspans long.\n२ सारख्या विती मोजल्या. म्हणून लांबी २ विती आहे.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "measurement"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C23-q1.hint",
+      "english": "Use the same handspan each time so the units match.",
+      "marathiDraft": "प्रत्येक वेळी तीच विती वापरा, म्हणजे एकके समान राहतील.",
+      "marathiSpoken": "मोजताना हाताचा पसारा प्रत्येक वेळी सारखाच ठेव.",
+      "bilingual": "Use the same handspan each time so the units match.\nमोजताना हाताचा पसारा प्रत्येक वेळी सारखाच ठेव.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "measurement"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C24",
+    "title": "कालमापन",
+    "conceptBefore": "दैनंदिन घटना क्रमाने मांडा आणि एखाद्या वाराच्या आधीचा किंवा पुढचा वार सांगा.",
+    "conceptAfter": "रोजची कामे आधी-नंतरच्या क्रमाने सांगूया. वारांची नावेही क्रमाने म्हणूया.",
+    "prompt": {
+      "id": "G1-C24-q1.prompt",
+      "english": "School cleaning is on Monday. What day comes 1 day later?",
+      "marathiDraft": "सोमवार दिवशी शाळेची स्वच्छता आहे. १ दिवसांनी कोणता वार येईल?",
+      "marathiSpoken": "सोमवारी शाळेची स्वच्छता आहे. १ दिवसानंतर कोणता वार येईल?",
+      "bilingual": "School cleaning is on Monday. What day comes 1 day later?\nसोमवारी शाळेची स्वच्छता आहे. १ दिवसानंतर कोणता वार येईल?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "time"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C24-q1.explanation",
+      "english": "The weekday 1 day after Monday is Tuesday.",
+      "marathiDraft": "सोमवार पासून १ दिवसांनी मंगळवार येतो.",
+      "marathiSpoken": "सोमवारी सुरुवात करून १ दिवस पुढे मोज. मंगळवार येतो.",
+      "bilingual": "The weekday 1 day after Monday is Tuesday.\nसोमवारी सुरुवात करून १ दिवस पुढे मोज. मंगळवार येतो.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "time"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C24-q1.hint",
+      "english": "Say the days in order and move forward one day.",
+      "marathiDraft": "वारांचा क्रम म्हणा आणि एक दिवस पुढे जा.",
+      "marathiSpoken": "वार क्रमाने म्हण. दिलेल्या दिवसापुढचे वार मोज.",
+      "bilingual": "Say the days in order and move forward one day.\nवार क्रमाने म्हण. दिलेल्या दिवसापुढचे वार मोज.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "time"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C25",
+    "title": "बेरीज (उत्तर १८पर्यंत)",
+    "conceptBefore": "गट एकत्र करून अठरापर्यंतच्या बेरजा करा; उपयोगी असल्यास दहा पूर्ण करा.",
+    "conceptAfter": "गट एकत्र करून १८ पर्यंत बेरीज करूया. गरज पडली तर आधी दहा पूर्ण करूया.",
+    "prompt": {
+      "id": "G1-C25-q1.prompt",
+      "english": "A class collects 6 leaves, then 1 more. How many altogether?",
+      "marathiDraft": "वर्गाने ६ पाने गोळा केली; नंतर आणखी 1 मिळाली. एकूण किती?",
+      "marathiSpoken": "वर्गातील मुलांनी ६ पाने गोळा केली. आणखी १ पान मिळाले. एकूण किती पाने आहेत?",
+      "bilingual": "A class collects 6 leaves, then 1 more. How many altogether?\nवर्गातील मुलांनी ६ पाने गोळा केली. आणखी १ पान मिळाले. एकूण किती पाने आहेत?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "counting"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C25-q1.explanation",
+      "english": "6 + 1 = 7.",
+      "marathiDraft": "६ + १ = ७.",
+      "marathiSpoken": "६ + १ = ७. एकूण ७ पाने आहेत.",
+      "bilingual": "6 + 1 = 7.\n६ + १ = ७. एकूण ७ पाने आहेत.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "counting"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C25-q1.hint",
+      "english": "Put both groups together, then count or add their totals.",
+      "marathiDraft": "दोन्ही गट एकत्र करा आणि त्यांची बेरीज मोजा.",
+      "marathiSpoken": "दोन्ही गट एकत्र ठेव. प्रत्येक वस्तू एकदा मोज.",
+      "bilingual": "Put both groups together, then count or add their totals.\nदोन्ही गट एकत्र ठेव. प्रत्येक वस्तू एकदा मोज.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "counting"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C26",
+    "title": "नाणी व नोटा",
+    "conceptBefore": "रुपयांची नाणी व नोटा ओळखून दिलेली रक्कम तयार करा.",
+    "conceptAfter": "नाणी आणि नोटांवरची किंमत वाचूया. किंमती मिळवून रक्कम बनवूया.",
+    "prompt": {
+      "id": "G1-C26-q1.prompt",
+      "english": "You have 1 coin worth ₹1 each and one ₹1 coin. How many rupees altogether?",
+      "marathiDraft": "तुमच्याकडे प्रत्येकी ₹१ किमतीची १ नाणी आणि ₹१ चे एक नाणे आहे. एकूण किती रुपये?",
+      "marathiSpoken": "प्रत्येकी ₹१ चे १ नाणे आहे. आणखी ₹१ चे एक नाणे आहे. एकूण किती रुपये?",
+      "bilingual": "You have 1 coin worth ₹1 each and one ₹1 coin. How many rupees altogether?\nप्रत्येकी ₹१ चे १ नाणे आहे. आणखी ₹१ चे एक नाणे आहे. एकूण किती रुपये?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "rupees",
+        "money"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C26-q1.explanation",
+      "english": "1 × ₹1 + ₹1 = ₹2.",
+      "marathiDraft": "१ × ₹१ + ₹१ = ₹२.",
+      "marathiSpoken": "१ × ₹१ + ₹१ = ₹२. एकूण ₹२ आहेत.",
+      "bilingual": "1 × ₹1 + ₹1 = ₹2.\n१ × ₹१ + ₹१ = ₹२. एकूण ₹२ आहेत.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "rupees",
+        "money"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C26-q1.hint",
+      "english": "Put the coin and note values together, then add.",
+      "marathiDraft": "नाणे आणि नोट यांच्या किंमती एकत्र करून बेरीज करा.",
+      "marathiSpoken": "प्रत्येक नाण्यावरची किंमत वाच. सगळ्या किंमती मिळव.",
+      "bilingual": "Put the coin and note values together, then add.\nप्रत्येक नाण्यावरची किंमत वाच. सगळ्या किंमती मिळव.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "rupees",
+        "money"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C27",
+    "title": "गुणाकार पूर्वतयारी",
+    "conceptBefore": "गुणाकाराचे चिन्ह वापरण्यापूर्वी समान गटांची पुनरावृत्ती बेरीज दाखवा.",
+    "conceptAfter": "प्रत्येक गटात सारख्याच वस्तू ठेवूया. गटांची बेरीज पुन्हा पुन्हा करूया. ती गुणाकाराच्या चिन्हानेही लिहिता येते.",
+    "prompt": {
+      "id": "G1-C27-q1.prompt",
+      "english": "There are 2 equal baskets with 3 guavas in each. How many guavas?",
+      "marathiDraft": "2 समान टोपल्यांत प्रत्येकी ३ पेरू आहेत. पेरू एकूण किती?",
+      "marathiSpoken": "२ टोपल्या आहेत. प्रत्येक टोपलीत ३ पेरू आहेत. एकूण किती पेरू?",
+      "bilingual": "There are 2 equal baskets with 3 guavas in each. How many guavas?\n२ टोपल्या आहेत. प्रत्येक टोपलीत ३ पेरू आहेत. एकूण किती पेरू?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "multiplication",
+        "equal-groups"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C27-q1.explanation",
+      "english": "Add 3 for each of 2 equal groups: 2 × 3 = 6.",
+      "marathiDraft": "2 समान गटांसाठी ३ ची बेरीज करा: २ × ३ = ६.",
+      "marathiSpoken": "३ ची २ वेळा बेरीज केली की ६ होतात. २ × ३ = ६.",
+      "bilingual": "Add 3 for each of 2 equal groups: 2 × 3 = 6.\n३ ची २ वेळा बेरीज केली की ६ होतात. २ × ३ = ६.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "multiplication",
+        "equal-groups"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C27-q1.hint",
+      "english": "Count the same number in each row, or multiply number of groups by items per group.",
+      "marathiDraft": "प्रत्येक ओळीत तेवढ्याच वस्तू मोजा किंवा गटांची संख्या आणि प्रत्येक गटातील वस्तू गुणा.",
+      "marathiSpoken": "एका टोपलीतले पेरू मोज. प्रत्येक टोपलीत तेवढेच आहेत. सगळे गट मिळव.",
+      "bilingual": "Count the same number in each row, or multiply number of groups by items per group.\nएका टोपलीतले पेरू मोज. प्रत्येक टोपलीत तेवढेच आहेत. सगळे गट मिळव.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "multiplication",
+        "equal-groups"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C28",
+    "title": "समान वाटणी, समान गट",
+    "conceptBefore": "प्रत्येक गटाला सारखीच संख्या मिळते याची खात्री करून वस्तू समान वाटा.",
+    "conceptAfter": "सगळ्यांना सारख्याच वस्तू वाटूया. प्रत्येकाला तेवढ्याच मिळाल्या का, ते पाहूया.",
+    "prompt": {
+      "id": "G1-C28-q1.prompt",
+      "english": "Share 6 picture cards equally among 2 friends. How many does each friend get?",
+      "marathiDraft": "६ चित्रांची कार्डे २ मित्रांत समान वाटा. प्रत्येकाला किती मिळतील?",
+      "marathiSpoken": "चित्रांची ६ कार्डे २ मित्रांना समान वाट. प्रत्येकाला किती कार्डे मिळतील?",
+      "bilingual": "Share 6 picture cards equally among 2 friends. How many does each friend get?\nचित्रांची ६ कार्डे २ मित्रांना समान वाट. प्रत्येकाला किती कार्डे मिळतील?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "division",
+        "equal-sharing"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C28-q1.explanation",
+      "english": "6 = 2 × 3. Each group gets 3.",
+      "marathiDraft": "६ = २ × ३. प्रत्येक गटाला ३.",
+      "marathiSpoken": "प्रत्येक मित्राला ३ कार्डे मिळतील. तपासणी: २ × ३ = ६.",
+      "bilingual": "6 = 2 × 3. Each group gets 3.\nप्रत्येक मित्राला ३ कार्डे मिळतील. तपासणी: २ × ३ = ६.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "division",
+        "equal-sharing"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C28-q1.hint",
+      "english": "Make equal groups first. Check the total by multiplying the group size and number of groups.",
+      "marathiDraft": "आधी समान गट करा. गटातील संख्या आणि गटांची संख्या गुणून एकूण तपासा.",
+      "marathiSpoken": "प्रत्येकाला एकेक कार्ड देत जा. सगळ्यांकडे तेवढीच कार्डे झाली पाहिजेत.",
+      "bilingual": "Make equal groups first. Check the total by multiplying the group size and number of groups.\nप्रत्येकाला एकेक कार्ड देत जा. सगळ्यांकडे तेवढीच कार्डे झाली पाहिजेत.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "division",
+        "equal-sharing"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G1-C29",
+    "title": "गणितीय कोडी",
+    "conceptBefore": "सूचना, संख्यांचा संबंध किंवा आकाराचा गुणधर्म वापरून छोटी कोडी सोडवा.",
+    "conceptAfter": "खूण ओळखूया. मोजणी, संख्या किंवा आकार वापरून कोडे सोडवूया.",
+    "prompt": {
+      "id": "G1-C29-q1.prompt",
+      "english": "A number machine adds 2. It shows 3. What number went in?",
+      "marathiDraft": "संख्या यंत्र 2 मिळवते आणि 3 दाखवते. आत कोणती संख्या घातली?",
+      "marathiSpoken": "हे यंत्र आत गेलेल्या संख्येत २ मिळवते. बाहेर ३ दिसते. आत कोणती संख्या गेली?",
+      "bilingual": "A number machine adds 2. It shows 3. What number went in?\nहे यंत्र आत गेलेल्या संख्येत २ मिळवते. बाहेर ३ दिसते. आत कोणती संख्या गेली?",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "reasoning"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G1-C29-q1.explanation",
+      "english": "Undo the addition: 3 − 2 = 1.",
+      "marathiDraft": "बेरीज उलट करा: 3 − 2 = 1.",
+      "marathiSpoken": "बाहेरच्या संख्येतून २ वजा कर. ३ − २ = १. आत १ गेली.",
+      "bilingual": "Undo the addition: 3 − 2 = 1.\nबाहेरच्या संख्येतून २ वजा कर. ३ − २ = १. आत १ गेली.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "reasoning"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G1-C29-q1.hint",
+      "english": "Use the opposite operation to undo the machine.",
+      "marathiDraft": "यंत्राची क्रिया उलट करण्यासाठी विरुद्ध क्रिया वापरा.",
+      "marathiSpoken": "यंत्राने बेरीज केली. सुरुवातीची संख्या शोधायला वजाबाकी कर.",
+      "bilingual": "Use the opposite operation to undo the machine.\nयंत्राने बेरीज केली. सुरुवातीची संख्या शोधायला वजाबाकी कर.",
+      "translationProvider": "class1-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "reasoning"
+      ],
+      "reviewNotes": "Class 1 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C01",
+    "title": "भौमितिक आकार समजून घेऊ - भाग १",
+    "conceptBefore": "घन आकाराचे पृष्ठभाग ओळखा आणि कोणते आकार रचता, घरंगळता किंवा घसरता येतात ते पाहा.",
+    "conceptAfter": "वस्तूचे सपाट आणि वक्र पृष्ठभाग पाहून तिचा आकार ओळखता येतो. तिच्या पृष्ठभागांवरून ती रचता येईल, घरंगळेल की घसरेल हे समजते.",
+    "prompt": {
+      "id": "G2-C01-q1.prompt",
+      "english": "Which description matches a cube?",
+      "marathiDraft": "घन या आकाराचे योग्य वर्णन कोणते?",
+      "marathiSpoken": "फाशासारखा ठोकळा (घन) पाहा. त्याचे बाहेरचे पृष्ठभाग कसे आहेत? योग्य वर्णन निवडा.",
+      "bilingual": "Which description matches a cube?\nफाशासारखा ठोकळा (घन) पाहा. त्याचे बाहेरचे पृष्ठभाग कसे आहेत? योग्य वर्णन निवडा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C01-q1.explanation",
+      "english": "A solid a cube has six square flat faces.",
+      "marathiDraft": "घन ला सहा चौकोनी सपाट पृष्ठभाग असतात.",
+      "marathiSpoken": "फाशासारख्या घनाला ६ सपाट पृष्ठभाग असतात. प्रत्येक पृष्ठभाग चौरस आकाराचा असतो.",
+      "bilingual": "A solid a cube has six square flat faces.\nफाशासारख्या घनाला ६ सपाट पृष्ठभाग असतात. प्रत्येक पृष्ठभाग चौरस आकाराचा असतो.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C01-q1.hint",
+      "english": "Think about its flat faces and curved surface.",
+      "marathiDraft": "त्याचे सपाट पृष्ठभाग आणि वक्र पृष्ठभाग विचारात घ्या.",
+      "marathiSpoken": "वस्तूच्या बाहेरच्या बाजूंना पृष्ठभाग म्हणतात. त्यांतील सपाट भाग आणि वळलेला भाग वेगवेगळे पाहा.",
+      "bilingual": "Think about its flat faces and curved surface.\nवस्तूच्या बाहेरच्या बाजूंना पृष्ठभाग म्हणतात. त्यांतील सपाट भाग आणि वळलेला भाग वेगवेगळे पाहा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C02",
+    "title": "संख्या व संख्यानामे",
+    "conceptBefore": "शून्यासह ९९ पर्यंतच्या संख्या वाचा, लिहा आणि त्यांची नावे सांगा.",
+    "conceptAfter": "शून्यापासून ९९ पर्यंतच्या संख्या वाचू, लिहू आणि त्यांची नावे सांगूया.",
+    "prompt": {
+      "id": "G2-C02-q1.prompt",
+      "english": "Read 2 tens and 0 ones as one number.",
+      "marathiDraft": "२ दशके आणि ० एकके एकत्र करून संख्या सांगा.",
+      "marathiSpoken": "२ दशक आणि ० एकक मिळून कोणती संख्या तयार होते?",
+      "bilingual": "Read 2 tens and 0 ones as one number.\n२ दशक आणि ० एकक मिळून कोणती संख्या तयार होते?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C02-q1.explanation",
+      "english": "2 tens and 0 ones make 20.",
+      "marathiDraft": "२ दशके आणि ० एकके मिळून २० होतात.",
+      "marathiSpoken": "२ दशक म्हणजे २०. त्यात ० एकक मिळवा: २० + ० = २०.",
+      "bilingual": "2 tens and 0 ones make 20.\n२ दशक म्हणजे २०. त्यात ० एकक मिळवा: २० + ० = २०.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C02-q1.hint",
+      "english": "Write the tens digit first and the ones digit next.",
+      "marathiDraft": "आधी दशकाचा अंक आणि मग एककाचा अंक लिहा.",
+      "marathiSpoken": "आधी दशकाच्या स्थानी असलेला अंक लिहा. त्याच्या उजवीकडे एककाचा अंक लिहा.",
+      "bilingual": "Write the tens digit first and the ones digit next.\nआधी दशकाच्या स्थानी असलेला अंक लिहा. त्याच्या उजवीकडे एककाचा अंक लिहा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C03",
+    "title": "एकक व दशक",
+    "conceptBefore": "दहा सुट्या वस्तूंचा एक दशकाचा गठ्ठा करा आणि उरलेली एकके सांगा.",
+    "conceptAfter": "दहा वस्तूंचा १ गट म्हणजे १ दशक. गटाबाहेर उरलेल्या सुट्या वस्तू म्हणजे एकक.",
+    "prompt": {
+      "id": "G2-C03-q1.prompt",
+      "english": "Build a number with 1 ten and 1 ones. What is it?",
+      "marathiDraft": "१ दशक आणि 1 एकक मिळून कोणती संख्या होते?",
+      "marathiSpoken": "दहाच्या १ गटासोबत १ सुटी वस्तू आहे. एकूण किती वस्तू आहेत?",
+      "bilingual": "Build a number with 1 ten and 1 ones. What is it?\nदहाच्या १ गटासोबत १ सुटी वस्तू आहे. एकूण किती वस्तू आहेत?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "place-value"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C03-q1.explanation",
+      "english": "10 + 1 = 11.",
+      "marathiDraft": "१० + 1 = 11.",
+      "marathiSpoken": "१ दशक म्हणजे १० वस्तू. त्यात १ एकक मिळवल्यावर १० + १ = ११ वस्तू होतात.",
+      "bilingual": "10 + 1 = 11.\n१ दशक म्हणजे १० वस्तू. त्यात १ एकक मिळवल्यावर १० + १ = ११ वस्तू होतात.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "place-value"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C03-q1.hint",
+      "english": "A teen number has one group of ten and some ones.",
+      "marathiDraft": "किशोर संख्येत एक दशक आणि काही एकके असतात.",
+      "marathiSpoken": "दहाचा पूर्ण गट आधी घ्या. त्यानंतर सुट्या वस्तू मोजा.",
+      "bilingual": "A teen number has one group of ten and some ones.\nदहाचा पूर्ण गट आधी घ्या. त्यानंतर सुट्या वस्तू मोजा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "place-value"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C04",
+    "title": "दर्शनी किंमत व स्थानिक किंमत",
+    "conceptBefore": "अंकाची दर्शनी किंमत आणि स्थानामुळे मिळणारी स्थानिक किंमत वेगळी ओळखा.",
+    "conceptAfter": "अंक जसा दिसतो ती त्याची दर्शनी किंमत. तो संख्येत कोणत्या स्थानी आहे, त्यावर त्याची स्थानिक किंमत ठरते.",
+    "prompt": {
+      "id": "G2-C04-q1.prompt",
+      "english": "2, 3, 4, __. What comes next?",
+      "marathiDraft": "२, ३, ४, __. पुढे काय येईल?",
+      "marathiSpoken": "ही संख्यामाला पाहा: २, ३, ४, __. पुढची संख्या कोणती येईल?",
+      "bilingual": "2, 3, 4, __. What comes next?\nही संख्यामाला पाहा: २, ३, ४, __. पुढची संख्या कोणती येईल?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "place-value"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C04-q1.explanation",
+      "english": "Each step adds 1, so 4 + 1 = 5.",
+      "marathiDraft": "प्रत्येक वेळी १ मिळवतात. म्हणून ४ + १ = ५.",
+      "marathiSpoken": "प्रत्येक वेळी १ मिळवले आहेत. म्हणून ४ + १ = ५ ही पुढची संख्या आहे.",
+      "bilingual": "Each step adds 1, so 4 + 1 = 5.\nप्रत्येक वेळी १ मिळवले आहेत. म्हणून ४ + १ = ५ ही पुढची संख्या आहे.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "place-value"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C04-q1.hint",
+      "english": "Compare neighbours to find what changes each time.",
+      "marathiDraft": "लगतच्या पदांची तुलना करून प्रत्येक वेळी काय बदलते ते शोधा.",
+      "marathiSpoken": "पहिल्या संख्येपासून दुसरीपर्यंत किती वाढले ते पाहा. पुढेही तेवढीच वाढ होते का ते तपासा.",
+      "bilingual": "Compare neighbours to find what changes each time.\nपहिल्या संख्येपासून दुसरीपर्यंत किती वाढले ते पाहा. पुढेही तेवढीच वाढ होते का ते तपासा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "place-value"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C05",
+    "title": "संख्यांचा लहान-मोठेपणा",
+    "conceptBefore": "दोन अंकी संख्यांची तुलना करताना आधी दशके आणि मग गरज असल्यास एकके पाहा.",
+    "conceptAfter": "दोन अंकी संख्यांची दशके आधी पाहा. दशके सारखी असतील, तर एककांची तुलना करा.",
+    "prompt": {
+      "id": "G2-C05-q1.prompt",
+      "english": "Choose the correct sign: 24 __ 27.",
+      "marathiDraft": "योग्य चिन्ह निवडा: 24 __ 27.",
+      "marathiSpoken": "२४ __ २७ या दोन संख्यांमध्ये कोणते चिन्ह येईल: <, > की =?",
+      "bilingual": "Choose the correct sign: 24 __ 27.\n२४ __ २७ या दोन संख्यांमध्ये कोणते चिन्ह येईल: <, > की =?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C05-q1.explanation",
+      "english": "24 is less than 27.",
+      "marathiDraft": "24 ही लहान संख्या आहे 27 पेक्षा.",
+      "marathiSpoken": "२४ ही संख्या २७ पेक्षा लहान आहे. म्हणून २४ < २७ असे लिहितो.",
+      "bilingual": "24 is less than 27.\n२४ ही संख्या २७ पेक्षा लहान आहे. म्हणून २४ < २७ असे लिहितो.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C05-q1.hint",
+      "english": "For two-digit numbers, compare tens first, then ones.",
+      "marathiDraft": "दोन अंकी संख्यांत आधी दशके आणि मग एकके तुलना करा.",
+      "marathiSpoken": "आधी दोन्ही संख्यांची दशके पाहा. दशके सारखी असतील, तर एकके पाहा.",
+      "bilingual": "For two-digit numbers, compare tens first, then ones.\nआधी दोन्ही संख्यांची दशके पाहा. दशके सारखी असतील, तर एकके पाहा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C06",
+    "title": "तीन संख्यांचा चढता व उतरता क्रम",
+    "conceptBefore": "तीन दोन अंकी संख्या लहान ते मोठ्या किंवा मोठ्या ते लहान क्रमाने लावा.",
+    "conceptAfter": "लहानाकडून मोठ्याकडे संख्या लावल्या, की चढता क्रम होतो. मोठ्याकडून लहानाकडे लावल्या, की उतरता क्रम होतो.",
+    "prompt": {
+      "id": "G2-C06-q1.prompt",
+      "english": "Arrange 12, 4, 21 from least to greatest.",
+      "marathiDraft": "या संख्या १२, ४, २१ लहान ते मोठ्या मांडा.",
+      "marathiSpoken": "१२, ४, २१ या संख्या लहानापासून मोठ्याकडे क्रमाने लावा.",
+      "bilingual": "Arrange 12, 4, 21 from least to greatest.\n१२, ४, २१ या संख्या लहानापासून मोठ्याकडे क्रमाने लावा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C06-q1.explanation",
+      "english": "Compare each number, then read the ordered list: 4 → 12 → 21.",
+      "marathiDraft": "प्रत्येक संख्या तुलना करा. योग्य क्रम: ४  <  १२  <  २१.",
+      "marathiSpoken": "सर्वांत लहान संख्या आधी घ्या. मग तिच्यापेक्षा मोठी संख्या लावा. योग्य क्रम: ४ → १२ → २१.",
+      "bilingual": "Compare each number, then read the ordered list: 4 → 12 → 21.\nसर्वांत लहान संख्या आधी घ्या. मग तिच्यापेक्षा मोठी संख्या लावा. योग्य क्रम: ४ → १२ → २१.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C06-q1.hint",
+      "english": "Find the smallest (or largest) first, then place the remaining numbers.",
+      "marathiDraft": "सर्वांत लहान (किंवा मोठी) संख्या आधी शोधा आणि उरलेल्या मांडा.",
+      "marathiSpoken": "सर्वांत लहान संख्या शोधा. ती आधी ठेवा आणि उरलेल्या दोन संख्यांचा क्रम ठरवा.",
+      "bilingual": "Find the smallest (or largest) first, then place the remaining numbers.\nसर्वांत लहान संख्या शोधा. ती आधी ठेवा आणि उरलेल्या दोन संख्यांचा क्रम ठरवा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C07",
+    "title": "टप्प्याने मोजणी",
+    "conceptBefore": "संख्यापथावर समान उड्या पुढे चालू ठेवून प्रत्येक उडीची संख्या ओळखा.",
+    "conceptAfter": "टप्प्याने मोजताना प्रत्येक वेळी तेवढीच संख्या मिळवतो. हे सारखे टप्पे संख्यारेषेवरही दाखवता येतात.",
+    "prompt": {
+      "id": "G2-C07-q1.prompt",
+      "english": "2, 4, 6, __. What comes next?",
+      "marathiDraft": "२, ४, ६, __. पुढे कोणती संख्या?",
+      "marathiSpoken": "२, ४, ६, __. त्याच टप्प्याने पुढे मोजल्यावर कोणती संख्या येईल?",
+      "bilingual": "2, 4, 6, __. What comes next?\n२, ४, ६, __. त्याच टप्प्याने पुढे मोजल्यावर कोणती संख्या येईल?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C07-q1.explanation",
+      "english": "The pattern adds 2 each time, so the next number is 8.",
+      "marathiDraft": "या मालिकेत प्रत्येक वेळी 2 मिळवतात. पुढची संख्या 8.",
+      "marathiSpoken": "प्रत्येक टप्प्यात २ मिळवले आहेत. पुढच्या टप्प्यासाठी ६ + २ = ८ करा.",
+      "bilingual": "The pattern adds 2 each time, so the next number is 8.\nप्रत्येक टप्प्यात २ मिळवले आहेत. पुढच्या टप्प्यासाठी ६ + २ = ८ करा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C07-q1.hint",
+      "english": "Find the jump from one number to the next; repeat the same jump.",
+      "marathiDraft": "एका संख्येपासून पुढच्या संख्येपर्यंतची उडी शोधा आणि तीच पुन्हा घ्या.",
+      "marathiSpoken": "एका संख्येपासून पुढच्या संख्येपर्यंत किती वाढते ते शोधा. पुढेही तेवढेच मिळवा.",
+      "bilingual": "Find the jump from one number to the next; repeat the same jump.\nएका संख्येपासून पुढच्या संख्येपर्यंत किती वाढते ते शोधा. पुढेही तेवढेच मिळवा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C08",
+    "title": "बेरीज",
+    "conceptBefore": "दोन समूह एकत्र करून एकूण संख्या बेरीज-वाक्यात लिहा.",
+    "conceptAfter": "दोन गट एकत्र केल्यावर एकूण संख्या बेरीज करून काढतो. हे बेरजेच्या उदाहरणाने लिहिता येते.",
+    "prompt": {
+      "id": "G2-C08-q1.prompt",
+      "english": "A class collects 22 leaves, then 11 more. How many altogether?",
+      "marathiDraft": "वर्गाने २२ पाने गोळा केली; नंतर आणखी 11 मिळाली. एकूण किती?",
+      "marathiSpoken": "वर्गातील मुलांनी २२ पाने गोळा केली. नंतर आणखी ११ पाने मिळाली. आता एकूण किती पाने आहेत?",
+      "bilingual": "A class collects 22 leaves, then 11 more. How many altogether?\nवर्गातील मुलांनी २२ पाने गोळा केली. नंतर आणखी ११ पाने मिळाली. आता एकूण किती पाने आहेत?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "counting"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C08-q1.explanation",
+      "english": "22 + 11 = 33.",
+      "marathiDraft": "२२ + ११ = ३३.",
+      "marathiSpoken": "दोन्ही गटांतील पाने एकत्र केल्यावर बेरीज होते: २२ + ११ = ३३.",
+      "bilingual": "22 + 11 = 33.\nदोन्ही गटांतील पाने एकत्र केल्यावर बेरीज होते: २२ + ११ = ३३.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "counting"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C08-q1.hint",
+      "english": "Put both groups together, then count or add their totals.",
+      "marathiDraft": "दोन्ही गट एकत्र करा आणि त्यांची बेरीज मोजा.",
+      "marathiSpoken": "दोन्ही गट एकत्र करा. पहिल्या गटाच्या संख्येत दुसऱ्या गटाची संख्या मिळवा.",
+      "bilingual": "Put both groups together, then count or add their totals.\nदोन्ही गट एकत्र करा. पहिल्या गटाच्या संख्येत दुसऱ्या गटाची संख्या मिळवा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "counting"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C09",
+    "title": "वजाबाकी",
+    "conceptBefore": "किती उरले किंवा दोन संख्यांतील अंतर किती हे वजाबाकीने शोधा.",
+    "conceptAfter": "काही वस्तू कमी केल्यावर किती उरतात, किंवा दोन संख्यांत किती फरक आहे, हे वजाबाकीने शोधतो.",
+    "prompt": {
+      "id": "G2-C09-q1.prompt",
+      "english": "There are 78 seed pods. 23 are used. How many remain?",
+      "marathiDraft": "७८ शेंगा आहेत. त्यांपैकी 23 वापरल्या. किती उरल्या?",
+      "marathiSpoken": "७८ शेंगा आहेत. त्यांपैकी २३ शेंगा वापरल्या. आता किती शेंगा उरल्या आहेत?",
+      "bilingual": "There are 78 seed pods. 23 are used. How many remain?\n७८ शेंगा आहेत. त्यांपैकी २३ शेंगा वापरल्या. आता किती शेंगा उरल्या आहेत?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "subtraction"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C09-q1.explanation",
+      "english": "78 − 23 = 55.",
+      "marathiDraft": "७८ − २३ = ५५.",
+      "marathiSpoken": "वापरलेल्या वस्तू सुरुवातीच्या गटातून कमी करा: ७८ − २३ = ५५.",
+      "bilingual": "78 − 23 = 55.\nवापरलेल्या वस्तू सुरुवातीच्या गटातून कमी करा: ७८ − २३ = ५५.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "subtraction"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C09-q1.hint",
+      "english": "Count backwards by the number taken away.",
+      "marathiDraft": "वजा केलेल्या संख्येइतके मागे मोजा.",
+      "marathiSpoken": "सुरुवातीची संख्या लक्षात ठेवा. वापरलेल्या वस्तूंच्या संख्येइतके मागे मोजा.",
+      "bilingual": "Count backwards by the number taken away.\nसुरुवातीची संख्या लक्षात ठेवा. वापरलेल्या वस्तूंच्या संख्येइतके मागे मोजा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "subtraction"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C10",
+    "title": "बेरीज-वजाबाकी : सहसंबंध",
+    "conceptBefore": "वजाबाकी तपासण्यासाठी बेरीज आणि बेरीज तपासण्यासाठी वजाबाकी वापरा.",
+    "conceptAfter": "बेरजेचे उत्तर वजाबाकीने आणि वजाबाकीचे उत्तर बेरजेने तपासता येते.",
+    "prompt": {
+      "id": "G2-C10-q1.prompt",
+      "english": "A number sentence is 8 + __ = 12. What number is missing?",
+      "marathiDraft": "संख्या-वाक्य ८ + __ = १२ आहे. कोणती संख्या गाळली आहे?",
+      "marathiSpoken": "८ + __ = १२ या बेरजेत रिकाम्या जागी कोणती संख्या येईल?",
+      "bilingual": "A number sentence is 8 + __ = 12. What number is missing?\n८ + __ = १२ या बेरजेत रिकाम्या जागी कोणती संख्या येईल?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "subtraction"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C10-q1.explanation",
+      "english": "8 + 4 = 12. Check with subtraction: 12 − 8 = 4.",
+      "marathiDraft": "८ + ४ = १२. उलट तपासणी: १२ − ८ = ४.",
+      "marathiSpoken": "एकूण १२ मधून माहीत असलेली ८ ही संख्या वजा करा: १२ − ८ = ४. तपासून पाहा: ८ + ४ = १२.",
+      "bilingual": "8 + 4 = 12. Check with subtraction: 12 − 8 = 4.\nएकूण १२ मधून माहीत असलेली ८ ही संख्या वजा करा: १२ − ८ = ४. तपासून पाहा: ८ + ४ = १२.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "subtraction"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C10-q1.hint",
+      "english": "Use the total and take away the known addend to find the missing one.",
+      "marathiDraft": "एकूणातून दिलेली संख्या वजा करून गाळलेली संख्या शोधा.",
+      "marathiSpoken": "एकूण संख्येतून दिलेली संख्या वजा केली, की रिकाम्या जागेतील संख्या मिळेल.",
+      "bilingual": "Use the total and take away the known addend to find the missing one.\nएकूण संख्येतून दिलेली संख्या वजा केली, की रिकाम्या जागेतील संख्या मिळेल.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "subtraction"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C11",
+    "title": "गुणाकार",
+    "conceptBefore": "समान ओळी किंवा गटांना पुनरावृत्ती बेरीज आणि गुणाकाराशी जोडा.",
+    "conceptAfter": "प्रत्येक ओळीत किंवा गटात सारख्याच संख्येने वस्तू असतील, तर ती संख्या पुन्हा-पुन्हा मिळवतो. हेच गुणाकाराने दाखवता येते.",
+    "prompt": {
+      "id": "G2-C11-q1.prompt",
+      "english": "A garden has 2 rows with 3 seedlings in each row. How many seedlings?",
+      "marathiDraft": "बागेत २ ओळी आहेत आणि प्रत्येक ओळीत ३ रोपे आहेत. एकूण रोपे किती?",
+      "marathiSpoken": "बागेत २ ओळी आहेत. प्रत्येक ओळीत ३ रोपे आहेत. सर्व ओळींत मिळून किती रोपे आहेत?",
+      "bilingual": "A garden has 2 rows with 3 seedlings in each row. How many seedlings?\nबागेत २ ओळी आहेत. प्रत्येक ओळीत ३ रोपे आहेत. सर्व ओळींत मिळून किती रोपे आहेत?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "multiplication",
+        "equal-groups"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C11-q1.explanation",
+      "english": "Add 3 for each of 2 equal groups: 2 × 3 = 6.",
+      "marathiDraft": "2 समान गटांसाठी ३ ची बेरीज करा: २ × ३ = ६.",
+      "marathiSpoken": "प्रत्येक ओळीत ३ रोपे आहेत. म्हणून ३ + ३ = ६. हेच २ × ३ = ६ असे लिहितो.",
+      "bilingual": "Add 3 for each of 2 equal groups: 2 × 3 = 6.\nप्रत्येक ओळीत ३ रोपे आहेत. म्हणून ३ + ३ = ६. हेच २ × ३ = ६ असे लिहितो.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "multiplication",
+        "equal-groups"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C11-q1.hint",
+      "english": "Count the same number in each row, or multiply number of groups by items per group.",
+      "marathiDraft": "प्रत्येक ओळीत तेवढ्याच वस्तू मोजा किंवा गटांची संख्या आणि प्रत्येक गटातील वस्तू गुणा.",
+      "marathiSpoken": "एका ओळीतील रोपे मोजा. प्रत्येक ओळीत तेवढीच रोपे आहेत. तेवढी संख्या प्रत्येक ओळीसाठी मिळवा.",
+      "bilingual": "Count the same number in each row, or multiply number of groups by items per group.\nएका ओळीतील रोपे मोजा. प्रत्येक ओळीत तेवढीच रोपे आहेत. तेवढी संख्या प्रत्येक ओळीसाठी मिळवा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "multiplication",
+        "equal-groups"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C12",
+    "title": "मापन",
+    "conceptBefore": "लांबी, वजन किंवा धारकता तुलना करण्यासाठी योग्य प्रमाणित एकक निवडा.",
+    "conceptAfter": "लांबी, वजन आणि किती पाणी मावते हे मोजण्यासाठी वेगवेगळी एकके वापरतो. काय मोजायचे ते पाहून योग्य एकक निवडा.",
+    "prompt": {
+      "id": "G2-C12-q1.prompt",
+      "english": "Choose a suitable unit for the length of a crayon.",
+      "marathiDraft": "खडूची लांबी मोजण्यासाठी योग्य एकक निवडा.",
+      "marathiSpoken": "रंगीत खडूची लांबी मोजण्यासाठी कोणते एकक योग्य ठरेल?",
+      "bilingual": "Choose a suitable unit for the length of a crayon.\nरंगीत खडूची लांबी मोजण्यासाठी कोणते एकक योग्य ठरेल?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "measurement"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C12-q1.explanation",
+      "english": "We measure the length of a crayon in centimetres.",
+      "marathiDraft": "खडूची लांबी सेंटीमीटर मध्ये मोजतात.",
+      "marathiSpoken": "रंगीत खडूची लांबी मोजण्यासाठी सेंटीमीटर हे एकक वापरतो.",
+      "bilingual": "We measure the length of a crayon in centimetres.\nरंगीत खडूची लांबी मोजण्यासाठी सेंटीमीटर हे एकक वापरतो.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "measurement"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C12-q1.hint",
+      "english": "Decide whether it is length, mass, or capacity, then choose a scale.",
+      "marathiDraft": "ते लांबी, वजन की धारकता आहे ते ठरवा आणि त्यानुसार एकक निवडा.",
+      "marathiSpoken": "लांबी किंवा अंतर मोजायचे आहे, वजन मोजायचे आहे की पाणी किती आहे ते मोजायचे आहे, हे आधी पाहा. मग योग्य एकक निवडा.",
+      "bilingual": "Decide whether it is length, mass, or capacity, then choose a scale.\nलांबी किंवा अंतर मोजायचे आहे, वजन मोजायचे आहे की पाणी किती आहे ते मोजायचे आहे, हे आधी पाहा. मग योग्य एकक निवडा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "measurement"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C13",
+    "title": "भौमितिक आकार समजून घेऊ - भाग २",
+    "conceptBefore": "सपाट आकाराचे सरळ बाजू, कोपरे आणि रेषाखंड ओळखून वर्णन करा.",
+    "conceptAfter": "सपाट आकाराच्या सरळ बाजू, कोपरे आणि रेषेचे सरळ भाग म्हणजेच रेषाखंड पाहून त्याचे वर्णन करता येते.",
+    "prompt": {
+      "id": "G2-C13-q1.prompt",
+      "english": "2, 3, 4, __. What comes next?",
+      "marathiDraft": "२, ३, ४, __. पुढे काय येईल?",
+      "marathiSpoken": "ही संख्यामाला पाहा: २, ३, ४, __. पुढची संख्या कोणती येईल?",
+      "bilingual": "2, 3, 4, __. What comes next?\nही संख्यामाला पाहा: २, ३, ४, __. पुढची संख्या कोणती येईल?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C13-q1.explanation",
+      "english": "Each step adds 1, so 4 + 1 = 5.",
+      "marathiDraft": "प्रत्येक वेळी १ मिळवतात. म्हणून ४ + १ = ५.",
+      "marathiSpoken": "प्रत्येक वेळी १ मिळवले आहेत. म्हणून ४ + १ = ५ ही पुढची संख्या आहे.",
+      "bilingual": "Each step adds 1, so 4 + 1 = 5.\nप्रत्येक वेळी १ मिळवले आहेत. म्हणून ४ + १ = ५ ही पुढची संख्या आहे.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C13-q1.hint",
+      "english": "Compare neighbours to find what changes each time.",
+      "marathiDraft": "लगतच्या पदांची तुलना करून प्रत्येक वेळी काय बदलते ते शोधा.",
+      "marathiSpoken": "पहिल्या संख्येपासून दुसरीपर्यंत किती वाढले ते पाहा. पुढेही तेवढीच वाढ होते का ते तपासा.",
+      "bilingual": "Compare neighbours to find what changes each time.\nपहिल्या संख्येपासून दुसरीपर्यंत किती वाढले ते पाहा. पुढेही तेवढीच वाढ होते का ते तपासा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C14",
+    "title": "बेरीज (हातच्याची)",
+    "conceptBefore": "एका स्तंभातील एकके दहापर्यंत पोहोचल्यावर दहा एककांचा एक दशक करा.",
+    "conceptAfter": "एककांची बेरीज १० किंवा त्याहून जास्त झाली, तर १० एककांचा १ दशक करा. तो दशकांच्या बेरजेत मिळवा.",
+    "prompt": {
+      "id": "G2-C14-q1.prompt",
+      "english": "A class collects 27 leaves, then 16 more. How many altogether?",
+      "marathiDraft": "वर्गाने २७ पाने गोळा केली; नंतर आणखी 16 मिळाली. एकूण किती?",
+      "marathiSpoken": "वर्गातील मुलांनी २७ पाने गोळा केली. नंतर आणखी १६ पाने मिळाली. आता एकूण किती पाने आहेत?",
+      "bilingual": "A class collects 27 leaves, then 16 more. How many altogether?\nवर्गातील मुलांनी २७ पाने गोळा केली. नंतर आणखी १६ पाने मिळाली. आता एकूण किती पाने आहेत?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "counting"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C14-q1.explanation",
+      "english": "Ones: 7 + 6 = 13. Regroup ten ones: 27 + 16 = 43.",
+      "marathiDraft": "एकके: ७ + ६ = १३. दहा एककांचा एक दशक करा: २७ + १६ = ४३.",
+      "marathiSpoken": "आधी एकके मिळवा: ७ + ६ = १३. त्यांतील १० एककांचा १ दशक करा आणि तो दशकांच्या बेरजेत मिळवा. २७ + १६ = ४३.",
+      "bilingual": "Ones: 7 + 6 = 13. Regroup ten ones: 27 + 16 = 43.\nआधी एकके मिळवा: ७ + ६ = १३. त्यांतील १० एककांचा १ दशक करा आणि तो दशकांच्या बेरजेत मिळवा. २७ + १६ = ४३.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "counting"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C14-q1.hint",
+      "english": "Add the ones column first. Trade ten ones for one ten when needed.",
+      "marathiDraft": "आधी एककांच्या घराची बेरीज करा. गरज पडल्यास दहा एककांचा एक दशक करा.",
+      "marathiSpoken": "एककांची बेरीज आधी करा. ती १० किंवा जास्त झाली, तरच १० एककांचा १ दशक करा.",
+      "bilingual": "Add the ones column first. Trade ten ones for one ten when needed.\nएककांची बेरीज आधी करा. ती १० किंवा जास्त झाली, तरच १० एककांचा १ दशक करा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "counting"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C15",
+    "title": "वजाबाकी (दशक मोकळा करून, मागे मोजून)",
+    "conceptBefore": "वजाबाकीसाठी एकके कमी पडल्यास एक दशक उघडून दहा एकके करा.",
+    "conceptAfter": "वजा करायला एकक कमी पडले, तर १ दशक मोकळा करून १० एकक घ्या. मग वजाबाकी करा.",
+    "prompt": {
+      "id": "G2-C15-q1.prompt",
+      "english": "There are 52 seed pods. 43 are used. How many remain?",
+      "marathiDraft": "५२ शेंगा आहेत. त्यांपैकी 43 वापरल्या. किती उरल्या?",
+      "marathiSpoken": "५२ शेंगा आहेत. त्यांपैकी ४३ शेंगा वापरल्या. आता किती शेंगा उरल्या आहेत?",
+      "bilingual": "There are 52 seed pods. 43 are used. How many remain?\n५२ शेंगा आहेत. त्यांपैकी ४३ शेंगा वापरल्या. आता किती शेंगा उरल्या आहेत?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "subtraction"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C15-q1.explanation",
+      "english": "52 = 4 tens and 12 ones. Subtract 3 ones from 12, then subtract the equal tens: 52 − 43 = 9.",
+      "marathiDraft": "५२ = ४ दशके आणि १२ एकके. १२ मधून ३ एकके वजा करा; उरलेली दशके वजा केल्यावर उत्तर ९.",
+      "marathiSpoken": "५२ मध्ये १ दशक मोकळा केला, की ४ दशक आणि १२ एकक मिळतात. १२ एककांतून ३ एकक वजा करा. नंतर दशकांची वजाबाकी करा: ५२ − ४३ = ९.",
+      "bilingual": "52 = 4 tens and 12 ones. Subtract 3 ones from 12, then subtract the equal tens: 52 − 43 = 9.\n५२ मध्ये १ दशक मोकळा केला, की ४ दशक आणि १२ एकक मिळतात. १२ एककांतून ३ एकक वजा करा. नंतर दशकांची वजाबाकी करा: ५२ − ४३ = ९.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "subtraction"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C15-q1.hint",
+      "english": "If the ones are too few, exchange one ten for ten ones.",
+      "marathiDraft": "एकके कमी पडल्यास एक दशक बदलून दहा एकके घ्या.",
+      "marathiSpoken": "एककांतून वजा करायला एकक कमी पडले, तर १ दशक मोकळा करून १० एकक घ्या.",
+      "bilingual": "If the ones are too few, exchange one ten for ten ones.\nएककांतून वजा करायला एकक कमी पडले, तर १ दशक मोकळा करून १० एकक घ्या.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "subtraction"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C16",
+    "title": "माहिती समजून घेऊ",
+    "conceptBefore": "लहान चित्रमाहितीतील खुणा मोजून गटांची तुलना करा.",
+    "conceptAfter": "तक्त्यातील प्रत्येक खूण किंवा चित्र किती वस्तू दाखवते ते आधी पाहा. मग गटांतील वस्तूंची संख्या शोधा आणि तुलना करा.",
+    "prompt": {
+      "id": "G2-C16-q1.prompt",
+      "english": "A class chart shows 2 sun symbols for red kites. Each sun stands for 1 kite. How many red kites?",
+      "marathiDraft": "वर्गाच्या तक्त्यात लाल पतंगांसाठी 2 सूर्यचिन्हे आहेत. प्रत्येक सूर्य म्हणजे 1 पतंग. लाल पतंग किती?",
+      "marathiSpoken": "वर्गाच्या चित्र-तक्त्यात लाल पतंगांसाठी सूर्याच्या २ खुणा आहेत. प्रत्येक खूण म्हणजे १ पतंग. लाल पतंग एकूण किती आहेत?",
+      "bilingual": "A class chart shows 2 sun symbols for red kites. Each sun stands for 1 kite. How many red kites?\nवर्गाच्या चित्र-तक्त्यात लाल पतंगांसाठी सूर्याच्या २ खुणा आहेत. प्रत्येक खूण म्हणजे १ पतंग. लाल पतंग एकूण किती आहेत?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "data",
+        "graphs"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C16-q1.explanation",
+      "english": "2 × 1 = 2 red kites.",
+      "marathiDraft": "2 × 1 = 2 लाल पतंग.",
+      "marathiSpoken": "एका सूर्याच्या खुणेने १ पतंग दाखवला आहे. २ खुणांसाठी २ × १ = २ लाल पतंग होतात.",
+      "bilingual": "2 × 1 = 2 red kites.\nएका सूर्याच्या खुणेने १ पतंग दाखवला आहे. २ खुणांसाठी २ × १ = २ लाल पतंग होतात.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "data",
+        "graphs"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C16-q1.hint",
+      "english": "Read the chart key first. One symbol may stand for more than one item.",
+      "marathiDraft": "आधी तक्त्यातील खूण वाचा. एक चिन्ह एकापेक्षा जास्त वस्तू दाखवू शकते.",
+      "marathiSpoken": "तक्त्याची खूण आधी समजून घ्या. १ चित्र किती वस्तू दाखवते ते पाहून मोजा.",
+      "bilingual": "Read the chart key first. One symbol may stand for more than one item.\nतक्त्याची खूण आधी समजून घ्या. १ चित्र किती वस्तू दाखवते ते पाहून मोजा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "data",
+        "graphs"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C17",
+    "title": "आकृतिबंध",
+    "conceptBefore": "लगतच्या पदांची तुलना करून आकृतिबंध वाढवणारा नियम शोधा.",
+    "conceptAfter": "एका संख्येपासून पुढच्या संख्येपर्यंत काय बदलते ते पाहा. तोच नियम वापरून नमुना पुढे चालू ठेवा.",
+    "prompt": {
+      "id": "G2-C17-q1.prompt",
+      "english": "2, 3, 4, __. What comes next?",
+      "marathiDraft": "२, ३, ४, __. पुढे काय येईल?",
+      "marathiSpoken": "ही संख्यामाला पाहा: २, ३, ४, __. पुढची संख्या कोणती येईल?",
+      "bilingual": "2, 3, 4, __. What comes next?\nही संख्यामाला पाहा: २, ३, ४, __. पुढची संख्या कोणती येईल?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C17-q1.explanation",
+      "english": "Each step adds 1, so 4 + 1 = 5.",
+      "marathiDraft": "प्रत्येक वेळी १ मिळवतात. म्हणून ४ + १ = ५.",
+      "marathiSpoken": "प्रत्येक वेळी १ मिळवले आहेत. म्हणून ४ + १ = ५ ही पुढची संख्या आहे.",
+      "bilingual": "Each step adds 1, so 4 + 1 = 5.\nप्रत्येक वेळी १ मिळवले आहेत. म्हणून ४ + १ = ५ ही पुढची संख्या आहे.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C17-q1.hint",
+      "english": "Compare neighbours to find what changes each time.",
+      "marathiDraft": "लगतच्या पदांची तुलना करून प्रत्येक वेळी काय बदलते ते शोधा.",
+      "marathiSpoken": "पहिल्या संख्येपासून दुसरीपर्यंत किती वाढले ते पाहा. पुढेही तेवढीच वाढ होते का ते तपासा.",
+      "bilingual": "Compare neighbours to find what changes each time.\nपहिल्या संख्येपासून दुसरीपर्यंत किती वाढले ते पाहा. पुढेही तेवढीच वाढ होते का ते तपासा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C18",
+    "title": "कालमापन",
+    "conceptBefore": "दिनदर्शिकेतील तारखा वाचून दिवस, आठवडे आणि महिने यांचा संबंध समजा.",
+    "conceptAfter": "दिनदर्शिकेत तारीख पाहता येते. दिवस, आठवडे आणि महिने यांचा संबंध समजून मोजणी करता येते.",
+    "prompt": {
+      "id": "G2-C18-q1.prompt",
+      "english": "A calendar shows 1 full weeks. How many days is that?",
+      "marathiDraft": "दिनदर्शिकेत १ पूर्ण आठवडे आहेत. एकूण किती दिवस?",
+      "marathiSpoken": "दिनदर्शिकेत १ पूर्ण आठवडा दाखवला आहे. त्यात एकूण किती दिवस आहेत?",
+      "bilingual": "A calendar shows 1 full weeks. How many days is that?\nदिनदर्शिकेत १ पूर्ण आठवडा दाखवला आहे. त्यात एकूण किती दिवस आहेत?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "time"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C18-q1.explanation",
+      "english": "There are 7 days in a week: 1 × 7 = 7 days.",
+      "marathiDraft": "एका आठवड्यात ७ दिवस: १ × ७ = ७ दिवस.",
+      "marathiSpoken": "१ आठवड्यात ७ दिवस असतात. म्हणून १ × ७ = ७ दिवस होतात.",
+      "bilingual": "There are 7 days in a week: 1 × 7 = 7 days.\n१ आठवड्यात ७ दिवस असतात. म्हणून १ × ७ = ७ दिवस होतात.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "time"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C18-q1.hint",
+      "english": "A full week has seven days. Multiply the number of weeks by seven.",
+      "marathiDraft": "एका पूर्ण आठवड्यात सात दिवस असतात. आठवड्यांची संख्या सातने गुणा.",
+      "marathiSpoken": "प्रत्येक आठवड्यासाठी ७ दिवस मोजा. ७ ही संख्या तितक्या वेळा मिळवा.",
+      "bilingual": "A full week has seven days. Multiply the number of weeks by seven.\nप्रत्येक आठवड्यासाठी ७ दिवस मोजा. ७ ही संख्या तितक्या वेळा मिळवा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "time"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C19",
+    "title": "बालआनंद मेळावा",
+    "conceptBefore": "जत्रेतील छोटी खरेदी सोडवण्यासाठी मोजणी आणि रुपयांच्या रकमा वापरा.",
+    "conceptAfter": "मेळाव्यातील वस्तू किती आहेत आणि प्रत्येकाची किंमत किती आहे ते पाहून एकूण रक्कम काढतो.",
+    "prompt": {
+      "id": "G2-C19-q1.prompt",
+      "english": "At the fair, each paper pinwheel costs ₹2. What do 1 pinwheels cost?",
+      "marathiDraft": "जत्रेत प्रत्येक कागदी भोवऱ्याची किंमत ₹२ आहे. १ भोवऱ्यांची किंमत किती?",
+      "marathiSpoken": "मेळाव्यात एका कागदी फिरकीची किंमत ₹२ आहे. अशा १ फिरकीसाठी किती रुपये द्यावे लागतील?",
+      "bilingual": "At the fair, each paper pinwheel costs ₹2. What do 1 pinwheels cost?\nमेळाव्यात एका कागदी फिरकीची किंमत ₹२ आहे. अशा १ फिरकीसाठी किती रुपये द्यावे लागतील?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "word-problems"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C19-q1.explanation",
+      "english": "1 equal prices of ₹2 make ₹2.",
+      "marathiDraft": "१ वेळा ₹२ म्हणजे ₹२.",
+      "marathiSpoken": "प्रत्येक फिरकीसाठी ₹२ द्यायचे आहेत. म्हणून १ × ₹२ = ₹२ ही एकूण किंमत होते.",
+      "bilingual": "1 equal prices of ₹2 make ₹2.\nप्रत्येक फिरकीसाठी ₹२ द्यायचे आहेत. म्हणून १ × ₹२ = ₹२ ही एकूण किंमत होते.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "word-problems"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C19-q1.hint",
+      "english": "Add the same price once for each item, or multiply the count by the price.",
+      "marathiDraft": "प्रत्येक वस्तूची किंमत एकदा मिळवा किंवा वस्तूंची संख्या आणि किंमत गुणा.",
+      "marathiSpoken": "एका फिरकीची किंमत पाहा. जितक्या फिरक्या आहेत, तितक्या वेळा ती किंमत मिळवा.",
+      "bilingual": "Add the same price once for each item, or multiply the count by the price.\nएका फिरकीची किंमत पाहा. जितक्या फिरक्या आहेत, तितक्या वेळा ती किंमत मिळवा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "word-problems"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C20",
+    "title": "उपयोग गुणाकाराचा",
+    "conceptBefore": "कथेत समान आकाराचे गट असतील तेव्हा गुणाकार निवडा.",
+    "conceptAfter": "गोष्टीत सारख्याच संख्येचे गट असतील, तर एकूण संख्या गुणाकाराने काढतो.",
+    "prompt": {
+      "id": "G2-C20-q1.prompt",
+      "english": "A garden has 2 rows with 3 seedlings in each row. How many seedlings?",
+      "marathiDraft": "बागेत २ ओळी आहेत आणि प्रत्येक ओळीत ३ रोपे आहेत. एकूण रोपे किती?",
+      "marathiSpoken": "बागेत २ ओळी आहेत. प्रत्येक ओळीत ३ रोपे आहेत. सर्व ओळींत मिळून किती रोपे आहेत?",
+      "bilingual": "A garden has 2 rows with 3 seedlings in each row. How many seedlings?\nबागेत २ ओळी आहेत. प्रत्येक ओळीत ३ रोपे आहेत. सर्व ओळींत मिळून किती रोपे आहेत?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "multiplication",
+        "equal-groups"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C20-q1.explanation",
+      "english": "Add 3 for each of 2 equal groups: 2 × 3 = 6.",
+      "marathiDraft": "2 समान गटांसाठी ३ ची बेरीज करा: २ × ३ = ६.",
+      "marathiSpoken": "प्रत्येक ओळीत ३ रोपे आहेत. म्हणून ३ + ३ = ६. हेच २ × ३ = ६ असे लिहितो.",
+      "bilingual": "Add 3 for each of 2 equal groups: 2 × 3 = 6.\nप्रत्येक ओळीत ३ रोपे आहेत. म्हणून ३ + ३ = ६. हेच २ × ३ = ६ असे लिहितो.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "multiplication",
+        "equal-groups"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C20-q1.hint",
+      "english": "Count the same number in each row, or multiply number of groups by items per group.",
+      "marathiDraft": "प्रत्येक ओळीत तेवढ्याच वस्तू मोजा किंवा गटांची संख्या आणि प्रत्येक गटातील वस्तू गुणा.",
+      "marathiSpoken": "एका ओळीतील रोपे मोजा. प्रत्येक ओळीत तेवढीच रोपे आहेत. तेवढी संख्या प्रत्येक ओळीसाठी मिळवा.",
+      "bilingual": "Count the same number in each row, or multiply number of groups by items per group.\nएका ओळीतील रोपे मोजा. प्रत्येक ओळीत तेवढीच रोपे आहेत. तेवढी संख्या प्रत्येक ओळीसाठी मिळवा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "multiplication",
+        "equal-groups"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C21",
+    "title": "भागाकार",
+    "conceptBefore": "प्रत्येक समान वाट्यातील संख्या किंवा समान गटांची संख्या शोधा.",
+    "conceptAfter": "वस्तू सारख्या वाटल्यावर प्रत्येकाला किती मिळते, किंवा वस्तूंचे समान किती गट होतात, हे भागाकाराने शोधतो.",
+    "prompt": {
+      "id": "G2-C21-q1.prompt",
+      "english": "Share 6 picture cards equally among 2 friends. How many does each friend get?",
+      "marathiDraft": "६ चित्रांची कार्डे २ मित्रांत समान वाटा. प्रत्येकाला किती मिळतील?",
+      "marathiSpoken": "६ चित्रांची कार्डे २ मित्रांमध्ये सारखी वाटा. प्रत्येक मित्राला किती कार्डे मिळतील?",
+      "bilingual": "Share 6 picture cards equally among 2 friends. How many does each friend get?\n६ चित्रांची कार्डे २ मित्रांमध्ये सारखी वाटा. प्रत्येक मित्राला किती कार्डे मिळतील?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "division",
+        "equal-sharing"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C21-q1.explanation",
+      "english": "6 = 2 × 3. Each group gets 3.",
+      "marathiDraft": "६ = २ × ३. प्रत्येक गटाला ३.",
+      "marathiSpoken": "प्रत्येक मित्राला ३ कार्डे मिळतात. तपासून पाहा: २ × ३ = ६. म्हणजे ६ ÷ २ = ३.",
+      "bilingual": "6 = 2 × 3. Each group gets 3.\nप्रत्येक मित्राला ३ कार्डे मिळतात. तपासून पाहा: २ × ३ = ६. म्हणजे ६ ÷ २ = ३.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "division",
+        "equal-sharing"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C21-q1.hint",
+      "english": "Make equal groups first. Check the total by multiplying the group size and number of groups.",
+      "marathiDraft": "आधी समान गट करा. गटातील संख्या आणि गटांची संख्या गुणून एकूण तपासा.",
+      "marathiSpoken": "प्रत्येक मित्राला क्रमाने एक-एक कार्ड द्या. शेवटी सर्वांना सारखीच कार्डे मिळाली आहेत का ते पाहा.",
+      "bilingual": "Make equal groups first. Check the total by multiplying the group size and number of groups.\nप्रत्येक मित्राला क्रमाने एक-एक कार्ड द्या. शेवटी सर्वांना सारखीच कार्डे मिळाली आहेत का ते पाहा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "division",
+        "equal-sharing"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G2-C22",
+    "title": "गणितीय कोडी",
+    "conceptBefore": "सूचना, संख्यांचा संबंध किंवा आकाराचा गुणधर्म वापरून छोटी कोडी सोडवा.",
+    "conceptAfter": "गोष्टीतील सूचना, संख्यांचा संबंध किंवा आकाराची माहिती वापरून छोटे कोडे सोडवता येते.",
+    "prompt": {
+      "id": "G2-C22-q1.prompt",
+      "english": "A number machine adds 2. It shows 3. What number went in?",
+      "marathiDraft": "संख्या यंत्र 2 मिळवते आणि 3 दाखवते. आत कोणती संख्या घातली?",
+      "marathiSpoken": "एका यंत्रात संख्या घातली, की ते त्यात २ मिळवते. आता यंत्र ३ दाखवत आहे. सुरुवातीला कोणती संख्या घातली असेल?",
+      "bilingual": "A number machine adds 2. It shows 3. What number went in?\nएका यंत्रात संख्या घातली, की ते त्यात २ मिळवते. आता यंत्र ३ दाखवत आहे. सुरुवातीला कोणती संख्या घातली असेल?",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "reasoning"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G2-C22-q1.explanation",
+      "english": "Undo the addition: 3 − 2 = 1.",
+      "marathiDraft": "बेरीज उलट करा: 3 − 2 = 1.",
+      "marathiSpoken": "यंत्राने मिळवलेली २ ही संख्या परत वजा करा: ३ − २ = १. हीच सुरुवातीची संख्या आहे.",
+      "bilingual": "Undo the addition: 3 − 2 = 1.\nयंत्राने मिळवलेली २ ही संख्या परत वजा करा: ३ − २ = १. हीच सुरुवातीची संख्या आहे.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "reasoning"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G2-C22-q1.hint",
+      "english": "Use the opposite operation to undo the machine.",
+      "marathiDraft": "यंत्राची क्रिया उलट करण्यासाठी विरुद्ध क्रिया वापरा.",
+      "marathiSpoken": "यंत्राने बेरीज केली आहे. सुरुवातीची संख्या शोधण्यासाठी दाखवलेल्या संख्येतून मिळवलेली संख्या वजा करा.",
+      "bilingual": "Use the opposite operation to undo the machine.\nयंत्राने बेरीज केली आहे. सुरुवातीची संख्या शोधण्यासाठी दाखवलेल्या संख्येतून मिळवलेली संख्या वजा करा.",
+      "translationProvider": "class2-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "reasoning"
+      ],
+      "reviewNotes": "Class 2 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G3-C01",
+    "title": "सभोवताली शोधू आकार",
+    "conceptBefore": "दैनंदिन वस्तूमधील परिचित द्विमितीय आकार ओळखून जुळणीचे कारण सांगा.",
+    "conceptAfter": "आजूबाजूच्या वस्तूंच्या बाह्यरेषा पाहूया. सपाट आकारांच्या बाजू व कोपरे पाहून तो त्रिकोण, चौरस, आयत, वर्तुळ की अंडाकृती आकार आहे, ते ओळखूया आणि कारण सांगूया.",
+    "prompt": {
+      "id": "G3-C01-q1.prompt",
+      "english": "At home, a three-sided sign has the outline of which flat shape?",
+      "marathiDraft": "घरी तीन बाजूंची पाटी चा बाह्य आकार कोणता सपाट आकार आहे?",
+      "marathiSpoken": "घराच्या आसपास तीन बाजू असलेली पाटी पाहा. या वस्तूची बाह्यरेषा कोणत्या सपाट आकारासारखी दिसते?",
+      "bilingual": "At home, a three-sided sign has the outline of which flat shape?\nघराच्या आसपास तीन बाजू असलेली पाटी पाहा. या वस्तूची बाह्यरेषा कोणत्या सपाट आकारासारखी दिसते?",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G3-C01-q1.explanation",
+      "english": "A triangle has three straight sides.",
+      "marathiDraft": "त्रिकोण या आकाराला तीन सरळ बाजू.",
+      "marathiSpoken": "त्रिकोणाला तीन सरळ बाजू असतात.",
+      "bilingual": "A triangle has three straight sides.\nत्रिकोणाला तीन सरळ बाजू असतात.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G3-C01-q1.hint",
+      "english": "Trace the outline and count its straight sides and corners.",
+      "marathiDraft": "बाह्यरेषेवरून बोट फिरवा आणि सरळ बाजू व कोपरे मोजा.",
+      "marathiSpoken": "बाह्यरेषेवरून बोट फिरवून पाहा. सरळ बाजू आणि कोपरे मोज. कड वक्र असेल तर तिचा आकारही पाहा.",
+      "bilingual": "Trace the outline and count its straight sides and corners.\nबाह्यरेषेवरून बोट फिरवून पाहा. सरळ बाजू आणि कोपरे मोज. कड वक्र असेल तर तिचा आकारही पाहा.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G3-C02",
+    "title": "संख्यांशी खेळू या",
+    "conceptBefore": "शेकडे, दशके आणि एकके वापरून ९९९ पर्यंतच्या संख्या वाचा, तुलना करा आणि क्रमातील स्थान सांगा.",
+    "conceptAfter": "शतक, दशक आणि एकक वापरून ९९९ पर्यंतच्या संख्या वाचूया आणि तुलना करूया. रांगेतील क्रमांकावरून एखादी वस्तू कितवी आहे, तेही सांगूया.",
+    "prompt": {
+      "id": "G3-C02-q1.prompt",
+      "english": "Build 2 hundreds, 0 tens, and 0 ones.",
+      "marathiDraft": "२ शतके, ० दशके आणि ० एकके मिळून संख्या बनवा.",
+      "marathiSpoken": "२ शतके, ० दशके आणि ० एकके मिळून कोणती संख्या तयार होते?",
+      "bilingual": "Build 2 hundreds, 0 tens, and 0 ones.\n२ शतके, ० दशके आणि ० एकके मिळून कोणती संख्या तयार होते?",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G3-C02-q1.explanation",
+      "english": "2 hundreds + 0 tens + 0 ones = 200.",
+      "marathiDraft": "२ शतके + ० दशके + ० एकके = २००.",
+      "marathiSpoken": "२ शतके + ० दशके + ० एकके = २००. शतक, दशक आणि एकक यांच्या घरांत अंक लिहिल्यावर ही संख्या मिळते.",
+      "bilingual": "2 hundreds + 0 tens + 0 ones = 200.\n२ शतके + ० दशके + ० एकके = २००. शतक, दशक आणि एकक यांच्या घरांत अंक लिहिल्यावर ही संख्या मिळते.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G3-C02-q1.hint",
+      "english": "Read the hundreds, tens, then ones from left to right.",
+      "marathiDraft": "डावीकडून उजवीकडे शतके, दशके आणि एकके वाचा.",
+      "marathiSpoken": "डावीकडून शतक, दशक आणि एकक अशी घरे लिही. प्रत्येक घरात दिलेला अंक ठेव. एखाद्या घरात काहीच नसेल तर तिथे ० लिही.",
+      "bilingual": "Read the hundreds, tens, then ones from left to right.\nडावीकडून शतक, दशक आणि एकक अशी घरे लिही. प्रत्येक घरात दिलेला अंक ठेव. एखाद्या घरात काहीच नसेल तर तिथे ० लिही.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "counting",
+        "numbers"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G3-C03",
+    "title": "बेरीज व वजाबाकी",
+    "conceptBefore": "कथेप्रमाणे बेरीज किंवा वजाबाकी निवडून तीन अंकी संख्या सोडवा.",
+    "conceptAfter": "गोष्टीतील माहितीवरून बेरीज करायची की वजाबाकी, ते ठरवूया. तीन अंकी संख्यांवर ही क्रिया करून उत्तर काढूया.",
+    "prompt": {
+      "id": "G3-C03-q1.prompt",
+      "english": "A class collects 236 leaves, then 112 more. How many altogether?",
+      "marathiDraft": "वर्गाने २३६ पाने गोळा केली; नंतर आणखी 112 मिळाली. एकूण किती?",
+      "marathiSpoken": "वर्गातील मुलांनी २३६ पाने गोळा केली. मग आणखी ११२ पाने गोळा केली. आता एकूण किती पाने आहेत?",
+      "bilingual": "A class collects 236 leaves, then 112 more. How many altogether?\nवर्गातील मुलांनी २३६ पाने गोळा केली. मग आणखी ११२ पाने गोळा केली. आता एकूण किती पाने आहेत?",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "subtraction"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G3-C03-q1.explanation",
+      "english": "236 + 112 = 348.",
+      "marathiDraft": "२३६ + ११२ = ३४८.",
+      "marathiSpoken": "२३६ + ११२ = ३४८. दोन्ही गट मिळवल्यावर एकूण ३४८ पाने होतात.",
+      "bilingual": "236 + 112 = 348.\n२३६ + ११२ = ३४८. दोन्ही गट मिळवल्यावर एकूण ३४८ पाने होतात.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "subtraction"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G3-C03-q1.hint",
+      "english": "Put both groups together, then count or add their totals.",
+      "marathiDraft": "दोन्ही गट एकत्र करा आणि त्यांची बेरीज मोजा.",
+      "marathiSpoken": "आधीचा गट आणि नंतरचा गट एकत्र करायचा आहे, म्हणून बेरीज कर. एककाखाली एकक, दशकाखाली दशक आणि शतकाखाली शतक लिही.",
+      "bilingual": "Put both groups together, then count or add their totals.\nआधीचा गट आणि नंतरचा गट एकत्र करायचा आहे, म्हणून बेरीज कर. एककाखाली एकक, दशकाखाली दशक आणि शतकाखाली शतक लिही.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "addition",
+        "subtraction"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G3-C04",
+    "title": "अपूर्णांक",
+    "conceptBefore": "आकार किंवा छोट्या समूहातील समान अर्धे, चतुर्थांश आणि पाऊण भाग ओळखा.",
+    "conceptAfter": "पूर्ण आकाराचे समान भाग करूया. अर्धा, पाव आणि पाऊण हे भाग ओळखूया. वस्तूंच्या छोट्या गटांतही असे भाग शोधूया.",
+    "prompt": {
+      "id": "G3-C04-q1.prompt",
+      "english": "A paper roti is cut into 2 equal parts. 1 parts are shaded. Which fraction is shaded?",
+      "marathiDraft": "एक पोळी २ समान भागांत विभागली. त्यांपैकी १ भाग रंगवले. रंगवलेला अपूर्णांक कोणता?",
+      "marathiSpoken": "कागदी पोळीचे २ समान भाग केले आहेत. त्यांपैकी १ भाग रंगवला आहे. रंगवलेला भाग कोणत्या अपूर्णांकाने दाखवता येईल?",
+      "bilingual": "A paper roti is cut into 2 equal parts. 1 parts are shaded. Which fraction is shaded?\nकागदी पोळीचे २ समान भाग केले आहेत. त्यांपैकी १ भाग रंगवला आहे. रंगवलेला भाग कोणत्या अपूर्णांकाने दाखवता येईल?",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "fractions",
+        "equal-parts"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G3-C04-q1.explanation",
+      "english": "The numerator counts shaded parts and the denominator counts all equal parts: 1/2.",
+      "marathiDraft": "अंश रंगवलेले भाग मोजतो आणि छेद एकूण समान भाग मोजतो: १/२.",
+      "marathiSpoken": "रंगवलेल्या भागांची संख्या १, म्हणून अंश १. एकूण समान भाग २, म्हणून छेद २. अपूर्णांक १/२ आहे.",
+      "bilingual": "The numerator counts shaded parts and the denominator counts all equal parts: 1/2.\nरंगवलेल्या भागांची संख्या १, म्हणून अंश १. एकूण समान भाग २, म्हणून छेद २. अपूर्णांक १/२ आहे.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "fractions",
+        "equal-parts"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G3-C04-q1.hint",
+      "english": "Count shaded parts for the top number and all equal parts for the bottom number.",
+      "marathiDraft": "अंशासाठी रंगवलेले भाग आणि छेदासाठी एकूण समान भाग मोजा.",
+      "marathiSpoken": "वरच्या जागी रंगवलेल्या भागांची संख्या लिही. खालच्या जागी पूर्ण आकारातील सर्व समान भागांची संख्या लिही.",
+      "bilingual": "Count shaded parts for the top number and all equal parts for the bottom number.\nवरच्या जागी रंगवलेल्या भागांची संख्या लिही. खालच्या जागी पूर्ण आकारातील सर्व समान भागांची संख्या लिही.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "fractions",
+        "equal-parts"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G3-C05",
+    "title": "लांबी व वजन",
+    "conceptBefore": "लांबीचा अंदाज घेऊन सेंटीमीटर किंवा मीटरमध्ये आणि वजन ग्राम किंवा किलोग्रॅममध्ये मोजा.",
+    "conceptAfter": "लांबीचा आधी अंदाज करूया आणि मग सेंटीमीटर किंवा मीटरमध्ये मोजूया. वजन ग्राम किंवा किलोग्रॅममध्ये मोजूया.",
+    "prompt": {
+      "id": "G3-C05-q1.prompt",
+      "english": "Which unit is most suitable for a finger length?",
+      "marathiDraft": "बोटाची लांबी मोजण्यासाठी कोणते एकक योग्य आहे?",
+      "marathiSpoken": "बोटाची लांबी मोजण्यासाठी कोणते एकक योग्य आहे?",
+      "bilingual": "Which unit is most suitable for a finger length?\nबोटाची लांबी मोजण्यासाठी कोणते एकक योग्य आहे?",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "measurement"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G3-C05-q1.explanation",
+      "english": "Use centimetres for a finger length.",
+      "marathiDraft": "बोटाची लांबी मोजण्यासाठी सेंटीमीटर वापरा.",
+      "marathiSpoken": "बोटाची लांबी मोजण्यासाठी सेंटीमीटर हे एकक वापरूया.",
+      "bilingual": "Use centimetres for a finger length.\nबोटाची लांबी मोजण्यासाठी सेंटीमीटर हे एकक वापरूया.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "measurement"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G3-C05-q1.hint",
+      "english": "Choose the unit that measures length at this scale.",
+      "marathiDraft": "या आकाराचे वजन मोजणारे एकक निवडा.",
+      "marathiSpoken": "इथे लांबी किंवा अंतर मोजायचे आहे. लहान वस्तूसाठी सेंटीमीटर, खोलीसाठी मीटर आणि दूरच्या ठिकाणांसाठी किलोमीटर यांचा विचार कर.",
+      "bilingual": "Choose the unit that measures length at this scale.\nइथे लांबी किंवा अंतर मोजायचे आहे. लहान वस्तूसाठी सेंटीमीटर, खोलीसाठी मीटर आणि दूरच्या ठिकाणांसाठी किलोमीटर यांचा विचार कर.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "measurement"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G3-C06",
+    "title": "माहितीचे व्यवस्थापन",
+    "conceptBefore": "निरीक्षणे गोळा करून तक्त्यात मांडा आणि तुलना-विषयक प्रश्नाचे उत्तर द्या.",
+    "conceptAfter": "आपण पाहिलेल्या गोष्टींची माहिती गोळा करूया. ती तक्त्यात गटांनुसार मांडूया आणि गटांची तुलना करून प्रश्नांची उत्तरे देऊया.",
+    "prompt": {
+      "id": "G3-C06-q1.prompt",
+      "english": "A class chart shows 2 sun symbols for red kites. Each sun stands for 1 kite. How many red kites?",
+      "marathiDraft": "वर्गाच्या तक्त्यात लाल पतंगांसाठी 2 सूर्यचिन्हे आहेत. प्रत्येक सूर्य म्हणजे 1 पतंग. लाल पतंग किती?",
+      "marathiSpoken": "वर्गाच्या चित्रालेखात लाल पतंगांसाठी सूर्याची २ चिन्हे दाखवली आहेत. सूर्याचे प्रत्येक चिन्ह १ पतंग दाखवते. लाल पतंग एकूण किती आहेत?",
+      "bilingual": "A class chart shows 2 sun symbols for red kites. Each sun stands for 1 kite. How many red kites?\nवर्गाच्या चित्रालेखात लाल पतंगांसाठी सूर्याची २ चिन्हे दाखवली आहेत. सूर्याचे प्रत्येक चिन्ह १ पतंग दाखवते. लाल पतंग एकूण किती आहेत?",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "data",
+        "graphs"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G3-C06-q1.explanation",
+      "english": "2 × 1 = 2 red kites.",
+      "marathiDraft": "2 × 1 = 2 लाल पतंग.",
+      "marathiSpoken": "२ × १ = २. प्रत्येक चिन्ह १ लाल पतंग दाखवते, म्हणून एकूण २ लाल पतंग आहेत.",
+      "bilingual": "2 × 1 = 2 red kites.\n२ × १ = २. प्रत्येक चिन्ह १ लाल पतंग दाखवते, म्हणून एकूण २ लाल पतंग आहेत.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "data",
+        "graphs"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G3-C06-q1.hint",
+      "english": "Read the chart key first. One symbol may stand for more than one item.",
+      "marathiDraft": "आधी तक्त्यातील खूण वाचा. एक चिन्ह एकापेक्षा जास्त वस्तू दाखवू शकते.",
+      "marathiSpoken": "चित्रालेखातील एक चिन्ह किती वस्तू दाखवते ते आधी वाच. मग चिन्हांची संख्या आणि एका चिन्हासाठी दिलेली संख्या गुणा.",
+      "bilingual": "Read the chart key first. One symbol may stand for more than one item.\nचित्रालेखातील एक चिन्ह किती वस्तू दाखवते ते आधी वाच. मग चिन्हांची संख्या आणि एका चिन्हासाठी दिलेली संख्या गुणा.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "data",
+        "graphs"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G3-C07",
+    "title": "नजरी नकाशा",
+    "conceptBefore": "चिन्हे आणि वरून दिसणारा आराखडा वापरून नकाशावरील मार्ग शोधा.",
+    "conceptAfter": "साध्या नकाशातील खुणा समजून घेऊया. वरून पाहिल्यावर ठिकाणे कशी दिसतात ते पाहूया आणि नकाशावरून मार्ग शोधूया.",
+    "prompt": {
+      "id": "G3-C07-q1.prompt",
+      "english": "On Mira’s sketch map, the library is in row A, column 1. What grid address should she read?",
+      "marathiDraft": "मीराच्या नकाशात वाचनालय A ओळ आणि १ स्तंभात आहे. जाळीतील स्थान कोणते?",
+      "marathiSpoken": "मीराच्या नकाशात वाचनालय हे ठिकाण A ओळीत आणि १ स्तंभात आहे. जाळीतील या ठिकाणाचा पत्ता कोणता?",
+      "bilingual": "On Mira’s sketch map, the library is in row A, column 1. What grid address should she read?\nमीराच्या नकाशात वाचनालय हे ठिकाण A ओळीत आणि १ स्तंभात आहे. जाळीतील या ठिकाणाचा पत्ता कोणता?",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "position"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G3-C07-q1.explanation",
+      "english": "Read the row A first and the column 1 next.",
+      "marathiDraft": "A ओळ आधी आणि १ स्तंभ नंतर वाचा.",
+      "marathiSpoken": "आधी ओळीचे अक्षर A आणि मग स्तंभाचा अंक १ वाच. म्हणून जाळीतील पत्ता A१ आहे.",
+      "bilingual": "Read the row A first and the column 1 next.\nआधी ओळीचे अक्षर A आणि मग स्तंभाचा अंक १ वाच. म्हणून जाळीतील पत्ता A१ आहे.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "position"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G3-C07-q1.hint",
+      "english": "Use the row letter and column number where they meet.",
+      "marathiDraft": "ओळ आणि स्तंभ जिथे भेटतात ते स्थान वापरा.",
+      "marathiSpoken": "ओळीचे अक्षर आणि स्तंभाचा अंक शोध. ती ओळ आणि तो स्तंभ जिथे भेटतात, तिथे ठिकाण आहे.",
+      "bilingual": "Use the row letter and column number where they meet.\nओळीचे अक्षर आणि स्तंभाचा अंक शोध. ती ओळ आणि तो स्तंभ जिथे भेटतात, तिथे ठिकाण आहे.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "position"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G3-C08",
+    "title": "गुणाकार",
+    "conceptBefore": "समान ओळी किंवा गटांना पुनरावृत्ती बेरीज आणि गुणाकाराशी जोडा.",
+    "conceptAfter": "सारख्या गटांची किंवा ओळींची वारंवार बेरीज गुणाकाराने कशी करता येते, ते पाहूया.",
+    "prompt": {
+      "id": "G3-C08-q1.prompt",
+      "english": "A garden has 12 rows with 2 seedlings in each row. How many seedlings?",
+      "marathiDraft": "बागेत १२ ओळी आहेत आणि प्रत्येक ओळीत २ रोपे आहेत. एकूण रोपे किती?",
+      "marathiSpoken": "बागेत रोपांच्या १२ ओळी आहेत. प्रत्येक ओळीत २ रोपे आहेत. बागेत एकूण किती रोपे आहेत?",
+      "bilingual": "A garden has 12 rows with 2 seedlings in each row. How many seedlings?\nबागेत रोपांच्या १२ ओळी आहेत. प्रत्येक ओळीत २ रोपे आहेत. बागेत एकूण किती रोपे आहेत?",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "multiplication",
+        "equal-groups"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G3-C08-q1.explanation",
+      "english": "Add 2 for each of 12 equal groups: 12 × 2 = 24.",
+      "marathiDraft": "12 समान गटांसाठी २ ची बेरीज करा: १२ × २ = २४.",
+      "marathiSpoken": "प्रत्येक ओळीत २ रोपे आहेत आणि अशा १२ ओळी आहेत. १२ × २ = २४. एकूण २४ रोपे आहेत.",
+      "bilingual": "Add 2 for each of 12 equal groups: 12 × 2 = 24.\nप्रत्येक ओळीत २ रोपे आहेत आणि अशा १२ ओळी आहेत. १२ × २ = २४. एकूण २४ रोपे आहेत.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "multiplication",
+        "equal-groups"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G3-C08-q1.hint",
+      "english": "Count the same number in each row, or multiply number of groups by items per group.",
+      "marathiDraft": "प्रत्येक ओळीत तेवढ्याच वस्तू मोजा किंवा गटांची संख्या आणि प्रत्येक गटातील वस्तू गुणा.",
+      "marathiSpoken": "सर्व ओळींत सारखीच रोपे आहेत. एकूण रोपे शोधण्यासाठी ओळींची संख्या आणि एका ओळीतील रोपांची संख्या गुणा.",
+      "bilingual": "Count the same number in each row, or multiply number of groups by items per group.\nसर्व ओळींत सारखीच रोपे आहेत. एकूण रोपे शोधण्यासाठी ओळींची संख्या आणि एका ओळीतील रोपांची संख्या गुणा.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "multiplication",
+        "equal-groups"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G3-C09",
+    "title": "भागाकार",
+    "conceptBefore": "वस्तू समान गटांत वाटून उरलेल्या वस्तू बाकी म्हणून सांगा.",
+    "conceptAfter": "वस्तू समान गटांत वाटूया. प्रत्येक गटाला किती मिळतात आणि शेवटी किती उरतात, ते शोधूया. उरलेल्या वस्तूंना बाकी म्हणतात.",
+    "prompt": {
+      "id": "G3-C09-q1.prompt",
+      "english": "Share 6 picture cards equally among 2 friends. How many does each friend get?",
+      "marathiDraft": "६ चित्रांची कार्डे २ मित्रांत समान वाटा. प्रत्येकाला किती मिळतील?",
+      "marathiSpoken": "चित्रांची ६ कार्डे २ मित्रांना समान वाटायची आहेत. प्रत्येक मित्राला जास्तीत जास्त किती कार्डे मिळतील?",
+      "bilingual": "Share 6 picture cards equally among 2 friends. How many does each friend get?\nचित्रांची ६ कार्डे २ मित्रांना समान वाटायची आहेत. प्रत्येक मित्राला जास्तीत जास्त किती कार्डे मिळतील?",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "division",
+        "equal-sharing"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G3-C09-q1.explanation",
+      "english": "6 = 2 × 3. Each group gets 3.",
+      "marathiDraft": "६ = २ × ३. प्रत्येक गटाला ३.",
+      "marathiSpoken": "६ = २ × ३. प्रत्येक मित्राला ३ कार्डे मिळतील.",
+      "bilingual": "6 = 2 × 3. Each group gets 3.\n६ = २ × ३. प्रत्येक मित्राला ३ कार्डे मिळतील.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "division",
+        "equal-sharing"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G3-C09-q1.hint",
+      "english": "Make equal groups first. Check the total by multiplying the group size and number of groups.",
+      "marathiDraft": "आधी समान गट करा. गटातील संख्या आणि गटांची संख्या गुणून एकूण तपासा.",
+      "marathiSpoken": "प्रत्येक गटाला एकेक वस्तू देत समान वाटणी कर. सर्वांना सारख्या वस्तू मिळाल्या पाहिजेत. आणखी एक फेरी पूर्ण करता येत नसेल तर उरलेल्या वस्तू म्हणजे बाकी.",
+      "bilingual": "Make equal groups first. Check the total by multiplying the group size and number of groups.\nप्रत्येक गटाला एकेक वस्तू देत समान वाटणी कर. सर्वांना सारख्या वस्तू मिळाल्या पाहिजेत. आणखी एक फेरी पूर्ण करता येत नसेल तर उरलेल्या वस्तू म्हणजे बाकी.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "division",
+        "equal-sharing"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G3-C10",
+    "title": "आकारांची गंमत भारी (द्विमितीय आकार)",
+    "conceptBefore": "कोनाची काटकोनाशी तुलना करून सपाट आकाराच्या बाजू आणि शिरोबिंदू सांगा.",
+    "conceptAfter": "एखादा कोन कागदाच्या चौकोनी कोपऱ्यापेक्षा लहान, तेवढाच की मोठा, ते पाहूया. सपाट आकारांच्या बाजू आणि शिरोबिंदू, म्हणजे कोपरे, ओळखूया.",
+    "prompt": {
+      "id": "G3-C10-q1.prompt",
+      "english": "The corner of a notebook. Is its angle smaller than, the same as, or larger than a square corner?",
+      "marathiDraft": "वहीचा कोपरा. त्याचा कोन काटकोनापेक्षा लहान, समान की मोठा आहे?",
+      "marathiSpoken": "वहीच्या कोपऱ्यातील कोन पाहा. हा कोन कागदाच्या चौकोनी कोपऱ्यापेक्षा लहान, तेवढाच की मोठा आहे?",
+      "bilingual": "The corner of a notebook. Is its angle smaller than, the same as, or larger than a square corner?\nवहीच्या कोपऱ्यातील कोन पाहा. हा कोन कागदाच्या चौकोनी कोपऱ्यापेक्षा लहान, तेवढाच की मोठा आहे?",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G3-C10-q1.explanation",
+      "english": "Compare the corner of a notebook with a paper square corner: it is the same as a square corner.",
+      "marathiDraft": "कागदाच्या काटकोनाशी तुलना केल्यास वहीचा कोपरा काटकोनाएवढा.",
+      "marathiSpoken": "कागदाच्या चौकोनी कोपऱ्याला काटकोन म्हणतात. वहीच्या कोपऱ्यातील कोन काटकोनाएवढा आहे.",
+      "bilingual": "Compare the corner of a notebook with a paper square corner: it is the same as a square corner.\nकागदाच्या चौकोनी कोपऱ्याला काटकोन म्हणतात. वहीच्या कोपऱ्यातील कोन काटकोनाएवढा आहे.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G3-C10-q1.hint",
+      "english": "Use the corner of a paper square as your reference.",
+      "marathiDraft": "कागदाच्या चौकोनाचा कोपरा संदर्भ म्हणून वापरा.",
+      "marathiSpoken": "कागदाचा चौकोनी कोपरा या कोनावर ठेवला आहे, अशी कल्पना कर. कोन कमी उघडला आहे, तेवढाच उघडला आहे की जास्त उघडला आहे, ते पाहा.",
+      "bilingual": "Use the corner of a paper square as your reference.\nकागदाचा चौकोनी कोपरा या कोनावर ठेवला आहे, अशी कल्पना कर. कोन कमी उघडला आहे, तेवढाच उघडला आहे की जास्त उघडला आहे, ते पाहा.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G3-C11",
+    "title": "सममिती",
+    "conceptBefore": "रेषेच्या दोन्ही बाजू जुळतात का हे घडी किंवा प्रतिबिंबाने तपासा.",
+    "conceptAfter": "रेषेवरून घडी घातल्यावर किंवा आरसा ठेवल्यावर आकाराचे दोन्ही भाग जुळतात का, ते पाहूया. दोन्ही भाग तंतोतंत जुळत असतील तर ती सममितीची रेषा असते.",
+    "prompt": {
+      "id": "G3-C11-q1.prompt",
+      "english": "If you fold a picture of a butterfly down its middle, do the two halves match?",
+      "marathiDraft": "फुलपाखरू चे चित्र मधोमध घडी घातल्यावर दोन्ही भाग जुळतील का?",
+      "marathiSpoken": "फुलपाखराचे चित्र पाहा. मधल्या रेषेवर कागदाला घडी घातली, तर दोन्ही अर्धे भाग एकमेकांवर तंतोतंत जुळतील का?",
+      "bilingual": "If you fold a picture of a butterfly down its middle, do the two halves match?\nफुलपाखराचे चित्र पाहा. मधल्या रेषेवर कागदाला घडी घातली, तर दोन्ही अर्धे भाग एकमेकांवर तंतोतंत जुळतील का?",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G3-C11-q1.explanation",
+      "english": "The two halves of the butterfly match across the fold.",
+      "marathiDraft": "फुलपाखरू चे दोन्ही भाग घडीच्या रेषेवर जुळतात.",
+      "marathiSpoken": "या चित्राचे दोन्ही अर्धे भाग घडीच्या रेषेवर तंतोतंत जुळतात.",
+      "bilingual": "The two halves of the butterfly match across the fold.\nया चित्राचे दोन्ही अर्धे भाग घडीच्या रेषेवर तंतोतंत जुळतात.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G3-C11-q1.hint",
+      "english": "Imagine a mirror or a fold along the marked line.",
+      "marathiDraft": "दिलेल्या रेषेवर आरसा किंवा घडी असल्याची कल्पना करा.",
+      "marathiSpoken": "दाखवलेल्या मधल्या रेषेवर कागद दुमडल्याची कल्पना कर. एका बाजूची कड दुसऱ्या बाजूच्या कडेवर जुळते का ते पाहा. तिथे आरसा ठेवल्याचीही कल्पना करता येईल.",
+      "bilingual": "Imagine a mirror or a fold along the marked line.\nदाखवलेल्या मधल्या रेषेवर कागद दुमडल्याची कल्पना कर. एका बाजूची कड दुसऱ्या बाजूच्या कडेवर जुळते का ते पाहा. तिथे आरसा ठेवल्याचीही कल्पना करता येईल.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "geometry"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G3-C12",
+    "title": "आकारमान व धारकता",
+    "conceptBefore": "भांड्यांची धारकता तुलना करून लिटर किंवा लिटरच्या भागांत सांगा.",
+    "conceptAfter": "वेगवेगळ्या भांड्यांत किती पाणी मावते, ते पाहूया आणि तुलना करूया. भांड्याची धारकता लिटर किंवा लिटरच्या भागांत सांगूया.",
+    "prompt": {
+      "id": "G3-C12-q1.prompt",
+      "english": "A jug holds 1 litre. How many half-litre cups fill it?",
+      "marathiDraft": "एका जगात १ लिटर पाणी मावते. अर्धा-लिटरचे किती कप भरतील?",
+      "marathiSpoken": "एका जगात १ लिटर पाणी मावते. अर्धा लिटर पाणी मावणारे किती कप ओतल्यावर जग पूर्ण भरेल?",
+      "bilingual": "A jug holds 1 litre. How many half-litre cups fill it?\nएका जगात १ लिटर पाणी मावते. अर्धा लिटर पाणी मावणारे किती कप ओतल्यावर जग पूर्ण भरेल?",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "measurement"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G3-C12-q1.explanation",
+      "english": "Each litre is two half-litres, so 1 litres need 2 cups.",
+      "marathiDraft": "एका लिटरमध्ये अर्धा-लिटरचे दोन कप होतात, म्हणून १ लिटरसाठी २ कप लागतील.",
+      "marathiSpoken": "१ लिटर भरण्यासाठी अर्धा लिटरचे २ कप लागतात. म्हणून १ लिटर भरण्यासाठी २ कप लागतील.",
+      "bilingual": "Each litre is two half-litres, so 1 litres need 2 cups.\n१ लिटर भरण्यासाठी अर्धा लिटरचे २ कप लागतात. म्हणून १ लिटर भरण्यासाठी २ कप लागतील.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "measurement"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G3-C12-q1.hint",
+      "english": "A litre is made from two half-litres.",
+      "marathiDraft": "एका लिटरमध्ये दोन अर्धे-लिटर असतात.",
+      "marathiSpoken": "अर्धा लिटरचे दोन कप मिळून एक लिटर होते. प्रत्येक लिटरसाठी असे दोन कप मोज.",
+      "bilingual": "A litre is made from two half-litres.\nअर्धा लिटरचे दोन कप मिळून एक लिटर होते. प्रत्येक लिटरसाठी असे दोन कप मोज.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "measurement"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G3-C13",
+    "title": "कालमापन",
+    "conceptBefore": "तास आणि मिनिटांचे काटे वाचून पूर्ण, अर्धा किंवा पाव तास ओळखा.",
+    "conceptAfter": "घड्याळाचा लहान काटा आणि मोठा काटा पाहून वेळ वाचूया. पूर्ण तास, अर्धा तास आणि पाव तासांचे टप्पे ओळखूया.",
+    "prompt": {
+      "id": "G3-C13-q1.prompt",
+      "english": "The short hand is at 1 and the long hand is at 12. What time is shown?",
+      "marathiDraft": "लहान काटा १ वर आणि मोठा काटा १२ वर आहे. किती वाजले?",
+      "marathiSpoken": "घड्याळाचा लहान काटा १ वर आहे आणि मोठा काटा १२ वर आहे. घड्याळात किती वाजले आहेत?",
+      "bilingual": "The short hand is at 1 and the long hand is at 12. What time is shown?\nघड्याळाचा लहान काटा १ वर आहे आणि मोठा काटा १२ वर आहे. घड्याळात किती वाजले आहेत?",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "time"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G3-C13-q1.explanation",
+      "english": "The clock shows 1:00.",
+      "marathiDraft": "घड्याळात १:०० वाजले आहेत.",
+      "marathiSpoken": "घड्याळात १:०० वाजले आहेत.",
+      "bilingual": "The clock shows 1:00.\nघड्याळात १:०० वाजले आहेत.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "time"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G3-C13-q1.hint",
+      "english": "Read the short hand for the hour and the long hand for minutes.",
+      "marathiDraft": "तासासाठी लहान काटा आणि मिनिटांसाठी मोठा काटा वाचा.",
+      "marathiSpoken": "लहान काटा तास दाखवतो. मोठा काटा मिनिटे दाखवतो. मोठ्या काट्याच्या प्रत्येक पुढच्या अंकासाठी पाच मिनिटे मोज.",
+      "bilingual": "Read the short hand for the hour and the long hand for minutes.\nलहान काटा तास दाखवतो. मोठा काटा मिनिटे दाखवतो. मोठ्या काट्याच्या प्रत्येक पुढच्या अंकासाठी पाच मिनिटे मोज.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "time"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  },
+  {
+    "chapter": "G3-C14",
+    "title": "आकृतिबंध",
+    "conceptBefore": "संख्या-मालिकेतील ठरावीक फरक शोधून मालिका पुढे वाढवा.",
+    "conceptAfter": "संख्यांच्या मालिकेत प्रत्येक वेळी किती वाढ होते, ते शोधूया. तोच नियम वापरून पुढची संख्या ठरवूया.",
+    "prompt": {
+      "id": "G3-C14-q1.prompt",
+      "english": "2, 3, 4, __. What comes next?",
+      "marathiDraft": "२, ३, ४, __. पुढे काय येईल?",
+      "marathiSpoken": "२, ३, ४, __. या मालिकेत पुढची संख्या कोणती?",
+      "bilingual": "2, 3, 4, __. What comes next?\n२, ३, ४, __. या मालिकेत पुढची संख्या कोणती?",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "explanation": {
+      "id": "G3-C14-q1.explanation",
+      "english": "Each step adds 1, so 4 + 1 = 5.",
+      "marathiDraft": "प्रत्येक वेळी १ मिळवतात. म्हणून ४ + १ = ५.",
+      "marathiSpoken": "प्रत्येक वेळी १ मिळवले आहेत. म्हणून ४ + १ = ५. पुढची संख्या ५ आहे.",
+      "bilingual": "Each step adds 1, so 4 + 1 = 5.\nप्रत्येक वेळी १ मिळवले आहेत. म्हणून ४ + १ = ५. पुढची संख्या ५ आहे.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    },
+    "hint": {
+      "id": "G3-C14-q1.hint",
+      "english": "Compare neighbours to find what changes each time.",
+      "marathiDraft": "लगतच्या पदांची तुलना करून प्रत्येक वेळी काय बदलते ते शोधा.",
+      "marathiSpoken": "एका संख्येत किती मिळवल्यावर पुढची संख्या येते, ते शोध. शेवटच्या संख्येतही तेवढेच मिळव.",
+      "bilingual": "Compare neighbours to find what changes each time.\nएका संख्येत किती मिळवल्यावर पुढची संख्या येते, ते शोध. शेवटच्या संख्येतही तेवढेच मिळव.",
+      "translationProvider": "class3-contextual-edit",
+      "translationStatus": "draft",
+      "mathGlossaryTerms": [
+        "patterns"
+      ],
+      "reviewNotes": "Class 3 contextual Marathi edit: plain classroom wording; English meaning and mathematical values preserved. Original wording retained as draft."
+    }
+  }
+]

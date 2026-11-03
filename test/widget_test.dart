@@ -12,8 +12,8 @@ Future<void> openLearning(WidgetTester tester) async {
     store.language == 0
         ? 'Continue offline • Development mode'
         : store.language == 1
-        ? 'ऑफलाइन पुढे जा • विकास मोड'
-        : 'Continue offline • Development mode\nऑफलाइन पुढे जा • विकास मोड',
+        ? 'इंटरनेटशिवाय पुढे जा • विकासासाठीचा पर्याय'
+        : 'Continue offline • Development mode\nइंटरनेटशिवाय पुढे जा • विकासासाठीचा पर्याय',
   );
   await tester.ensureVisible(offline);
   await tester.tap(offline);
@@ -44,7 +44,7 @@ void main() {
     store.language = 1;
     await store.save();
     await tester.pump();
-    expect(find.text('पाठ्यपुस्तक धड्यांची सूची'), findsOneWidget);
+    expect(find.text('पाठ्यपुस्तकातील धड्यांची यादी'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
   testWidgets('Drag activity also accepts a tap and gives gentle feedback', (

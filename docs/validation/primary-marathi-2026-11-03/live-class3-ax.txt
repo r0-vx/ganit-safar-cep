@@ -1,0 +1,30 @@
+Browser tab: 22, Title: "Ganit Safar / गणित सफर", URL: "https://ganit-safar-smartboard.vercel.app/".
+1 AXWebArea Ganit Safar / गणित सफर, URL: ganit-safar-smartboard.vercel.app/
+	2 container
+		3 container flt-semantic-node-182
+			4 button मागे, ID: flt-semantic-node-183
+			5 text धड्याचा अभ्यास
+			6 button (collapsed) मराठी, ID: flt-semantic-node-185, Secondary Actions: Expand
+			7 text वर्ग जोडलेला नाही • अभ्यास उपलब्ध
+			8 text सर्व्हरशी जोडलेले
+			9 container flt-semantic-node-188
+				10 text धडा 5 • लांबी व वजन
+				11 text इयत्ता 3 • पाने 47–53
+				12 container flt-semantic-node-191
+					13 text 1. गोष्ट
+					14 text 2. करून पाहा
+					15 text 3. गणित
+					16 text 4. मिळून सोडवूया
+					17 text 5. आता स्वतः सोडव
+					18 text 6. उजळणी
+				19 text टप्पा ३ / ६
+				20 progress indicator Description: 50, ID: flt-semantic-node-199
+				21 text गणित कसे होते ते समजून घे
+				22 text लांबीचा आधी अंदाज करूया आणि मग सेंटीमीटर किंवा मीटरमध्ये मोजूया. वजन ग्राम किंवा किलोग्रॅममध्ये मोजूया.
+				23 text हा प्रश्न समजण्यासाठी गणिती चित्र गोष्टीतील चिन्ह १ 🎒 गोष्टीतील चिन्ह २ ⚖️ गोष्ट नीट वाच आणि दिलेल्या खुणा पाहा. या चिन्हांमधून गोष्टीतील जागा किंवा वस्तू दाखवल्या आहेत. बोटाची लांबी मोजण्यासाठी सेंटीमीटर हे एकक वापरूया.
+				24 text बोटाची लांबी मोजण्यासाठी सेंटीमीटर हे एकक वापरूया.
+			25 button मागे, ID: flt-semantic-node-207
+			26 button हा टप्पा पुन्हा पाहा, ID: flt-semantic-node-208
+			27 button पुढचा टप्पा, ID: flt-semantic-node-209
+
+The focused UI element is 27 button पुढचा टप्पा, ID: flt-semantic-node-209

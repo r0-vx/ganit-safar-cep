@@ -1,0 +1,24 @@
+{
+  "class4ExactUnchanged": {
+    "chapters": true,
+    "legacy": true
+  },
+  "modelChanges": [],
+  "englishChanges": {
+    "G1-C14.question.option": 10,
+    "G1-C15.question.explanation": 10,
+    "G1-C15.question.option": 40,
+    "G1-C15.lesson.workedExample": 1,
+    "G2-C05.question.option": 10,
+    "G2-C06.question.explanation": 10,
+    "G2-C06.question.option": 40,
+    "G2-C06.lesson.workedExample": 1,
+    "G2-C14.question.explanation": 6,
+    "G3-C05.question.hint": 6,
+    "G3-C05.lesson.hint": 1
+  },
+  "draftChanges": [],
+  "englishChangeTotal": 135,
+  "before": "/tmp/ganit-classes123-before.json",
+  "after": "/tmp/ganit-primary-independent-after.json"
+}

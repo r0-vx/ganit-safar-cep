@@ -14,20 +14,17 @@ void main() {
           as Map<String, dynamic>;
   final current = buildClass4AuditInventory();
 
-  test('Classes 1–3 retain every original content and translation record', () {
-    for (final grade in [1, 2, 3]) {
-      final records = {
-        for (final kind in ['chapters', 'legacy'])
-          kind: (current[kind] as List)
-              .where((record) => record['grade'] == grade)
-              .toList(),
-      };
-      expect(
-        baseline.fingerprint(records),
-        before['unchangedGrades']['$grade'],
-        reason: 'Class $grade must remain byte-for-byte equivalent',
-      );
-    }
+  test('Previously completed Class 4 content remains exactly unchanged', () {
+    final release = jsonDecode(
+      File('test/fixtures/classes123_marathi_baseline.json').readAsStringSync(),
+    );
+    final records = {
+      for (final kind in ['chapters', 'legacy'])
+        kind: (current[kind] as List)
+            .where((record) => record['grade'] == 4)
+            .toList(),
+    };
+    expect(baseline.fingerprint(records), release['unchangedClass4']);
   });
 
   test(

@@ -2,6 +2,7 @@ import 'dart:math';
 import 'content.dart';
 import 'models.dart';
 import 'class4_marathi.dart';
+import 'classroom_marathi.dart';
 
 bool supportsType(String topic, String type) => switch (type) {
   'clock' => topic == 'time',
@@ -132,7 +133,7 @@ List<Question> generateQuestions({
               '${base.a} $symbol ${base.b} = ?',
               grade == 4
                   ? '${class4Digits(base.a)} $symbol ${class4Digits(base.b)} = ?'
-                  : '${base.a} $symbol ${base.b} = ?',
+                  : '${marathiDigits(base.a)} $symbol ${marathiDigits(base.b)} = ?',
               id: '${base.prompt.id}.direct',
               mathGlossaryTerms: glossaryTermsFor(topic),
             ),

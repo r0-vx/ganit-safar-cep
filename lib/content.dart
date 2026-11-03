@@ -2,10 +2,12 @@ import 'dart:math';
 import 'models.dart';
 import 'localized_text.dart';
 import 'class4_marathi.dart';
+import 'classroom_marathi.dart';
 
 export 'localized_text.dart';
 
 part 'class4_legacy_marathi.dart';
+part 'primary_legacy_marathi.dart';
 
 class Topic {
   final String id, icon;
@@ -99,8 +101,15 @@ class Question {
       id: '${prompt.id}.option.$index',
       mathGlossaryTerms: glossaryTermsFor(metadata?.topic ?? ''),
     );
-    return metadata?.grade == 4
-        ? class4Wording(original, class4Digits(options[index]))
+    final grade = metadata?.grade;
+    if (grade == 4)
+      return class4Wording(original, class4Digits(options[index]));
+    return grade != null && grade >= 1 && grade <= 3
+        ? classroomWording(
+            original,
+            marathiDigits(options[index]),
+            grade: grade,
+          )
         : original;
   }
 }
@@ -119,7 +128,9 @@ Question makeQuestion(
     type,
     difficulty: difficulty,
   );
-  return grade == 4 ? _class4LegacyQuestion(original) : original;
+  return grade == 4
+      ? _class4LegacyQuestion(original)
+      : _primaryLegacyQuestion(original);
 }
 
 Question _baseQuestion(
@@ -397,7 +408,10 @@ Question _baseQuestion(
 
 Words lessonStory(String id, {int? grade}) {
   final original = _baseLessonStory(id);
-  return grade == 4 ? class4LegacyStory(id, original) : original;
+  if (grade == 4) return class4LegacyStory(id, original);
+  return grade != null && grade >= 1 && grade <= 3
+      ? primaryLegacyStory(grade, id, original)
+      : original;
 }
 
 Words _baseLessonStory(String id) => switch (id) {

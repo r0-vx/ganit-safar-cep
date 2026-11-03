@@ -188,27 +188,27 @@ void main() {
     },
   );
 
-  test('Classes 1–3 keep original legacy wording, metadata and help', () {
+  test('Classes 1–3 now carry their own contextual edit provenance', () {
     for (var grade = 1; grade <= 3; grade++) {
       for (final topic in topics) {
         final q = makeQuestion(topic.id, grade, 0, 'choice');
-        expect(q.prompt.translationProvider, 'local-authored');
-        expect(q.prompt.translationStatus, 'needs-review');
-        expect(q.prompt.mr, q.prompt.marathiDraft);
-        expect(q.explanation.mr, q.explanation.marathiDraft);
+        expect(q.prompt.translationProvider, 'class$grade-contextual-edit');
+        expect(q.prompt.translationStatus, 'draft');
+        expect(q.prompt.marathiDraft, isNotEmpty);
+        expect(q.explanation.marathiDraft, isNotEmpty);
         expect(
           outcomeFor(grade, topic.id).objective.translationProvider,
-          'local-authored',
+          'class$grade-contextual-edit',
         );
         expect(
-          lessonStory(topic.id, grade: grade).toJson(),
-          lessonStory(topic.id).toJson(),
+          lessonStory(topic.id, grade: grade).marathiDraft,
+          lessonStory(topic.id).marathiDraft,
         );
       }
     }
     expect(
       makeQuestion('time', 1, 0, 'choice').prompt.mr,
-      'मोठा काटा 12 वर आहे. किती वाजले आहेत?',
+      'घड्याळाचा मिनिटकाटा १२ वर आहे. तासकाटा पाहून सांगा: किती वाजले आहेत?',
     );
   });
 }

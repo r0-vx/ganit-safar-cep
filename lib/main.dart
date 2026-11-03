@@ -46,14 +46,16 @@ const gradeColors = [
 ];
 String tr(String en, String mr) => Words(
   en,
-  store.grade == 4 && portalSurface != 'dashboard'
+  store.grade >= 1 && store.grade <= 4 && portalSurface != 'dashboard'
       ? class4UiMarathi(en, mr)
       : mr,
 ).inLanguage(store.language);
 
 String classUiText(Words words, {int? grade}) => Words(
   words.en,
-  (grade ?? store.grade) == 4 && portalSurface != 'dashboard'
+  (grade ?? store.grade) >= 1 &&
+          (grade ?? store.grade) <= 4 &&
+          portalSurface != 'dashboard'
       ? class4UiMarathi(words.en, words.mr)
       : words.mr,
 ).inLanguage(store.language);
@@ -4248,26 +4250,41 @@ class _TeacherState extends State<TeacherPage> {
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Row(
-          children: [
-            Expanded(
-              child: Heading(
-                tr(
-                  'A little help for big discoveries',
-                  'मोठ्या शोधांसाठी थोडी मदत',
-                ),
-                tr(
-                  'Teacher’s corner • All classroom data stays on this device.',
-                  'शिक्षक कक्ष • सर्व माहिती या उपकरणावरच राहते.',
-                ),
+        LayoutBuilder(
+          builder: (context, constraints) {
+            final heading = Heading(
+              tr(
+                'A little help for big discoveries',
+                'मोठ्या शोधांसाठी थोडी मदत',
               ),
-            ),
-            OutlinedButton.icon(
+              tr(
+                'Teacher’s corner • All classroom data stays on this device.',
+                'शिक्षक कक्ष • सर्व माहिती या उपकरणावरच राहते.',
+              ),
+            );
+            final lock = OutlinedButton.icon(
               onPressed: widget.onLock,
               icon: const Icon(Icons.lock_outline),
               label: Text(tr('Lock', 'कुलूप लावा')),
-            ),
-          ],
+            );
+            if (constraints.maxWidth < 600) {
+              return Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  heading,
+                  const SizedBox(height: 12),
+                  Align(alignment: Alignment.centerRight, child: lock),
+                ],
+              );
+            }
+            return Row(
+              children: [
+                Expanded(child: heading),
+                const SizedBox(width: 16),
+                lock,
+              ],
+            );
+          },
         ),
         const SizedBox(height: 24),
         if (widget.onChapters != null) ...[

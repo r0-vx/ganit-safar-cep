@@ -49,7 +49,11 @@ void main() {
             findsOneWidget,
           );
           expect(
-            find.text('User ID or email\nवापरकर्ता नाव किंवा ईमेल'),
+            find.text(
+              portalSurface == 'dashboard'
+                  ? 'User ID or email\nवापरकर्ता नाव किंवा ईमेल'
+                  : 'User ID or email\nशाळेचा आयडी, वापरकर्ता नाव किंवा ईमेल',
+            ),
             findsOneWidget,
           );
           store.language = 0;
